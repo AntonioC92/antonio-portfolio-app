@@ -177,6 +177,14 @@ function buildSitemapXml(resources) {
 }
 
 async function run() {
+  // Cloudflare Pages build environment does not have the system libraries
+  // required to run Puppeteer. Skip prerendering there — the Vite build
+  // output is still deployed; SSR prerendering only runs locally.
+  if (process.env.CF_PAGES) {
+    console.log('ℹ️  CF_PAGES detected — skipping Puppeteer prerender (not supported in Cloudflare build environment).');
+    return;
+  }
+
   let server;
   let browser;
 
