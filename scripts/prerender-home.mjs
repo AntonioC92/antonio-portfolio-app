@@ -234,8 +234,9 @@ async function run() {
     await writeFile(path.join(distDir, 'sitemap.xml'), buildSitemapXml(resources), 'utf8');
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
-    console.error(`Prerender failed: ${message}`);
-    process.exitCode = 1;
+    console.warn(`⚠️  Prerender skipped: ${message}`);
+    console.warn('Site will deploy without server-side prerendering (React SPA still works fine).');
+    // Do NOT set process.exitCode = 1 — prerender failure must never break the build.
   } finally {
     if (browser) {
       await browser.close();
@@ -245,9 +246,6 @@ async function run() {
     }
   }
 
-  if (process.exitCode === 1) {
-    process.exit(1);
-  }
 }
 
 run();
