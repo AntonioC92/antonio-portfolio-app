@@ -34,11 +34,16 @@ export const LogoGrid = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   gap: 1.5rem;
 `;
 
 export const LogoItem = styled.div`
-  height: 100px;
+  width: 160px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const LogoImg = styled.img`
