@@ -39,8 +39,8 @@ export const LogoGrid = styled.div`
 `;
 
 export const LogoItem = styled.div`
-  width: 160px;
-  height: 80px;
+  width: 200px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
