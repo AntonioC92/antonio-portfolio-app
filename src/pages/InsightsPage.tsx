@@ -58,7 +58,7 @@ export function InsightsPage(): JSX.Element {
     <Layout>
       <Seo
         title="Insights | Caruso Martech"
-        description="Actionable insights on fractional CMO leadership, marketing systems, attribution, and automation."
+        description="Practical perspectives on marketing leadership, system design, attribution, and automation for SaaS, events, ecommerce, and professional services."
         canonical={INSIGHTS_CANONICAL}
         ogUrl={INSIGHTS_CANONICAL}
         ogImage="https://carusomartech.com/preview.png"

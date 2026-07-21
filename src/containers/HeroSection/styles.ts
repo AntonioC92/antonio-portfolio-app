@@ -6,11 +6,24 @@ export const StyledSection = styled.section`
   padding: 6rem 2rem;
   display: flex;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background: #0f0f0f;
+`;
+
+export const ParticleCanvas = styled.canvas`
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
 `;
 
 export const ContentWrapper = styled.div`
   max-width: 850px;
   text-align: center;
+  position: relative;
+  z-index: 1;
 `;
 
 /* Header (your big orange text) */

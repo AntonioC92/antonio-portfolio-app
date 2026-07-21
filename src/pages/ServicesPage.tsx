@@ -70,8 +70,8 @@ const services = [
 const engagements = [
   {
     type: 'Retainer',
-    title: 'Fractional CMO',
-    desc: 'Ongoing strategic leadership embedded in your team. Typically 2–4 days per month. Covers strategy, execution oversight, team alignment, and reporting cadence.',
+    title: 'Embedded Marketing Leadership',
+    desc: 'Ongoing senior marketing leadership embedded in your team. Typically 2–4 days per month. Covers strategy, execution oversight, team alignment, and reporting cadence.',
   },
   {
     type: 'Project',
@@ -96,7 +96,7 @@ export function ServicesPage(): JSX.Element {
         <ServicesHeader>
           <ServicesTitle>Services</ServicesTitle>
           <ServicesSubtitle>
-            I partner with founders and leadership teams as a Fractional CMO — bringing senior marketing
+            We partner with founders and leadership teams — bringing senior marketing
             strategy and hands-on execution without the overhead of a full-time hire.
           </ServicesSubtitle>
         </ServicesHeader>
