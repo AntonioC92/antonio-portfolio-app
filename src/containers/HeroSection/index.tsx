@@ -1,6 +1,14 @@
 import { useNavigate } from 'react-router-dom';
-import { Button } from '../../components/Button';
-import { ContentWrapper, Header, SubHeader, StyledSection } from './styles';
+import {
+  ContentWrapper,
+  Header,
+  SubHeader,
+  StyledSection,
+  ButtonRow,
+  PrimaryBtn,
+  SecondaryBtn,
+  TrustLine,
+} from './styles';
 
 export function HeroSection(): JSX.Element {
   const navigate = useNavigate();
@@ -8,22 +16,22 @@ export function HeroSection(): JSX.Element {
     <StyledSection id="home-hero">
       <ContentWrapper>
         <Header $size={6}>
-          Fractional CMO{' '}
+          Marketing systems{' '}
           <br className="mobile-break" />
-          for founders and{' '}
-          <br className="mobile-break" />
-          leadership teams
+          that drive revenue.
         </Header>
 
         <SubHeader>
-          After ten years leading marketing operations, I've seen the same pattern:{' '}
-          <em>campaigns without tracking, ad spend with no clear ROI, disconnected tools.</em>
-          <br />
-          <br />
-          I connect those pieces and build systems that drive revenue while cutting manual work.
+          We help founders and leadership teams build the strategy, execution, and
+          infrastructure that turns marketing into a reliable growth engine.
         </SubHeader>
 
-        <Button onClick={() => navigate('#contact')}>Get in Touch</Button>
+        <ButtonRow>
+          <PrimaryBtn onClick={() => navigate('#contact')}>Book a Call</PrimaryBtn>
+          <SecondaryBtn onClick={() => navigate('/work')}>See Our Work</SecondaryBtn>
+        </ButtonRow>
+
+        <TrustLine>SaaS &nbsp;·&nbsp; Events &nbsp;·&nbsp; Ecommerce &nbsp;·&nbsp; Professional Services</TrustLine>
       </ContentWrapper>
     </StyledSection>
   );

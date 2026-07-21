@@ -15,33 +15,33 @@ import { AboutWrapper } from '../AboutSection/styles';
 
 const columns = [
   {
-    title: 'SEO & UX Optimisation Expert',
-    subtitle: 'From SEO audits to conversion-focused UX',
+    title: 'Turn your website into your best salesperson',
+    subtitle: 'SEO strategy, UX optimisation, and conversion design',
     steps: [
-      'I start with a comprehensive SEO audit which aims to uncover technical issues, keyword gaps, and content opportunities.',
-      'I then optimise your website’s structure, metadata, copy, and internal linking to improve search visibility and ranking.',
-      'I also apply UX best practices to make sure visitors can easily navigate, engage, and take valuable action on your website',
-      'The goal is to make your site easy to find, compelling to explore and optimised to turn visitors into loyal customers.',
+      'We start with a comprehensive SEO audit to uncover technical issues, keyword gaps, and content opportunities.',
+      'We then optimise your site structure, metadata, copy, and internal linking to improve search visibility and rankings.',
+      'We apply UX best practices so visitors can easily navigate, engage, and take action on your site.',
+      'The result is a site that is easy to find, compelling to explore, and built to turn visitors into customers.',
     ],
   },
   {
-    title: 'Growth Strategy & Performance Marketing',
-    subtitle: 'From paid media to funnel optimisation and conversions',
+    title: 'Build paid channels that compound over time',
+    subtitle: 'Growth strategy, paid media, and funnel optimisation',
     steps: [
-      'I start by analysing your business goals, audience behaviour, and overall performance',
-      'I will then build a data-driven growth strategy by defining the right channels, messaging, targeting, and funnel stages to scale effectively.',
-      'Once the strategy is approved, I manage the full planning and execution of paid campaigns across LinkedIn, Google, Meta, TikTok, and Pinterest.',
-      'The goal is to turn your marketing into a reliable driver of leads, revenue and long-term growth.',
+      'We start by analysing your business goals, audience behaviour, and current performance across all channels.',
+      'We then build a data-driven growth strategy defining the right channels, messaging, targeting, and funnel stages to scale effectively.',
+      'We manage the full planning and execution of paid campaigns across LinkedIn, Google, Meta, TikTok, and Pinterest.',
+      'The result is marketing that acts as a reliable driver of leads, revenue, and long-term growth.',
     ],
   },
   {
-    title: 'Marketing Automation & Analytics',
-    subtitle: 'From smart workflows to real-time insights',
+    title: 'Stop guessing. Automate and measure everything.',
+    subtitle: 'Marketing automation, dashboards, and ROI tracking',
     steps: [
-      'I set up automated workflows for lead capture, nurturing, and CRM sync that streamline operations and eliminate manual work',
-      'I then build dashboards focused on actionable insights rather than vanity metrics.',
-      'From lead scoring to ROI tracking, you’ll know what’s working and what’s just noise.',
-      'The goal is to turn your marketing activities into a self-improving engine that drives smarter decisions and better results.',
+      'We set up automated workflows for lead capture, nurturing, and CRM sync that eliminate manual work and reduce time to revenue.',
+      'We build dashboards focused on actionable insights rather than vanity metrics.',
+      'From lead scoring to ROI tracking, you will know exactly what is working and what is not.',
+      'The result is a marketing engine that improves itself and supports smarter decisions at every level.',
     ],
   },
 ];
@@ -57,7 +57,7 @@ export function WhatIDoBestSection(): JSX.Element {
     <StyledSection id="services">
       <AboutWrapper>
         <SectionInner>
-          <SectionTitle>What I do best</SectionTitle>
+          <SectionTitle>What We Deliver</SectionTitle>
 
           <ColumnsWrapper>
             {columns.map((col, i) => (
@@ -65,7 +65,7 @@ export function WhatIDoBestSection(): JSX.Element {
                 <Title>{col.title}</Title>
                 <SubTitle>{col.subtitle}</SubTitle>
                 <ToggleButton onClick={() => toggleSteps(i)}>
-                  See how I do it
+                  See how we do it
                 </ToggleButton>
                 <StepsWrapper expanded={openIndex === i}>
                   {col.steps.map((step, j) => (

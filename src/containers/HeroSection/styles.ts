@@ -56,3 +56,57 @@ export const Description = styled.p`
   margin: 1.2rem auto; /* consistent spacing between paragraphs */
   text-align: center;
 `;
+
+export const ButtonRow = styled.div`
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2.5rem;
+`;
+
+export const PrimaryBtn = styled.button`
+  padding: 0.9rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  background: ${colors.primary};
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+  &:hover { background: #c94618; }
+
+  @media ${device.mobile} {
+    width: 100%;
+  }
+`;
+
+export const SecondaryBtn = styled.button`
+  padding: 0.9rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+  &:hover {
+    border-color: rgba(255, 255, 255, 0.85);
+    color: #fff;
+  }
+
+  @media ${device.mobile} {
+    width: 100%;
+  }
+`;
+
+export const TrustLine = styled.p`
+  color: rgba(255, 255, 255, 0.42);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+`;

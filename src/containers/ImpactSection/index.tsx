@@ -49,7 +49,7 @@ export function ImpactSection(): JSX.Element {
     <StyledImpactSection>
       <AboutWrapper>
         <SectionInner>
-          <SectionTitle>My Impacts in Number</SectionTitle>
+          <SectionTitle>Results</SectionTitle>
           <ImpactWrapper>
             {impacts.map((item, index) => (
               <ImpactItem key={index}>

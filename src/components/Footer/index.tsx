@@ -46,7 +46,7 @@ export function Footer(): JSX.Element {
       <StyledSectionWrapper>
         <StyledFooter>
           <StyledFooterHeaderContainer>
-            <StyledLogo>Antonio Caruso</StyledLogo>
+            <StyledLogo>Caruso Martech</StyledLogo>
 
             <div
               style={{
@@ -56,8 +56,8 @@ export function Footer(): JSX.Element {
                 color: '#323232',
               }}
             >
-              Fractional CMO | Marketing & Revenue Strategy<br />
-              Sole Trader - Registered in Malta<br />
+              Marketing Systems &amp; Growth Strategy<br />
+              Registered in Malta<br />
               EU VAT No: MT32360307
             </div>
           </StyledFooterHeaderContainer>
@@ -74,11 +74,11 @@ export function Footer(): JSX.Element {
               </StyledColumn>
 
               <StyledColumn>
-                <StyledTitle>Sections</StyledTitle>
-                <StyledLink href="#about">About</StyledLink>
-                <StyledLink href="#services">Services</StyledLink>
-                <StyledLink href="#portfolio">Portfolio</StyledLink>
-                <StyledLink href="#testimonials">Testimonials</StyledLink>
+                <StyledTitle>Pages</StyledTitle>
+                <StyledLink href="/services">Services</StyledLink>
+                <StyledLink href="/work">Work</StyledLink>
+                <StyledLink href="/about">About</StyledLink>
+                <StyledLink href="/insights">Insights</StyledLink>
                 <StyledLink href="#contact">Contact</StyledLink>
               </StyledColumn>
             </StyledColumnContainer>
@@ -110,7 +110,7 @@ export function Footer(): JSX.Element {
               opacity: 0.8,
             }}
           >
-            © {new Date().getFullYear()} Antonio Caruso. All Rights Reserved.
+            © {new Date().getFullYear()} Caruso Martech. All Rights Reserved.
           </div>
 
           <StyledScrollToTop

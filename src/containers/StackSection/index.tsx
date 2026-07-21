@@ -33,7 +33,7 @@ export function StackSection(): JSX.Element {
     <StyledStackSection>
       <AboutWrapper>
         <SectionInner>
-          <SectionTitle>My MarTech Stack</SectionTitle>
+          <SectionTitle>MarTech Stack</SectionTitle>
 
           <StackWrapper>
             <LogoGrid>
