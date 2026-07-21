@@ -1,0 +1,13 @@
+# HTML pages — browsers must revalidate on every request.
+# This ensures mobile browsers always fetch the latest HTML after a deploy.
+/*
+  Cache-Control: no-cache, must-revalidate
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+
+# Hashed JS/CSS/image assets — cache forever.
+# Vite appends a content hash to every asset filename, so the URL changes
+# whenever the content changes. It is safe to cache these indefinitely.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
