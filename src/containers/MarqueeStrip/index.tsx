@@ -46,8 +46,6 @@ const Item = styled.span`
   }
 `;
 
-const DOT = <Item className="accent">·</Item>;
-
 const SERVICES = [
   'Growth Strategy',
   'Paid Media',
