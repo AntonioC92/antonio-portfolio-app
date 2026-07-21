@@ -33,6 +33,7 @@ const siteUrl = 'https://carusomartech.com';
 
 const STATIC_ROUTES = [
   '/',
+  '/work',
   '/privacy-policy',
   '/resources',
   '/resources/insights',
@@ -144,6 +145,7 @@ async function writeRouteHtml(route, html) {
 function buildSitemapXml(resources) {
   const staticUrls = [
     { loc: `${siteUrl}/`, changefreq: 'weekly', priority: '1.0' },
+    { loc: `${siteUrl}/work/`, changefreq: 'monthly', priority: '0.9' },
     { loc: `${siteUrl}/privacy-policy/`, changefreq: 'yearly', priority: '0.3' },
     { loc: `${siteUrl}/resources/`, changefreq: 'weekly', priority: '0.8' },
     { loc: `${siteUrl}/resources/insights/`, changefreq: 'weekly', priority: '0.8' },

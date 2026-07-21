@@ -11,6 +11,7 @@ import { PrivacyPolicy } from './pages/PrivacyPolicy';
 import { ResourceDetailPage } from './pages/ResourceDetailPage';
 import { ResourcesPage } from './pages/ResourcesPage';
 import { InsightsPage } from './pages/InsightsPage';
+import { WorkPage } from './pages/WorkPage';
 
 function LegacyResourceRedirect(): JSX.Element {
   const { slug = '' } = useParams();
@@ -25,6 +26,7 @@ const App = (
         <Route path="/" element={<LandingPage />} />
         <Route path="/fractional-cmo" element={<Navigate to="/" replace />} />
         <Route path="/contact" element={<Navigate to="/#contact" replace />} />
+        <Route path="/work" element={<WorkPage />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/resources" element={<ResourcesPage />} />
         <Route path="/resources/insights" element={<InsightsPage />} />
