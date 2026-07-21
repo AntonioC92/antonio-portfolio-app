@@ -52,12 +52,14 @@ export function MiniAboutSection(): JSX.Element {
     <StyledSection id="mini-about">
       <Inner>
         <Quote>
-          10 years leading marketing at companies like{' '}
-          <Accent>SurveyMonkey</Accent> and <Accent>Facebook</Accent> - now
-          available as your embedded marketing leader without the full-time overhead.
+          Caruso Martech is a <Accent>founder-led boutique</Accent> marketing
+          consultancy. A decade of hands-on experience building growth systems
+          across SaaS, events, ecommerce, and professional services. Senior
+          strategy and execution delivered directly — no junior handoffs, no
+          account managers between you and the work.
         </Quote>
         <LearnMore onClick={() => navigate('/about')}>
-          More about Antonio &rarr;
+          About Caruso Martech &rarr;
         </LearnMore>
       </Inner>
     </StyledSection>
