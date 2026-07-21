@@ -16,12 +16,14 @@ import { WorkPage } from './pages/WorkPage';
 import { ServicesPage } from './pages/ServicesPage';
 import { AboutPage } from './pages/AboutPage';
 import { ContactPage } from './pages/ContactPage';
+import { ScrollToTop } from './components/ScrollToTop';
 
 const App = (
   <React.StrictMode>
     <ErrorBoundary>
     <HelmetProvider>
       <BrowserRouter>
+        <ScrollToTop />
         <GlobalStyles />
         <Routes>
           <Route path="/" element={<LandingPage />} />
