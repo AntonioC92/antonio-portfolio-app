@@ -115,14 +115,16 @@ async function run() {
     build: {
       ssr:    path.resolve(rootDir, 'src/entry-server.tsx'),
       outDir: serverDistDir,
-      rollupOptions: { output: { format: 'esm' } },
+      // Use .mjs so Node.js 18 treats the output as ESM without needing
+      // "type": "module" in package.json.
+      rollupOptions: { output: { format: 'esm', entryFileNames: '[name].mjs' } },
     },
     logLevel: 'warn',
   });
 
   // 2. Load render function from SSR bundle
   const serverEntry = pathToFileURL(
-    path.join(serverDistDir, 'entry-server.js')
+    path.join(serverDistDir, 'entry-server.mjs')
   ).href;
   const { render } = await import(serverEntry);
 
