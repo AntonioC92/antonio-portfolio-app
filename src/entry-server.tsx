@@ -22,6 +22,7 @@ export function render(url: string): {
   const helmetContext: Record<string, unknown> = {};
 
   let html = '';
+  let styleTags = '';
   try {
     html = renderToString(
       sheet.collectStyles(
@@ -43,11 +44,11 @@ export function render(url: string): {
         </HelmetProvider>
       )
     );
+    // getStyleTags() must be called before seal()
+    styleTags = sheet.getStyleTags();
   } finally {
     sheet.seal();
   }
-
-  const styleTags = sheet.getStyleTags();
 
   const ctx = helmetContext as {
     helmet?: {

@@ -38,7 +38,9 @@ const App = (
 
 const container = document.getElementById('root')!;
 
-if (container.hasChildNodes()) {
+// firstElementChild ignores comment nodes (e.g. <!--app-html--> left by a
+// failed SSR prerender) so we only hydrate when there is real server HTML.
+if (container.firstElementChild !== null) {
   hydrateRoot(container, App);
 } else {
   createRoot(container).render(App);
