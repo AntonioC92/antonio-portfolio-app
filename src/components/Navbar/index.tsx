@@ -27,7 +27,7 @@ import github from '../../assets/socials/github.svg';
 
 const menu = [
   { name: 'About', slug: 'about' },
-  { name: 'Services', slug: 'services' },
+  { name: 'Services', path: '/services' },
   { name: 'Work', path: '/work' },
   { name: 'Portfolio', slug: 'portfolio' },
   { name: 'Testimonials', slug: 'testimonials' },
