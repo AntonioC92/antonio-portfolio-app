@@ -8,6 +8,7 @@ import { PainSection } from '../containers/PainSection';
 import { StackSection } from '../containers/StackSection';
 import { VerticalsSection } from '../containers/VerticalsSection';
 import { WhatIDoBestSection } from '../containers/WhatIDoBestSection';
+import { MarqueeStrip } from '../containers/MarqueeStrip';
 
 export function LandingPage(): JSX.Element {
   return (
@@ -21,6 +22,7 @@ export function LandingPage(): JSX.Element {
         twitterImage="https://carusomartech.com/preview.png"
       />
       <HeroSection />
+      <MarqueeStrip />
       <PainSection />
       <WhatIDoBestSection />
       <VerticalsSection />
