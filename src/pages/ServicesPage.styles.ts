@@ -169,6 +169,7 @@ export const CtaSection = styled.section`
   border: 1px solid rgba(255, 129, 100, 0.25);
   border-radius: 14px;
   padding: 2rem 1.75rem;
+  margin-top: 5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;

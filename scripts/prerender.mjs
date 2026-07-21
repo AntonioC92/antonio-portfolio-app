@@ -29,6 +29,7 @@ const STATIC_ROUTES = [
   '/services',
   '/about',
   '/insights',
+  '/contact',
   '/privacy-policy',
 ];
 
@@ -86,6 +87,7 @@ function buildSitemap(resources) {
     { loc: `${siteUrl}/services/`,             changefreq: 'monthly', priority: '0.9' },
     { loc: `${siteUrl}/about/`,               changefreq: 'monthly', priority: '0.8' },
     { loc: `${siteUrl}/insights/`,              changefreq: 'weekly',  priority: '0.8' },
+    { loc: `${siteUrl}/contact/`,              changefreq: 'yearly',  priority: '0.5' },
     { loc: `${siteUrl}/privacy-policy/`,       changefreq: 'yearly',  priority: '0.3' },
   ];
   const resourceUrls = resources.map((r) => ({

@@ -76,7 +76,7 @@ export function Navbar(): JSX.Element {
                 onClick={() => window.open('https://github.com/AntonioC92')}
               />
             </StyledSocialIconContainer>
-            <Button onClick={() => navigate('/#contact')}>Contact</Button>
+            <Button onClick={() => navigate('/contact')}>Contact</Button>
           </StyledAuthButtons>
           <NavToggle onClick={() => setMenuOpen(!menuOpen)}>
             <span />
@@ -94,7 +94,7 @@ export function Navbar(): JSX.Element {
           ))}
         </MobileNavLinks>
         <MobileAuthButtons>
-          <Button onClick={() => { navigate('/#contact'); setMenuOpen(false); }}>Contact</Button>
+          <Button onClick={() => { navigate('/contact'); setMenuOpen(false); }}>Contact</Button>
         </MobileAuthButtons>
       </MobileNav>
       {menuOpen && <Backdrop onClick={() => setMenuOpen(false)} />}{' '}

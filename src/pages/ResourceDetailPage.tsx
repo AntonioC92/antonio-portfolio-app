@@ -45,7 +45,7 @@ export function ResourceDetailPage(): JSX.Element {
     return (
       <Layout>
         <Seo
-          title="Resource Not Found | Antonio Caruso"
+          title="Resource Not Found | Caruso Martech"
           description="The requested resource could not be found."
           canonical={`${SITE_URL}/insights/`}
           ogUrl={`${SITE_URL}/insights/`}

@@ -8,7 +8,7 @@ export function AboutPage(): JSX.Element {
   return (
     <Layout>
       <Seo
-        title="About | Antonio Caruso — Fractional CMO"
+        title="About | Caruso Martech"
         description="A decade of building marketing strategy, owning execution, and driving measurable growth across corporate and entrepreneurial environments."
         canonical={ABOUT_CANONICAL}
         ogUrl={ABOUT_CANONICAL}

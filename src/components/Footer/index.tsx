@@ -79,7 +79,7 @@ export function Footer(): JSX.Element {
                 <StyledLink href="/work">Work</StyledLink>
                 <StyledLink href="/about">About</StyledLink>
                 <StyledLink href="/insights">Insights</StyledLink>
-                <StyledLink href="#contact">Contact</StyledLink>
+                <StyledLink href="/contact">Contact</StyledLink>
               </StyledColumn>
             </StyledColumnContainer>
 

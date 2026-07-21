@@ -23,7 +23,7 @@ export function WorkPage(): JSX.Element {
   return (
     <Layout>
       <Seo
-        title="Work | Antonio Caruso"
+        title="Work | Caruso Martech"
         description="Case studies from paid media campaigns across events, B2B, coaching, and recreation verticals — delivering measurable ROAS and lead generation results."
         canonical={WORK_CANONICAL}
         ogUrl={WORK_CANONICAL}

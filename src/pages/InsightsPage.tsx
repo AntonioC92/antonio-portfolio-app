@@ -57,7 +57,7 @@ export function InsightsPage(): JSX.Element {
   return (
     <Layout>
       <Seo
-        title="Insights | Antonio Caruso"
+        title="Insights | Caruso Martech"
         description="Actionable insights on fractional CMO leadership, marketing systems, attribution, and automation."
         canonical={INSIGHTS_CANONICAL}
         ogUrl={INSIGHTS_CANONICAL}

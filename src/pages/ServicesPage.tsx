@@ -84,8 +84,8 @@ export function ServicesPage(): JSX.Element {
   return (
     <Layout>
       <Seo
-        title="Services | Antonio Caruso — Fractional CMO"
-        description="Fractional CMO services covering growth strategy, paid media, SEO, marketing automation, and analytics. Retainer and project engagements available."
+        title="Services | Caruso Martech"
+        description="Marketing services covering growth strategy, paid media, SEO, marketing automation, and analytics. Retainer and project engagements available."
         canonical={SERVICES_CANONICAL}
         ogUrl={SERVICES_CANONICAL}
         ogImage="https://carusomartech.com/preview.png"
@@ -142,7 +142,7 @@ export function ServicesPage(): JSX.Element {
             <CtaTitle>Ready to grow?</CtaTitle>
             <CtaSubtext>Let's talk about what your marketing needs to do next.</CtaSubtext>
           </CtaText>
-          <CtaLink to="/#contact">Get in touch →</CtaLink>
+          <CtaLink to="/contact">Get in touch →</CtaLink>
         </CtaSection>
       </ServicesWrapper>
     </Layout>

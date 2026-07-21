@@ -12,6 +12,7 @@ import { InsightsPage } from './pages/InsightsPage';
 import { WorkPage } from './pages/WorkPage';
 import { ServicesPage } from './pages/ServicesPage';
 import { AboutPage } from './pages/AboutPage';
+import { ContactPage } from './pages/ContactPage';
 
 export function render(url: string): {
   html: string;
@@ -38,7 +39,7 @@ export function render(url: string): {
               <Route path="/insights/:slug" element={<ResourceDetailPage />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/fractional-cmo" element={<Navigate to="/" replace />} />
-              <Route path="/contact" element={<Navigate to="/#contact" replace />} />
+              <Route path="/contact" element={<ContactPage />} />
             </Routes>
           </StaticRouter>
         </HelmetProvider>
