@@ -13,6 +13,7 @@ import { ResourceDetailPage } from './pages/ResourceDetailPage';
 import { InsightsPage } from './pages/InsightsPage';
 import { WorkPage } from './pages/WorkPage';
 import { ServicesPage } from './pages/ServicesPage';
+import { AboutPage } from './pages/AboutPage';
 
 const App = (
   <React.StrictMode>
@@ -23,6 +24,7 @@ const App = (
           <Route path="/" element={<LandingPage />} />
           <Route path="/work" element={<WorkPage />} />
           <Route path="/services" element={<ServicesPage />} />
+          <Route path="/about" element={<AboutPage />} />
           <Route path="/insights" element={<InsightsPage />} />
           <Route path="/insights/:slug" element={<ResourceDetailPage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />

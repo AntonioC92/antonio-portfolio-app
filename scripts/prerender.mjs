@@ -27,6 +27,7 @@ const STATIC_ROUTES = [
   '/',
   '/work',
   '/services',
+  '/about',
   '/insights',
   '/privacy-policy',
 ];
@@ -83,6 +84,7 @@ function buildSitemap(resources) {
     { loc: `${siteUrl}/`,                      changefreq: 'weekly',  priority: '1.0' },
     { loc: `${siteUrl}/work/`,                 changefreq: 'monthly', priority: '0.9' },
     { loc: `${siteUrl}/services/`,             changefreq: 'monthly', priority: '0.9' },
+    { loc: `${siteUrl}/about/`,               changefreq: 'monthly', priority: '0.8' },
     { loc: `${siteUrl}/insights/`,              changefreq: 'weekly',  priority: '0.8' },
     { loc: `${siteUrl}/privacy-policy/`,       changefreq: 'yearly',  priority: '0.3' },
   ];

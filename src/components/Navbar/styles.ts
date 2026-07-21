@@ -30,9 +30,24 @@ export const StyledContainer = styled.div`
 
 export const StyledLogo = styled.div`
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+`;
+
+export const LogoImg = styled.img`
+  width: 36px;
+  height: 36px;
+  border-radius: 7px;
+  flex-shrink: 0;
+`;
+
+export const LogoName = styled.span`
   color: white;
-  font-size: 25px;
-  font-weight: 600;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
 `;
 
 export const StyledNavLinks = styled.ul`

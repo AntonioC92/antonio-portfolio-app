@@ -3,6 +3,8 @@ import { Button } from '../Button';
 import {
   StyledNavbar,
   StyledLogo,
+  LogoImg,
+  LogoName,
   NavToggle,
   StyledNavLinks,
   NavItem,
@@ -15,15 +17,16 @@ import {
   StyledNavContainer,
   StyledContainer,
 } from './styles';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { StyledSocialIconContainer, StyledSocialIcon } from '../Footer/styles';
 import linkedin from '../../assets/socials/linkedin.svg';
 import github from '../../assets/socials/github.svg';
 
 const menu = [
-  { name: 'About', slug: 'about' },
+  { name: 'Home', path: '/' },
   { name: 'Services', path: '/services' },
   { name: 'Work', path: '/work' },
+  { name: 'About', path: '/about' },
   { name: 'Insights', path: '/insights' },
 ];
 
@@ -31,45 +34,16 @@ export function Navbar(): JSX.Element {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const navigate = useNavigate();
-  const location = useLocation();
 
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-    };
-
+    const handleScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const handleMenuNavigation = (slug: string) => {
-    if (location.pathname !== '/') navigate(`/#${slug}`);
+  const handleMenuClick = (path: string) => {
+    navigate(path);
     setMenuOpen(false);
-    scrollToSection(slug);
-  };
-
-  const handleMenuClick = (link: { slug?: string; path?: string }) => {
-    if (link.path) {
-      navigate(link.path);
-      setMenuOpen(false);
-      return;
-    }
-
-    if (link.slug) {
-      handleMenuNavigation(link.slug);
-    }
-  };
-
-  useEffect(() => {
-    const hash = location.hash.replace('#', '');
-    if (hash) scrollToSection(hash);
-  }, [location]);
-
-  const scrollToSection = (slug: string) => {
-    const section = document.getElementById(slug);
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
   };
 
   return (
@@ -78,12 +52,13 @@ export function Navbar(): JSX.Element {
         <StyledContainer>
           <StyledNavContainer>
             <StyledLogo onClick={() => navigate('/')}>
-              Antonio Caruso
+              <LogoImg src="/logo-mark.svg" alt="Caruso Martech logo" />
+              <LogoName>Caruso Martech</LogoName>
             </StyledLogo>
             <StyledNavLinks>
-              {menu.map((link, idx) => (
-                <NavItem key={idx}>
-                  <NavAction onClick={() => handleMenuClick(link)}>{link.name}</NavAction>
+              {menu.map((link) => (
+                <NavItem key={link.name}>
+                  <NavAction onClick={() => handleMenuClick(link.path)}>{link.name}</NavAction>
                 </NavItem>
               ))}
             </StyledNavLinks>
@@ -93,9 +68,7 @@ export function Navbar(): JSX.Element {
               <StyledSocialIcon
                 src={linkedin}
                 alt="linkedin"
-                onClick={() =>
-                  window.open('https://www.linkedin.com/in/antoniocaruso2702/')
-                }
+                onClick={() => window.open('https://www.linkedin.com/in/antoniocaruso2702/')}
               />
               <StyledSocialIcon
                 src={github}
@@ -114,14 +87,14 @@ export function Navbar(): JSX.Element {
       </StyledNavbar>
       <MobileNav isOpen={menuOpen}>
         <MobileNavLinks>
-          {menu.map((link, idx) => (
-            <NavItem key={idx}>
-              <NavAction onClick={() => handleMenuClick(link)}>{link.name}</NavAction>
+          {menu.map((link) => (
+            <NavItem key={link.name}>
+              <NavAction onClick={() => handleMenuClick(link.path)}>{link.name}</NavAction>
             </NavItem>
           ))}
         </MobileNavLinks>
         <MobileAuthButtons>
-          <Button onClick={() => navigate('/#contact')}>Contact</Button>
+          <Button onClick={() => { navigate('/#contact'); setMenuOpen(false); }}>Contact</Button>
         </MobileAuthButtons>
       </MobileNav>
       {menuOpen && <Backdrop onClick={() => setMenuOpen(false)} />}{' '}
