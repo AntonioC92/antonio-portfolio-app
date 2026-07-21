@@ -1,5 +1,4 @@
 import styled, { keyframes } from 'styled-components';
-import { colors } from '../../styles/variables';
 
 const scroll = keyframes`
   0%   { transform: translateX(0); }
@@ -41,11 +40,10 @@ export const SectionHeader = styled.div`
 `;
 
 export const SectionTitle = styled.h2`
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: ${colors.primary};
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.01em;
 `;
 
 export const Track = styled.div`
@@ -64,8 +62,8 @@ export const LogoItem = styled.div`
   flex-shrink: 0;
 `;
 
-export const LogoImg = styled.img`
-  height: 36px;
+export const LogoImg = styled.img<{ $h?: number }>`
+  height: ${(p) => p.$h ?? 36}px;
   width: auto;
   max-width: 140px;
   object-fit: contain;
