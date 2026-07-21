@@ -36,9 +36,9 @@ export const StyledLogo = styled.div`
 `;
 
 export const LogoImg = styled.img`
-  width: 36px;
-  height: 36px;
-  border-radius: 7px;
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
   flex-shrink: 0;
 `;
 
