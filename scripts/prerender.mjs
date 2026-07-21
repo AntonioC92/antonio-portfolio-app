@@ -155,20 +155,30 @@ async function run() {
     } catch (err) {
       failed++;
       console.warn(`  ⚠  ${route} — skipped (${err.message})`);
+      // Homepage failure is a hard error — blank page is unacceptable.
+      if (route === '/') {
+        throw new Error(`Homepage SSR failed, aborting build: ${err.message}`);
+      }
     }
   }
 
-  // 6. Sitemap
+  // 6. Verify homepage output does not still contain the placeholder.
+  const indexOut = outputPathForRoute('/');
+  const indexHtml = await readFile(indexOut, 'utf8');
+  if (indexHtml.includes('<!--app-html-->')) {
+    throw new Error('Build verification failed: <!--app-html--> still present in dist/index.html');
+  }
+
+  // 7. Sitemap
   await writeFile(path.join(distDir, 'sitemap.xml'), buildSitemap(resources), 'utf8');
 
-  // 7. Clean up server bundle
+  // 8. Clean up server bundle
   await rm(serverDistDir, { recursive: true, force: true });
 
   console.log(`\n✅  Prerender complete — ${ok} rendered, ${failed} skipped as SPA fallback.`);
 }
 
 run().catch((err) => {
-  // Never fail the build — site still works as a React SPA without prerender.
-  console.warn('\n⚠️  Prerender step failed entirely:', err.message);
-  console.warn('Site deploys as a standard React SPA (Google still indexes it via JS rendering).');
+  console.error('\n🚨  Prerender failed — aborting build:', err.message);
+  process.exit(1); // Fail the Cloudflare build so a broken deploy is never shipped.
 });

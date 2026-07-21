@@ -3,6 +3,7 @@ import '@fontsource-variable/open-sans';
 
 import React from 'react';
 import { createRoot, hydrateRoot } from 'react-dom/client';
+import { ErrorBoundary } from './components/ErrorBoundary';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 
@@ -17,6 +18,7 @@ import { AboutPage } from './pages/AboutPage';
 
 const App = (
   <React.StrictMode>
+    <ErrorBoundary>
     <HelmetProvider>
       <BrowserRouter>
         <GlobalStyles />
@@ -33,6 +35,7 @@ const App = (
         </Routes>
       </BrowserRouter>
     </HelmetProvider>
+    </ErrorBoundary>
   </React.StrictMode>
 );
 
