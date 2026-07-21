@@ -34,6 +34,15 @@ export const caseStudies: CaseStudy[] = [
     partner: 'Streetwise Consultancy',
   },
   {
+    slug: 'chefs-office-academy',
+    badge: 'Paid Media · Education · Australia',
+    title: "Chef's Office Academy",
+    description:
+      'Meta ads and Systeme.io funnel built a free guide pipeline and direct eBook revenue for chefs learning the business side of the kitchen. Dual-path campaign: opt-ins compounding through email, purchases returning revenue mid-flight.',
+    metrics: ['192 leads at $2.74 CPL', '77 eBook purchases', 'Meta & Systeme.io'],
+    partner: 'Streetwise Consultancy',
+  },
+  {
     slug: 'gates-coaching-group',
     badge: 'Paid Media · Coaching · US',
     title: 'Gates Coaching Group',

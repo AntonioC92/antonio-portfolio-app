@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jobbio Career Fair: €135K Revenue at 4.5× ROAS | Streetwise Case Study</title>
+<meta name="description" content="How Streetwise ran a €30,000 LinkedIn campaign for Jobbio Career Fair that generated €135,000 in revenue and 60 qualified business leads, a 4.5× return on ad spend, using native Lead Gen Forms and a 3-stage follow-up system.">
+<link rel="canonical" href="https://streetwiseconsultancy.com/case-studies/jobbio-career-fair.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Jobbio Career Fair: €135K Revenue at 4.5× ROAS",
+  "description": "How Streetwise ran a €30,000 LinkedIn campaign for Jobbio Career Fair that generated €135,000 in revenue and 60 qualified business leads, a 4.5× return on ad spend, using native Lead Gen Forms and a 3-stage follow-up system.",
+  "datePublished": "2026-07-15",
+  "dateModified": "2026-07-15",
+  "author": [{"@type": "Person", "name": "Antonio Caruso"}, {"@type": "Person", "name": "Seán O'Brien"}],
+  "publisher": {"@type": "Organization", "name": "Streetwise Consultancy", "url": "https://streetwiseconsultancy.com", "logo": {"@type": "ImageObject", "url": "https://streetwiseconsultancy.com/lovable-uploads/41bc137e-8218-4922-8536-39f27cb7729c.png"}},
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://streetwiseconsultancy.com/case-studies/jobbio-career-fair.html"},
+  "about": {"@type": "Organization", "name": "Jobbio Career Fair"},
+  "keywords": "LinkedIn Ads, lead generation, B2B career fair, Lead Gen Forms, ROAS, paid social",
+  "isPartOf": {"@type": "WebSite", "name": "Streetwise Consultancy", "url": "https://streetwiseconsultancy.com"}
+}
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy:    #09141F;
+    --blue1:   #1544B8;
+    --blue2:   #1264D8;
+    --blue3:   #36B4FF;
+    --white:   #FFFFFF;
+    --steel:   #4D8DB5;
+    --skin:    #F0C090;
+    --skin-d:  #D9A070;
+  }
+
+  html, body {
+    width: 100%; height: 100%; overflow: hidden;
+    background: var(--navy);
+    font-family: 'Bricolage Grotesque', 'Inter', sans-serif;
+    color: var(--white);
+    user-select: none;
+  }
+
+  #deck { position: relative; width: 100vw; height: 100vh; overflow: hidden; }
+
+  .slide {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    display: flex; align-items: center; justify-content: center;
+    opacity: 0; transform: translateX(60px);
+    transition: opacity 0.45s ease, transform 0.45s ease;
+    pointer-events: none; overflow: hidden;
+  }
+  .slide.active  { opacity: 1; transform: translateX(0); pointer-events: all; z-index: 2; }
+  .slide.exiting { opacity: 0; transform: translateX(-60px); z-index: 1; }
+
+  .bubble {
+    position: absolute;
+    background: #FEFBEA; color: #1a1200;
+    border-radius: 16px; padding: 14px 18px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: clamp(13px,1.4vw,16px); line-height: 1.45;
+    max-width: 280px; box-shadow: 0 4px 24px rgba(0,0,0,0.35); z-index: 10;
+  }
+  .bubble::after {
+    content:''; position:absolute; bottom:-12px; left:28px;
+    border:12px solid transparent; border-top-color:#FEFBEA;
+    border-bottom:0; border-left:0;
+    filter:drop-shadow(0 3px 2px rgba(0,0,0,0.15));
+  }
+  .scene-right .bubble { position: relative; }
+  .bubble.above::after {
+    bottom:-12px; left:50%; transform:translateX(-50%);
+    border:10px solid transparent; border-top-color:#FEFBEA; border-bottom:0;
+  }
+  .bubble strong { font-weight:700; }
+
+  .stat-card {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 16px; padding: 20px 28px;
+    text-align: center; backdrop-filter: blur(8px);
+  }
+  .stat-card .num {
+    font-size: clamp(2rem,4vw,3.4rem); font-weight:800;
+    letter-spacing:-0.02em; line-height:1; color: var(--blue3);
+  }
+  .stat-card .label {
+    font-size:0.8rem; font-weight:600; letter-spacing:0.08em;
+    text-transform:uppercase; color:rgba(255,255,255,0.55); margin-top:6px;
+  }
+
+  .badge {
+    display:inline-flex; align-items:center; gap:6px;
+    background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.2);
+    border-radius:100px; padding:6px 14px;
+    font-size:0.72rem; font-weight:700; letter-spacing:0.1em;
+    text-transform:uppercase; color:rgba(255,255,255,0.85);
+  }
+
+  #nav-prev, #nav-next {
+    position:fixed; bottom:36px; width:48px; height:48px;
+    background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.2);
+    border-radius:50%; display:flex; align-items:center; justify-content:center;
+    font-size:22px; cursor:pointer; z-index:100;
+    transition:background 0.2s,transform 0.15s; color:white;
+  }
+  #nav-prev { left:32px; } #nav-next { right:32px; }
+  #nav-prev:hover, #nav-next:hover { background:rgba(255,255,255,0.2); }
+  #nav-prev:active, #nav-next:active { transform:scale(0.93); }
+  #nav-prev.hidden { opacity:0; pointer-events:none; }
+
+  #progress {
+    position:fixed; bottom:20px; left:50%; transform:translateX(-50%);
+    display:flex; gap:7px; z-index:100;
+  }
+  .dot {
+    width:7px; height:7px; border-radius:50%;
+    background:rgba(255,255,255,0.25); cursor:pointer;
+    transition:background 0.25s,transform 0.2s;
+  }
+  .dot.active { background:var(--blue3); transform:scale(1.3); }
+
+  #s1  { background: var(--navy); }
+  #s2  { background: linear-gradient(135deg,#0D0E1A 0%,#0A0D16 100%); }
+  #s3  { background: linear-gradient(135deg,#0A1020 0%,#07111E 100%); }
+  #s4  { background: #09141F; }
+  #s5  { background: linear-gradient(160deg,#080F1A 0%,#0A1525 100%); }
+  #s6  { background: linear-gradient(135deg,#07101C 0%,#0C1830 100%); }
+  #s7  { background: linear-gradient(135deg,#06101C 0%,#0A1628 100%); }
+  #s8  { background: linear-gradient(135deg,#080F14 0%,#0B1820 100%); }
+  #s9  { background: linear-gradient(135deg,#08111A 0%,#0B1822 100%); }
+  #s10 { background: var(--navy); }
+  #s11 { background: linear-gradient(160deg,#09141F 0%,#07101A 100%); }
+  #s12 { background: var(--navy); }
+
+  .scene-split {
+    display:flex; width:100%; height:100%;
+    align-items:center; padding:60px 80px; gap:60px; position:relative;
+  }
+  .scene-left  { flex:1; display:flex; flex-direction:column; gap:20px; z-index:5; }
+  .scene-right { flex:0 0 auto; display:flex; align-items:flex-end; justify-content:center; z-index:5; }
+
+  .tag {
+    font-size:0.72rem; font-weight:700; letter-spacing:0.12em;
+    text-transform:uppercase; color:var(--blue3); margin-bottom:6px;
+  }
+  .scene-h { font-size:clamp(1.8rem,3.5vw,3rem); font-weight:800; letter-spacing:-0.02em; line-height:1.1; }
+  .scene-h em { font-style:italic; color:var(--blue3); }
+  .scene-p { font-size:clamp(0.9rem,1.4vw,1.1rem); color:rgba(255,255,255,0.65); line-height:1.65; font-weight:400; font-family:'Inter',sans-serif; }
+
+  .char-wrap { position:relative; display:flex; flex-direction:column; align-items:center; }
+  .char-label {
+    font-size:0.72rem; font-weight:700; letter-spacing:0.08em;
+    text-transform:uppercase; color:rgba(255,255,255,0.4); white-space:nowrap;
+    margin-bottom:6px;
+  }
+
+  .stat-grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+
+  .hero-num {
+    font-size:clamp(5rem,12vw,9rem); font-weight:800;
+    letter-spacing:-0.04em; line-height:1; color:var(--blue3);
+  }
+
+  .ch-icon {
+    width:52px; height:52px; border-radius:14px;
+    display:flex; align-items:center; justify-content:center;
+    font-size:1.6rem; flex-shrink:0;
+  }
+  .ch-li { background:rgba(10,102,194,0.2); }
+
+  .cta-btn {
+    display:inline-block; background:var(--blue1); color:white;
+    font-family:'Bricolage Grotesque',sans-serif;
+    font-size:1rem; font-weight:700; padding:16px 36px;
+    border-radius:100px; text-decoration:none; letter-spacing:0.02em;
+    transition:background 0.2s,transform 0.15s; margin-top:8px;
+    cursor:pointer; border:none;
+  }
+  .cta-btn:hover { background:#1a56e0; transform:translateY(-2px); }
+
+  #hint {
+    position:fixed; bottom:20px; right:90px;
+    display:flex; align-items:center; gap:8px;
+    font-size:0.72rem; color:rgba(255,255,255,0.3); letter-spacing:0.04em;
+    z-index:100; transition:opacity 0.5s;
+  }
+  .kbd {
+    display:inline-flex; align-items:center; justify-content:center;
+    width:22px; height:22px; background:rgba(255,255,255,0.1);
+    border:1px solid rgba(255,255,255,0.2); border-radius:5px; font-size:0.75rem;
+  }
+
+  .big-stats { display:grid; grid-template-columns:1fr 1fr; gap:20px; width:100%; max-width:600px; }
+  .bs-card {
+    background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1);
+    border-radius:20px; padding:28px 24px; text-align:center;
+  }
+  .bs-num {
+    font-size:clamp(2rem,3.5vw,2.8rem); font-weight:800;
+    letter-spacing:-0.03em; line-height:1;
+  }
+  .bs-label {
+    font-size:0.72rem; font-weight:600; text-transform:uppercase;
+    letter-spacing:0.1em; color:rgba(255,255,255,0.45); margin-top:8px;
+  }
+
+  .slide.active .char-wrap { animation:charIn 0.5s ease 0.2s both; }
+  @keyframes charIn { from{transform:translateY(30px) scale(0.95);opacity:0} to{transform:translateY(0) scale(1);opacity:1} }
+  .slide.active .bubble { animation:bubbleIn 0.4s ease 0.45s both; }
+  @keyframes bubbleIn { from{transform:scale(0.8);opacity:0} to{transform:scale(1);opacity:1} }
+  .slide.active .stat-card,
+  .slide.active .bs-card { animation:fadeUp 0.5s ease var(--delay,0.3s) both; }
+  @keyframes fadeUp { from{transform:translateY(16px);opacity:0} to{transform:translateY(0);opacity:1} }
+
+  ::-webkit-scrollbar { display:none; }
+
+  /* pivot rows */
+  .pivot-row { display:flex; align-items:center; gap:16px; padding:12px 20px; border-radius:12px; font-size:0.95rem; font-weight:600; }
+  .pivot-up   { background:rgba(54,180,255,0.1); color:var(--blue3); }
+  .pivot-arrow { font-size:1.4rem; }
+
+</style>
+
+<style id="mobile-override">
+@media (max-width:980px) {
+  #deck, .slide { height:100vh; }
+  #deck, .slide { height:100dvh; }
+  .slide {
+    overflow-y:auto; overflow-x:hidden; -webkit-overflow-scrolling:touch;
+    box-sizing:border-box;
+  }
+
+  /* Centered flex wrappers trap overflowing content above the fold with no way to scroll up
+     to it (a fixed-height flex box with justify-content:center overflows symmetrically, and
+     the half that spills above the box's own top edge is outside scrollable range). Starting
+     from the top on mobile means all content is reachable by scrolling down instead. */
+  .slide [style*="justify-content:center"] { justify-content:safe center!important; align-content:safe center!important; }
+
+  .slide>div:not([style*="position:absolute"]) { max-width:100%!important; box-sizing:border-box!important; }
+  .slide>div[style*="flex-direction"] { width:100%!important; padding:20px 16px 120px!important; height:auto!important; }
+  /* padding-top override removed: relied on flex-start which is no longer forced */
+  .slide div[style*="display:flex"] { flex-wrap:wrap!important; max-width:100%!important; gap:10px!important; box-sizing:border-box!important; }
+
+  .scene-split,
+  .slide [style*="padding:60px 80px"]:not([style*="flex-direction:column"]) {
+    flex-direction:column!important; padding:16px!important; gap:16px!important; height:auto!important;
+  }
+  .scene-left, .scene-right,
+  .slide [style*="padding:60px 80px"]:not([style*="flex-direction:column"])>[style*="flex:1"],
+  .slide [style*="padding:60px 80px"]:not([style*="flex-direction:column"])>[style*="flex:0 0 auto"] {
+    max-width:100%!important; width:100%!important; box-sizing:border-box!important; flex:none!important;
+  }
+
+  /* Decorative background blobs add scroll height on mobile with no informational value,
+     so they are dropped. */
+  .slide [style*="position:absolute"][style*="pointer-events:none"] { display:none!important; } .slide [style*="position:absolute"][style*="z-index:5"] { display:none!important; }
+
+  /* Character illustrations and their speech bubbles stay on mobile (they are the team
+     speaking, not decoration) but shrink so they do not blow out scroll height at full
+     desktop size. This file uses .char-wrap (not .char-col) for its illustration wrapper. */
+  .char-wrap { display:none!important; }
+  .char-wrap svg { width:74px!important; height:auto!important; }
+  .bubble { display:none!important; }
+  .char-label { font-size:0.62rem!important; }
+
+  /* Vertical divider bars between stat numbers force an ugly lone wrap once a row can't
+     fit on one line anymore; simplest fix is to drop them on narrow screens. */
+  .slide div[style*="width:1px"] { display:none!important; }
+
+  .stat-card, .bs-card { flex:1 1 calc(33% - 8px)!important; padding:10px 8px!important; min-width:0!important; }
+  .stat-card .num, .bs-num { font-size:clamp(1.1rem,5vw,1.8rem)!important; white-space:nowrap; }
+  .stat-card .label, .bs-label { font-size:.6rem!important; }
+
+  /* Inline grid stat blocks have no shared class to hook (hence the attribute selector) and
+     were left at their desktop column count, cramming 3 columns into a phone width. */
+  .slide div[style*="grid-template-columns"] { grid-template-columns:1fr 1fr!important; width:100%!important; max-width:100%!important; gap:10px!important; }
+
+  /* Giant standalone numbers (ROAS, hero stats) were pinned to their clamp() minimum on every
+     phone width, since the vw term never exceeds the rem minimum below roughly 700px viewports. */
+  .hero-num { font-size:clamp(2.6rem,15vw,4.5rem)!important; }
+
+  /* Reclaim room for content that would otherwise sit behind the fixed deck controls. */
+  #nav-prev, #nav-next { width:40px!important; height:40px!important; bottom:14px!important; font-size:18px!important; }
+  #nav-prev { left:14px!important; }
+  #nav-next { right:14px!important; }
+    #progress { bottom:62px!important; background:rgba(9,20,31,0.65)!important; padding:6px 10px!important; border-radius:20px!important; -webkit-transform:translateZ(0); transform:translateZ(0); }
+  #hint { display:none!important; }
+}
+</style>
+
+
+<script defer src="/~flock.js" data-proxy-url="/~api/analytics"></script><meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1ab7a7db-3a98-4d0f-bed0-cb0ce8de2c94/id-preview-0a94eb1f--aadf7595-8cf5-4e0f-94d2-ea62091a7dba.lovable.app-1784561641175.png"><meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1ab7a7db-3a98-4d0f-bed0-cb0ce8de2c94/id-preview-0a94eb1f--aadf7595-8cf5-4e0f-94d2-ea62091a7dba.lovable.app-1784561641175.png"></head>
+<body>
+
+<div id="deck">
+
+  <!-- ═══════ S1: COVER ═══════ -->
+  <div class="slide active" id="s1">
+    <div style="position:relative;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;">
+      <div style="position:absolute;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(21,68,184,0.18) 0%,transparent 65%);top:50%;left:50%;transform:translate(-50%,-55%);pointer-events:none;"></div>
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:32px;z-index:5;">
+        <svg width="44" height="44" viewBox="0 0 100 100" fill="none">
+          <circle cx="50" cy="50" r="48" fill="#09141F"/>
+          <path d="M 83,31 A 38,38 0 1,0 83,69" stroke="#4AC8FF" stroke-width="12" stroke-linecap="round" fill="none"/>
+          <path d="M 72,38 A 25,25 0 1,0 72,62" stroke="#2090E0" stroke-width="10" stroke-linecap="round" fill="none"/>
+          <path d="M 62,43 A 14,14 0 1,0 62,57" stroke="#1264D8" stroke-width="8" stroke-linecap="round" fill="none"/>
+        </svg>
+        <span style="font-size:0.82rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--steel);">Streetwise Consultancy</span>
+      </div>
+      <div class="badge" style="margin-bottom:24px;">📊 B2B Case Study · Tech Career Events · Ireland</div>
+      <h1 style="font-size:clamp(2.2rem,5vw,4.6rem);font-weight:800;letter-spacing:-0.03em;text-align:center;line-height:1.05;margin-bottom:14px;z-index:5;">Jobbio <span style="color:var(--blue3);">Career Fair</span></h1>
+      <p style="font-size:clamp(1rem,1.6vw,1.3rem);color:rgba(255,255,255,0.55);text-align:center;font-weight:400;margin-bottom:10px;z-index:5;">How €30,000 in LinkedIn spend generated €135,000 in revenue and 60 B2B leads</p>
+      <p style="font-size:0.75rem;color:rgba(255,255,255,0.3);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:48px;z-index:5;">⏱ 2 min read · 12 slides</p>
+      <div style="display:flex;gap:32px;z-index:5;margin-bottom:32px;">
+        <div style="text-align:center;"><div style="font-size:clamp(1.8rem,3.5vw,2.8rem);font-weight:800;letter-spacing:-0.03em;color:var(--blue3);">4.5×</div><div style="font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:4px;">ROAS</div></div>
+        <div style="width:1px;background:rgba(255,255,255,0.1);"></div>
+        <div style="text-align:center;"><div style="font-size:clamp(1.8rem,3.5vw,2.8rem);font-weight:800;letter-spacing:-0.03em;color:var(--blue3);">€135K</div><div style="font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:4px;">Revenue</div></div>
+        <div style="width:1px;background:rgba(255,255,255,0.1);"></div>
+        <div style="text-align:center;"><div style="font-size:clamp(1.8rem,3.5vw,2.8rem);font-weight:800;letter-spacing:-0.03em;color:var(--blue3);">60</div><div style="font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:4px;">MQLs</div></div>
+      </div>
+      <!-- Antonio in normal flow, sits below stats with clear spacing -->
+      <div style="display:flex;justify-content:center;margin-top:32px;z-index:5;">
+
+        <div class="char-wrap">
+          <span class="char-label">Antonio</span>
+          <svg width="130" height="240" viewBox="0 0 100 200" fill="none">
+            <defs><radialGradient id="fa1" cx="42%" cy="35%" r="60%"><stop offset="0%" stop-color="#FDDBA8"/><stop offset="100%" stop-color="#FBCA88"/></radialGradient></defs>
+            <rect x="35" y="155" width="14" height="45" rx="7" fill="#181818"/><rect x="51" y="155" width="14" height="45" rx="7" fill="#111111"/>
+            <path d="M20,103 Q20,89 50,84 Q80,89 80,103 L78,158 L22,158 Z" fill="#3082CC"/>
+            <rect x="43" y="74" width="14" height="18" rx="4" fill="#FBCA88"/>
+            <path d="M22,103 Q6,122 8,154" stroke="#3082CC" stroke-width="17" stroke-linecap="round" fill="none"/><ellipse cx="8" cy="157" rx="9" ry="10" fill="#FBCA88"/>
+            <path d="M78,103 Q94,122 92,154" stroke="#3082CC" stroke-width="17" stroke-linecap="round" fill="none"/><ellipse cx="92" cy="157" rx="9" ry="10" fill="#FBCA88"/>
+            <ellipse cx="14" cy="46" rx="7" ry="10" fill="#E8A860"/><ellipse cx="86" cy="46" rx="7" ry="10" fill="#E8A860"/>
+            <ellipse cx="14" cy="46" rx="4" ry="6.5" fill="#FBCA88"/><ellipse cx="86" cy="46" rx="4" ry="6.5" fill="#FBCA88"/>
+            <ellipse cx="50" cy="42" rx="34" ry="36" fill="url(#fa1)"/>
+            <path d="M15,54 Q12,38 17,10 Q32,2 50,1 Q68,2 83,10 Q88,38 85,54 Q82,20 50,15 Q18,20 15,54 Z" fill="#2C1006"/>
+            <path d="M38,15 Q44,9 50,12 Q56,9 62,15 Q56,11 50,13 Q44,11 38,15 Z" fill="#2C1006"/>
+            <path d="M17,30 Q27,23 38,29" stroke="#2C1006" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <path d="M62,29 Q73,23 83,30" stroke="#2C1006" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <ellipse cx="30" cy="44" rx="9" ry="8.5" fill="white"/><ellipse cx="70" cy="44" rx="9" ry="8.5" fill="white"/>
+            <circle cx="30" cy="44" r="5.5" fill="#2C1608"/><circle cx="70" cy="44" r="5.5" fill="#2C1608"/>
+            <circle cx="30" cy="44" r="3" fill="#0A0604"/><circle cx="70" cy="44" r="3" fill="#0A0604"/>
+            <circle cx="32" cy="42" r="2" fill="white"/><circle cx="72" cy="42" r="2" fill="white"/>
+            <path d="M21,41 Q30,35 39,41" stroke="#1A0A04" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+            <path d="M61,41 Q70,35 79,41" stroke="#1A0A04" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+            <rect x="14" y="33" width="29" height="22" rx="5" fill="rgba(200,230,255,0.18)" stroke="#181008" stroke-width="3.8"/>
+            <rect x="57" y="33" width="29" height="22" rx="5" fill="rgba(200,230,255,0.18)" stroke="#181008" stroke-width="3.8"/>
+            <path d="M43,44 Q50,41 57,44" stroke="#181008" stroke-width="3.2" fill="none"/>
+            <path d="M14,44 Q6,43 4,48" stroke="#181008" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+            <path d="M86,44 Q94,43 96,48" stroke="#181008" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+            <circle cx="45" cy="59" r="3" fill="#E8A860" opacity="0.45"/><circle cx="55" cy="59" r="3" fill="#E8A860" opacity="0.45"/>
+            <path d="M34,64 Q50,75 66,64" stroke="#A05040" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════ S2: THE BRIEF ═══════ -->
+  <div class="slide" id="s2">
+    <div style="position:absolute;width:700px;height:700px;border-radius:50%;background:radial-gradient(circle,rgba(21,68,184,0.13) 0%,transparent 65%);top:50%;left:60%;transform:translate(-50%,-50%);pointer-events:none;"></div>
+    <div class="scene-split">
+      <div class="scene-left">
+        <div class="tag">The Brief</div>
+        <h2 class="scene-h">A B2B event.<br><em>A hard audience to reach.</em></h2>
+        <p class="scene-p">Jobbio, a recruitment and employer branding platform used by over 6,000 companies globally including DocuSign, Slack, and Hootsuite, needed to fill a dual-branded career fair targeting senior HR leaders and talent acquisition managers at companies with 200+ employees. This is a buying audience with long decision cycles and a higher bar for credibility than a consumer event.</p>
+        <p class="scene-p">Budget: <strong style="color:white;">€30,000</strong>. Channel: LinkedIn only. The goal was a profitable event with deals averaging over <strong style="color:white;">€2,200</strong>.</p>
+        <div style="display:flex;gap:16px;margin-top:8px;">
+          <div class="stat-card" style="--delay:0.4s;"><div class="num">200+</div><div class="label">Employee threshold</div></div>
+          <div class="stat-card" style="--delay:0.55s;"><div class="num">€2,200+</div><div class="label">Avg deal value</div></div>
+        </div>
+      </div>
+      <div class="scene-right" style="flex-direction:column;align-items:center;gap:10px;min-width:260px;">
+        <div class="bubble above" style="max-width:230px;text-align:center;">"The audience was busy. We had one channel that could reach them precisely, and we used it fully."</div>
+        <div class="char-wrap">
+          <span class="char-label">Antonio</span>
+          <svg width="160" height="300" viewBox="0 0 100 200" fill="none">
+            <defs><radialGradient id="fa2" cx="42%" cy="35%" r="60%"><stop offset="0%" stop-color="#FDDBA8"/><stop offset="100%" stop-color="#FBCA88"/></radialGradient></defs>
+            <rect x="35" y="155" width="14" height="45" rx="7" fill="#181818"/><rect x="51" y="155" width="14" height="45" rx="7" fill="#111111"/>
+            <path d="M20,103 Q20,89 50,84 Q80,89 80,103 L78,158 L22,158 Z" fill="#3082CC"/>
+            <rect x="43" y="74" width="14" height="18" rx="4" fill="#FBCA88"/>
+            <path d="M22,98 Q4,74 1,52" stroke="#3082CC" stroke-width="17" stroke-linecap="round" fill="none"/><ellipse cx="1" cy="49" rx="9" ry="10" fill="#FBCA88"/>
+            <path d="M78,103 Q92,124 90,154" stroke="#3082CC" stroke-width="17" stroke-linecap="round" fill="none"/><ellipse cx="90" cy="157" rx="9" ry="10" fill="#FBCA88"/>
+            <ellipse cx="14" cy="46" rx="7" ry="10" fill="#E8A860"/><ellipse cx="86" cy="46" rx="7" ry="10" fill="#E8A860"/>
+            <ellipse cx="14" cy="46" rx="4" ry="6.5" fill="#FBCA88"/><ellipse cx="86" cy="46" rx="4" ry="6.5" fill="#FBCA88"/>
+            <ellipse cx="50" cy="42" rx="34" ry="36" fill="url(#fa2)"/>
+            <path d="M15,54 Q12,38 17,10 Q32,2 50,1 Q68,2 83,10 Q88,38 85,54 Q82,20 50,15 Q18,20 15,54 Z" fill="#2C1006"/>
+            <path d="M38,15 Q44,9 50,12 Q56,9 62,15 Q56,11 50,13 Q44,11 38,15 Z" fill="#2C1006"/>
+            <path d="M17,30 Q27,23 38,29" stroke="#2C1006" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <path d="M62,29 Q73,23 83,30" stroke="#2C1006" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <ellipse cx="30" cy="44" rx="9" ry="8.5" fill="white"/><ellipse cx="70" cy="44" rx="9" ry="8.5" fill="white"/>
+            <circle cx="30" cy="44" r="5.5" fill="#2C1608"/><circle cx="70" cy="44" r="5.5" fill="#2C1608"/>
+            <circle cx="30" cy="44" r="3" fill="#0A0604"/><circle cx="70" cy="44" r="3" fill="#0A0604"/>
+            <circle cx="32" cy="42" r="2" fill="white"/><circle cx="72" cy="42" r="2" fill="white"/>
+            <path d="M21,41 Q30,35 39,41" stroke="#1A0A04" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+            <path d="M61,41 Q70,35 79,41" stroke="#1A0A04" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+            <rect x="14" y="33" width="29" height="22" rx="5" fill="rgba(200,230,255,0.18)" stroke="#181008" stroke-width="3.8"/>
+            <rect x="57" y="33" width="29" height="22" rx="5" fill="rgba(200,230,255,0.18)" stroke="#181008" stroke-width="3.8"/>
+            <path d="M43,44 Q50,41 57,44" stroke="#181008" stroke-width="3.2" fill="none"/>
+            <circle cx="45" cy="59" r="3" fill="#E8A860" opacity="0.45"/><circle cx="55" cy="59" r="3" fill="#E8A860" opacity="0.45"/>
+            <path d="M34,64 Q50,75 66,64" stroke="#A05040" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════ S3: WHY LINKEDIN ═══════ -->
+  <div class="slide" id="s3">
+    <div style="position:absolute;width:800px;height:400px;border-radius:50%;background:radial-gradient(ellipse,rgba(21,68,184,0.18) 0%,transparent 65%);top:50%;left:50%;transform:translate(-50%,-50%);pointer-events:none;"></div>
+    <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;height:100%;padding:60px;gap:36px;position:relative;z-index:5;">
+      <div class="tag" style="text-align:center;">The Channel</div>
+      <h2 style="font-size:clamp(2.2rem,4.5vw,3.8rem);font-weight:800;letter-spacing:-0.03em;text-align:center;">LinkedIn. <em style="color:var(--blue3);font-style:italic;">The only channel that fits.</em></h2>
+      <p style="font-size:clamp(0.85rem,1.3vw,1rem);color:rgba(255,255,255,0.55);text-align:center;max-width:600px;font-family:'Inter',sans-serif;line-height:1.65;">When the buyer is a senior HR Director at a 500-person company, interest targeting on other platforms does not give you the precision you need. LinkedIn lets you filter by job title, seniority, company size, and industry simultaneously, so you reach exactly the decision-maker at exactly the right company.</p>
+      <div style="display:flex;gap:24px;flex-wrap:wrap;justify-content:center;margin-top:8px;">
+        <div style="background:rgba(10,102,194,0.12);border:1px solid rgba(10,102,194,0.25);border-radius:14px;padding:16px 24px;text-align:center;min-width:160px;">
+          <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-bottom:8px;">Target by</div>
+          <div style="font-size:0.9rem;font-weight:600;color:white;line-height:1.7;">Job Title<br>Seniority<br>Company Size<br>Industry</div>
+        </div>
+        <div style="background:rgba(54,180,255,0.08);border:1px solid rgba(54,180,255,0.18);border-radius:14px;padding:16px 24px;text-align:center;min-width:160px;">
+          <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-bottom:8px;">Audience</div>
+          <div style="font-size:0.9rem;font-weight:600;color:white;line-height:1.7;">HR Directors<br>Talent Managers<br>200+ employees<br>Tech sector</div>
+        </div>
+        <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:16px 24px;text-align:center;min-width:160px;">
+          <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-bottom:8px;">Result</div>
+          <div style="font-size:0.9rem;font-weight:600;color:white;line-height:1.7;">Zero wasted<br>impressions<br>on the wrong<br>audience</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════ S4: PHASE 1 - SPONSORED VIDEO ═══════ -->
+  <div class="slide" id="s4">
+    <div style="position:absolute;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(10,102,194,0.16) 0%,transparent 65%);top:50%;right:-100px;transform:translateY(-50%);pointer-events:none;"></div>
+    <div class="scene-split">
+      <div class="scene-left">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:6px;">
+          <div class="ch-icon ch-li">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><rect width="24" height="24" rx="4" fill="#0A66C2"/><path d="M6.5 9h2v9h-2V9zm1-1.5a1.25 1.25 0 110-2.5 1.25 1.25 0 010 2.5zM10 9h2v1.3c.3-.6 1.1-1.4 2.4-1.4 2.3 0 2.6 1.5 2.6 3.5V18h-2v-5.3c0-.9 0-2-1.4-2-1.4 0-1.6 1-1.6 2V18H10V9z" fill="white"/></svg>
+          </div>
+          <div class="tag" style="margin-bottom:0;">Phase 1: Sponsored Video</div>
+        </div>
+        <h2 class="scene-h">Build awareness<br><em>in the right feed.</em></h2>
+        <p class="scene-p">LinkedIn Sponsored Video put the Jobbio event in front of senior HR professionals while they were already in a professional mindset. The goal at this stage was to make the right people aware the event existed.</p>
+        <p class="scene-p">Video content showed exhibitor ROI data from previous editions: actual numbers, actual companies, actual hires from past events.</p>
+      </div>
+      <div class="scene-right" style="flex-direction:column;align-items:center;gap:10px;min-width:260px;">
+        <div class="bubble above" style="max-width:230px;text-align:center;">"We shared verified ROI data from previous events. Real numbers from real exhibitors. That is what a senior buyer needs to take the next step."</div>
+        <div class="char-wrap">
+          <span class="char-label">Antonio</span>
+          <svg width="160" height="300" viewBox="0 0 100 200" fill="none">
+            <defs><radialGradient id="fa4" cx="42%" cy="35%" r="60%"><stop offset="0%" stop-color="#FDDBA8"/><stop offset="100%" stop-color="#FBCA88"/></radialGradient></defs>
+            <rect x="35" y="155" width="14" height="45" rx="7" fill="#181818"/><rect x="51" y="155" width="14" height="45" rx="7" fill="#111111"/>
+            <path d="M20,103 Q20,89 50,84 Q80,89 80,103 L78,158 L22,158 Z" fill="#3082CC"/>
+            <rect x="43" y="74" width="14" height="18" rx="4" fill="#FBCA88"/>
+            <path d="M22,103 Q6,122 8,154" stroke="#3082CC" stroke-width="17" stroke-linecap="round" fill="none"/><ellipse cx="8" cy="157" rx="9" ry="10" fill="#FBCA88"/>
+            <path d="M78,98 Q98,88 100,70" stroke="#3082CC" stroke-width="17" stroke-linecap="round" fill="none"/><ellipse cx="100" cy="67" rx="9" ry="10" fill="#FBCA88"/>
+            <ellipse cx="14" cy="46" rx="7" ry="10" fill="#E8A860"/><ellipse cx="86" cy="46" rx="7" ry="10" fill="#E8A860"/>
+            <ellipse cx="14" cy="46" rx="4" ry="6.5" fill="#FBCA88"/><ellipse cx="86" cy="46" rx="4" ry="6.5" fill="#FBCA88"/>
+            <ellipse cx="50" cy="42" rx="34" ry="36" fill="url(#fa4)"/>
+            <path d="M15,54 Q12,38 17,10 Q32,2 50,1 Q68,2 83,10 Q88,38 85,54 Q82,20 50,15 Q18,20 15,54 Z" fill="#2C1006"/>
+            <path d="M38,15 Q44,9 50,12 Q56,9 62,15 Q56,11 50,13 Q44,11 38,15 Z" fill="#2C1006"/>
+            <path d="M17,30 Q27,23 38,29" stroke="#2C1006" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <path d="M62,29 Q73,23 83,30" stroke="#2C1006" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <ellipse cx="30" cy="44" rx="9" ry="8.5" fill="white"/><ellipse cx="70" cy="44" rx="9" ry="8.5" fill="white"/>
+            <circle cx="30" cy="44" r="5.5" fill="#2C1608"/><circle cx="70" cy="44" r="5.5" fill="#2C1608"/>
+            <circle cx="30" cy="44" r="3" fill="#0A0604"/><circle cx="70" cy="44" r="3" fill="#0A0604"/>
+            <circle cx="32" cy="42" r="2" fill="white"/><circle cx="72" cy="42" r="2" fill="white"/>
+            <rect x="14" y="33" width="29" height="22" rx="5" fill="rgba(200,230,255,0.18)" stroke="#181008" stroke-width="3.8"/>
+            <rect x="57" y="33" width="29" height="22" rx="5" fill="rgba(200,230,255,0.18)" stroke="#181008" stroke-width="3.8"/>
+            <path d="M43,44 Q50,41 57,44" stroke="#181008" stroke-width="3.2" fill="none"/>
+            <circle cx="45" cy="59" r="3" fill="#E8A860" opacity="0.45"/><circle cx="55" cy="59" r="3" fill="#E8A860" opacity="0.45"/>
+            <path d="M34,64 Q50,75 66,64" stroke="#A05040" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════ S5: THE PIVOT ═══════ -->
+  <div class="slide" id="s5">
+    <div style="position:absolute;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(21,68,184,0.2) 0%,transparent 65%);top:50%;left:30%;transform:translate(-50%,-50%);pointer-events:none;"></div>
+    <div class="scene-split">
+      <div class="scene-right" style="order:-1;flex-direction:column;align-items:center;gap:10px;min-width:260px;">
+        <div class="bubble above" style="max-width:240px;text-align:center;">"LinkedIn already had their contact data. The landing page was asking them to hand it over again. Switching to the native form removed that step entirely."</div>
+        <div class="char-wrap">
+          <span class="char-label">Antonio</span>
+          <svg width="160" height="300" viewBox="0 0 100 200" fill="none">
+            <defs><radialGradient id="fa5" cx="42%" cy="35%" r="60%"><stop offset="0%" stop-color="#FDDBA8"/><stop offset="100%" stop-color="#FBCA88"/></radialGradient></defs>
+            <rect x="35" y="155" width="14" height="45" rx="7" fill="#181818"/><rect x="51" y="155" width="14" height="45" rx="7" fill="#111111"/>
+            <path d="M20,103 Q20,89 50,84 Q80,89 80,103 L78,158 L22,158 Z" fill="#3082CC"/>
+            <rect x="43" y="74" width="14" height="18" rx="4" fill="#FBCA88"/>
+            <path d="M22,103 Q6,122 8,154" stroke="#3082CC" stroke-width="17" stroke-linecap="round" fill="none"/><ellipse cx="8" cy="157" rx="9" ry="10" fill="#FBCA88"/>
+            <path d="M78,98 Q98,88 100,70" stroke="#3082CC" stroke-width="17" stroke-linecap="round" fill="none"/><ellipse cx="100" cy="67" rx="9" ry="10" fill="#FBCA88"/>
+            <ellipse cx="14" cy="46" rx="7" ry="10" fill="#E8A860"/><ellipse cx="86" cy="46" rx="7" ry="10" fill="#E8A860"/>
+            <ellipse cx="14" cy="46" rx="4" ry="6.5" fill="#FBCA88"/><ellipse cx="86" cy="46" rx="4" ry="6.5" fill="#FBCA88"/>
+            <ellipse cx="50" cy="42" rx="34" ry="36" fill="url(#fa5)"/>
+            <path d="M15,54 Q12,38 17,10 Q32,2 50,1 Q68,2 83,10 Q88,38 85,54 Q82,20 50,15 Q18,20 15,54 Z" fill="#2C1006"/>
+            <path d="M38,15 Q44,9 50,12 Q56,9 62,15 Q56,11 50,13 Q44,11 38,15 Z" fill="#2C1006"/>
+            <path d="M17,30 Q27,23 38,29" stroke="#2C1006" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <path d="M62,29 Q73,23 83,30" stroke="#2C1006" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <ellipse cx="30" cy="44" rx="9" ry="8.5" fill="white"/><ellipse cx="70" cy="44" rx="9" ry="8.5" fill="white"/>
+            <circle cx="30" cy="44" r="5.5" fill="#2C1608"/><circle cx="70" cy="44" r="5.5" fill="#2C1608"/>
+            <circle cx="30" cy="44" r="3" fill="#0A0604"/><circle cx="70" cy="44" r="3" fill="#0A0604"/>
+            <circle cx="32" cy="42" r="2" fill="white"/><circle cx="72" cy="42" r="2" fill="white"/>
+            <rect x="14" y="33" width="29" height="22" rx="5" fill="rgba(200,230,255,0.18)" stroke="#181008" stroke-width="3.8"/>
+            <rect x="57" y="33" width="29" height="22" rx="5" fill="rgba(200,230,255,0.18)" stroke="#181008" stroke-width="3.8"/>
+            <path d="M43,44 Q50,41 57,44" stroke="#181008" stroke-width="3.2" fill="none"/>
+            <circle cx="45" cy="59" r="3" fill="#E8A860" opacity="0.45"/><circle cx="55" cy="59" r="3" fill="#E8A860" opacity="0.45"/>
+            <path d="M34,64 Q50,75 66,64" stroke="#A05040" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+      <div class="scene-left">
+        <div class="tag">The Pivot</div>
+        <h2 class="scene-h">Drop the landing page.<br><em>Use the native form.</em></h2>
+        <p class="scene-p">The campaign initially drove clicks to a landing page. It worked, but the data showed a drop-off at the form. A senior HR Director clicking an ad and then being asked to fill in their details on an external website was creating a conversion problem that had nothing to do with the ad itself.</p>
+        <p class="scene-p">The solution was LinkedIn Lead Gen Forms, which pre-fill automatically from the user's LinkedIn profile. The buyer completes the form without leaving the platform or re-entering information they have already provided.</p>
+        <div style="display:flex;flex-direction:column;gap:10px;margin-top:16px;">
+          <div class="pivot-row" style="background:rgba(239,68,68,0.1);color:#F87171;">
+            <span class="pivot-arrow">📉</span>
+            <div><strong style="display:block;font-size:0.75rem;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:2px;">Before: Landing Page</strong>
+            <span style="font-size:0.88rem;color:rgba(255,255,255,0.6);font-family:'Inter',sans-serif;">Click → new tab → form fill → submit. Drop-off at every step.</span></div>
+          </div>
+          <div class="pivot-row pivot-up">
+            <span class="pivot-arrow">📈</span>
+            <div><strong style="display:block;font-size:0.75rem;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:2px;">After: Lead Gen Form</strong>
+            <span style="font-size:0.88rem;color:rgba(255,255,255,0.6);font-family:'Inter',sans-serif;">Click → pre-filled form → submit. LinkedIn does the work.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════ S6: THE FORM WINS ═══════ -->
+  <div class="slide" id="s6">
+    <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(21,68,184,0.16) 0%,transparent 70%);pointer-events:none;"></div>
+    <div style="display:flex;width:100%;height:100%;align-items:center;padding:60px 80px;gap:60px;position:relative;z-index:5;">
+      <div style="flex:1;display:flex;flex-direction:column;gap:16px;">
+        <div class="tag">The form wins</div>
+        <div class="hero-num">64%</div>
+        <p style="font-size:clamp(1.2rem,2vw,1.8rem);font-weight:800;letter-spacing:-0.02em;color:rgba(255,255,255,0.9);">of all leads came through <em style="color:var(--blue3);font-style:italic;">the native form.</em></p>
+        <p class="scene-p" style="max-width:440px;">64% of all leads came through the native LinkedIn form. Switching from a landing page to Lead Gen Forms increased conversion by capturing leads where the audience was already active, with their contact data pre-filled by LinkedIn automatically.</p>
+        <div style="margin-top:8px;padding:20px 24px;background:rgba(54,180,255,0.08);border:1px solid rgba(54,180,255,0.2);border-radius:16px;border-left:3px solid var(--blue3);">
+          <p style="font-size:0.85rem;color:var(--blue3);font-weight:600;margin-bottom:4px;">What changed</p>
+          <p style="font-size:0.85rem;color:rgba(255,255,255,0.6);font-family:'Inter',sans-serif;line-height:1.6;">When LinkedIn already has the buyer's data, asking them to re-enter it on an external page costs you leads. Removing that step moved the majority of conversions onto the platform where attention and intent were highest.</p>
+        </div>
+      </div>
+      <div style="flex:0 0 auto;display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:300px;">
+        <div class="stat-card" style="--delay:0.3s;"><div class="num">64%</div><div class="label">Via LI form</div></div>
+        <div class="stat-card" style="--delay:0.4s;"><div class="num">36%</div><div class="label">Via landing page</div></div>
+        <div class="stat-card" style="--delay:0.5s;" style="grid-column:span 2;"><div class="num">60</div><div class="label">Total MQLs</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════ S7: FOLLOW-UP SYSTEM ═══════ -->
+  <div class="slide" id="s7">
+    <div style="position:absolute;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(21,68,184,0.12) 0%,transparent 65%);top:50%;left:30%;transform:translate(-50%,-50%);pointer-events:none;"></div>
+    <div class="scene-split">
+      <div class="scene-right" style="order:-1;flex-direction:column;align-items:center;gap:10px;min-width:260px;">
+        <div class="bubble above" style="max-width:230px;text-align:center;">"The campaign generates the lead. The follow-up system is what converts it. Most businesses have one but not the other."</div>
+        <div class="char-wrap">
+          <span class="char-label">Antonio</span>
+          <svg width="160" height="300" viewBox="0 0 100 200" fill="none">
+            <defs><radialGradient id="fa7" cx="42%" cy="35%" r="60%"><stop offset="0%" stop-color="#FDDBA8"/><stop offset="100%" stop-color="#FBCA88"/></radialGradient></defs>
+            <rect x="35" y="155" width="14" height="45" rx="7" fill="#181818"/><rect x="51" y="155" width="14" height="45" rx="7" fill="#111111"/>
+            <path d="M20,103 Q20,89 50,84 Q80,89 80,103 L78,158 L22,158 Z" fill="#3082CC"/>
+            <rect x="43" y="74" width="14" height="18" rx="4" fill="#FBCA88"/>
+            <path d="M22,103 Q6,122 8,154" stroke="#3082CC" stroke-width="17" stroke-linecap="round" fill="none"/><ellipse cx="8" cy="157" rx="9" ry="10" fill="#FBCA88"/>
+            <path d="M78,103 Q94,122 92,154" stroke="#3082CC" stroke-width="17" stroke-linecap="round" fill="none"/><ellipse cx="92" cy="157" rx="9" ry="10" fill="#FBCA88"/>
+            <ellipse cx="14" cy="46" rx="7" ry="10" fill="#E8A860"/><ellipse cx="86" cy="46" rx="7" ry="10" fill="#E8A860"/>
+            <ellipse cx="14" cy="46" rx="4" ry="6.5" fill="#FBCA88"/><ellipse cx="86" cy="46" rx="4" ry="6.5" fill="#FBCA88"/>
+            <ellipse cx="50" cy="42" rx="34" ry="36" fill="url(#fa7)"/>
+            <path d="M15,54 Q12,38 17,10 Q32,2 50,1 Q68,2 83,10 Q88,38 85,54 Q82,20 50,15 Q18,20 15,54 Z" fill="#2C1006"/>
+            <path d="M38,15 Q44,9 50,12 Q56,9 62,15 Q56,11 50,13 Q44,11 38,15 Z" fill="#2C1006"/>
+            <path d="M17,30 Q27,23 38,29" stroke="#2C1006" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <path d="M62,29 Q73,23 83,30" stroke="#2C1006" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <ellipse cx="30" cy="44" rx="9" ry="8.5" fill="white"/><ellipse cx="70" cy="44" rx="9" ry="8.5" fill="white"/>
+            <circle cx="30" cy="44" r="5.5" fill="#2C1608"/><circle cx="70" cy="44" r="5.5" fill="#2C1608"/>
+            <circle cx="30" cy="44" r="3" fill="#0A0604"/><circle cx="70" cy="44" r="3" fill="#0A0604"/>
+            <circle cx="32" cy="42" r="2" fill="white"/><circle cx="72" cy="42" r="2" fill="white"/>
+            <rect x="14" y="33" width="29" height="22" rx="5" fill="rgba(200,230,255,0.18)" stroke="#181008" stroke-width="3.8"/>
+            <rect x="57" y="33" width="29" height="22" rx="5" fill="rgba(200,230,255,0.18)" stroke="#181008" stroke-width="3.8"/>
+            <path d="M43,44 Q50,41 57,44" stroke="#181008" stroke-width="3.2" fill="none"/>
+            <circle cx="45" cy="59" r="3" fill="#E8A860" opacity="0.45"/><circle cx="55" cy="59" r="3" fill="#E8A860" opacity="0.45"/>
+            <path d="M34,64 Q50,75 66,64" stroke="#A05040" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+      <div class="scene-left">
+        <div class="tag">The Follow-up System</div>
+        <h2 class="scene-h">Three stages.<br><em>No lead left cold.</em></h2>
+        <p class="scene-p">A B2B lead goes cold fast. The follow-up system closed the gap between form submission and booked call.</p>
+        <div style="display:flex;flex-direction:column;gap:12px;margin-top:16px;">
+          <div class="pivot-row pivot-up">
+            <span class="pivot-arrow">⚡</span>
+            <div><strong style="display:block;font-size:0.75rem;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:2px;">Stage 1: 90 seconds</strong>
+            <span style="font-size:0.88rem;color:rgba(255,255,255,0.65);font-family:'Inter',sans-serif;">Automated email confirms receipt and delivers verified event ROI data</span></div>
+          </div>
+          <div class="pivot-row pivot-up">
+            <span class="pivot-arrow">🎯</span>
+            <div><strong style="display:block;font-size:0.75rem;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:2px;">Stage 2: 24 hours</strong>
+            <span style="font-size:0.88rem;color:rgba(255,255,255,0.65);font-family:'Inter',sans-serif;">Personalised follow-up from account manager based on lead's company and role</span></div>
+          </div>
+          <div class="pivot-row pivot-up">
+            <span class="pivot-arrow">📞</span>
+            <div><strong style="display:block;font-size:0.75rem;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:2px;">Stage 3: 48 hours</strong>
+            <span style="font-size:0.88rem;color:rgba(255,255,255,0.65);font-family:'Inter',sans-serif;">Phone call if email was opened but not actioned, to move toward a booked call</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════ S8: THE OUTCOME ═══════ -->
+  <div class="slide" id="s8">
+    <div style="position:absolute;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(21,68,184,0.15) 0%,transparent 65%);top:50%;right:-80px;transform:translateY(-50%);pointer-events:none;"></div>
+    <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;height:100%;padding:60px;gap:32px;position:relative;z-index:5;">
+      <div class="tag" style="text-align:center;">The Outcome</div>
+      <h2 style="font-size:clamp(2rem,4vw,3.5rem);font-weight:800;letter-spacing:-0.03em;text-align:center;">A full B2B pipeline.<br><em style="color:var(--blue3);">From one channel.</em></h2>
+      <div class="big-stats" style="max-width:680px;">
+        <div class="bs-card" style="--delay:0.3s;"><div class="bs-num" style="color:var(--blue3);">60</div><div class="bs-label">MQLs generated</div></div>
+        <div class="bs-card" style="--delay:0.4s;"><div class="bs-num" style="color:var(--blue3);">€135,000</div><div class="bs-label">Revenue generated</div></div>
+        <div class="bs-card" style="--delay:0.5s;"><div class="bs-num" style="color:var(--blue3);">4.5×</div><div class="bs-label">Return on ad spend</div></div>
+        <div class="bs-card" style="--delay:0.6s;"><div class="bs-num" style="color:var(--blue3);">€30,000</div><div class="bs-label">Total ad spend</div></div>
+      </div>
+      <p style="font-size:clamp(0.85rem,1.3vw,1rem);color:rgba(255,255,255,0.5);text-align:center;max-width:560px;font-family:'Inter',sans-serif;line-height:1.7;">60 qualified leads at companies with real hiring budgets. Average deal value over €2,200. Every lead routed through a 3-stage follow-up system that ensured none went cold.</p>
+    </div>
+  </div>
+
+  <!-- ═══════ S9: ROAS ═══════ -->
+  <div class="slide" id="s9">
+    <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(21,68,184,0.1) 0%,transparent 70%);pointer-events:none;"></div>
+    <div style="display:flex;width:100%;height:100%;align-items:center;padding:60px 80px;gap:60px;position:relative;z-index:5;">
+      <div style="flex:1;display:flex;flex-direction:column;gap:16px;">
+        <div class="tag">Return on ad spend</div>
+        <div class="hero-num">4.5×</div>
+        <p style="font-size:clamp(1.2rem,2vw,1.8rem);font-weight:800;letter-spacing:-0.02em;color:rgba(255,255,255,0.9);">€1 in. <em style="color:var(--blue3);font-style:italic;">€4.50 out.</em></p>
+        <p class="scene-p" style="max-width:440px;">Every euro spent on LinkedIn ads returned €4.50 in revenue. In B2B, where cost per lead is naturally higher and sales cycles are longer, that result came from precise targeting, a form that removed friction from the conversion, and a follow-up system that converted what the campaign generated.</p>
+      </div>
+      <div style="flex:0 0 auto;display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:340px;">
+        <div class="stat-card" style="--delay:0.3s;"><div class="num">€2,250</div><div class="label">Avg deal value</div></div>
+        <div class="stat-card" style="--delay:0.4s;"><div class="num">60</div><div class="label">MQLs</div></div>
+        <div class="stat-card" style="--delay:0.5s;"><div class="num">64%</div><div class="label">Via LI form</div></div>
+        <div class="stat-card" style="--delay:0.6s;"><div class="num">90s</div><div class="label">Follow-up trigger</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════ S10: EVERY NUMBER ═══════ -->
+  <div class="slide" id="s10">
+    <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 30% 60%,rgba(21,68,184,0.09) 0%,transparent 65%);pointer-events:none;"></div>
+    <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;height:100%;padding:60px;gap:24px;position:relative;z-index:5;">
+      <div class="tag" style="text-align:center;">Every number</div>
+      <h2 style="font-size:clamp(2rem,4vw,3.2rem);font-weight:800;letter-spacing:-0.03em;text-align:center;">tells the same story.</h2>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;width:100%;max-width:720px;margin-top:8px;">
+        <div class="stat-card" style="--delay:0.2s;"><div class="num">€30,000</div><div class="label">Ad spend</div></div>
+        <div class="stat-card" style="--delay:0.3s;"><div class="num">€135,000</div><div class="label">Revenue</div></div>
+        <div class="stat-card" style="--delay:0.4s;"><div class="num">4.5×</div><div class="label">ROAS</div></div>
+        <div class="stat-card" style="--delay:0.5s;"><div class="num">60</div><div class="label">MQLs</div></div>
+        <div class="stat-card" style="--delay:0.6s;"><div class="num">64%</div><div class="label">Via LI form</div></div>
+        <div class="stat-card" style="--delay:0.7s;"><div class="num">€2,250</div><div class="label">Avg deal value</div></div>
+      </div>
+      <p style="font-size:clamp(0.82rem,1.2vw,0.95rem);color:rgba(255,255,255,0.4);text-align:center;max-width:520px;font-family:'Inter',sans-serif;line-height:1.7;margin-top:4px;">Precise LinkedIn targeting, a native form that removed every friction point, and a 3-stage follow-up that closed what the campaign opened. Each decision is visible in the data.</p>
+    </div>
+  </div>
+
+  <!-- ═══════ S11: TAKEAWAY ═══════ -->
+  <div class="slide" id="s11">
+    <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 60% 40%,rgba(21,68,184,0.1) 0%,transparent 70%);pointer-events:none;"></div>
+    <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;height:100%;padding:60px;gap:32px;position:relative;z-index:5;">
+      <div class="tag" style="text-align:center;">The Takeaway</div>
+      <h2 style="font-size:clamp(2.4rem,5vw,4rem);font-weight:800;letter-spacing:-0.03em;text-align:center;line-height:1.05;">
+        Target precisely.<br>
+        Remove the friction.<br>
+        <em style="color:var(--blue3);font-style:italic;">Follow up in 90 seconds.</em>
+      </h2>
+      <p style="font-size:clamp(0.9rem,1.4vw,1.1rem);color:rgba(255,255,255,0.55);text-align:center;max-width:600px;font-family:'Inter',sans-serif;line-height:1.7;">This campaign worked because LinkedIn reached exactly the right buyer, the Lead Gen Form removed the friction a landing page introduced, and the follow-up system converted the leads before they had time to go cold. Change any one of those three and the numbers don't exist.</p>
+      <div style="margin-top:8px;">
+        <div class="char-wrap" style="position:relative;">
+          <svg width="100" height="180" viewBox="0 0 100 200" fill="none">
+            <defs><radialGradient id="fa11" cx="42%" cy="35%" r="60%"><stop offset="0%" stop-color="#FDDBA8"/><stop offset="100%" stop-color="#FBCA88"/></radialGradient></defs>
+            <rect x="35" y="155" width="14" height="45" rx="7" fill="#181818"/><rect x="51" y="155" width="14" height="45" rx="7" fill="#111111"/>
+            <path d="M20,103 Q20,89 50,84 Q80,89 80,103 L78,158 L22,158 Z" fill="#3082CC"/>
+            <rect x="43" y="74" width="14" height="18" rx="4" fill="#FBCA88"/>
+            <path d="M22,103 Q6,122 8,154" stroke="#3082CC" stroke-width="17" stroke-linecap="round" fill="none"/><ellipse cx="8" cy="157" rx="9" ry="10" fill="#FBCA88"/>
+            <path d="M78,103 Q94,122 92,154" stroke="#3082CC" stroke-width="17" stroke-linecap="round" fill="none"/><ellipse cx="92" cy="157" rx="9" ry="10" fill="#FBCA88"/>
+            <ellipse cx="14" cy="46" rx="7" ry="10" fill="#E8A860"/><ellipse cx="86" cy="46" rx="7" ry="10" fill="#E8A860"/>
+            <ellipse cx="14" cy="46" rx="4" ry="6.5" fill="#FBCA88"/><ellipse cx="86" cy="46" rx="4" ry="6.5" fill="#FBCA88"/>
+            <ellipse cx="50" cy="42" rx="34" ry="36" fill="url(#fa11)"/>
+            <path d="M15,54 Q12,38 17,10 Q32,2 50,1 Q68,2 83,10 Q88,38 85,54 Q82,20 50,15 Q18,20 15,54 Z" fill="#2C1006"/>
+            <path d="M38,15 Q44,9 50,12 Q56,9 62,15 Q56,11 50,13 Q44,11 38,15 Z" fill="#2C1006"/>
+            <ellipse cx="30" cy="44" rx="9" ry="8.5" fill="white"/><ellipse cx="70" cy="44" rx="9" ry="8.5" fill="white"/>
+            <circle cx="30" cy="44" r="5.5" fill="#2C1608"/><circle cx="70" cy="44" r="5.5" fill="#2C1608"/>
+            <circle cx="30" cy="44" r="3" fill="#0A0604"/><circle cx="70" cy="44" r="3" fill="#0A0604"/>
+            <circle cx="32" cy="42" r="2" fill="white"/><circle cx="72" cy="42" r="2" fill="white"/>
+            <rect x="14" y="33" width="29" height="22" rx="5" fill="rgba(200,230,255,0.18)" stroke="#181008" stroke-width="3.8"/>
+            <rect x="57" y="33" width="29" height="22" rx="5" fill="rgba(200,230,255,0.18)" stroke="#181008" stroke-width="3.8"/>
+            <path d="M43,44 Q50,41 57,44" stroke="#181008" stroke-width="3.2" fill="none"/>
+            <circle cx="45" cy="59" r="3" fill="#E8A860" opacity="0.45"/><circle cx="55" cy="59" r="3" fill="#E8A860" opacity="0.45"/>
+            <path d="M34,64 Q50,75 66,64" stroke="#A05040" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+          </svg>
+          <span style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:rgba(255,255,255,0.35);margin-top:6px;display:block;text-align:center;">Antonio</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════ S12: CTA ═══════ -->
+  <div class="slide" id="s12">
+    <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(21,68,184,0.12) 0%,transparent 65%);pointer-events:none;"></div>
+    <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;height:100%;padding:60px;gap:24px;position:relative;z-index:5;text-align:center;">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;">
+        <svg width="36" height="36" viewBox="0 0 100 100" fill="none">
+          <circle cx="50" cy="50" r="48" fill="#09141F"/>
+          <path d="M 83,31 A 38,38 0 1,0 83,69" stroke="#4AC8FF" stroke-width="12" stroke-linecap="round" fill="none"/>
+          <path d="M 72,38 A 25,25 0 1,0 72,62" stroke="#2090E0" stroke-width="10" stroke-linecap="round" fill="none"/>
+          <path d="M 62,43 A 14,14 0 1,0 62,57" stroke="#1264D8" stroke-width="8" stroke-linecap="round" fill="none"/>
+        </svg>
+        <span style="font-size:0.75rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:var(--steel);">Streetwise</span>
+        <span style="font-size:0.75rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:rgba(255,255,255,0.3);">Consultancy</span>
+      </div>
+      <h2 style="font-size:clamp(1.6rem,3.5vw,2.8rem);font-weight:800;letter-spacing:-0.02em;line-height:1.1;">Running a B2B LinkedIn campaign?<br><em style="color:var(--blue3);font-style:italic;">Let's talk.</em></h2>
+      <p style="font-size:clamp(0.88rem,1.3vw,1.05rem);color:rgba(255,255,255,0.5);max-width:520px;font-family:'Inter',sans-serif;line-height:1.7;">We build the full system: LinkedIn targeting, Lead Gen Form strategy, follow-up automation, and CRM integration. One connected setup that runs the full acquisition cycle.</p>
+      <div style="display:flex;gap:32px;margin:8px 0;">
+        <div style="text-align:center;"><div style="font-size:1.8rem;font-weight:800;color:var(--blue3);">4.5×</div><div style="font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:4px;">ROAS</div></div>
+        <div style="width:1px;background:rgba(255,255,255,0.1);"></div>
+        <div style="text-align:center;"><div style="font-size:1.8rem;font-weight:800;color:var(--blue3);">60</div><div style="font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:4px;">B2B leads</div></div>
+        <div style="width:1px;background:rgba(255,255,255,0.1);"></div>
+        <div style="text-align:center;"><div style="font-size:1.8rem;font-weight:800;color:var(--blue3);">€135K</div><div style="font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:4px;">Revenue</div></div>
+      </div>
+      <a class="cta-btn" href="https://streetwiseconsultancy.com/enquiry?utm_source=digital_product&utm_medium=case_study&utm_campaign=jobbio_career_fair">Book a Strategy Call →</a>
+      <!-- Antonio and Sean both visible at bottom corners -->
+      <div style="position:absolute;bottom:0;left:48px;pointer-events:none;display:flex;flex-direction:column;align-items:center;">
+        <span style="font-size:0.65rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:rgba(255,255,255,0.35);margin-bottom:4px;">Antonio</span>
+        <svg width="110" height="200" viewBox="0 0 100 200" fill="none">
+          <defs><radialGradient id="fa12" cx="42%" cy="35%" r="60%"><stop offset="0%" stop-color="#FDDBA8"/><stop offset="100%" stop-color="#FBCA88"/></radialGradient></defs>
+          <rect x="35" y="155" width="14" height="45" rx="7" fill="#181818"/><rect x="51" y="155" width="14" height="45" rx="7" fill="#111111"/>
+          <path d="M20,103 Q20,89 50,84 Q80,89 80,103 L78,158 L22,158 Z" fill="#3082CC"/>
+          <rect x="43" y="74" width="14" height="18" rx="4" fill="#FBCA88"/>
+          <path d="M22,103 Q6,122 8,154" stroke="#3082CC" stroke-width="17" stroke-linecap="round" fill="none"/><ellipse cx="8" cy="157" rx="9" ry="10" fill="#FBCA88"/>
+          <path d="M78,103 Q94,122 92,154" stroke="#3082CC" stroke-width="17" stroke-linecap="round" fill="none"/><ellipse cx="92" cy="157" rx="9" ry="10" fill="#FBCA88"/>
+          <ellipse cx="14" cy="46" rx="7" ry="10" fill="#E8A860"/><ellipse cx="86" cy="46" rx="7" ry="10" fill="#E8A860"/>
+          <ellipse cx="14" cy="46" rx="4" ry="6.5" fill="#FBCA88"/><ellipse cx="86" cy="46" rx="4" ry="6.5" fill="#FBCA88"/>
+          <ellipse cx="50" cy="42" rx="34" ry="36" fill="url(#fa12)"/>
+          <path d="M15,54 Q12,38 17,10 Q32,2 50,1 Q68,2 83,10 Q88,38 85,54 Q82,20 50,15 Q18,20 15,54 Z" fill="#2C1006"/>
+          <path d="M38,15 Q44,9 50,12 Q56,9 62,15 Q56,11 50,13 Q44,11 38,15 Z" fill="#2C1006"/>
+          <path d="M17,30 Q27,23 38,29" stroke="#2C1006" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <path d="M62,29 Q73,23 83,30" stroke="#2C1006" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <ellipse cx="30" cy="44" rx="9" ry="8.5" fill="white"/><ellipse cx="70" cy="44" rx="9" ry="8.5" fill="white"/>
+          <circle cx="30" cy="44" r="5.5" fill="#2C1608"/><circle cx="70" cy="44" r="5.5" fill="#2C1608"/>
+          <circle cx="30" cy="44" r="3" fill="#0A0604"/><circle cx="70" cy="44" r="3" fill="#0A0604"/>
+          <circle cx="32" cy="42" r="2" fill="white"/><circle cx="72" cy="42" r="2" fill="white"/>
+          <path d="M21,41 Q30,35 39,41" stroke="#1A0A04" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+          <path d="M61,41 Q70,35 79,41" stroke="#1A0A04" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+          <rect x="14" y="33" width="29" height="22" rx="5" fill="rgba(200,230,255,0.18)" stroke="#181008" stroke-width="3.8"/>
+          <rect x="57" y="33" width="29" height="22" rx="5" fill="rgba(200,230,255,0.18)" stroke="#181008" stroke-width="3.8"/>
+          <path d="M43,44 Q50,41 57,44" stroke="#181008" stroke-width="3.2" fill="none"/>
+          <circle cx="45" cy="59" r="3" fill="#E8A860" opacity="0.45"/><circle cx="55" cy="59" r="3" fill="#E8A860" opacity="0.45"/>
+          <path d="M34,64 Q50,75 66,64" stroke="#A05040" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div style="position:absolute;bottom:0;right:48px;pointer-events:none;display:flex;flex-direction:column;align-items:center;">
+        <span style="font-size:0.65rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:rgba(255,255,255,0.35);margin-bottom:4px;">Sean</span>
+        <svg width="110" height="200" viewBox="0 0 100 200" fill="none">
+          <defs><radialGradient id="fs12b" cx="42%" cy="35%" r="60%"><stop offset="0%" stop-color="#FDDBA8"/><stop offset="100%" stop-color="#FBCA88"/></radialGradient></defs>
+          <rect x="35" y="155" width="14" height="45" rx="7" fill="#0E1A24"/><rect x="51" y="155" width="14" height="45" rx="7" fill="#121E2A"/>
+          <path d="M20,103 Q20,89 50,84 Q80,89 80,103 L78,158 L22,158 Z" fill="#1C3858"/>
+          <path d="M38,84 Q50,96 62,84 L60,132 Q50,138 40,132 Z" fill="#C4D8EC"/>
+          <path d="M38,84 L21,112 L22,142 L40,126 Z" fill="#12263A"/>
+          <path d="M62,84 L79,112 L78,142 L60,126 Z" fill="#12263A"/>
+          <rect x="43" y="74" width="14" height="18" rx="4" fill="#FBCA88"/>
+          <path d="M22,103 Q6,122 8,154" stroke="#1C3858" stroke-width="17" stroke-linecap="round" fill="none"/><ellipse cx="8" cy="157" rx="9" ry="10" fill="#FBCA88"/>
+          <path d="M78,103 Q94,122 92,154" stroke="#1C3858" stroke-width="17" stroke-linecap="round" fill="none"/><ellipse cx="92" cy="157" rx="9" ry="10" fill="#FBCA88"/>
+          <ellipse cx="14" cy="46" rx="7" ry="10" fill="#E8A860"/><ellipse cx="86" cy="46" rx="7" ry="10" fill="#E8A860"/>
+          <ellipse cx="14" cy="46" rx="4" ry="6.5" fill="#FBCA88"/><ellipse cx="86" cy="46" rx="4" ry="6.5" fill="#FBCA88"/>
+          <ellipse cx="50" cy="42" rx="34" ry="36" fill="url(#fs12b)"/>
+          <path d="M15,54 Q12,38 17,10 Q32,2 50,1 Q68,2 83,10 Q88,38 85,54 Q82,20 50,15 Q18,20 15,54 Z" fill="#7A3414"/>
+          <ellipse cx="30" cy="44" rx="9" ry="8.5" fill="white"/><ellipse cx="70" cy="44" rx="9" ry="8.5" fill="white"/>
+          <circle cx="30" cy="44" r="6" fill="#4A80C8"/><circle cx="70" cy="44" r="6" fill="#4A80C8"/>
+          <circle cx="30" cy="44" r="3.5" fill="#0A1420"/><circle cx="70" cy="44" r="3.5" fill="#0A1420"/>
+          <circle cx="32" cy="42" r="2" fill="white"/><circle cx="72" cy="42" r="2" fill="white"/>
+          <path d="M32,65 Q50,80 68,65 Q66,75 50,78 Q34,75 32,65 Z" fill="#7A2820"/>
+          <path d="M34,66 Q50,78 66,66 Q64,74 50,76 Q36,74 34,66 Z" fill="#FFFEF4"/>
+          <path d="M32,65 Q50,69 68,65" stroke="#A03820" stroke-width="2" fill="none" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <p style="font-size:0.7rem;color:rgba(255,255,255,0.2);letter-spacing:0.06em;margin-top:12px;">streetwiseconsultancy.com · Dublin, Ireland</p>
+    </div>
+  </div>
+
+</div>
+
+<button id="nav-prev" class="hidden">←</button>
+<button id="nav-next">→</button>
+<div id="progress"></div>
+<div id="hint"><span class="kbd">←</span><span class="kbd">→</span> navigate</div>
+
+<script>
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const total  = slides.length;
+  let   cur    = 0;
+  const prog   = document.getElementById('progress');
+  slides.forEach((_,i) => {
+    const d = document.createElement('div');
+    d.className = 'dot' + (i===0?' active':'');
+    d.addEventListener('click', () => goTo(i));
+    prog.appendChild(d);
+  });
+  function goTo(n) {
+    if (n<0||n>=total||n===cur) return;
+    slides[cur].classList.remove('active'); slides[cur].classList.add('exiting');
+    const prev=cur; cur=n; slides[cur].classList.add('active');
+    setTimeout(()=>slides[prev].classList.remove('exiting'),500);
+    document.querySelectorAll('.dot').forEach((d,i)=>d.classList.toggle('active',i===cur));
+    document.getElementById('nav-prev').classList.toggle('hidden',cur===0);
+    document.getElementById('nav-next').style.opacity=cur===total-1?'0.35':'1';
+    if(cur>0) document.getElementById('hint').style.opacity='0';
+  }
+    document.getElementById('nav-prev').addEventListener('click',()=>goTo(cur-1));
+    document.getElementById('nav-next').addEventListener('click',()=>goTo(cur+1));
+    document.addEventListener('keydown',e=>{
+      if(e.key==='ArrowRight'||e.key==='ArrowDown') goTo(cur+1);
+      if(e.key==='ArrowLeft'||e.key==='ArrowUp')   goTo(cur-1);
+    });
+    let tx=0, ty=0;
+    document.addEventListener('touchstart',e=>{tx=e.touches[0].clientX;ty=e.touches[0].clientY;},{passive:true});
+    document.addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-tx; const dy=e.changedTouches[0].clientY-ty; if(Math.abs(dx)>60 && Math.abs(dx)>Math.abs(dy)*1.5)goTo(dx<0?cur+1:cur-1);},{passive:true});
+</script>
+</body>
+</html>
