@@ -19,7 +19,7 @@ import {
   SearchInput,
 } from './Resources.styles';
 
-const INSIGHTS_CANONICAL = 'https://carusomartech.com/resources/insights/';
+const INSIGHTS_CANONICAL = 'https://carusomartech.com/insights/';
 
 function formatDate(date: string): string {
   return new Date(`${date}T00:00:00`).toLocaleDateString('en-US', {
@@ -101,7 +101,7 @@ export function InsightsPage(): JSX.Element {
         ) : (
           <ResourceGrid>
             {filteredResources.map((resource) => (
-              <ResourceCard key={resource.slug} to={`/resources/insights/${resource.slug}`}>
+              <ResourceCard key={resource.slug} to={`/insights/${resource.slug}`}>
                 <ResourceMeta>
                   {resource.category} • {formatDate(resource.date)}
                 </ResourceMeta>

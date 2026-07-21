@@ -27,9 +27,8 @@ const STATIC_ROUTES = [
   '/',
   '/work',
   '/services',
+  '/insights',
   '/privacy-policy',
-  '/resources',
-  '/resources/insights',
 ];
 
 // ─── helpers ────────────────────────────────────────────────────────────────
@@ -84,12 +83,11 @@ function buildSitemap(resources) {
     { loc: `${siteUrl}/`,                      changefreq: 'weekly',  priority: '1.0' },
     { loc: `${siteUrl}/work/`,                 changefreq: 'monthly', priority: '0.9' },
     { loc: `${siteUrl}/services/`,             changefreq: 'monthly', priority: '0.9' },
-    { loc: `${siteUrl}/resources/`,            changefreq: 'weekly',  priority: '0.8' },
-    { loc: `${siteUrl}/resources/insights/`,   changefreq: 'weekly',  priority: '0.8' },
+    { loc: `${siteUrl}/insights/`,              changefreq: 'weekly',  priority: '0.8' },
     { loc: `${siteUrl}/privacy-policy/`,       changefreq: 'yearly',  priority: '0.3' },
   ];
   const resourceUrls = resources.map((r) => ({
-    loc:        `${siteUrl}/resources/insights/${r.slug}/`,
+    loc:        `${siteUrl}/insights/${r.slug}/`,
     lastmod:    r.lastUpdated,
     changefreq: 'monthly',
     priority:   '0.7',
@@ -133,7 +131,7 @@ async function run() {
   const resources = await getResources();
   const routes = [
     ...STATIC_ROUTES,
-    ...resources.map((r) => `/resources/insights/${r.slug}`),
+    ...resources.map((r) => `/insights/${r.slug}`),
   ];
 
   // 5. Render each route

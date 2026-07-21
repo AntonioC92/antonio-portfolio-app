@@ -14,7 +14,7 @@ Marketing automation works best when it starts from a very ordinary question: wh
 
 That is why the strongest automation projects in 2026 feel less like software rollouts and more like operations cleanups. The technology matters, but the order matters more: first, you define the workflow, then you automate the parts that are repetitive, fragile, or expensive to get wrong.
 
-If you are working through this transition, align priorities with [the modern marketing system foundation](/resources/insights/modern-marketing-system-2025) and the [Fractional CMO operating model](/resources/insights/future-fractional-cmo-operating-builder) before you automate anything.
+If you are working through this transition, align priorities with [the modern marketing system foundation](/insights/modern-marketing-system-2025) and the [Fractional CMO operating model](/insights/future-fractional-cmo-operating-builder) before you automate anything.
 
 ## Quick answer: what marketing workflow automation means in 2026
 
@@ -76,7 +76,7 @@ A practical attribution workflow should include:
 - touchpoint classification into a shared funnel model
 - exports built for weekly and monthly decision reviews
 
-The underlying measurement principles are explored in [this attribution framework](/resources/insights/attribution-challenges-2025), but the key idea is simple: automation makes judgment more useful because the inputs are cleaner.
+The underlying measurement principles are explored in [this attribution framework](/insights/attribution-challenges-2025), but the key idea is simple: automation makes judgment more useful because the inputs are cleaner.
 
 ## A realistic example
 

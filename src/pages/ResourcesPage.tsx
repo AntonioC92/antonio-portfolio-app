@@ -60,7 +60,7 @@ export function ResourcesPage(): JSX.Element {
             {INSIGHT_CATEGORIES.map((category) => (
               <CategoryCard
                 key={category}
-                to={`/resources/insights/?category=${encodeURIComponent(category)}`}
+                to={`/insights/?category=${encodeURIComponent(category)}`}
               >
                 <CategoryTitle>{category}</CategoryTitle>
                 <CategoryDescription>View insights in this category</CategoryDescription>
@@ -73,7 +73,7 @@ export function ResourcesPage(): JSX.Element {
           <ResourceSectionHeader>Latest Insights</ResourceSectionHeader>
           <ResourceGrid>
             {latestInsights.map((resource) => (
-              <ResourceCard key={resource.slug} to={`/resources/insights/${resource.slug}/`}>
+              <ResourceCard key={resource.slug} to={`/insights/${resource.slug}/`}>
                 <ResourceMeta>
                   {resource.category} • {formatDate(resource.date)}
                 </ResourceMeta>
@@ -86,7 +86,7 @@ export function ResourcesPage(): JSX.Element {
 
         <HubSection>
           <ResourceSectionHeader>Start here</ResourceSectionHeader>
-          <StartHereCard to={`/resources/insights/${foundationalSlug}/`}>
+          <StartHereCard to={`/insights/${foundationalSlug}/`}>
             <StartHereTitle>What a Modern Marketing System Actually Looks Like in 2026</StartHereTitle>
             <ResourceDescription>
               Start with the foundational model for data, workflow, channel execution, and measurement governance.

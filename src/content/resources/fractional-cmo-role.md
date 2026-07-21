@@ -16,7 +16,7 @@ That shift matters because many businesses no longer have a strategy problem in 
 
 In that environment, the most effective Fractional CMO does more than advise from a distance. The role becomes much more valuable when it includes diagnosing constraints, installing structure, and helping the business operate with clearer accountability.
 
-If you are mapping this role in your own business, evaluate where the model should move from advisory to direct operating ownership using [this marketing systems blueprint](/resources/insights/modern-marketing-system-2025).
+If you are mapping this role in your own business, evaluate where the model should move from advisory to direct operating ownership using [this marketing systems blueprint](/insights/modern-marketing-system-2025).
 
 ## Quick answer: what a Fractional CMO should do in 2026
 
@@ -78,7 +78,7 @@ A system only matters if the business keeps using it. That is why the role incre
 - monthly funnel and forecast discussions with leadership
 - quarterly reprioritization based on evidence
 
-If you want a companion framework for implementation sequencing, [this automation workflow guide](/resources/insights/automating-marketing-workflows) expands the technical layer.
+If you want a companion framework for implementation sequencing, [this automation workflow guide](/insights/automating-marketing-workflows) expands the technical layer.
 
 ## A realistic example
 
@@ -129,6 +129,6 @@ That is where the model becomes genuinely powerful. Fractional should describe t
 
 The Fractional CMO role is becoming more practical, more operational, and more valuable for businesses that need measurable progress without adding heavy overhead. In 2026, the strongest version of the role combines strategy with system design and active operating rhythm.
 
-If you are reviewing your own growth model, map leadership accountability against [attribution decision quality](/resources/insights/attribution-challenges-2025) before scaling investment.
+If you are reviewing your own growth model, map leadership accountability against [attribution decision quality](/insights/attribution-challenges-2025) before scaling investment.
 
 For a deeper look at [how the fractional CMO role is evolving](https://fractionalcmoz.com/fractional-cmo-playbook/cmo-insights/future-of-fractional-cmo/), this trend continues to center on operational ownership.

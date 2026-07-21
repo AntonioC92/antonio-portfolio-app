@@ -4,9 +4,7 @@ import { AboutSection } from '../containers/AboutSection';
 import { Contact } from '../containers/Contact/index.tsx';
 import { HeroSection } from '../containers/HeroSection';
 import { ImpactSection } from '../containers/ImpactSection';
-import { PortfolioSection } from '../containers/PortfolioSection.tsx';
 import { StackSection } from '../containers/StackSection';
-import { TestimonialSection } from '../containers/TestimonialSection/index.tsx';
 import { WhatIDoBestSection } from '../containers/WhatIDoBestSection';
 
 export function LandingPage(): JSX.Element {
@@ -25,8 +23,6 @@ export function LandingPage(): JSX.Element {
       <WhatIDoBestSection />
       <ImpactSection />
       <StackSection />
-      <PortfolioSection />
-      <TestimonialSection />
       <Contact />
     </Layout>
   );

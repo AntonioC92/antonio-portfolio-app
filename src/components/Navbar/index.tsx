@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, type KeyboardEvent as ReactKeyboardEvent } from 'react';
+import { useEffect, useState } from 'react';
 import { Button } from '../Button';
 import {
   StyledNavbar,
@@ -9,16 +9,11 @@ import {
   NavAction,
   MobileNav,
   MobileNavLinks,
-  MobileSubNav,
-  MobileSubNavLink,
   MobileAuthButtons,
   Backdrop,
   StyledAuthButtons,
   StyledNavContainer,
   StyledContainer,
-  NavDropdown,
-  NavDropdownLink,
-  NavDropdownMenu,
 } from './styles';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { StyledSocialIconContainer, StyledSocialIcon } from '../Footer/styles';
@@ -29,15 +24,12 @@ const menu = [
   { name: 'About', slug: 'about' },
   { name: 'Services', path: '/services' },
   { name: 'Work', path: '/work' },
-  { name: 'Portfolio', slug: 'portfolio' },
-  { name: 'Testimonials', slug: 'testimonials' },
+  { name: 'Insights', path: '/insights' },
 ];
 
 export function Navbar(): JSX.Element {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [resourcesOpen, setResourcesOpen] = useState(false);
-  const closeDropdownTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -71,66 +63,7 @@ export function Navbar(): JSX.Element {
   useEffect(() => {
     const hash = location.hash.replace('#', '');
     if (hash) scrollToSection(hash);
-    setResourcesOpen(false);
   }, [location]);
-
-  useEffect(() => {
-    return () => {
-      if (closeDropdownTimeoutRef.current) {
-        clearTimeout(closeDropdownTimeoutRef.current);
-      }
-    };
-  }, []);
-
-  useEffect(() => {
-    const handleEscapeClose = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') {
-        setResourcesOpen(false);
-      }
-    };
-
-    if (resourcesOpen) {
-      window.addEventListener('keydown', handleEscapeClose);
-    }
-
-    return () => {
-      window.removeEventListener('keydown', handleEscapeClose);
-    };
-  }, [resourcesOpen]);
-
-  const clearDropdownCloseTimeout = () => {
-    if (closeDropdownTimeoutRef.current) {
-      clearTimeout(closeDropdownTimeoutRef.current);
-      closeDropdownTimeoutRef.current = null;
-    }
-  };
-
-  const openResourcesDropdown = () => {
-    clearDropdownCloseTimeout();
-    setResourcesOpen(true);
-  };
-
-  const closeResourcesDropdownWithDelay = () => {
-    clearDropdownCloseTimeout();
-    closeDropdownTimeoutRef.current = setTimeout(() => {
-      setResourcesOpen(false);
-    }, 200);
-  };
-
-  const handleResourcesTriggerKeyDown = (
-    event: ReactKeyboardEvent<HTMLButtonElement>
-  ) => {
-    if (event.key === 'Enter' || event.key === ' ') {
-      event.preventDefault();
-      clearDropdownCloseTimeout();
-      setResourcesOpen((prev) => !prev);
-      return;
-    }
-
-    if (event.key === 'Escape') {
-      setResourcesOpen(false);
-    }
-  };
 
   const scrollToSection = (slug: string) => {
     const section = document.getElementById(slug);
@@ -149,48 +82,10 @@ export function Navbar(): JSX.Element {
             </StyledLogo>
             <StyledNavLinks>
               {menu.map((link, idx) => (
-                <NavItem
-                  key={idx}
-                >
+                <NavItem key={idx}>
                   <NavAction onClick={() => handleMenuClick(link)}>{link.name}</NavAction>
                 </NavItem>
               ))}
-              <NavDropdown
-                onMouseEnter={openResourcesDropdown}
-                onMouseLeave={closeResourcesDropdownWithDelay}
-              >
-                <NavAction
-                  aria-haspopup="menu"
-                  aria-expanded={resourcesOpen}
-                  onClick={() => {
-                    clearDropdownCloseTimeout();
-                    setResourcesOpen((prev) => !prev);
-                  }}
-                  onMouseEnter={openResourcesDropdown}
-                  onKeyDown={handleResourcesTriggerKeyDown}
-                >
-                  Resources
-                </NavAction>
-                {resourcesOpen ? (
-                  <NavDropdownMenu
-                    role="menu"
-                    onMouseEnter={openResourcesDropdown}
-                  >
-                    <li>
-                      <NavDropdownLink
-                        role="menuitem"
-                        to="/resources/insights"
-                        onClick={() => {
-                          clearDropdownCloseTimeout();
-                          setResourcesOpen(false);
-                        }}
-                      >
-                        Insights
-                      </NavDropdownLink>
-                    </li>
-                  </NavDropdownMenu>
-                ) : null}
-              </NavDropdown>
             </StyledNavLinks>
           </StyledNavContainer>
           <StyledAuthButtons>
@@ -224,24 +119,6 @@ export function Navbar(): JSX.Element {
               <NavAction onClick={() => handleMenuClick(link)}>{link.name}</NavAction>
             </NavItem>
           ))}
-          <NavItem>
-            <NavAction onClick={() => setResourcesOpen((prev) => !prev)}>
-              Resources
-            </NavAction>
-            {resourcesOpen ? (
-              <MobileSubNav>
-                <MobileSubNavLink
-                  onClick={() => {
-                    navigate('/resources/insights');
-                    setMenuOpen(false);
-                    setResourcesOpen(false);
-                  }}
-                >
-                  Insights
-                </MobileSubNavLink>
-              </MobileSubNav>
-            ) : null}
-          </NavItem>
         </MobileNavLinks>
         <MobileAuthButtons>
           <Button onClick={() => navigate('/#contact')}>Contact</Button>

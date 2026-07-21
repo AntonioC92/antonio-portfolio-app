@@ -14,7 +14,7 @@ A modern marketing system is the structure that helps a team turn activity into 
 
 That is why companies can invest heavily in software and still feel disorganized. Campaign planning happens in one platform, lead routing in another, reporting somewhere else, and nobody has a clean view of the journey from first touch to revenue. The result is usually a business that is busy, but not especially coordinated.
 
-If your team is rebuilding this foundation, align leadership ownership with [the Fractional CMO operating model](/resources/insights/future-fractional-cmo-operating-builder) and then define exactly how your operating cadence maps to execution.
+If your team is rebuilding this foundation, align leadership ownership with [the Fractional CMO operating model](/insights/future-fractional-cmo-operating-builder) and then define exactly how your operating cadence maps to execution.
 
 ## Quick answer: what a modern marketing system includes
 
@@ -83,7 +83,7 @@ The measurement layer turns activity into decision-ready insight. That usually i
 - attribution methods that match the business's maturity
 - leadership reporting with clear stop, scale, and adjust decisions
 
-For attribution depth, [this companion article on attribution challenges and practical measurement](/resources/insights/attribution-challenges-2025) is a useful next read.
+For attribution depth, [this companion article on attribution challenges and practical measurement](/insights/attribution-challenges-2025) is a useful next read.
 
 ## What this looks like in practice
 
@@ -160,6 +160,6 @@ That is usually enough to create measurable operational lift without overwhelmin
 
 In 2026, marketing advantage comes from building a system the business can trust. When data, workflow, execution, and measurement are connected, teams move faster, waste less effort, and make better decisions.
 
-If your growth model feels fragmented, rebuild the architecture before scaling effort. Use [automation workflow standards](/resources/insights/automating-marketing-workflows) to stabilize execution before scaling effort.
+If your growth model feels fragmented, rebuild the architecture before scaling effort. Use [automation workflow standards](/insights/automating-marketing-workflows) to stabilize execution before scaling effort.
 
 You can see a similar framing in this piece on [what a modern marketing system looks like](https://dwightdavisconsulting.com/blog/what-a-modern-marketing-system-actually-looks-like-in-2025/), especially around process ownership and governance.

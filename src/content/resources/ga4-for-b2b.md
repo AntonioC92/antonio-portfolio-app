@@ -14,7 +14,7 @@ Last-click attribution still appears in a lot of dashboards because it is easy t
 
 That is why most teams do not need a fantasy version of perfect attribution. They need a version that is steady enough to support better budget decisions, clearer channel reviews, and more honest conversations about what is driving pipeline.
 
-If you are upgrading your model, connect measurement reviews to [your marketing system design](/resources/insights/modern-marketing-system-2025) and [automation workflow quality](/resources/insights/automating-marketing-workflows) before changing budget logic.
+If you are upgrading your model, connect measurement reviews to [your marketing system design](/insights/modern-marketing-system-2025) and [automation workflow quality](/insights/automating-marketing-workflows) before changing budget logic.
 
 ## Quick answer: what good attribution looks like in 2026
 
@@ -139,6 +139,6 @@ That kind of focused cleanup often improves decision confidence faster than anot
 
 Attribution in 2026 is less about certainty and more about useful confidence. Teams make better decisions when implementation is clean, reporting is aligned to the business, and measurement methods are chosen to support the right level of decision.
 
-If your team is still making budget calls on incomplete or inconsistent signals, fix measurement hygiene first, then improve modelling. Align leadership ownership with [the Fractional CMO operating model](/resources/insights/future-fractional-cmo-operating-builder) to keep decisions consistent.
+If your team is still making budget calls on incomplete or inconsistent signals, fix measurement hygiene first, then improve modelling. Align leadership ownership with [the Fractional CMO operating model](/insights/future-fractional-cmo-operating-builder) to keep decisions consistent.
 
 This point is also reflected in practical coverage of [marketing attribution challenges in 2025](https://brandbooster.ai/blog/navigating-the-complexities-overcoming-key-marketing-attribution-challenges-in-2025/), especially around signal quality and implementation hygiene.

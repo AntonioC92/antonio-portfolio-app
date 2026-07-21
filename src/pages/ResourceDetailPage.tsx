@@ -47,19 +47,19 @@ export function ResourceDetailPage(): JSX.Element {
         <Seo
           title="Resource Not Found | Antonio Caruso"
           description="The requested resource could not be found."
-          canonical={`${SITE_URL}/resources/insights/`}
-          ogUrl={`${SITE_URL}/resources/insights/`}
+          canonical={`${SITE_URL}/insights/`}
+          ogUrl={`${SITE_URL}/insights/`}
         />
         <NotFoundWrap>
           <h1>Resource not found</h1>
           <p>The resource you requested is not available.</p>
-          <BackLink to="/resources/insights/">Back to Insights</BackLink>
+          <BackLink to="/insights/">Back to Insights</BackLink>
         </NotFoundWrap>
       </Layout>
     );
   }
 
-  const canonical = `${SITE_URL}/resources/insights/${resource.slug}/`;
+  const canonical = `${SITE_URL}/insights/${resource.slug}/`;
   const socialImage = `${SITE_URL}/og/${resource.slug}.svg`;
   const relatedResources = getRelatedResources(resource, 3);
   const articleStructuredData = {
@@ -128,7 +128,7 @@ export function ResourceDetailPage(): JSX.Element {
         </ArticleAuthorLine>
         <ArticleMeta>
           Published {formatDate(resource.date)} · Updated {formatDate(resource.lastUpdated)} ·{' '}
-            <MetaLink to={`/resources/insights/?category=${encodeURIComponent(resource.category)}`}>
+            <MetaLink to={`/insights/?category=${encodeURIComponent(resource.category)}`}>
               {resource.category}
             </MetaLink>
         </ArticleMeta>
@@ -159,7 +159,7 @@ export function ResourceDetailPage(): JSX.Element {
           <RelatedTitle>Related insights</RelatedTitle>
           <RelatedList>
             {relatedResources.map((related) => (
-              <ResourceCard key={related.slug} to={`/resources/insights/${related.slug}/`}>
+              <ResourceCard key={related.slug} to={`/insights/${related.slug}/`}>
                 <ResourceMeta>
                   {related.category} • {formatDate(related.date)}
                 </ResourceMeta>
@@ -184,7 +184,7 @@ export function ResourceDetailPage(): JSX.Element {
         </SignatureSection>
 
         <BackLinkRow>
-          <BackLink to="/resources/insights/">Back to all insights</BackLink>
+          <BackLink to="/insights/">Back to all insights</BackLink>
         </BackLinkRow>
       </ArticleWrap>
     </Layout>

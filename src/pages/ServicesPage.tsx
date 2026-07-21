@@ -1,5 +1,6 @@
 import { Layout } from '../components/Layout/Layout';
 import { Seo } from '../components/Seo';
+import { TestimonialSection } from '../containers/TestimonialSection/index.tsx';
 import {
   ServicesWrapper,
   ServicesHeader,
@@ -133,6 +134,8 @@ export function ServicesPage(): JSX.Element {
             ))}
           </EngagementGrid>
         </EngagementSection>
+
+        <TestimonialSection />
 
         <CtaSection>
           <CtaText>
