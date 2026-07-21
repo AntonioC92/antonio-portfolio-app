@@ -1,9 +1,8 @@
-import { AboutWrapper } from '../AboutSection/styles';
-import { SectionInner, SectionTitle } from '../WhatIDoBestSection/styles';
 import {
   StyledStackSection,
-  StackWrapper,
-  LogoGrid,
+  SectionHeader,
+  SectionTitle,
+  Track,
   LogoItem,
   LogoImg,
 } from './styles';
@@ -17,35 +16,33 @@ import mailchimp from '../../assets/stack/mailchimp.png';
 import semrush from '../../assets/stack/semrush.png';
 import wordpress from '../../assets/stack/wordpress.png';
 
-const allLogos = [
-  salesforce,
-  hubspot,
-  google,
-  meta,
-  linkedin,
-  mailchimp,
-  semrush,
-  wordpress,
+const logos = [
+  { src: salesforce, alt: 'Salesforce Pardot' },
+  { src: hubspot, alt: 'HubSpot' },
+  { src: google, alt: 'Google Marketing Platform' },
+  { src: meta, alt: 'Meta Ads' },
+  { src: linkedin, alt: 'LinkedIn Ads' },
+  { src: mailchimp, alt: 'Mailchimp' },
+  { src: semrush, alt: 'SEMrush' },
+  { src: wordpress, alt: 'WordPress' },
 ];
+
+const doubled = [...logos, ...logos];
 
 export function StackSection(): JSX.Element {
   return (
     <StyledStackSection>
-      <AboutWrapper>
-        <SectionInner>
-          <SectionTitle>MarTech Stack</SectionTitle>
+      <SectionHeader>
+        <SectionTitle>MarTech Stack</SectionTitle>
+      </SectionHeader>
 
-          <StackWrapper>
-            <LogoGrid>
-              {allLogos.map((logo, i) => (
-                <LogoItem key={i}>
-                  <LogoImg src={logo} alt="Tech logo" />
-                </LogoItem>
-              ))}
-            </LogoGrid>
-          </StackWrapper>
-        </SectionInner>
-      </AboutWrapper>
+      <Track aria-label="MarTech tools we work with">
+        {doubled.map((logo, i) => (
+          <LogoItem key={i}>
+            <LogoImg src={logo.src} alt={logo.alt} />
+          </LogoItem>
+        ))}
+      </Track>
     </StyledStackSection>
   );
 }
