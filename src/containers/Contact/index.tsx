@@ -150,7 +150,7 @@ export function Contact(): JSX.Element {
   return (
     <StyledLeadGenSection id="contact">
       <StyledHeader>Not sure where to start?</StyledHeader>
-      <StyledsubHeader>Let's talk. I'll help you shape your marketing journey</StyledsubHeader>
+      <StyledsubHeader>Let's talk. We'll help you shape your marketing journey.</StyledsubHeader>
 
       <StyledContainer>
         {/* CONTACT FORM */}

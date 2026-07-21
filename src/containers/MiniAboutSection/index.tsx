@@ -53,13 +53,10 @@ export function MiniAboutSection(): JSX.Element {
       <Inner>
         <Quote>
           Caruso Martech is a <Accent>founder-led boutique</Accent> marketing
-          consultancy. A decade of hands-on senior strategy and execution —
-          building growth systems across SaaS, events, ecommerce, and
-          professional services that generated over{' '}
-          <Accent>€200,000 in attributed revenue</Accent>, 500+ qualified
-          leads, and ROAS as high as <Accent>15.5x</Accent>. Senior expertise
-          on every engagement, delivered directly — no junior handoffs, no
-          account managers between you and the work.
+          consultancy. A decade of hands-on marketing leadership across global
+          SaaS, events, ecommerce, and professional services: building the
+          systems, running the campaigns, and owning the numbers that actually
+          move businesses forward.
         </Quote>
         <LearnMore onClick={() => navigate('/about')}>
           About Caruso Martech &rarr;
