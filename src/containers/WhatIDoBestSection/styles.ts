@@ -22,7 +22,9 @@ export const Column = styled.div`
   flex: 1 1 300px;
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 `;
 
 export const Title = styled.h3`
@@ -37,14 +39,20 @@ export const SubTitle = styled.p`
   margin-bottom: 1.5rem;
 `;
 
-export const ToggleButton = styled.button`
+export const ServiceLink = styled.button`
   background: none;
   border: none;
   color: ${colors.primary};
-  font-weight: bold;
+  font-weight: 600;
   cursor: pointer;
-  margin-bottom: 1rem;
-  font-size: 1rem;
+  font-size: 0.95rem;
+  padding: 0;
+  margin-top: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: opacity 0.2s;
+  &:hover { opacity: 0.75; }
 `;
 
 export const StepsWrapper = styled.div<{ expanded: boolean }>`
