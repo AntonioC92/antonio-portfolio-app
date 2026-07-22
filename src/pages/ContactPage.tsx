@@ -9,7 +9,7 @@ export function ContactPage(): JSX.Element {
     <Layout>
       <Seo
         title="Contact | Caruso Martech"
-        description="Get in touch to discuss your marketing challenges. Book a call or send a message — we'll respond within 24 hours."
+        description="Get in touch to discuss your marketing challenges. Book a call or send a message. We'll respond within 24 hours."
         canonical={CONTACT_CANONICAL}
         ogUrl={CONTACT_CANONICAL}
         ogImage="https://carusomartech.com/preview.png"

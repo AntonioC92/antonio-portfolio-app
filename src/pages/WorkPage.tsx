@@ -24,7 +24,7 @@ export function WorkPage(): JSX.Element {
     <Layout>
       <Seo
         title="Work | Caruso Martech"
-        description="Case studies from paid media campaigns across events, B2B, coaching, and recreation verticals — delivering measurable ROAS and lead generation results."
+        description="Case studies from paid media campaigns across events, B2B, coaching, and recreation verticals, delivering measurable ROAS and lead generation results."
         canonical={WORK_CANONICAL}
         ogUrl={WORK_CANONICAL}
         ogImage="https://carusomartech.com/preview.png"

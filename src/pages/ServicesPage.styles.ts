@@ -69,7 +69,6 @@ export const ServiceDesc = styled.p`
   color: rgba(255, 255, 255, 0.78);
   font-size: 0.93rem;
   line-height: 1.65;
-  flex: 1;
 `;
 
 export const ServiceList = styled.ul`

@@ -70,13 +70,13 @@ const services = [
 const engagements = [
   {
     type: 'Retainer',
-    title: 'Embedded Marketing Leadership',
-    desc: 'Ongoing senior marketing leadership embedded in your team. Typically 2–4 days per month. Covers strategy, execution oversight, team alignment, and reporting cadence.',
+    title: 'Ongoing Marketing Leadership',
+    desc: 'Senior marketing leadership that works directly alongside your business. Typically 2–4 days per month. Covers strategy, execution oversight, team alignment, and reporting cadence.',
   },
   {
     type: 'Project',
     title: 'Defined Scope Engagement',
-    desc: 'Fixed-scope work with clear deliverables and timelines — ideal for audits, campaign builds, funnel builds, or go-to-market launches.',
+    desc: 'Fixed-scope work with clear deliverables and timelines, ideal for audits, campaign builds, funnel builds, or go-to-market launches.',
   },
 ];
 
@@ -96,7 +96,7 @@ export function ServicesPage(): JSX.Element {
         <ServicesHeader>
           <ServicesTitle>Services</ServicesTitle>
           <ServicesSubtitle>
-            We partner with founders and leadership teams — bringing senior marketing
+            We partner with founders and leadership teams, bringing senior marketing
             strategy and hands-on execution without the overhead of a full-time hire.
           </ServicesSubtitle>
         </ServicesHeader>

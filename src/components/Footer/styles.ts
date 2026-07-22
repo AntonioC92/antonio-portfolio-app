@@ -16,7 +16,7 @@ export const StyledSectionWrapper = styled.div`
 `;
 
 export const StyledFooterSection = styled.section`
-  background: #ffc3b6;
+  background: linear-gradient(150deg, #ffb8a6 0%, #ff9b82 100%);
   display: flex;
   align-items: center;
   border-radius: 14px 14px 0 0;

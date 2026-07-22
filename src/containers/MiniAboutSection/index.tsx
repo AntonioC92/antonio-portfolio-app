@@ -44,6 +44,14 @@ const Body = styled.p`
   margin-bottom: 1.25rem;
 `;
 
+const BridgeLine = styled.p`
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.55);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  font-style: italic;
+`;
+
 const ProblemList = styled.ul`
   list-style: none;
   padding: 0;
@@ -103,6 +111,8 @@ export function MiniAboutSection(): JSX.Element {
         <Headline>
           Most marketing problems are not strategy problems. They are systems problems.
         </Headline>
+
+        <BridgeLine>The pattern shows up the same way every time:</BridgeLine>
 
         <ProblemList>
           <ProblemItem>Campaigns running in silos</ProblemItem>

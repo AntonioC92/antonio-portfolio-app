@@ -1,118 +1,171 @@
+import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useInView } from 'react-intersection-observer';
-import { SectionTitle } from '../WhatIDoBestSection/styles';
+import photo from '../../assets/avatar.png';
 import {
-  AboutWrapper,
-  Content,
-  Photo,
-  Heading,
-  SubHeading,
-  Year,
-  Block,
-  YearBlock,
-  Subtitle,
   StyledSection,
-  TimelineList,
-  TimelineItem,
+  HeroArea,
+  HeroEyebrow,
+  HeroHeading,
+  HeroSub,
+  SplitLayout,
+  Photo,
+  ContentCol,
+  AnimPara,
+  StatsRow,
+  StatItem,
+  StatNumber,
+  StatLabel,
+  BeliefsGrid,
+  BeliefCard,
+  BeliefIcon,
+  BeliefTitle,
+  BeliefBody,
+  ClosingSection,
+  ClosingStatement,
+  ClosingBtn,
 } from './styles';
 
-import photo from '../../assets/avatar.png';
+/* ─── Animated counter hook ─── */
+function useCountUp(target: number, active: boolean, duration = 1400) {
+  const [val, setVal] = useState(0);
+  useEffect(() => {
+    if (!active) return;
+    const start = performance.now();
+    const tick = (now: number) => {
+      const p = Math.min((now - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - p, 3); // ease-out cubic
+      setVal(Math.round(eased * target));
+      if (p < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  }, [active, target, duration]);
+  return val;
+}
 
-type JourneyItem = {
-  year: string;
-  title: string;
-  content: string;
-};
-
-const journey = [
-  {
-    year: '2013',
-    title: 'Foundations in Strategy',
-    content:
-      "Built my strategic base in Business Administration and Marketing in Sicily.\n\nThat’s where I learned to think in positioning, decision-making, and how growth actually happens.",
-  },
-  {
-    year: '2017',
-    title: 'Specialising in Digital Performance',
-    content:
-      "Moved to Ireland and completed a Master’s in Digital Marketing.\n\nThis is where I shifted from theory to performance, learning how to measure, test, and improve outcomes across channels.",
-  },
-  {
-    year: '2017–2019',
-    title: 'From Execution to Ownership',
-    content:
-      "Began my career in marketing operations and campaign execution within global tech and SaaS environments.\n\nWorking across cross-functional teams, I learned how to build and maintain performance systems that support measurable growth.",
-  },
-  {
-    year: '2021',
-    title: 'Data Analytics and my Startup Journey',
-    content:
-      "Strengthened my analytics skillset and co-founded Unigamer.\n\nBuilding in a startup removes the comfort of big teams and large budgets. I learned to prioritise, simplify, and focus only on what genuinely moves the business forward.",
-  },
-  {
-    year: '2022',
-    title: 'Global Marketing Operations Leadership',
-    content:
-      "Led marketing operations at SurveyMonkey, owning automation and performance infrastructure across global teams.\n\nThis is where I developed a systems mindset that prioritises structure before scale.",
-  },
-  {
-    year: '2023',
-    title: 'Strategic Growth in eCommerce & M&A',
-    content:
-      "At The Fortia Group, I supported eCommerce brands in an M&A context, leading growth initiatives across content and SEO.\n\nI worked directly with founders and travelled between the US and UK to align marketing strategy with commercial objectives. In that environment, marketing influences valuation, not just visibility.",
-  },
-  {
-    year: '2024',
-    title: 'Strategic & Operational Leadership',
-    content:
-      "At Grey Dog, I worked directly with clients to shape strategy while leading cross-channel execution and team delivery.\n\nIt strengthened my ability to align vision with execution and stay close enough to performance to make informed decisions. That balance now defines how I operate as a Fractional CMO.",
-  },
-  {
-    year: '2025',
-    title: 'Stepping Into Executive Ownership',
-    content:
-      "After ten years in corporate leadership, I had built the frameworks, judgment, and operational discipline required to own marketing at executive level.\n\nI now apply that experience as a Fractional CMO, partnering with founders and leadership teams to ensure marketing contributes directly to revenue.",
-  },
-];
-
-function JourneyRow({ item }: { item: JourneyItem }) {
-  const { ref, inView } = useInView({
-    triggerOnce: true,
-    threshold: 0.2,
-  });
-
+function CountStat({
+  target,
+  suffix,
+  label,
+}: {
+  target: number;
+  suffix: string;
+  label: string;
+}) {
+  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.5 });
+  const val = useCountUp(target, inView);
   return (
-    <TimelineItem ref={ref}>
-      <YearBlock>
-        <Year>{item.year}</Year>
-        <Subtitle>{item.title}</Subtitle>
-      </YearBlock>
-
-      <Block inView={inView}>{item.content}</Block>
-    </TimelineItem>
+    <StatItem ref={ref}>
+      <StatNumber>
+        {val}
+        {suffix}
+      </StatNumber>
+      <StatLabel>{label}</StatLabel>
+    </StatItem>
   );
 }
 
+/* ─── Static data ─── */
+const beliefs = [
+  {
+    icon: '⚙️',
+    title: 'Systems before campaigns',
+    body: 'Good marketing is not a series of launches. It is infrastructure built to compound over time.',
+  },
+  {
+    icon: '📊',
+    title: 'Revenue is the only metric that matters',
+    body: 'Clicks, impressions, and reach are inputs. Revenue is the output. We work backwards from the outcome.',
+  },
+  {
+    icon: '🔁',
+    title: 'The work should outlast the engagement',
+    body: 'We build systems you can run, measure, and grow. Not dependencies.',
+  },
+];
+
+/* ─── Component ─── */
 export function AboutSection(): JSX.Element {
+  const navigate = useNavigate();
+
+  const { ref: paraRef, inView: paraInView } = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });
+  const { ref: beliefsRef, inView: beliefsInView } = useInView({
+    triggerOnce: true,
+    threshold: 0.05,
+  });
+  const { ref: closingRef, inView: closingInView } = useInView({
+    triggerOnce: true,
+    threshold: 0.3,
+  });
+
   return (
-    <StyledSection id="about" aria-labelledby="about-title">
-      <AboutWrapper>
-        <Photo src={photo} alt="Portrait of Antonio Caruso" />
+    <StyledSection id="about">
+      {/* ── Hero ── */}
+      <HeroArea>
+        <HeroEyebrow>About</HeroEyebrow>
+        <HeroHeading>
+          The thinking behind{' '}
+          <span>Caruso Martech</span>
+        </HeroHeading>
+        <HeroSub>
+          A decade of noticing the same problem. A consultancy built to fix it properly.
+        </HeroSub>
+      </HeroArea>
 
-        <Content>
-          <SectionTitle>About Me</SectionTitle>
-          <Heading id="about-title">My Journey Toward Marketing Leadership</Heading>
-          <SubHeading>
-            A decade of building strategy, owning execution, and driving measurable
-            growth across corporate and entrepreneurial environments.
-          </SubHeading>
+      {/* ── Photo + paragraphs ── */}
+      <SplitLayout>
+        <Photo src={photo} alt="Antonio Caruso" />
 
-          <TimelineList>
-            {journey.map((item) => (
-              <JourneyRow key={`${item.year}-${item.title}`} item={item} />
-            ))}
-          </TimelineList>
-        </Content>
-      </AboutWrapper>
+        <ContentCol ref={paraRef}>
+          <AnimPara $inView={paraInView} $delay={0}>
+            A decade working inside marketing teams across SaaS, events, ecommerce, and
+            professional services taught one consistent lesson: most teams have the right
+            people and real budgets, but the infrastructure underneath them is broken.
+            Campaigns do not connect. Data does not flow. Results do not compound.
+          </AnimPara>
+          <AnimPara $inView={paraInView} $delay={150}>
+            That pattern is why Caruso Martech exists. Not to run campaigns, but to build
+            the systems that make every campaign smarter than the last. Strategy without
+            infrastructure is just a plan. We build the machine.
+          </AnimPara>
+          <AnimPara $inView={paraInView} $delay={300}>
+            Antonio Caruso. Based in Malta. Spent the last decade in marketing operations
+            and leadership roles across global organisations, from early-stage SaaS startups
+            to established mid-market businesses. MSc in Digital Marketing. Worked across
+            Ireland, the UK, Brazil, and remotely with teams in the US and Europe.
+          </AnimPara>
+        </ContentCol>
+      </SplitLayout>
+
+      {/* ── Stats ── */}
+      <StatsRow>
+        <CountStat target={10} suffix="+" label="Years of experience" />
+        <CountStat target={4} suffix="+" label="Industries served" />
+        <CountStat target={6} suffix="+" label="Countries worked in" />
+      </StatsRow>
+
+      {/* ── Beliefs ── */}
+      <BeliefsGrid ref={beliefsRef}>
+        {beliefs.map((b, i) => (
+          <BeliefCard key={b.title} $inView={beliefsInView} $delay={i * 130}>
+            <BeliefIcon>{b.icon}</BeliefIcon>
+            <BeliefTitle>{b.title}</BeliefTitle>
+            <BeliefBody>{b.body}</BeliefBody>
+          </BeliefCard>
+        ))}
+      </BeliefsGrid>
+
+      {/* ── Closing CTA ── */}
+      <ClosingSection ref={closingRef} $inView={closingInView}>
+        <ClosingStatement>
+          If your marketing is not working the way it should, that is usually a systems
+          problem. We can fix that.
+        </ClosingStatement>
+        <ClosingBtn onClick={() => navigate('/contact')}>Get in touch →</ClosingBtn>
+      </ClosingSection>
     </StyledSection>
   );
 }

@@ -115,7 +115,7 @@ export function TestimonialSection() {
 
   return (
     <StyledTestimonialSection id="testimonials">
-      <SectionTitle>My Testimonials</SectionTitle>
+      <SectionTitle>Testimonials</SectionTitle>
 
       <StyledGridWrapper>
         <StyledCarousel ref={carouselRef}>

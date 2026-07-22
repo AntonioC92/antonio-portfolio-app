@@ -57,7 +57,6 @@ export function Footer(): JSX.Element {
               }}
             >
               Marketing Systems &amp; Growth Strategy<br />
-              Registered in Malta<br />
               EU VAT No: MT32360307
             </div>
           </StyledFooterHeaderContainer>
