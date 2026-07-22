@@ -29,7 +29,7 @@ export const Headline = styled.h2`
   font-weight: 600;
   color: ${colors.light};
   line-height: 1.2;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 
   @media ${device.mobile} {
     font-size: 1.8rem;
@@ -83,4 +83,28 @@ export const PainDesc = styled.p`
   font-size: 0.92rem;
   color: rgba(255, 255, 255, 0.52);
   line-height: 1.6;
+`;
+
+export const FixBlock = styled.div`
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+`;
+
+export const FixEyebrow = styled.p`
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: ${colors.primary};
+  margin-bottom: 1.25rem;
+`;
+
+export const FixStatement = styled.p`
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: ${colors.light};
+  line-height: 1.55;
+  max-width: 680px;
+  margin: 0 auto;
 `;

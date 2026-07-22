@@ -1,14 +1,15 @@
 import {
   StyledSection,
   Inner,
-  Eyebrow,
   Headline,
-  Sub,
   CardsRow,
   PainCard,
   PainIcon,
   PainTitle,
   PainDesc,
+  FixBlock,
+  FixEyebrow,
+  FixStatement,
 } from './styles';
 
 const pains = [
@@ -33,16 +34,7 @@ export function PainSection(): JSX.Element {
   return (
     <StyledSection id="pain">
       <Inner>
-        <Eyebrow>Sound familiar?</Eyebrow>
-        <Headline>
-          Most businesses have the tools.
-          <br />
-          What they are missing is the system.
-        </Headline>
-        <Sub>
-          We bring the strategy, infrastructure, and execution that ties everything together
-          and turns marketing into a predictable growth channel.
-        </Sub>
+        <Headline>Sound familiar?</Headline>
 
         <CardsRow>
           {pains.map((p) => (
@@ -53,6 +45,15 @@ export function PainSection(): JSX.Element {
             </PainCard>
           ))}
         </CardsRow>
+
+        <FixBlock>
+          <FixEyebrow>How we fix it</FixEyebrow>
+          <FixStatement>
+            We build the connective tissue your marketing is missing. One system where your
+            channels share data, your campaigns build on each other, and revenue stops being
+            a guess.
+          </FixStatement>
+        </FixBlock>
       </Inner>
     </StyledSection>
   );

@@ -13,15 +13,15 @@ import { AboutWrapper } from '../AboutSection/styles';
 
 const columns = [
   {
-    title: 'Turn your website into your best salesperson',
+    title: 'Your website becomes your best salesperson',
     subtitle: 'SEO strategy, UX optimisation, and conversion design',
   },
   {
-    title: 'Build paid channels that compound over time',
+    title: 'Paid channels that learn and compound',
     subtitle: 'Growth strategy, paid media, and funnel optimisation',
   },
   {
-    title: 'Stop guessing. Automate and measure everything.',
+    title: 'Clear sight of what\'s driving revenue',
     subtitle: 'Marketing automation, dashboards, and ROI tracking',
   },
 ];
@@ -33,7 +33,7 @@ export function WhatIDoBestSection(): JSX.Element {
     <StyledSection id="services">
       <AboutWrapper>
         <SectionInner>
-          <SectionTitle>What We Deliver</SectionTitle>
+          <SectionTitle>What you gain</SectionTitle>
 
           <ColumnsWrapper>
             {columns.map((col, i) => (
