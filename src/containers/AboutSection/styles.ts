@@ -177,6 +177,14 @@ export const StatLabel = styled.div`
   color: rgba(255, 255, 255, 0.5);
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  margin-bottom: 0.4rem;
+`;
+
+export const StatSub = styled.div`
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.28);
+  letter-spacing: 0.06em;
+  margin-top: 0.3rem;
 `;
 
 /* ─── Beliefs section ─── */

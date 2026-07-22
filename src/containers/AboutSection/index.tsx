@@ -16,6 +16,7 @@ import {
   StatItem,
   StatNumber,
   StatLabel,
+  StatSub,
   BeliefsGrid,
   BeliefCard,
   BeliefIcon,
@@ -34,7 +35,7 @@ function useCountUp(target: number, active: boolean, duration = 1400) {
     const start = performance.now();
     const tick = (now: number) => {
       const p = Math.min((now - start) / duration, 1);
-      const eased = 1 - Math.pow(1 - p, 3); // ease-out cubic
+      const eased = 1 - Math.pow(1 - p, 3);
       setVal(Math.round(eased * target));
       if (p < 1) requestAnimationFrame(tick);
     };
@@ -47,10 +48,12 @@ function CountStat({
   target,
   suffix,
   label,
+  sub,
 }: {
   target: number;
   suffix: string;
   label: string;
+  sub?: string;
 }) {
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.5 });
   const val = useCountUp(target, inView);
@@ -61,6 +64,7 @@ function CountStat({
         {suffix}
       </StatNumber>
       <StatLabel>{label}</StatLabel>
+      {sub && <StatSub>{sub}</StatSub>}
     </StatItem>
   );
 }
@@ -107,8 +111,7 @@ export function AboutSection(): JSX.Element {
       <HeroArea>
         <HeroEyebrow>About</HeroEyebrow>
         <HeroHeading>
-          The thinking behind{' '}
-          <span>Caruso Martech</span>
+          The thinking behind <span>Caruso Martech</span>
         </HeroHeading>
         <HeroSub>
           A decade of noticing the same problem. A consultancy built to fix it properly.
@@ -124,18 +127,21 @@ export function AboutSection(): JSX.Element {
             A decade working inside marketing teams across SaaS, events, ecommerce, and
             professional services taught one consistent lesson: most teams have the right
             people and real budgets, but the infrastructure underneath them is broken.
-            Campaigns do not connect. Data does not flow. Results do not compound.
+            Campaigns do not connect and data does not flow, resulting in outcomes that
+            never match the effort invested.
           </AnimPara>
           <AnimPara $inView={paraInView} $delay={150}>
-            That pattern is why Caruso Martech exists. Not to run campaigns, but to build
-            the systems that make every campaign smarter than the last. Strategy without
-            infrastructure is just a plan. We build the machine.
+            That pattern is why Caruso Martech exists. We build the systems that make
+            every campaign smarter than the last, turning strategy from a plan into a
+            machine that grows with each cycle.
           </AnimPara>
           <AnimPara $inView={paraInView} $delay={300}>
-            Antonio Caruso. Based in Malta. Spent the last decade in marketing operations
-            and leadership roles across global organisations, from early-stage SaaS startups
-            to established mid-market businesses. MSc in Digital Marketing. Worked across
-            Ireland, the UK, Brazil, and remotely with teams in the US and Europe.
+            Antonio Caruso. Based remotely in Europe. The last decade was built largely
+            in Dublin, one of Europe's leading tech hubs, spanning marketing operations
+            and leadership roles across global organisations, from early-stage SaaS
+            startups to established mid-market businesses. MSc in Digital Marketing,
+            H.Dip. in Data Analytics. Active across global markets with teams in the US
+            and Europe.
           </AnimPara>
         </ContentCol>
       </SplitLayout>
@@ -143,8 +149,18 @@ export function AboutSection(): JSX.Element {
       {/* ── Stats ── */}
       <StatsRow>
         <CountStat target={10} suffix="+" label="Years of experience" />
-        <CountStat target={4} suffix="+" label="Industries served" />
-        <CountStat target={6} suffix="+" label="Countries worked in" />
+        <CountStat
+          target={7}
+          suffix=""
+          label="Markets covered"
+          sub="UK · US · IE · IT · ES · BR · AU"
+        />
+        <CountStat
+          target={4}
+          suffix=""
+          label="Languages"
+          sub="EN · IT · PT · ES"
+        />
       </StatsRow>
 
       {/* ── Beliefs ── */}
