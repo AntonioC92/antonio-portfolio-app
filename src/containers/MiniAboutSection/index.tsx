@@ -16,12 +16,13 @@ const Inner = styled.div`
 `;
 
 const SectionLabel = styled.p`
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: ${colors.primary};
   margin-bottom: 1.5rem;
+  text-align: center;
 `;
 
 const Headline = styled.h2`
@@ -53,8 +54,9 @@ const ProblemList = styled.ul`
 `;
 
 const ProblemItem = styled.li`
-  font-size: 1.05rem;
-  color: rgba(255, 255, 255, 0.65);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: ${colors.light};
   line-height: 1.6;
   padding-left: 1.4rem;
   position: relative;
@@ -83,9 +85,9 @@ const LearnMore = styled.button`
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
   transition: opacity 0.2s;
   padding: 0;
   &:hover { opacity: 0.75; }
@@ -103,9 +105,9 @@ export function MiniAboutSection(): JSX.Element {
         </Headline>
 
         <ProblemList>
-          <ProblemItem>campaigns running in silos</ProblemItem>
-          <ProblemItem>attribution that never closes the loop</ProblemItem>
-          <ProblemItem>tools that were never designed to work together</ProblemItem>
+          <ProblemItem>Campaigns running in silos</ProblemItem>
+          <ProblemItem>Attribution that never closes the loop</ProblemItem>
+          <ProblemItem>Tools that were never designed to work together</ProblemItem>
         </ProblemList>
 
         <Body>

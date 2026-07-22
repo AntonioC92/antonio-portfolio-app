@@ -92,9 +92,9 @@ export const FixBlock = styled.div`
 `;
 
 export const FixEyebrow = styled.p`
-  font-size: 0.78rem;
-  font-weight: 600;
-  letter-spacing: 0.14em;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: ${colors.primary};
   margin-bottom: 1.25rem;
