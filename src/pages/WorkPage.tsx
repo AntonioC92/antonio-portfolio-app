@@ -15,6 +15,8 @@ import {
   MetricItem,
   PartnerCaption,
   CardCta,
+  CardCtaRow,
+  CardCtaBtn,
 } from './WorkPage.styles';
 
 const WORK_CANONICAL = 'https://carusomartech.com/work/';
@@ -53,9 +55,14 @@ export function WorkPage(): JSX.Element {
               {cs.partner && (
                 <PartnerCaption>In partnership with {cs.partner}</PartnerCaption>
               )}
-              <CardCta href={`/case-studies/${cs.slug}.html`}>
-                View Case Study →
-              </CardCta>
+              <CardCtaRow>
+                <CardCta href={`/case-studies/${cs.slug}.html`}>
+                  View Case Study →
+                </CardCta>
+                <CardCtaBtn href="https://carusomartech.com/contact">
+                  Get Results Like This →
+                </CardCtaBtn>
+              </CardCtaRow>
             </CaseStudyCard>
           ))}
         </CaseStudyGrid>
