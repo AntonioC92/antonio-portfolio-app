@@ -119,6 +119,15 @@ export const PartnerCaption = styled.p`
   margin: 0;
 `;
 
+export const CardCtaRow = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: auto;
+  padding-top: 0.25rem;
+`;
+
 export const CardCta = styled.a`
   display: inline-flex;
   align-items: center;
@@ -127,11 +136,28 @@ export const CardCta = styled.a`
   font-size: 0.9rem;
   font-weight: 600;
   text-decoration: none;
-  margin-top: auto;
-  padding-top: 0.25rem;
   transition: gap 0.2s ease;
 
   &:hover {
     gap: 0.6rem;
+  }
+`;
+
+export const CardCtaBtn = styled.a`
+  display: inline-flex;
+  align-items: center;
+  background: ${colors.primary};
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: background 0.2s ease, transform 0.15s ease;
+
+  &:hover {
+    background: #e05b40;
+    transform: translateY(-1px);
   }
 `;
