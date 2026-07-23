@@ -2,7 +2,7 @@
 title: "Automating Marketing Workflows: A Practical Guide"
 slug: "automating-marketing-workflows"
 description: "How modern marketing teams automate reporting, attribution, and campaign operations using AI and workflow systems."
-metaTitle: "Automating Marketing Workflows in 2026 | Antonio Caruso"
+metaTitle: "Automating Marketing Workflows in 2026 | Caruso Martech"
 metaDescription: "A practical guide to automating reporting, CRM handoffs, and attribution workflows with AI so marketing teams can move faster with fewer errors."
 date: "2026-03-04"
 lastUpdated: "2026-03-04"

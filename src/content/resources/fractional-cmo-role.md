@@ -2,7 +2,7 @@
 title: "The Future Fractional CMO: Strategic Builder, Operator, and Growth Partner"
 slug: "future-fractional-cmo-operating-builder"
 description: "Why the strongest Fractional CMO model in 2026 is built around diagnosing, installing, and operating a measurable growth system."
-metaTitle: "Future of the Fractional CMO in 2026 | Antonio Caruso"
+metaTitle: "Future of the Fractional CMO in 2026 | Caruso Martech"
 metaDescription: "Learn how the Fractional CMO role is shifting from strategy advice to full-stack operating system design across tracking, CRM, funnel operations, and growth execution."
 date: "2026-02-18"
 lastUpdated: "2026-02-18"

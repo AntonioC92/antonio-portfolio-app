@@ -2,7 +2,7 @@
 title: "The AI Search Attribution Gap: Measuring Marketing When ChatGPT and Google Hide the Journey"
 slug: "ai-search-attribution-gap"
 description: "AI Overviews and chatbots are removing clicks from the buyer journey. Here is how to build a measurement model that accounts for what your attribution software can no longer see."
-metaTitle: "AI Search Attribution Gap 2026 | Antonio Caruso"
+metaTitle: "AI Search Attribution Gap 2026 | Caruso Martech"
 metaDescription: "AI Overviews and ChatGPT are hiding the buyer journey from analytics. A practical model for measuring marketing when clicks disappear."
 date: "2026-07-22"
 lastUpdated: "2026-07-23"

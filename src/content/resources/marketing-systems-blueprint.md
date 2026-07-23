@@ -2,7 +2,7 @@
 title: "What a Modern Marketing System Actually Looks Like in 2026"
 slug: "modern-marketing-system-2025"
 description: "A practical model for building a modern marketing system across tools, process ownership, and measurement so teams can scale with less operational waste."
-metaTitle: "Modern Marketing System Blueprint | Antonio Caruso"
+metaTitle: "Modern Marketing System Blueprint | Caruso Martech"
 metaDescription: "Understand the four layers of a modern marketing system: data, workflow, channel execution, and measurement governance."
 date: "2026-02-09"
 lastUpdated: "2026-02-09"

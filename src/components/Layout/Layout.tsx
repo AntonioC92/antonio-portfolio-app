@@ -17,7 +17,7 @@ const organizationStructuredData = {
   founder: {
     '@type': 'Person',
     name: 'Antonio Caruso',
-    jobTitle: 'Fractional CMO',
+    jobTitle: 'Marketing Systems Consultant',
   },
   // Primary client markets are Ireland, UK, and US (added 2026-07-23) so
   // search engines and AI answer engines have an explicit geographic

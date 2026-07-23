@@ -38,7 +38,7 @@ export function ResourcesPage(): JSX.Element {
   return (
     <Layout>
       <Seo
-        title="Resources | Antonio Caruso"
+        title="Insights | Caruso Martech"
         description="Resources hub for insights on fractional CMO leadership, marketing systems, attribution, and automation."
         canonical={RESOURCES_CANONICAL}
         ogUrl={RESOURCES_CANONICAL}
