@@ -19,6 +19,14 @@ const organizationStructuredData = {
     name: 'Antonio Caruso',
     jobTitle: 'Fractional CMO',
   },
+  // Primary client markets are Ireland, UK, and US (added 2026-07-23) so
+  // search engines and AI answer engines have an explicit geographic
+  // signal, rather than inferring reach from an unqualified .com domain.
+  areaServed: [
+    { '@type': 'Country', name: 'Ireland' },
+    { '@type': 'Country', name: 'United Kingdom' },
+    { '@type': 'Country', name: 'United States' },
+  ],
   sameAs: [
     'https://www.linkedin.com/in/antoniocaruso2702/',
     'https://github.com/AntonioC92',
