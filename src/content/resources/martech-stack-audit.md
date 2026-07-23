@@ -31,7 +31,7 @@ Martech audits get derailed when they turn into open-ended discovery exercises. 
 
 A one-day audit works because it forces triage instead of analysis paralysis. Instead of building the perfect long-term architecture in eight hours, you are trying to answer three questions clearly enough to make near-term decisions: what do we have, what is it doing, and what should change.
 
-If you want the longer-term picture once the audit is done, [our framework for what a modern marketing system actually looks like](/insights/marketing-systems-blueprint) covers how to design the target state.
+If you want the longer-term picture once the audit is done, [our framework for what a modern marketing system actually looks like](/insights/modern-marketing-system-2025) covers how to design the target state.
 
 ## Morning: build the real inventory
 

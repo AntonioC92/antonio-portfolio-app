@@ -11,15 +11,17 @@ import {
   ArticleWrap,
   AuthorText,
   AuthorTitle,
-  MetaLink,
   BackLink,
   BackLinkRow,
+  CtaBtnPrimary,
+  CtaBtnSecondary,
+  MetaLink,
   MarkdownContent,
   NotFoundWrap,
   RelatedList,
   RelatedSection,
   RelatedTitle,
-  SignatureFooter,
+  SignatureCtaRow,
   SignatureSection,
   ResourceCard,
   ResourceDescription,
@@ -153,6 +155,25 @@ export function ResourceDetailPage(): JSX.Element {
           </ReactMarkdown>
         </MarkdownContent>
 
+        <SignatureSection>
+          <AuthorTitle>Caruso Martech</AuthorTitle>
+          <AuthorText>
+            We write about marketing systems, attribution, and growth operations because these are the problems we work on every day. If something in this post is relevant to what you're building, we're happy to talk through it.
+          </AuthorText>
+          <SignatureCtaRow>
+            <CtaBtnPrimary
+              href="https://calendly.com/caruso-martech/new-meeting"
+              target="_blank"
+              rel="noopener"
+            >
+              Book a strategy call ↗
+            </CtaBtnPrimary>
+            <CtaBtnSecondary href="/contact">
+              Send an enquiry
+            </CtaBtnSecondary>
+          </SignatureCtaRow>
+        </SignatureSection>
+
         <RelatedSection>
           <RelatedTitle>Related insights</RelatedTitle>
           <RelatedList>
@@ -167,16 +188,6 @@ export function ResourceDetailPage(): JSX.Element {
             ))}
           </RelatedList>
         </RelatedSection>
-
-        <SignatureSection>
-          <AuthorTitle>Caruso Martech</AuthorTitle>
-          <AuthorText>
-            We write about marketing systems, attribution, and growth operations because these are the problems we work on every day. If something in this post is relevant to what you're building, we're happy to talk through it.
-          </AuthorText>
-          <SignatureFooter>
-            <MetaLink to="/contact">Get in touch →</MetaLink>
-          </SignatureFooter>
-        </SignatureSection>
 
         <BackLinkRow>
           <BackLink to="/insights/">Back to all insights</BackLink>

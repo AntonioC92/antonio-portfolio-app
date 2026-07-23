@@ -278,24 +278,69 @@ export const AuthorText = styled.p`
 `;
 
 export const SignatureSection = styled.section`
-  margin-top: 2.5rem;
-  padding: 1.5rem 1.75rem;
-  border: 1px solid rgba(255, 129, 100, 0.28);
-  border-radius: 12px;
-  background: #2b2b2b;
+  margin-top: 3rem;
+  padding: 3rem 2rem;
+  border-radius: 16px;
+  background: #1a1a1a;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 `;
 
 export const SignatureCtaRow = styled.div`
   display: flex;
   gap: 0.75rem;
   flex-wrap: wrap;
-  margin-top: 1rem;
+  justify-content: center;
+  margin-top: 0.5rem;
 `;
 
 export const SignatureFooter = styled.p`
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   color: rgba(255, 255, 255, 0.82);
   font-size: 0.92rem;
+`;
+
+export const CtaBtnPrimary = styled.a`
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: ${colors.primary};
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 0.7rem 1.5rem;
+  border-radius: 999px;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: background 0.2s ease, transform 0.15s ease;
+
+  &:hover {
+    background: #e05b40;
+    transform: translateY(-1px);
+  }
+`;
+
+export const CtaBtnSecondary = styled.a`
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.7rem 1.5rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  text-decoration: none;
+  transition: border-color 0.2s ease, color 0.2s ease;
+
+  &:hover {
+    border-color: rgba(255, 255, 255, 0.55);
+    color: #fff;
+  }
 `;
 
 export const RelatedTitle = styled.h2`

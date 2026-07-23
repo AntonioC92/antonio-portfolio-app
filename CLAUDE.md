@@ -43,7 +43,7 @@ Automation & AI
 title: "Full title of the article"
 slug: "url-safe-slug-matching-filename"
 description: "1–2 sentence description for the card on InsightsPage"
-metaTitle: "SEO title (max 60 chars) | Antonio Caruso"
+metaTitle: "SEO title (max 60 chars) | Caruso Martech"
 metaDescription: "SEO meta description (max 155 chars). No marketing fluff."
 date: "YYYY-MM-DD"
 lastUpdated: "YYYY-MM-DD"
