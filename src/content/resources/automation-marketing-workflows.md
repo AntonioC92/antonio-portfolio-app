@@ -14,7 +14,7 @@ Marketing automation works best when it starts from a very ordinary question: wh
 
 That is why the strongest automation projects in 2026 feel less like software rollouts and more like operations cleanups. The technology matters, but the order matters more: first, you define the workflow, then you automate the parts that are repetitive, fragile, or expensive to get wrong.
 
-If you are working through this transition, align priorities with [the modern marketing system foundation](/insights/modern-marketing-system-2025) and the [Fractional CMO operating model](/insights/future-fractional-cmo-operating-builder) before you automate anything.
+If you are working through this transition, align priorities with the [marketing system](/insights/modern-marketing-system-2025) foundation and the [Fractional CMO](/insights/future-fractional-cmo-operating-builder) operating model before you automate anything.
 
 ## Quick answer: what marketing workflow automation means in 2026
 
@@ -76,7 +76,7 @@ A practical attribution workflow should include:
 - touchpoint classification into a shared funnel model
 - exports built for weekly and monthly decision reviews
 
-The underlying measurement principles are explored in [this attribution framework](/insights/attribution-challenges-2025), but the key idea is simple: automation makes judgment more useful because the inputs are cleaner.
+The underlying measurement principles are explored in our [attribution framework](/insights/attribution-challenges-2025), but the key idea is simple: automation makes judgment more useful because the inputs are cleaner.
 
 ## A realistic example
 
@@ -131,6 +131,6 @@ When ownership is explicit, automation creates leverage. When ownership is fuzzy
 
 Marketing workflow automation in 2026 is really about building a calmer, more dependable operating rhythm. Teams do better work when reporting is trustworthy, handoffs are consistent, and fewer important tasks depend on somebody remembering to update a spreadsheet at the right time.
 
-If your team is spending more time preparing information than acting on it, workflow design is probably the real bottleneck. Stabilize the system first, then automate the parts that remove real friction. For direct support, use the contact section.
+If your team is spending more time preparing information than acting on it, workflow design is probably the real bottleneck. Stabilize the system first, then automate the parts that remove real friction. See our [services](/services), or [get in touch](/contact) if you want help stabilizing yours.
 
-A useful perspective on [how AI and automation can transform digital marketing](https://www.codeconspirators.com/how-ai-and-automation-will-transform-digital-marketing-in-2025/) reinforces the same need for reliable operating workflows.
+A useful perspective from [Code Conspirators](https://www.codeconspirators.com/how-ai-and-automation-will-transform-digital-marketing-in-2025/) reinforces the same need for reliable operating workflows.

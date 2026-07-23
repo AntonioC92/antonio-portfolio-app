@@ -26,7 +26,17 @@ declare global {
   }
 }
 
-export function Contact(): JSX.Element {
+type ContactProps = {
+  /**
+   * Heading level for the "Not sure where to start?" header.
+   * Defaults to "h1" for the standalone /contact page. Pages that already
+   * render their own h1 above this section (e.g. the homepage) should pass
+   * "h2" so the document keeps exactly one h1.
+   */
+  headingLevel?: "h1" | "h2";
+};
+
+export function Contact({ headingLevel = "h1" }: ContactProps): JSX.Element {
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [errorMsg, setErrorMsg] = useState<string>("");
   const turnstileMountRef = useRef<HTMLDivElement>(null);
@@ -149,7 +159,7 @@ export function Contact(): JSX.Element {
 
   return (
     <StyledLeadGenSection id="contact">
-      <StyledHeader>Not sure where to start?</StyledHeader>
+      <StyledHeader as={headingLevel}>Not sure where to start?</StyledHeader>
       <StyledsubHeader>Let's talk. We'll help you shape your marketing journey.</StyledsubHeader>
 
       <StyledContainer>
