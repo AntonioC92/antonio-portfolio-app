@@ -87,7 +87,7 @@ Open `BLOG_TOPICS.md`. Find the first item with status `[ ]` (pending). Note its
 ### Step 2 — Write the post
 
 Write a complete post following the frontmatter spec and post structure above. Apply all brand rules:
-- No em dashes — anywhere, including inside list items. Use a colon or comma instead.
+- No em dashes anywhere, including inside list items. Use a colon or comma instead.
 - Practical, direct tone
 - At least one internal link to an existing article
 - "Quick answer" section as second heading
