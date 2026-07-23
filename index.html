@@ -4,37 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Antonio Caruso | Fractional CMO </title>
-    <meta
-      name="description"
-      content="Fractional CMO partnering with founders and leadership teams to align strategy, execution, and revenue through structured marketing systems."
-    />
+    <!--
+      Fix (2026-07-23): title/description/OG/twitter tags used to be hardcoded
+      here AND injected per route by the Seo component via react-helmet-async
+      (see src/components/Seo/index.tsx, used on every page). Because the
+      app-head placeholder sits at the end of the head tag, the Helmet tags
+      were appended after these static ones, and per the HTML spec the first
+      title/meta in head wins, so every route's real title and description
+      were silently shadowed by this generic homepage copy in the actual
+      served HTML, even though the correct tags were also present later in
+      the same document. Every page sets its own via Seo, including the
+      homepage (MainPage.tsx), so these static defaults are pure duplicates
+      now that prerender injects real per-route tags into that placeholder.
+      Removed rather than reordered, to avoid leaving stale duplicate tags in
+      the DOM for crawlers that read every occurrence rather than just the
+      first.
+    -->
 
     <link rel="icon" href="/favicon.png" />
     <meta name="theme-color" content="#111827" />
-
-    <meta
-      property="og:title"
-      content="Antonio Caruso | Fractional CMO"
-    />
-    <meta
-      property="og:description"
-      content="Fractional CMO partnering with founders and leadership teams to align strategy, execution, and revenue through structured marketing systems."
-    />
-    <meta property="og:image" content="/preview.png" />
-    <meta property="og:url" content="https://carusomartech.com" />
-    <meta property="og:type" content="website" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Antonio | Fractional CMO"
-    />
-    <meta
-      name="twitter:description"
-      content="Fractional CMO partnering with founders and leadership teams to align strategy, execution, and revenue through structured marketing systems."
-    />
-    <meta name="twitter:image" content="/preview.png" />
 
     <!-- Google Tag Manager -->
     <script type="module">
