@@ -73,9 +73,8 @@ export function ResourceDetailPage(): JSX.Element {
     articleSection: resource.category,
     keywords: resource.tags.join(', '),
     author: {
-      '@type': 'Person',
-      name: 'Antonio Caruso',
-      jobTitle: 'Fractional CMO',
+      '@type': 'Organization',
+      name: 'Caruso Martech',
       url: SITE_URL,
     },
     publisher: {
@@ -89,12 +88,11 @@ export function ResourceDetailPage(): JSX.Element {
   };
   const authorStructuredData = {
     '@context': 'https://schema.org',
-    '@type': 'Person',
-    name: 'Antonio Caruso',
+    '@type': 'Organization',
+    name: 'Caruso Martech',
     url: SITE_URL,
-    jobTitle: 'Fractional CMO',
     description:
-      'Fractional CMO focused on marketing systems, attribution, automation, and growth operations.',
+      'Marketing systems consultancy building attribution, automation, and growth infrastructure for founders and leadership teams.',
   };
 
   return (
@@ -171,15 +169,12 @@ export function ResourceDetailPage(): JSX.Element {
         </RelatedSection>
 
         <SignatureSection>
-          <AuthorTitle>About the Author</AuthorTitle>
+          <AuthorTitle>Caruso Martech</AuthorTitle>
           <AuthorText>
-            Antonio Caruso
-          </AuthorText>
-          <AuthorText>
-            Fractional CMO. Antonio partners with founders and leadership teams to turn fragmented marketing into structured, scalable growth systems, focused on attribution, automation, and decision quality.
+            We write about marketing systems, attribution, and growth operations because these are the problems we work on every day. If something in this post is relevant to what you're building, we're happy to talk through it.
           </AuthorText>
           <SignatureFooter>
-            <MetaLink to="/contact">Get in touch</MetaLink>
+            <MetaLink to="/contact">Get in touch →</MetaLink>
           </SignatureFooter>
         </SignatureSection>
 

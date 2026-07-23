@@ -279,8 +279,8 @@ export const AuthorText = styled.p`
 
 export const SignatureSection = styled.section`
   margin-top: 2.5rem;
-  padding: 1.2rem;
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  padding: 1.5rem 1.75rem;
+  border: 1px solid rgba(255, 129, 100, 0.28);
   border-radius: 12px;
   background: #2b2b2b;
 `;
