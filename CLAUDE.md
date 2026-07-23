@@ -87,10 +87,19 @@ Open `BLOG_TOPICS.md`. Find the first item with status `[ ]` (pending). Note its
 ### Step 2 — Write the post
 
 Write a complete post following the frontmatter spec and post structure above. Apply all brand rules:
-- No em dashes
+- No em dashes — anywhere, including inside list items. Use a colon or comma instead.
 - Practical, direct tone
 - At least one internal link to an existing article
 - "Quick answer" section as second heading
+
+**Writing rules (non-negotiable):**
+
+- **No contrast framing.** Never write "not X, it is Y" or "X, not Y." Say the positive thing directly and stop. This applies to body copy, section headings, bullet points, and list item labels. Examples of what to cut: "not a strategy problem, a visibility problem" → "a visibility problem". "not memory" → delete. "not a workshop series" from a heading → delete. "not just the admin" → delete. "not the cost savings. It is having X" → "The bigger win is having X."
+- **No bold labels inside list items.** Write "Owner: description" not "**Owner** — description". Plain text only in bullets and numbered lists.
+- **Section headings state what something is, not what it is not.** "Why this needs a day" not "Why this needs a day, not a workshop series."
+- **Rewrite negative-positive sentence pairs into a single positive statement.** "You are not trying to X. You are trying to Y." → "Instead of X, you are trying to Y." or just "You are trying to Y."
+- **No summary sentences at the end of sections.** The last sentence should land on something new, not echo what was just said.
+- **Fluid prose, no AI sentence structures.** No "Let's be real:", no "Here's the truth:", no three-word staccato. Write like a practitioner explaining to a peer.
 
 ### Step 3 — Save the file
 
