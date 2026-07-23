@@ -29,7 +29,7 @@ export function LandingPage(): JSX.Element {
       <ImpactSection />
       <MiniAboutSection />
       <StackSection />
-      <Contact />
+      <Contact headingLevel="h2" />
     </Layout>
   );
 }

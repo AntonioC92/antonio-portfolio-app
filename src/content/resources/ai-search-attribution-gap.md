@@ -17,7 +17,7 @@ This is not a tracking bug you can fix with better UTMs. It is a structural chan
 ## Quick answer: how do you measure marketing when AI search hides the buyer journey?
 
 - Accept that click-based attribution now covers less research activity than it did two years ago. Stop treating the gap as a data quality problem to clean up.
-- Track AI visibility directly: how often your brand is cited, mentioned, and recommended inside ChatGPT, Perplexity, and Google AI Overviews, not just how often your site is clicked.
+- Track AI visibility directly: how often your brand is cited, mentioned, and recommended inside ChatGPT, Perplexity, and Google AI Overviews, alongside how often your site is clicked.
 - Add self-reported attribution ("how did you hear about us?") back into your CRM at the point of lead conversion. It is often the only channel that captures dark social and AI-assisted discovery.
 - Treat branded search volume, direct traffic growth, and demo request quality as leading indicators when last-click data goes quiet.
 - Rebuild your reporting cadence around a blended model instead of a single source of truth. No single tool sees the whole picture.
@@ -49,7 +49,7 @@ In practice, this means:
 - Reviewing server logs for AI crawler activity from bots like GPTBot, PerplexityBot, and ClaudeBot, since a spike often precedes a spike in AI-referred mentions.
 - Checking whether traffic from AI platforms is correctly labeled, rather than folding into "Direct" or "Referral" by default.
 
-This is not a replacement for the operational side of measurement. If your CRM handoffs and reporting cadence are still built around a pre-2026 idea of the funnel, the visibility work above has nowhere useful to land. That is as much a workflow problem as a tracking one, covered in [automating marketing workflows](/insights/automating-marketing-workflows).
+This is not a replacement for the operational side of measurement. If your CRM handoffs and reporting cadence are still built around a pre-2026 idea of the funnel, the visibility work above has nowhere useful to land. That is as much a workflow problem as a tracking one, covered in [workflow automation](/insights/automating-marketing-workflows).
 
 ## Rebuild the report around a blended model, not a single source of truth
 

@@ -83,7 +83,7 @@ export function ResourceDetailPage(): JSX.Element {
       name: 'Caruso Martech',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://carusomartech.com/logo.png',
+        url: 'https://carusomartech.com/transparent-logo.svg',
       },
     },
   };
