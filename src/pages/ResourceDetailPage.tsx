@@ -124,7 +124,7 @@ export function ResourceDetailPage(): JSX.Element {
       <ArticleWrap>
         <ArticleTitle>{resource.title}</ArticleTitle>
         <ArticleAuthorLine>
-          By Antonio Caruso
+          Caruso Martech
         </ArticleAuthorLine>
         <ArticleMeta>
           Published {formatDate(resource.date)} · Updated {formatDate(resource.lastUpdated)} ·{' '}
