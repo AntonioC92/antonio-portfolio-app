@@ -1,0 +1,27 @@
+# Caruso Martech
+
+> Caruso Martech is a marketing consultancy that builds marketing systems and growth strategy for founder-led and scale-up businesses. We work across strategy, paid media, marketing automation, and analytics for SaaS, events, ecommerce, and professional services companies, with budgets typically in the €5,000-€30,000 range.
+
+Key areas of work: performance marketing (Meta, Google, LinkedIn), marketing automation and CRM workflow design, SEO, attribution and measurement, and fractional CMO engagements. We favor practical, evidenced writing over generic marketing advice, with real campaign numbers and case studies wherever possible.
+
+## Pages
+
+- [Home](https://carusomartech.com/): Overview of Caruso Martech and what we do. Marketing systems and growth strategy for SaaS, events, ecommerce, and professional services.
+- [Work](https://carusomartech.com/work): Case studies from paid media campaigns across events, B2B, coaching, and recreation verticals, with measurable ROAS and lead generation results.
+- [Services](https://carusomartech.com/services): Services covering growth strategy, paid media, SEO, marketing automation, and analytics. Retainer and project engagements available.
+- [About](https://carusomartech.com/about): The thinking behind Caruso Martech and the approach to fixing broken marketing systems across industries.
+- [Insights](https://carusomartech.com/insights): Practical articles on marketing leadership, system design, attribution, and automation.
+- [Contact](https://carusomartech.com/contact): How to get in touch to discuss a marketing challenge or book a call.
+
+## Insights Articles
+
+- [Attribution in 2026: From Last-Click Myths to Decision-Grade Measurement](https://carusomartech.com/insights/attribution-challenges-2025): Why last-click attribution fails in modern marketing and what a practical, decision-grade attribution model looks like across GA4, CRM, and budget planning.
+- [What a Modern Marketing System Actually Looks Like in 2026](https://carusomartech.com/insights/modern-marketing-system-2025): A practical model for building a modern marketing system across tools, process ownership, and measurement.
+- [The Future Fractional CMO: Strategic Builder, Operator, and Growth Partner](https://carusomartech.com/insights/future-fractional-cmo-operating-builder): Why the strongest Fractional CMO model in 2026 is built around diagnosing, installing, and operating a measurable growth system.
+- [Automating Marketing Workflows: A Practical Guide](https://carusomartech.com/insights/automating-marketing-workflows): How modern marketing teams automate reporting, attribution, and campaign operations using AI and workflow systems.
+- [The AI Search Attribution Gap](https://carusomartech.com/insights/ai-search-attribution-gap): AI Overviews and chatbots are removing clicks from the buyer journey, and how to build a measurement model that accounts for what attribution software can no longer see.
+
+## Optional
+
+- [Sitemap](https://carusomartech.com/sitemap.xml): Full XML sitemap of all pages and articles.
+- [Privacy Policy](https://carusomartech.com/privacy-policy): Site privacy policy.
