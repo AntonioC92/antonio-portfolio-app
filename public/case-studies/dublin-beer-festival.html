@@ -489,7 +489,7 @@
   /* Character illustrations and their speech bubbles stay on mobile (they are the team
      speaking, not decoration) but shrink so they do not blow out scroll height at full
      desktop size. This file uses .char-wrap (not .char-col) for its illustration wrapper. */
-  .char-wrap { display:none!important; }
+  .char-wrap { display:flex!important; }
   .char-wrap svg { width:74px!important; height:auto!important; }
   .bubble { display:none!important; }
   .char-label { font-size:0.62rem!important; }
@@ -515,6 +515,7 @@
   #nav-prev { left:14px!important; }
   #nav-next { right:14px!important; }
     #progress { bottom:62px!important; background:rgba(9,20,31,0.65)!important; padding:6px 10px!important; border-radius:20px!important; -webkit-transform:translateZ(0); transform:translateZ(0); }
+  .slide { padding-bottom: 110px!important; }
   #hint { display:none!important; }
 
   #s4 div[style*="gap:60px"]{flex-direction:column!important;align-items:center!important;gap:16px!important}#s4 div[style*="padding-top:40px"]{flex-direction:row!important;height:auto!important;padding-top:0!important;gap:12px!important;align-items:center!important}#s4 div[style*="height:60px"][style*="width:1px"]{display:none!important}
