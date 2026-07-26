@@ -2,6 +2,7 @@ import React from 'react';
 import { StyledContainer, StyledContent } from './styles';
 import { Navbar } from '../Navbar';
 import { Footer } from '../Footer';
+import { ChatWidget } from '../../containers/ChatWidget';
 
 const SITE_URL = 'https://carusomartech.com';
 
@@ -102,6 +103,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <Navbar />
       <StyledContent>{children}</StyledContent>
       <Footer />
+      <ChatWidget />
     </StyledContainer>
   );
 }
