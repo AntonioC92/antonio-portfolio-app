@@ -457,7 +457,10 @@ function parseContent(text: string): React.ReactNode {
 
 function parseAiResponse(raw: string): { content: string; hasCta: boolean } {
   const hasCta = /\[SCHEDULE\]/i.test(raw);
-  const content = raw.replace(/\[SCHEDULE\]/gi, '').trim();
+  const content = raw
+    .replace(/\[SCHEDULE\]/gi, '')
+    .replace(/—/g, ',') // strip em dashes
+    .trim();
   return { content, hasCta };
 }
 
