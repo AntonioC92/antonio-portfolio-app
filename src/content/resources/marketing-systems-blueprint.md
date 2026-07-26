@@ -160,6 +160,6 @@ That is usually enough to create measurable operational lift without overwhelmin
 
 In 2026, marketing advantage comes from building a system the business can trust. When data, workflow, execution, and measurement are connected, teams move faster, waste less effort, and make better decisions.
 
-If your growth model feels fragmented, rebuild the architecture before scaling effort. Use [workflow standards](/insights/automating-marketing-workflows) to stabilize execution, then see our [services](/services) or [get in touch](/contact) if you want it rebuilt properly.
+If your growth model feels fragmented, rebuild the architecture before scaling effort. [Dwight Davis Consulting](https://dwightdavisconsulting.com/blog/what-a-modern-marketing-system-actually-looks-like-in-2025/) frames this similarly, especially around process ownership and governance.
 
-[Dwight Davis Consulting](https://dwightdavisconsulting.com/blog/what-a-modern-marketing-system-actually-looks-like-in-2025/) frames this similarly, especially around process ownership and governance.
+Use [workflow standards](/insights/automating-marketing-workflows) to stabilize execution, then see our [services](/services) or [get in touch](/contact) if you want it rebuilt properly.

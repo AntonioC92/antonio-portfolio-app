@@ -31,7 +31,7 @@ Martech audits get derailed when they turn into open-ended discovery exercises. 
 
 A one-day audit works because it forces triage instead of analysis paralysis. Instead of building the perfect long-term architecture in eight hours, you are trying to answer three questions clearly enough to make near-term decisions: what do we have, what is it doing, and what should change.
 
-If you want the longer-term picture once the audit is done, [our framework for what a modern marketing system actually looks like](/insights/modern-marketing-system-2025) covers how to design the target state.
+If you want the longer-term picture once the audit is done, our [marketing system blueprint](/insights/modern-marketing-system-2025) covers how to design the target state.
 
 ## Morning: build the real inventory
 
@@ -87,6 +87,8 @@ By late afternoon you have enough information to make calls. Sort every tool int
 
 Write one line of reasoning next to every tool, even the obvious keeps. This matters more than it sounds like it should. Six months from now, when someone asks why a tool is still in the stack, "we reviewed it in July and kept it because X" is a much stronger answer than silence.
 
+Before you replace anything on the cut list, run the replacement through a proper [readiness check](/insights/marketing-automation-readiness-checklist) first. Buying a new tool to solve an old process problem just moves the mess somewhere else.
+
 ## What to do with the results
 
 Do not let the audit become a static document. The three deliverables that make it actually useful are:
@@ -98,3 +100,5 @@ Do not let the audit become a static document. The three deliverables that make 
 Most teams find that a disciplined one-day audit surfaces enough redundant or dormant spend to pay for itself several times over, often before accounting for the operational clarity it creates. The bigger win is having one accurate picture of the stack that the whole team can work from, instead of everyone carrying a slightly different mental model of what tools actually exist and why.
 
 If the audit reveals that the deeper issue is not tool sprawl but a missing operating system underneath the tools, that is a bigger conversation worth having separately. Start there once the immediate cleanup is done.
+
+If you want a second set of eyes on the results, see our [services](/services) or [contact](/contact) us to walk through what the audit turned up.

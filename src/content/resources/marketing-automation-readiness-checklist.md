@@ -1,11 +1,11 @@
 ---
 title: "The Questions to Ask Before You Automate Your Marketing"
 slug: "marketing-automation-readiness-checklist"
-description: "Most marketing automation builds stall for reasons that have nothing to do with the software. A practical readiness checklist for founder-led teams before they buy or build anything."
-metaTitle: "Marketing Automation Readiness Checklist"
-metaDescription: "Why marketing automation projects stall, and the readiness questions founder-led teams should answer before they buy or build one."
+description: "Most marketing automation builds stall for reasons that have nothing to do with the software. A practical readiness checklist for small business teams before they buy or build anything."
+metaTitle: "Marketing Automation Readiness Checklist | Caruso Martech"
+metaDescription: "Why marketing automation projects stall, and the readiness questions small business teams should answer before they buy or build one."
 date: "2026-07-24"
-lastUpdated: "2026-07-24"
+lastUpdated: "2026-07-26"
 category: "Automation & AI"
 tags: "marketing automation, automation readiness, marketing operations, ai adoption"
 ---
@@ -44,7 +44,7 @@ This is why we run a stack [audit](/insights/martech-stack-audit) before recomme
 
 The pressure to automate has grown fast. HubSpot's 2026 data, summarised by [Averi](https://www.averi.ai/blog/hubspot-2026-marketing-report-7-takeaways-that-matter), shows 86.4 percent of marketing teams now use AI somewhere in their workflow, up from 41 percent two years earlier. That pace of adoption means more teams are automating broken processes without noticing, simply because the tools got easier to switch on. AI tools make it faster to build a workflow. The process behind it still needs to be correct first, or the automation just runs the mistake at a higher speed.
 
-Founder-led teams get the most value from two or three automations that remove a genuine bottleneck already proven to work by hand. That is usually a much shorter list than the feature set most vendors are pitching this quarter.
+Small business teams get the most value from two or three automations that remove a genuine bottleneck already proven to work by hand. That is usually a much shorter list than the feature set most vendors are pitching this quarter.
 
 ## What "ready to automate" actually looks like
 
@@ -66,4 +66,4 @@ Run the stack audit first, so you know exactly what data flows where and what br
 
 Skipping straight to the tool purchase is the single most common reason automation projects get quietly abandoned within six months of launch, with the license still being paid for months after anyone stopped using it.
 
-We help founder-led and scale-up teams run this readiness check before they spend a cent on new software, then build the automation properly the first time. If your team is weighing a marketing automation purchase, or trying to work out why the last one never delivered, our [services](/services) page covers how we approach this, or you can [contact](/contact) us directly to talk through where your team actually stands today.
+We help small business and scale-up teams run this readiness check before they spend a cent on new software, then build the automation properly the first time. If your team is weighing a marketing automation purchase, or trying to work out why the last one never delivered, our [services](/services) page covers how we approach this, or you can [contact](/contact) us directly to talk through where your team actually stands today.
