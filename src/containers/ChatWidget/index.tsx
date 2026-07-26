@@ -394,6 +394,32 @@ const Fab = styled.button`
   svg { fill: #fff; }
 `;
 
+const PillBtn = styled.button`
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 20px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #ff8164, #ff5a35);
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(255, 129, 100, 0.45);
+  transition: transform 0.15s, box-shadow 0.15s;
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 28px rgba(255, 129, 100, 0.55);
+  }
+  svg { fill: #fff; flex-shrink: 0; }
+`;
+
+const PillText = styled.span`
+  color: #fff;
+  font-size: 13.5px;
+  font-weight: 700;
+  white-space: nowrap;
+  letter-spacing: -0.01em;
+`;
+
 // ─── Icons ────────────────────────────────────────────────────────────────────
 
 function IconChat() {
@@ -812,9 +838,16 @@ export function ChatWidget(): JSX.Element {
         </Panel>
       )}
 
-      <Fab onClick={() => setOpen((o) => !o)} aria-label={open ? 'Close chat' : 'Open chat'}>
-        {open ? <IconClose /> : <IconChat />}
-      </Fab>
+      {open ? (
+        <Fab onClick={() => setOpen(false)} aria-label="Close chat">
+          <IconClose />
+        </Fab>
+      ) : (
+        <PillBtn onClick={() => setOpen(true)} aria-label="Open chat">
+          <IconChat />
+          <PillText>Ask a marketing question. Get a straight answer.</PillText>
+        </PillBtn>
+      )}
     </Wrap>
   );
 }
