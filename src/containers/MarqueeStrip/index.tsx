@@ -80,10 +80,6 @@ const INDUSTRIES: [string, string][] = [
   ['🎟️', 'Events'],
   ['🛒', 'Ecommerce'],
   ['💼', 'Professional Services'],
-  ['📚', 'Education'],
-  ['🏋️', 'Coaching'],
-  ['⛳', 'Golf & Recreation'],
-  ['🤝', 'B2B'],
 ];
 
 function buildServiceRow(items: [string, string][]) {
