@@ -25,6 +25,8 @@ No em dashes anywhere in generated copy. Use commas, colons, or periods instead.
 
 No "Fractional CMO" used as a service description. The term can appear as a content category.
 
+Never write "founder-led" anywhere (title, description, metaTitle, metaDescription, tags, or body). It is banned house-style jargon (see CLAUDE.md). Say what you mean instead: "the founder runs sales," "the founder is the main point of contact," "a business where one person owns and operates everything," etc. Check the full draft (frontmatter and body) for this phrase before finishing, since it has slipped into published posts more than once.
+
 The Insights section is the only destination for new posts. Files go in src/content/resources/[slug].md. They are picked up automatically by import.meta.glob — no code changes needed.
 
 Topic must be evidenced. Every topic choice must be traceable to at least one real signal from Steps 3–5 (an Ahrefs gap, a Trends signal, or a genuine Quora/web question) — not just a plausible-sounding idea.
@@ -83,7 +85,7 @@ Use the Ahrefs MCP tools to identify keyword opportunities relevant to the four 
 - Attribution & Analytics
 - Automation & AI
 
-Target audience: founder-led businesses and scale-up marketing teams — not enterprise. Keywords should reflect the decision-making and operational concerns of a marketing director or founder building their first proper marketing system.
+Target audience: small businesses where one person owns and operates everything, plus scale-up marketing teams, not enterprise. Keywords should reflect the decision-making and operational concerns of a marketing director or founder building their first proper marketing system.
 
 Also check BLOG_TOPICS.md for pending items ([ ] status) — if a pending topic is supported by an Ahrefs signal, prefer it.
 
@@ -103,7 +105,7 @@ Run WebSearch queries scoped to site:quora.com for marketing topics relevant to 
 
 ## STEP 6 — Pick one topic
 
-Cross-reference the Ahrefs gaps (Step 3), the Trends signal (Step 4), the Quora/web questions (Step 5), and the already-covered list (Step 2). The topic must be demonstrably grounded in at least one of those three signals. Choose exactly one new, non-duplicate topic — practical, commercial, written for the audience context of founder-led or scaling marketing teams.
+Cross-reference the Ahrefs gaps (Step 3), the Trends signal (Step 4), the Quora/web questions (Step 5), and the already-covered list (Step 2). The topic must be demonstrably grounded in at least one of those three signals. Choose exactly one new, non-duplicate topic — practical, commercial, written for the audience context of small owner-operated businesses or scaling marketing teams.
 
 ---
 
