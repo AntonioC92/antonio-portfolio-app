@@ -17,7 +17,6 @@ import {
 } from './styles';
 import scroll from '../../assets/scroll.svg';
 import linkedin from '../../assets/socials/linkedin.svg';
-import github from '../../assets/socials/github.svg';
 
 export function Footer(): JSX.Element {
   const [visible, setVisible] = useState(false);
@@ -87,14 +86,7 @@ export function Footer(): JSX.Element {
                 src={linkedin}
                 alt="linkedin"
                 onClick={() =>
-                  window.open('https://www.linkedin.com/in/antoniocaruso2702/')
-                }
-              />
-              <StyledSocialIcon
-                src={github}
-                alt="github"
-                onClick={() =>
-                  window.open('https://github.com/AntonioC92')
+                  window.open('https://www.linkedin.com/company/caruso-martech')
                 }
               />
             </StyledSocialIconContainer>

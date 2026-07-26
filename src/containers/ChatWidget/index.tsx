@@ -28,6 +28,16 @@ const blink = keyframes`
   40%            { transform: scale(1);   opacity: 1;   }
 `;
 
+const pillEntrance = keyframes`
+  0%   { opacity: 0; transform: translateY(20px) scale(0.92); }
+  100% { opacity: 1; transform: translateY(0)    scale(1);    }
+`;
+
+const pillPulse = keyframes`
+  0%, 100% { transform: scale(1);    box-shadow: 0 4px 20px rgba(255, 129, 100, 0.45); }
+  50%       { transform: scale(1.05); box-shadow: 0 8px 36px rgba(255, 129, 100, 0.75); }
+`;
+
 const fadeIn = keyframes`
   from { opacity: 0; transform: translateY(6px); }
   to   { opacity: 1; transform: translateY(0);   }
@@ -404,7 +414,9 @@ const PillBtn = styled.button`
   border: none;
   cursor: pointer;
   box-shadow: 0 4px 20px rgba(255, 129, 100, 0.45);
-  transition: transform 0.15s, box-shadow 0.15s;
+  animation:
+    ${pillEntrance} 0.4s cubic-bezier(0.22, 1, 0.36, 1) forwards,
+    ${pillPulse} 0.85s ease-in-out 0.8s 3 forwards;
   &:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 28px rgba(255, 129, 100, 0.55);
@@ -845,7 +857,7 @@ export function ChatWidget(): JSX.Element {
       ) : (
         <PillBtn onClick={() => setOpen(true)} aria-label="Open chat">
           <IconChat />
-          <PillText>Ask a marketing question. Get a straight answer.</PillText>
+          <PillText>Ask any marketing question</PillText>
         </PillBtn>
       )}
     </Wrap>
