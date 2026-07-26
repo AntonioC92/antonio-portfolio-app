@@ -8,7 +8,6 @@ import {
   ButtonRow,
   PrimaryBtn,
   SecondaryBtn,
-  TrustLine,
   ParticleCanvas,
 } from './styles';
 
@@ -105,7 +104,6 @@ export function HeroSection(): JSX.Element {
           <SecondaryBtn onClick={() => navigate('/work')}>See Our Work</SecondaryBtn>
         </ButtonRow>
 
-        <TrustLine>SaaS &nbsp;·&nbsp; Events &nbsp;·&nbsp; Ecommerce &nbsp;·&nbsp; Professional Services</TrustLine>
       </ContentWrapper>
     </StyledSection>
   );
