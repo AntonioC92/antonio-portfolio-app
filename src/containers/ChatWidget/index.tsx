@@ -468,11 +468,12 @@ function parseContent(text: string): React.ReactNode {
   for (const line of lines) {
     const isBullet = /^[-*]\s+/.test(line);
     if (isBullet) {
+      const itemText = line.replace(/^[-*]\s+/, '').replace(/^[•·]\s*/, '');
       const last = segments[segments.length - 1];
       if (last?.type === 'bullets') {
-        last.items.push(line.replace(/^[-*]\s+/, ''));
+        last.items.push(itemText);
       } else {
-        segments.push({ type: 'bullets', items: [line.replace(/^[-*]\s+/, '')] });
+        segments.push({ type: 'bullets', items: [itemText] });
       }
     } else {
       const last = segments[segments.length - 1];
