@@ -87,3 +87,17 @@ export const SectionInner = styled.div`
   width: 100%;
   max-width: 1200px;
 `;
+
+export const ArrowDivider = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #ff8164;
+  flex-shrink: 0;
+  align-self: center;
+
+  @media (max-width: 768px) {
+    transform: rotate(90deg);
+  }
+`;

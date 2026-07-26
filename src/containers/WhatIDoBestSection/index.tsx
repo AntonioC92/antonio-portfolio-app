@@ -8,17 +8,18 @@ import {
   ServiceLink,
   SectionTitle,
   SectionInner,
+  ArrowDivider,
 } from './styles';
 import { AboutWrapper } from '../AboutSection/styles';
 
 const columns = [
   {
-    title: 'Paid channels that learn and compound',
-    subtitle: 'Acquisition systems, paid media, and funnel optimisation',
-  },
-  {
     title: 'Found in AI search, built to convert',
     subtitle: 'AI search optimisation, UX, and conversion design',
+  },
+  {
+    title: 'Paid channels that learn and compound',
+    subtitle: 'Acquisition systems, paid media, and funnel optimisation',
   },
   {
     title: 'Clear sight of what\'s driving revenue',
@@ -37,13 +38,16 @@ export function WhatIDoBestSection(): JSX.Element {
 
           <ColumnsWrapper>
             {columns.map((col, i) => (
-              <Column key={i}>
-                <Title>{col.title}</Title>
-                <SubTitle>{col.subtitle}</SubTitle>
-                <ServiceLink onClick={() => navigate('/services')}>
-                  Explore our services {'→'}
-                </ServiceLink>
-              </Column>
+              <>
+                <Column key={i}>
+                  <Title>{col.title}</Title>
+                  <SubTitle>{col.subtitle}</SubTitle>
+                  <ServiceLink onClick={() => navigate('/services')}>
+                    Explore our services {'→'}
+                  </ServiceLink>
+                </Column>
+                {i === 1 && <ArrowDivider key="arrow">→</ArrowDivider>}
+              </>
             ))}
           </ColumnsWrapper>
         </SectionInner>

@@ -422,34 +422,75 @@ function IconSend() {
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 
+function parseLine(line: string): React.ReactNode {
+  const linkRe = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const nodes: React.ReactNode[] = [];
+  let last = 0;
+  let m: RegExpExecArray | null;
+
+  while ((m = linkRe.exec(line)) !== null) {
+    if (m.index > last) nodes.push(line.slice(last, m.index));
+    const isExternal = m[2].startsWith('http');
+    nodes.push(
+      <a
+        key={m.index}
+        href={m[2]}
+        target={isExternal ? '_blank' : undefined}
+        rel={isExternal ? 'noopener noreferrer' : undefined}
+      >
+        {m[1]}
+      </a>
+    );
+    last = m.index + m[0].length;
+  }
+  if (last < line.length) nodes.push(line.slice(last));
+  return nodes.length > 0 ? nodes : null;
+}
+
 function parseContent(text: string): React.ReactNode {
-  return text.split('\n').map((line, lineIdx) => {
-    const linkRe = /\[([^\]]+)\]\(([^)]+)\)/g;
-    const nodes: React.ReactNode[] = [];
-    let last = 0;
-    let m: RegExpExecArray | null;
+  const lines = text.split('\n');
 
-    while ((m = linkRe.exec(line)) !== null) {
-      if (m.index > last) nodes.push(line.slice(last, m.index));
-      const isExternal = m[2].startsWith('http');
-      nodes.push(
-        <a
-          key={m.index}
-          href={m[2]}
-          target={isExternal ? '_blank' : undefined}
-          rel={isExternal ? 'noopener noreferrer' : undefined}
-        >
-          {m[1]}
-        </a>
-      );
-      last = m.index + m[0].length;
+  // Group consecutive bullet lines vs plain lines
+  type Segment = { type: 'bullets'; items: string[] } | { type: 'text'; lines: string[] };
+  const segments: Segment[] = [];
+
+  for (const line of lines) {
+    const isBullet = /^[-*]\s+/.test(line);
+    if (isBullet) {
+      const last = segments[segments.length - 1];
+      if (last?.type === 'bullets') {
+        last.items.push(line.replace(/^[-*]\s+/, ''));
+      } else {
+        segments.push({ type: 'bullets', items: [line.replace(/^[-*]\s+/, '')] });
+      }
+    } else {
+      const last = segments[segments.length - 1];
+      if (last?.type === 'text') {
+        last.lines.push(line);
+      } else {
+        segments.push({ type: 'text', lines: [line] });
+      }
     }
-    if (last < line.length) nodes.push(line.slice(last));
+  }
 
+  return segments.map((seg, si) => {
+    if (seg.type === 'bullets') {
+      return (
+        <ul key={si} style={{ margin: '6px 0 6px 16px', padding: 0, listStyleType: 'disc' }}>
+          {seg.items.map((item, ii) => (
+            <li key={ii} style={{ marginBottom: '3px' }}>{parseLine(item)}</li>
+          ))}
+        </ul>
+      );
+    }
     return (
-      <React.Fragment key={lineIdx}>
-        {lineIdx > 0 && <br />}
-        {nodes.length > 0 ? nodes : null}
+      <React.Fragment key={si}>
+        {seg.lines.map((line, li) => (
+          <React.Fragment key={li}>
+            {(si > 0 || li > 0) && <br />}
+            {parseLine(line)}
+          </React.Fragment>
+        ))}
       </React.Fragment>
     );
   });
