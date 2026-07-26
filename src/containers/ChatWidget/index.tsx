@@ -1,14 +1,22 @@
 import React, { useState, useRef, useEffect } from 'react';
 import styled, { keyframes, css } from 'styled-components';
 
-// ─── Types ───────────────────────────────────────────────────────────────────
+// ─── Types ────────────────────────────────────────────────────────────────────
 
 interface Message {
   role: 'user' | 'assistant';
   content: string;
+  hasCta?: boolean;
 }
 
-// ─── Animations ──────────────────────────────────────────────────────────────
+interface ApiMessage {
+  role: 'user' | 'assistant';
+  content: string;
+}
+
+type CtaState = 'idle' | 'form' | 'submitting' | 'done' | 'error';
+
+// ─── Animations ───────────────────────────────────────────────────────────────
 
 const slideUp = keyframes`
   from { opacity: 0; transform: translateY(16px) scale(0.97); }
@@ -20,7 +28,12 @@ const blink = keyframes`
   40%            { transform: scale(1);   opacity: 1;   }
 `;
 
-// ─── Styled components ────────────────────────────────────────────────────────
+const fadeIn = keyframes`
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0);   }
+`;
+
+// ─── Shell ────────────────────────────────────────────────────────────────────
 
 const Wrap = styled.div`
   position: fixed;
@@ -41,28 +54,26 @@ const Wrap = styled.div`
 
 const Panel = styled.div<{ $open: boolean }>`
   width: 360px;
-  height: 520px;
+  height: 560px;
   background: #161616;
   border: 1px solid rgba(255, 129, 100, 0.18);
   border-radius: 18px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255,255,255,0.04);
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.04);
   animation: ${slideUp} 0.22s cubic-bezier(0.22, 1, 0.36, 1);
 
-  ${({ $open }) =>
-    !$open &&
-    css`
-      display: none;
-    `}
+  ${({ $open }) => !$open && css`display: none;`}
 
   @media (max-width: 480px) {
     width: calc(100vw - 32px);
-    height: 72vh;
-    max-height: 560px;
+    height: 78vh;
+    max-height: 620px;
   }
 `;
+
+// ─── Header ───────────────────────────────────────────────────────────────────
 
 const Header = styled.div`
   padding: 14px 18px;
@@ -92,8 +103,6 @@ const AvatarRing = styled.div`
   flex-shrink: 0;
 `;
 
-const HeaderMeta = styled.div``;
-
 const HeaderTitle = styled.div`
   font-size: 13.5px;
   font-weight: 700;
@@ -116,12 +125,10 @@ const CloseButton = styled.button`
   line-height: 1;
   border-radius: 6px;
   transition: color 0.15s, background 0.15s;
-
-  &:hover {
-    color: #fff;
-    background: rgba(255, 255, 255, 0.07);
-  }
+  &:hover { color: #fff; background: rgba(255, 255, 255, 0.07); }
 `;
+
+// ─── Messages ─────────────────────────────────────────────────────────────────
 
 const MessageList = styled.div`
   flex: 1;
@@ -172,6 +179,157 @@ const Dot = styled.span<{ $i: number }>`
   animation-delay: ${({ $i }) => $i * 0.18}s;
 `;
 
+// ─── CTA block ────────────────────────────────────────────────────────────────
+
+const CtaWrap = styled.div`
+  align-self: flex-start;
+  width: 100%;
+  max-width: 92%;
+  animation: ${fadeIn} 0.25s ease;
+`;
+
+const CtaCard = styled.div`
+  background: rgba(255, 129, 100, 0.06);
+  border: 1px solid rgba(255, 129, 100, 0.2);
+  border-radius: 14px;
+  padding: 13px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+`;
+
+const CtaLabel = styled.div`
+  font-size: 11.5px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+`;
+
+const CtaButtons = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+`;
+
+const BookBtn = styled.a`
+  display: block;
+  width: 100%;
+  padding: 9px 13px;
+  border-radius: 9px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  background: #ff8164;
+  color: #fff;
+  box-sizing: border-box;
+  transition: background 0.15s, transform 0.1s;
+  &:hover { background: #ff6b4a; transform: translateY(-1px); }
+`;
+
+const DetailsBtn = styled.button`
+  width: 100%;
+  padding: 9px 13px;
+  border-radius: 9px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+  background: transparent;
+  border: 1px solid rgba(255, 129, 100, 0.3);
+  color: rgba(255, 255, 255, 0.75);
+  transition: background 0.15s, transform 0.1s;
+  &:hover { background: rgba(255, 129, 100, 0.1); transform: translateY(-1px); }
+`;
+
+// ─── Lead form ────────────────────────────────────────────────────────────────
+
+const LeadForm = styled.form`
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  animation: ${fadeIn} 0.2s ease;
+`;
+
+const Field = styled.input`
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 8px 11px;
+  font-size: 13px;
+  color: #fff;
+  font-family: inherit;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+
+  &::placeholder { color: rgba(255, 255, 255, 0.22); }
+  &:focus { border-color: rgba(255, 129, 100, 0.4); }
+  &:disabled { opacity: 0.45; }
+`;
+
+const Textarea = styled.textarea`
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 8px 11px;
+  font-size: 13px;
+  color: #fff;
+  font-family: inherit;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+  resize: none;
+  height: 64px;
+
+  &::placeholder { color: rgba(255, 255, 255, 0.22); }
+  &:focus { border-color: rgba(255, 129, 100, 0.4); }
+  &:disabled { opacity: 0.45; }
+`;
+
+const SubmitBtn = styled.button`
+  background: #ff8164;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.15s;
+  &:hover:not(:disabled) { background: #ff6b4a; }
+  &:disabled { opacity: 0.5; cursor: default; }
+`;
+
+const AltBookLink = styled.a`
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  padding-top: 2px;
+  &:hover { color: rgba(255, 255, 255, 0.7); }
+`;
+
+const ErrorNote = styled.div`
+  font-size: 12px;
+  color: rgba(255, 100, 100, 0.85);
+`;
+
+const SuccessNote = styled.div`
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.55;
+  animation: ${fadeIn} 0.3s ease;
+
+  strong { color: #ff8164; }
+`;
+
+// ─── Input row ────────────────────────────────────────────────────────────────
+
 const InputRow = styled.form`
   padding: 11px 14px;
   border-top: 1px solid rgba(255, 255, 255, 0.06);
@@ -210,12 +368,12 @@ const SendButton = styled.button`
   justify-content: center;
   flex-shrink: 0;
   transition: background 0.15s, transform 0.1s;
-
   &:hover:not(:disabled) { background: #ff6b4a; transform: scale(1.04); }
   &:disabled { background: rgba(255, 129, 100, 0.35); cursor: default; }
-
   svg { fill: #fff; }
 `;
+
+// ─── FAB ──────────────────────────────────────────────────────────────────────
 
 const Fab = styled.button`
   width: 54px;
@@ -229,12 +387,10 @@ const Fab = styled.button`
   justify-content: center;
   box-shadow: 0 4px 20px rgba(255, 129, 100, 0.45);
   transition: transform 0.15s, box-shadow 0.15s;
-
   &:hover {
     transform: scale(1.07);
     box-shadow: 0 6px 28px rgba(255, 129, 100, 0.55);
   }
-
   svg { fill: #fff; }
 `;
 
@@ -264,11 +420,10 @@ function IconSend() {
   );
 }
 
-// ─── Markdown link parser ─────────────────────────────────────────────────────
+// ─── Helpers ──────────────────────────────────────────────────────────────────
 
 function parseContent(text: string): React.ReactNode {
-  const lines = text.split('\n');
-  return lines.map((line, lineIdx) => {
+  return text.split('\n').map((line, lineIdx) => {
     const linkRe = /\[([^\]]+)\]\(([^)]+)\)/g;
     const nodes: React.ReactNode[] = [];
     let last = 0;
@@ -289,7 +444,6 @@ function parseContent(text: string): React.ReactNode {
       );
       last = m.index + m[0].length;
     }
-
     if (last < line.length) nodes.push(line.slice(last));
 
     return (
@@ -301,7 +455,116 @@ function parseContent(text: string): React.ReactNode {
   });
 }
 
-// ─── Component ───────────────────────────────────────────────────────────────
+function parseAiResponse(raw: string): { content: string; hasCta: boolean } {
+  const hasCta = /\[SCHEDULE\]/i.test(raw);
+  const content = raw.replace(/\[SCHEDULE\]/gi, '').trim();
+  return { content, hasCta };
+}
+
+// ─── CTA block component ──────────────────────────────────────────────────────
+
+interface CtaBlockProps {
+  ctaState: CtaState;
+  formName: string;
+  formEmail: string;
+  formMessage: string;
+  onShowForm: () => void;
+  onFormChange: (field: 'name' | 'email' | 'message', value: string) => void;
+  onFormSubmit: (e: React.FormEvent) => void;
+}
+
+function CtaBlock({
+  ctaState,
+  formName,
+  formEmail,
+  formMessage,
+  onShowForm,
+  onFormChange,
+  onFormSubmit,
+}: CtaBlockProps) {
+  const isSubmitting = ctaState === 'submitting';
+
+  return (
+    <CtaWrap>
+      <CtaCard>
+        <CtaLabel>Ready to take the next step?</CtaLabel>
+
+        {ctaState === 'idle' && (
+          <CtaButtons>
+            <BookBtn
+              href="https://calendly.com/caruso-martech/new-meeting"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              📅 Book a call
+            </BookBtn>
+            <DetailsBtn type="button" onClick={onShowForm}>
+              ✉️ Leave your details
+            </DetailsBtn>
+          </CtaButtons>
+        )}
+
+        {(ctaState === 'form' || ctaState === 'submitting' || ctaState === 'error') && (
+          <LeadForm onSubmit={onFormSubmit}>
+            {ctaState === 'error' && (
+              <ErrorNote>Something went wrong. Please try again.</ErrorNote>
+            )}
+            <Field
+              type="text"
+              placeholder="Your name"
+              value={formName}
+              onChange={(e) => onFormChange('name', e.target.value)}
+              disabled={isSubmitting}
+              required
+            />
+            <Field
+              type="email"
+              placeholder="Your email"
+              value={formEmail}
+              onChange={(e) => onFormChange('email', e.target.value)}
+              disabled={isSubmitting}
+              required
+            />
+            <Textarea
+              placeholder="What do you need help with?"
+              value={formMessage}
+              onChange={(e) => onFormChange('message', e.target.value)}
+              disabled={isSubmitting}
+            />
+            <SubmitBtn type="submit" disabled={isSubmitting}>
+              {isSubmitting ? 'Sending...' : 'Send →'}
+            </SubmitBtn>
+            <AltBookLink
+              href="https://calendly.com/caruso-martech/new-meeting"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Or book a call instead
+            </AltBookLink>
+          </LeadForm>
+        )}
+
+        {ctaState === 'done' && (
+          <SuccessNote>
+            Got it, <strong>{formName.split(' ')[0] || formName}</strong>. I'll follow up
+            at {formEmail} shortly.
+            <br />
+            <br />
+            <BookBtn
+              href="https://calendly.com/caruso-martech/new-meeting"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              📅 Book a call in the meantime
+            </BookBtn>
+          </SuccessNote>
+        )}
+      </CtaCard>
+    </CtaWrap>
+  );
+}
+
+// ─── Greeting ─────────────────────────────────────────────────────────────────
 
 const GREETING: Message = {
   role: 'assistant',
@@ -309,37 +572,45 @@ const GREETING: Message = {
     "Hi, I'm the Caruso Martech assistant. Ask me anything about paid media, SEO, marketing automation, or how we work — I'll give you a straight answer.",
 };
 
+// ─── Main widget ──────────────────────────────────────────────────────────────
+
 export function ChatWidget(): JSX.Element {
   const [open, setOpen] = useState(false);
-  const [displayMessages, setDisplayMessages] = useState<Message[]>([GREETING]);
+  const [messages, setMessages] = useState<Message[]>([GREETING]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
 
-  // Actual conversation history sent to the API (excludes the local greeting)
-  const historyRef = useRef<Message[]>([]);
+  // CTA and form state (single instance — tracks the most recent CTA)
+  const [ctaState, setCtaState] = useState<CtaState>('idle');
+  const [formName, setFormName] = useState('');
+  const [formEmail, setFormEmail] = useState('');
+  const [formMessage, setFormMessage] = useState('');
+
+  // API conversation history (no hasCta, no GREETING)
+  const historyRef = useRef<ApiMessage[]>([]);
   const bottomRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, [displayMessages, loading]);
+  }, [messages, loading, ctaState]);
 
   useEffect(() => {
-    if (open) {
-      setTimeout(() => inputRef.current?.focus(), 80);
-    }
+    if (open) setTimeout(() => inputRef.current?.focus(), 80);
   }, [open]);
+
+  // ── Send chat message ────────────────────────────────────────────────────────
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     const text = input.trim();
     if (!text || loading) return;
 
-    const userMsg: Message = { role: 'user', content: text };
-    historyRef.current = [...historyRef.current, userMsg];
-    setDisplayMessages((prev) => [...prev, userMsg]);
+    historyRef.current = [...historyRef.current, { role: 'user', content: text }];
+    setMessages((prev) => [...prev, { role: 'user', content: text }]);
     setInput('');
     setLoading(true);
+    setCtaState('idle');
 
     try {
       const res = await fetch('/api/chat', {
@@ -349,20 +620,56 @@ export function ChatWidget(): JSX.Element {
       });
 
       const data: { content?: string; error?: string } = await res.json();
-      const content = data.content ?? data.error ?? 'Something went wrong. Please try again.';
-      const reply: Message = { role: 'assistant', content };
-      historyRef.current = [...historyRef.current, reply];
-      setDisplayMessages((prev) => [...prev, reply]);
+      const raw = data.content ?? data.error ?? 'Something went wrong. Please try again.';
+      const { content, hasCta } = parseAiResponse(raw);
+
+      historyRef.current = [...historyRef.current, { role: 'assistant', content }];
+      setMessages((prev) => [...prev, { role: 'assistant', content, hasCta }]);
     } catch {
-      const errorMsg: Message = {
-        role: 'assistant',
-        content: 'Connection error. Please try again.',
-      };
-      setDisplayMessages((prev) => [...prev, errorMsg]);
+      setMessages((prev) => [
+        ...prev,
+        { role: 'assistant', content: 'Connection error. Please try again.' },
+      ]);
     } finally {
       setLoading(false);
     }
   }
+
+  // ── CTA handlers ────────────────────────────────────────────────────────────
+
+  function handleShowForm() {
+    const lastUserMsg = [...historyRef.current]
+      .reverse()
+      .find((m) => m.role === 'user');
+    setFormMessage(lastUserMsg?.content ?? '');
+    setCtaState('form');
+  }
+
+  function handleFormChange(field: 'name' | 'email' | 'message', value: string) {
+    if (field === 'name') setFormName(value);
+    if (field === 'email') setFormEmail(value);
+    if (field === 'message') setFormMessage(value);
+  }
+
+  async function handleFormSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    setCtaState('submitting');
+
+    try {
+      const res = await fetch('/api/hubspot', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ name: formName, email: formEmail, message: formMessage }),
+      });
+      const data: { success?: boolean; error?: string } = await res.json();
+      setCtaState(res.ok && data.success ? 'done' : 'error');
+    } catch {
+      setCtaState('error');
+    }
+  }
+
+  // Only the last hasCta message gets the full interactive CTA block
+  const lastCtaIdx = messages.reduce((acc, m, i) => (m.hasCta ? i : acc), -1);
 
   return (
     <Wrap>
@@ -371,10 +678,10 @@ export function ChatWidget(): JSX.Element {
           <Header>
             <HeaderLeft>
               <AvatarRing>🚀</AvatarRing>
-              <HeaderMeta>
+              <div>
                 <HeaderTitle>Caruso Martech</HeaderTitle>
                 <HeaderStatus>Marketing assistant</HeaderStatus>
-              </HeaderMeta>
+              </div>
             </HeaderLeft>
             <CloseButton onClick={() => setOpen(false)} aria-label="Close chat">
               <IconClose />
@@ -382,11 +689,40 @@ export function ChatWidget(): JSX.Element {
           </Header>
 
           <MessageList>
-            {displayMessages.map((msg, i) => (
-              <Bubble key={i} $user={msg.role === 'user'}>
-                {parseContent(msg.content)}
-              </Bubble>
+            {messages.map((msg, i) => (
+              <React.Fragment key={i}>
+                <Bubble $user={msg.role === 'user'}>
+                  {parseContent(msg.content)}
+                </Bubble>
+
+                {/* Full CTA block on the last hasCta message */}
+                {msg.hasCta && i === lastCtaIdx && (
+                  <CtaBlock
+                    ctaState={ctaState}
+                    formName={formName}
+                    formEmail={formEmail}
+                    formMessage={formMessage}
+                    onShowForm={handleShowForm}
+                    onFormChange={handleFormChange}
+                    onFormSubmit={handleFormSubmit}
+                  />
+                )}
+
+                {/* Minimal book link on earlier hasCta messages */}
+                {msg.hasCta && i !== lastCtaIdx && (
+                  <CtaWrap>
+                    <BookBtn
+                      href="https://calendly.com/caruso-martech/new-meeting"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      📅 Book a call
+                    </BookBtn>
+                  </CtaWrap>
+                )}
+              </React.Fragment>
             ))}
+
             {loading && (
               <TypingBubble $user={false} aria-label="Thinking">
                 <Dot $i={0} />

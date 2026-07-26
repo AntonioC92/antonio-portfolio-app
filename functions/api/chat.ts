@@ -20,14 +20,12 @@ Available blog posts (use exact markdown format):
 - [Attribution in 2026](/insights/ga4-for-b2b) — use for questions about analytics, GA4, attribution modelling, tracking, B2B measurement
 - [What a Modern Marketing System Actually Looks Like in 2026](/insights/marketing-systems-blueprint) — use for questions about martech stack, marketing systems, tech setup, tooling
 
-Calendly link: https://calendly.com/caruso-martech/new-meeting
-
 Link rules (apply every response, no exceptions):
-- If the question is about pricing, cost, working together, scope, availability, or where to start: include the Calendly link with anchor text like "book a call" or "get in touch"
-- If a blog post covers the topic: include that blog link
-- If both apply: include both
-- If no blog post is a strong match: default to the Calendly link
-- Format links in plain markdown: [anchor text](url)`;
+- If a blog post covers the topic: include that blog link as markdown
+- If the question is about pricing, cost, working together, scope, availability, or where to start: add the exact token [SCHEDULE] on its own line at the very end of your message
+- If both apply: include the blog link first, then [SCHEDULE] at the end
+- If no blog post is a strong match: add [SCHEDULE] at the end
+- Never include raw URLs for booking. Use [SCHEDULE] as the only booking signal.`;
 
 interface Message {
   role: 'user' | 'assistant';
