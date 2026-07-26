@@ -492,14 +492,14 @@ function CtaBlock({
         {ctaState === 'idle' && (
           <CtaButtons>
             <BookBtn
-              href="https://calendly.com/caruso-martech/new-meeting"
+              href="https://calendly.com/caruso-martech/new-meeting?utm_source=website&utm_medium=chatbot&utm_campaign=organic"
               target="_blank"
               rel="noopener noreferrer"
             >
               📅 Book a call
             </BookBtn>
             <DetailsBtn type="button" onClick={onShowForm}>
-              ✉️ Leave your details
+              ✉️ Get in touch
             </DetailsBtn>
           </CtaButtons>
         )}
@@ -535,7 +535,7 @@ function CtaBlock({
               {isSubmitting ? 'Sending...' : 'Send →'}
             </SubmitBtn>
             <AltBookLink
-              href="https://calendly.com/caruso-martech/new-meeting"
+              href="https://calendly.com/caruso-martech/new-meeting?utm_source=website&utm_medium=chatbot&utm_campaign=organic"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -551,7 +551,7 @@ function CtaBlock({
             <br />
             <br />
             <BookBtn
-              href="https://calendly.com/caruso-martech/new-meeting"
+              href="https://calendly.com/caruso-martech/new-meeting?utm_source=website&utm_medium=chatbot&utm_campaign=organic"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -712,7 +712,7 @@ export function ChatWidget(): JSX.Element {
                 {msg.hasCta && i !== lastCtaIdx && (
                   <CtaWrap>
                     <BookBtn
-                      href="https://calendly.com/caruso-martech/new-meeting"
+                      href="https://calendly.com/caruso-martech/new-meeting?utm_source=website&utm_medium=chatbot&utm_campaign=organic"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
