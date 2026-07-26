@@ -56,11 +56,11 @@ const ServiceItem = styled.span`
 
 const IndustryItem = styled.span`
   white-space: nowrap;
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: 0.82rem;
+  font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.6);
+  color: #ffffff;
   padding: 0 1.4rem;
 `;
 

@@ -572,7 +572,7 @@ function CtaBlock({
 const GREETING: Message = {
   role: 'assistant',
   content:
-    "Hi, I'm the Caruso Martech assistant. Ask me anything about paid media, SEO, marketing automation, or how we work — I'll give you a straight answer.",
+    "Hi, I'm the Caruso Martech assistant. Ask me anything about paid media, SEO, marketing automation, or how we work. I'll give you a straight answer.",
 };
 
 // ─── Main widget ──────────────────────────────────────────────────────────────
