@@ -100,6 +100,7 @@ Write a complete post following the frontmatter spec and post structure above. A
 - **Rewrite negative-positive sentence pairs into a single positive statement.** "You are not trying to X. You are trying to Y." → "Instead of X, you are trying to Y." or just "You are trying to Y."
 - **No summary sentences at the end of sections.** The last sentence should land on something new, not echo what was just said.
 - **Fluid prose, no AI sentence structures.** No "Let's be real:", no "Here's the truth:", no three-word staccato. Write like a practitioner explaining to a peer.
+- **Never use "founder-led".** It is overused jargon. Say what you mean: "the founder runs sales", "the founder is the main point of contact", "a business where one person owns and operates everything", etc.
 
 ### Step 3 — Save the file
 

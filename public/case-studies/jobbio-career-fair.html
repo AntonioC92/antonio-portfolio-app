@@ -289,7 +289,10 @@
   #nav-prev { left:14px!important; }
   #nav-next { right:14px!important; }
     #progress { bottom:62px!important; background:rgba(9,20,31,0.65)!important; padding:6px 10px!important; border-radius:20px!important; -webkit-transform:translateZ(0); transform:translateZ(0); }
-  .slide { padding-bottom: 110px!important; }
+  /* Slides become scrollable columns; 72px clears the ← Work button, 120px clears nav controls */
+  .slide { overflow-y: auto!important; align-items: flex-start!important; padding-top: 72px!important; padding-bottom: 120px!important; }
+  /* Full-height inner wrappers: let content drive height, use safe-center so short content stays centred */
+  .slide > div[style*="height:100%"] { height: auto!important; min-height: calc(100vh - 192px)!important; justify-content: safe center!important; }
   #hint { display:none!important; }
 }
 </style>

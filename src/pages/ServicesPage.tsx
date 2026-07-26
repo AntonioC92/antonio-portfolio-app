@@ -34,8 +34,8 @@ const SERVICES_CANONICAL = 'https://carusomartech.com/services/';
 const services = [
   {
     icon: '📈',
-    name: 'Growth Strategy & Performance Marketing',
-    desc: 'Data-driven growth strategy built around your business goals, audience behaviour, and revenue targets. Full planning and execution across LinkedIn, Google, Meta, TikTok, and Pinterest.',
+    name: 'Acquisition Systems',
+    desc: 'Paid media strategy and execution built around your revenue targets. We plan the channel mix, run campaigns across LinkedIn, Google, Meta, TikTok, and Pinterest, and design the funnel that converts traffic into pipeline.',
     items: [
       'Paid media strategy and channel mix planning',
       'Campaign setup, management, and optimisation',
@@ -45,19 +45,19 @@ const services = [
   },
   {
     icon: '🔍',
-    name: 'SEO & UX Optimisation',
-    desc: 'Comprehensive SEO audits, keyword strategy, and technical fixes combined with UX improvements that turn visitors into customers.',
+    name: 'AI Search & Experience',
+    desc: 'Search has changed. AI Overviews, featured snippets, and chat-based discovery now sit above the blue links. We build the SEO and UX strategy that gets you found in both, and converts the traffic once it arrives.',
     items: [
       'Technical SEO audit and remediation',
-      'Keyword gap analysis and content strategy',
-      'On-page optimisation and internal linking',
+      'Keyword strategy and AI search optimisation',
+      'On-page optimisation and entity-based content',
       'UX review and conversion-focused redesign',
     ],
   },
   {
     icon: '⚙️',
-    name: 'Marketing Automation & Analytics',
-    desc: 'Automated workflows for lead capture, nurturing, and CRM sync. Dashboards focused on decisions, not vanity metrics.',
+    name: 'Automation & Intelligence',
+    desc: 'Automated workflows for lead capture, nurturing, and CRM sync, with dashboards that surface decisions rather than raw numbers. AI-assisted reporting closes the loop between spend and revenue.',
     items: [
       'HubSpot, Salesforce, and Mailchimp setup',
       'Lead scoring and lifecycle automation',
@@ -85,7 +85,7 @@ export function ServicesPage(): JSX.Element {
     <Layout>
       <Seo
         title="Services | Caruso Martech"
-        description="Marketing services covering growth strategy, paid media, SEO, marketing automation, and analytics. Retainer and project engagements available."
+        description="Three practice areas — acquisition systems, AI search and experience, and automation and intelligence — built to work together as a single revenue engine."
         canonical={SERVICES_CANONICAL}
         ogUrl={SERVICES_CANONICAL}
         ogImage="https://carusomartech.com/preview.png"
@@ -96,8 +96,8 @@ export function ServicesPage(): JSX.Element {
         <ServicesHeader>
           <ServicesTitle>Services</ServicesTitle>
           <ServicesSubtitle>
-            We partner with founders and leadership teams, bringing senior marketing
-            strategy and hands-on execution without the overhead of a full-time hire.
+            Three practice areas built to work together: acquisition systems, AI search
+            and experience, and automation and intelligence.
           </ServicesSubtitle>
         </ServicesHeader>
 

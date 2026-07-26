@@ -13,16 +13,16 @@ import { AboutWrapper } from '../AboutSection/styles';
 
 const columns = [
   {
-    title: 'Your website becomes your best salesperson',
-    subtitle: 'SEO strategy, UX optimisation, and conversion design',
+    title: 'Paid channels that learn and compound',
+    subtitle: 'Acquisition systems, paid media, and funnel optimisation',
   },
   {
-    title: 'Paid channels that learn and compound',
-    subtitle: 'Growth strategy, paid media, and funnel optimisation',
+    title: 'Found in AI search, built to convert',
+    subtitle: 'AI search optimisation, UX, and conversion design',
   },
   {
     title: 'Clear sight of what\'s driving revenue',
-    subtitle: 'Marketing automation, dashboards, and ROI tracking',
+    subtitle: 'Automation, AI-assisted reporting, and ROI tracking',
   },
 ];
 

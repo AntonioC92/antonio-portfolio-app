@@ -47,11 +47,11 @@ const Item = styled.span`
 `;
 
 const SERVICES = [
-  'Growth Strategy',
+  'Acquisition Systems',
   'Paid Media',
-  'SEO & UX',
-  'Marketing Automation',
-  'Analytics & Attribution',
+  'AI Search & Experience',
+  'AI Overviews Optimisation',
+  'Automation & Intelligence',
   'Funnel Design',
   'Conversion Rate Optimisation',
   'CRM & Lead Scoring',
