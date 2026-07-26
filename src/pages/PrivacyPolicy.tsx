@@ -135,7 +135,7 @@ export function PrivacyPolicy() {
         <p style={{ marginBottom: "2.5rem" }}>
           To exercise your rights, contact:
           <br />
-          <strong>caruso.martech@gmail.com</strong>
+          <strong>info@carusomartech.com</strong>
         </p>
 
         <h2 style={{ marginTop: "3rem", color: "#ff7a59" }}>
@@ -145,7 +145,7 @@ export function PrivacyPolicy() {
         <p>
           Antonio Caruso<br />
           Caruso Martech<br />
-          caruso.martech@gmail.com
+          info@carusomartech.com
         </p>
         </div>
       </section>

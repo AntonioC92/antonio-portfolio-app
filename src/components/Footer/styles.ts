@@ -77,6 +77,20 @@ export const StyledLink = styled.a`
   }
 `;
 
+export const EmailLink = styled.a`
+  display: inline-block;
+  margin-bottom: 5px;
+  color: #1a1a1a;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+
+  &:hover {
+    color: ${colors.primary};
+  }
+`;
+
 export const StyledSocialIconContainer = styled.div`
   display: flex;
   align-items: center;

@@ -7,6 +7,7 @@ import {
   StyledFooterHeaderContainer,
   StyledFooterSection,
   StyledLink,
+  EmailLink,
   StyledLogo,
   StyledRow,
   StyledScrollToTop,
@@ -66,9 +67,9 @@ export function Footer(): JSX.Element {
             <StyledColumnContainer>
               <StyledColumn>
                 <StyledTitle>Get in Touch</StyledTitle>
-                <StyledLink href="mailto:caruso.martech@gmail.com">
-                  caruso.martech@gmail.com
-                </StyledLink>
+                <EmailLink href="mailto:info@carusomartech.com">
+                  info@carusomartech.com
+                </EmailLink>
               </StyledColumn>
 
               <StyledColumn>
