@@ -88,15 +88,6 @@ export function ResourceDetailPage(): JSX.Element {
       },
     },
   };
-  const authorStructuredData = {
-    '@context': 'https://schema.org',
-    '@type': 'Organization',
-    name: 'Caruso Martech',
-    url: SITE_URL,
-    description:
-      'Marketing systems consultancy building attribution, automation, and growth infrastructure for founders and leadership teams.',
-  };
-
   return (
     <Layout>
       <Seo
@@ -115,10 +106,6 @@ export function ResourceDetailPage(): JSX.Element {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleStructuredData) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(authorStructuredData) }}
       />
 
       <ArticleWrap>

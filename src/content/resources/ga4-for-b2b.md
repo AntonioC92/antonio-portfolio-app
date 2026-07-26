@@ -139,6 +139,6 @@ That kind of focused cleanup often improves decision confidence faster than anot
 
 Attribution in 2026 is less about certainty and more about useful confidence. Teams make better decisions when implementation is clean, reporting is aligned to the business, and measurement methods are chosen to support the right level of decision.
 
-If your team is still making budget calls on incomplete or inconsistent signals, fix measurement hygiene first, then improve modelling. Align leadership ownership with the [Fractional CMO](/insights/future-fractional-cmo-operating-builder) model to keep decisions consistent. If your reporting needs this kind of hardening, see our [services](/services) or [get in touch](/contact).
+If your team is still making budget calls on incomplete or inconsistent signals, fix measurement hygiene first, then improve modelling. [BrandBooster](https://brandbooster.ai/blog/navigating-the-complexities-overcoming-key-marketing-attribution-challenges-in-2025/) covers this well too, especially around signal quality and implementation hygiene.
 
-[BrandBooster](https://brandbooster.ai/blog/navigating-the-complexities-overcoming-key-marketing-attribution-challenges-in-2025/) covers this well too, especially around signal quality and implementation hygiene.
+Align leadership ownership with the [Fractional CMO](/insights/future-fractional-cmo-operating-builder) model to keep decisions consistent. If your reporting needs this kind of hardening, see our [services](/services) or [get in touch](/contact).

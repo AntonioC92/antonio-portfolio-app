@@ -129,6 +129,6 @@ That is where the model becomes genuinely powerful. Fractional should describe t
 
 The Fractional CMO role is becoming more practical, more operational, and more valuable for businesses that need measurable progress without adding heavy overhead. In 2026, the strongest version of the role combines strategy with system design and active operating rhythm.
 
-If you are reviewing your own growth model, map leadership accountability against [attribution quality](/insights/attribution-challenges-2025) before scaling investment. If you want this kind of operating partner, see our [services](/services) or [reach out](/contact).
-
 [FractionalCMOz](https://fractionalcmoz.com/fractional-cmo-playbook/cmo-insights/future-of-fractional-cmo/) covers this trend in more depth, and it continues to center on operational ownership.
+
+If you are reviewing your own growth model, map leadership accountability against [attribution quality](/insights/attribution-challenges-2025) before scaling investment. If you want this kind of operating partner, see our [services](/services) or [reach out](/contact).

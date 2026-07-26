@@ -20,6 +20,9 @@ Key areas of work: performance marketing (Meta, Google, LinkedIn), marketing aut
 - [The Future Fractional CMO: Strategic Builder, Operator, and Growth Partner](https://carusomartech.com/insights/future-fractional-cmo-operating-builder): Why the strongest Fractional CMO model in 2026 is built around diagnosing, installing, and operating a measurable growth system.
 - [Automating Marketing Workflows: A Practical Guide](https://carusomartech.com/insights/automating-marketing-workflows): How modern marketing teams automate reporting, attribution, and campaign operations using AI and workflow systems.
 - [The AI Search Attribution Gap](https://carusomartech.com/insights/ai-search-attribution-gap): AI Overviews and chatbots are removing clicks from the buyer journey, and how to build a measurement model that accounts for what attribution software can no longer see.
+- [How to Audit Your Martech Stack in a Day](https://carusomartech.com/insights/martech-stack-audit): A practical one-day framework for auditing your martech stack: what tools exist, what's connected, what's actually used, and what to cut.
+- [The Questions to Ask Before You Automate Your Marketing](https://carusomartech.com/insights/marketing-automation-readiness-checklist): Most marketing automation builds stall for reasons that have nothing to do with the software. A practical readiness checklist before you buy or build anything.
+- [When Should You Hire Your First Marketing Leader?](https://carusomartech.com/insights/when-to-hire-first-marketing-leader): A practical framework for small business owners on when to hire marketing leadership: fractional CMO, full-time, or agency, and what to line up first.
 
 ## Optional
 

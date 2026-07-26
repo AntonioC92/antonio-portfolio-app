@@ -2,7 +2,7 @@
 title: "The Questions to Ask Before You Automate Your Marketing"
 slug: "marketing-automation-readiness-checklist"
 description: "Most marketing automation builds stall for reasons that have nothing to do with the software. A practical readiness checklist for founder-led teams before they buy or build anything."
-metaTitle: "Marketing Automation Readiness Checklist"
+metaTitle: "Marketing Automation Readiness Checklist | Caruso Martech"
 metaDescription: "Why marketing automation projects stall, and the readiness questions founder-led teams should answer before they buy or build one."
 date: "2026-07-24"
 lastUpdated: "2026-07-24"
