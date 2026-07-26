@@ -1,3 +1,4 @@
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
   StyledSection,
@@ -38,16 +39,16 @@ export function WhatIDoBestSection(): JSX.Element {
 
           <ColumnsWrapper>
             {columns.map((col, i) => (
-              <>
-                <Column key={i}>
+              <React.Fragment key={i}>
+                <Column>
                   <Title>{col.title}</Title>
                   <SubTitle>{col.subtitle}</SubTitle>
                   <ServiceLink onClick={() => navigate('/services')}>
                     Explore our services {'→'}
                   </ServiceLink>
                 </Column>
-                {i === 1 && <ArrowDivider key="arrow">→</ArrowDivider>}
-              </>
+                {i < columns.length - 1 && <ArrowDivider>→</ArrowDivider>}
+              </React.Fragment>
             ))}
           </ColumnsWrapper>
         </SectionInner>

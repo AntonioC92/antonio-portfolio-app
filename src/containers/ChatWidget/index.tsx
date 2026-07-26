@@ -423,24 +423,35 @@ function IconSend() {
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 
 function parseLine(line: string): React.ReactNode {
-  const linkRe = /\[([^\]]+)\]\(([^)]+)\)/g;
+  // Split on **bold** and [link](url) tokens
+  const tokenRe = /(\*\*[^*]+\*\*|\[([^\]]+)\]\(([^)]+)\))/g;
   const nodes: React.ReactNode[] = [];
   let last = 0;
   let m: RegExpExecArray | null;
 
-  while ((m = linkRe.exec(line)) !== null) {
+  while ((m = tokenRe.exec(line)) !== null) {
     if (m.index > last) nodes.push(line.slice(last, m.index));
-    const isExternal = m[2].startsWith('http');
-    nodes.push(
-      <a
-        key={m.index}
-        href={m[2]}
-        target={isExternal ? '_blank' : undefined}
-        rel={isExternal ? 'noopener noreferrer' : undefined}
-      >
-        {m[1]}
-      </a>
-    );
+
+    const token = m[0];
+    if (token.startsWith('**')) {
+      // Bold
+      nodes.push(<strong key={m.index}>{token.slice(2, -2)}</strong>);
+    } else {
+      // Markdown link
+      const text = m[2];
+      const href = m[3];
+      const isExternal = href.startsWith('http');
+      nodes.push(
+        <a
+          key={m.index}
+          href={href}
+          target={isExternal ? '_blank' : undefined}
+          rel={isExternal ? 'noopener noreferrer' : undefined}
+        >
+          {text}
+        </a>
+      );
+    }
     last = m.index + m[0].length;
   }
   if (last < line.length) nodes.push(line.slice(last));
@@ -476,9 +487,12 @@ function parseContent(text: string): React.ReactNode {
   return segments.map((seg, si) => {
     if (seg.type === 'bullets') {
       return (
-        <ul key={si} style={{ margin: '6px 0 6px 16px', padding: 0, listStyleType: 'disc' }}>
+        <ul key={si} style={{ margin: '8px 0', padding: 0, listStyle: 'none' }}>
           {seg.items.map((item, ii) => (
-            <li key={ii} style={{ marginBottom: '3px' }}>{parseLine(item)}</li>
+            <li key={ii} style={{ display: 'flex', gap: '8px', marginBottom: '6px', alignItems: 'flex-start' }}>
+              <span style={{ color: '#ff8164', flexShrink: 0, marginTop: '1px' }}>•</span>
+              <span>{parseLine(item)}</span>
+            </li>
           ))}
         </ul>
       );
