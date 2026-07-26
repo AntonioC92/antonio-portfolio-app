@@ -89,14 +89,15 @@ export const StyledSocialIcon = styled.img`
 
 export const StyledScrollToTop = styled.img<{ show: boolean }>`
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #fff;
-  color: white;
+  bottom: 90px;
+  right: 28px;
+  background-color: transparent;
   padding: 10px;
   border-radius: 50%;
   cursor: pointer;
+  opacity: 0.45;
   display: ${(props) => (props.show ? 'block' : 'none')};
+  &:hover { opacity: 0.75; }
 `;
 
 export const StyledColumnContainer = styled.div`
