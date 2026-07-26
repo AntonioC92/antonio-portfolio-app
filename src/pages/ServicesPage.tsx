@@ -59,7 +59,7 @@ const services = [
     name: 'Automation & Intelligence',
     desc: 'Automated workflows for lead capture, nurturing, and CRM sync, with dashboards that surface decisions rather than raw numbers. AI-assisted reporting closes the loop between spend and revenue.',
     items: [
-      'HubSpot, Salesforce, and Mailchimp setup',
+      'Marketing platform and CRM setup',
       'Lead scoring and lifecycle automation',
       'Custom reporting and KPI dashboards',
       'Multi-touch attribution and revenue tracking',
