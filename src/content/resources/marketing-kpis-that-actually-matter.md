@@ -10,7 +10,7 @@ category: "Marketing Systems"
 tags: "marketing kpis, marketing dashboard, marketing measurement, marketing systems, small business marketing"
 ---
 
-Most marketing dashboards are full of numbers that do not answer the one question leadership actually asks: is this working. Traffic is up, followers are up, impressions are up, and none of it explains whether the business is closer to its revenue target this quarter. That gap is not a tooling problem. It is a metric selection problem, and it shows up every time budget gets reviewed.
+Most marketing dashboards are full of numbers that do not answer the one question leadership actually asks: is this working. Traffic is up, followers are up, impressions are up, and none of it explains whether the business is closer to its revenue target this quarter. That gap comes down to metric selection, and it shows up every time budget gets reviewed.
 
 [HubSpot's](https://www.hubspot.com/marketing-statistics) 2026 State of Marketing report found that measuring marketing ROI is the single biggest challenge marketers face this year, cited by a third of respondents. At the same time, 73 percent say their budgets face more scrutiny than before. Small marketing teams feel this first, because they rarely have a dedicated analyst to turn a wall of charts into a clear answer.
 
@@ -18,13 +18,13 @@ Most marketing dashboards are full of numbers that do not answer the one questio
 
 For a small, owner-run marketing team, five numbers do most of the work:
 
-- **Customer acquisition cost (CAC)** by channel, not blended across everything
-- **CAC to lifetime value ratio**, to check whether growth is actually profitable
-- **Conversion rate broken out by funnel stage**, from visit to lead to close
-- **Revenue per channel**, tied to closed business rather than clicks
-- **Retention or repeat purchase rate**, which shows whether growth compounds or leaks away
+- Customer acquisition cost (CAC): broken out by channel
+- CAC to lifetime value ratio: whether growth is actually profitable
+- Conversion rate by funnel stage: from visit to lead to close
+- Revenue per channel: based on closed business recorded in the CRM
+- Retention or repeat purchase rate: shows whether growth compounds or leaks away
 
-Everything else, including traffic, followers, and email open rates, belongs in a secondary report, not the main dashboard.
+Everything else, including traffic, followers, and email open rates, belongs in a secondary report.
 
 ## Why most dashboards measure the wrong things
 
@@ -42,19 +42,19 @@ A dashboard should exist to support a decision: raise a budget, cut a channel, c
 
 **Conversion rate by funnel stage.** One blended conversion rate tells you almost nothing about where a prospect drops off. Break it into stages: visit to lead, lead to opportunity, opportunity to close. This is usually where the real problem lives, and it is invisible in a single top-line number.
 
-**Revenue per channel.** Not clicks, not leads: closed revenue, tied back through the CRM to the channel that originated it. This requires a working attribution model, which is its own discipline. We wrote a longer breakdown of how to build one in our [attribution guide](/insights/attribution-challenges-2025).
+**Revenue per channel.** Closed revenue, tied back through the CRM to the channel that originated it. This requires a working attribution model, which is its own discipline. We wrote a longer breakdown of how to build one in our [attribution guide](/insights/attribution-challenges-2025).
 
-**Retention or repeat purchase rate.** New customer growth that leaks out the back door is not real growth. Track how many customers are still active, still buying, or still renewing after a defined period, and put it next to acquisition numbers so leadership sees both halves of the picture at once.
+**Retention or repeat purchase rate.** Growth only compounds if customers stick around. Track how many customers are still active, still buying, or still renewing after a defined period, and put it next to acquisition numbers so leadership sees both halves of the picture at once.
 
 ## Building the dashboard without buying new software
 
-Most small teams do not need a new platform to fix this. They need to stop pulling five disconnected reports and start pulling one.
+Most small teams can fix this without buying a new platform. The move is to stop pulling five disconnected reports and start pulling one.
 
 Start with what already exists. A short audit of the current stack, along the lines of the process in our [martech audit](/insights/martech-stack-audit), usually turns up two or three tools already capable of feeding a shared dashboard: the CRM, the ad platforms, and whatever analytics tool is already installed. Looker Studio, a shared spreadsheet, or a lightweight BI tool can pull from all three without a new contract.
 
-Set a single source of truth for each metric. CAC comes from ad spend divided by CRM-attributed customers, not from the ad platform's own conversion count. Revenue per channel comes from the CRM's closed-deal data, not from a landing page tool's self-reported leads. Disagreements between tools are normal. Pick one owner per metric and move on.
+Anchor each metric to one source of truth. Define CAC as ad spend divided by CRM-attributed customers. Pull revenue per channel from the CRM's closed-deal data. Disagreements between tools are normal. Pick one owner per metric and move on.
 
-Review it on a fixed cadence, weekly for the leading indicators like conversion rate, monthly for lagging ones like retention. A dashboard nobody opens is not a system, it is a screenshot. This is also where a broader measurement structure earns its keep: the KPI layer described here fits inside the wider approach we laid out in our [marketing system](/insights/modern-marketing-system-2025) blueprint, where measurement is one of four layers that all have to work together.
+Review it on a fixed cadence, weekly for the leading indicators like conversion rate, monthly for lagging ones like retention. A dashboard nobody opens is just a screenshot. This is also where a broader measurement structure earns its keep: the KPI layer described here fits inside the wider approach we laid out in our [marketing system](/insights/modern-marketing-system-2025) blueprint, where measurement is one of four layers that all have to work together.
 
 ## The mistakes that sink a first dashboard
 
@@ -62,6 +62,6 @@ Two mistakes show up constantly. The first is packing in too many metrics becaus
 
 The second is building it once and never revisiting the definitions. Channels change, pricing changes, and a CAC formula from eighteen months ago can quietly stop matching how the business actually sells. Revisit the metric definitions every quarter, alongside the numbers inside them.
 
-Getting this right is less about picking better software and more about picking better questions. Once the five core numbers are in place and everyone agrees on where they come from, the rest of the reporting stack gets much easier to trust.
+Getting this right comes down to picking the right questions before reaching for new software. Once the five core numbers are in place and everyone agrees on where they come from, the rest of the reporting stack gets much easier to trust.
 
 If your team is still stitching together five reports before every leadership meeting, that usually signals the measurement layer needs rebuilding. That is exactly the kind of system we help small marketing teams put in place. Take a look at [our services](/services) or [reach out](/contact) if you want a second pair of eyes on what your dashboard should actually track.
