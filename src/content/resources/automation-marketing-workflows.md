@@ -6,7 +6,7 @@ metaTitle: "Automating Marketing Workflows in 2026 | Caruso Martech"
 metaDescription: "A practical guide to automating reporting, CRM handoffs, and attribution workflows with AI so marketing teams can move faster with fewer errors."
 date: "2026-03-04"
 lastUpdated: "2026-03-04"
-category: "Automation & AI"
+category: "Automation & Intelligence"
 tags: "automation, ai, marketing operations, reporting, attribution"
 ---
 

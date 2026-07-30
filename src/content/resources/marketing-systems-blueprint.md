@@ -6,7 +6,7 @@ metaTitle: "Modern Marketing System Blueprint | Caruso Martech"
 metaDescription: "Understand the four layers of a modern marketing system: data, workflow, channel execution, and measurement governance."
 date: "2026-02-09"
 lastUpdated: "2026-02-09"
-category: "Marketing Systems"
+category: "Automation & Intelligence"
 tags: "marketing systems, martech, operations, measurement, process"
 ---
 

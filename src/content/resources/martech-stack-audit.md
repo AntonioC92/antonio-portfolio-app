@@ -6,7 +6,7 @@ metaTitle: "Martech Stack Audit: A One-Day Framework | Caruso Martech"
 metaDescription: "Run a complete martech stack audit in a day. A practical checklist for inventory, usage, integration, and cost review that ends with a cut list."
 date: "2026-07-23"
 lastUpdated: "2026-07-26"
-category: "Marketing Systems"
+category: "Automation & Intelligence"
 tags: "martech stack audit, marketing operations, tool consolidation, marketing systems"
 ---
 

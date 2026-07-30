@@ -6,7 +6,7 @@ metaTitle: "Attribution Challenges in 2026 | Caruso Martech"
 metaDescription: "A practical guide to attribution in 2026: fragmentation, privacy constraints, MMM vs MTA, AI modelling, and cleaner GA4/GTM decisions."
 date: "2026-01-30"
 lastUpdated: "2026-01-30"
-category: "Attribution & Analytics"
+category: "Acquisition Systems"
 tags: "attribution, analytics, ga4, gtm, mmm, mta"
 ---
 

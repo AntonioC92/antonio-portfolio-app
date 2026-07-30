@@ -30,10 +30,9 @@ Blog posts live in `src/content/resources/*.md`. The `index.ts` in that folder u
 ### Valid categories (exact strings required)
 
 ```
-Fractional CMO
-Marketing Systems
-Attribution & Analytics
-Automation & AI
+Acquisition Systems
+AI Search & Experience
+Automation & Intelligence
 ```
 
 ### Frontmatter spec (all fields required)
@@ -47,7 +46,7 @@ metaTitle: "SEO title (max 60 chars) | Caruso Martech"
 metaDescription: "SEO meta description (max 155 chars). No marketing fluff."
 date: "YYYY-MM-DD"
 lastUpdated: "YYYY-MM-DD"
-category: "One of the four valid categories above"
+category: "One of the three valid categories above"
 tags: "tag one, tag two, tag three"
 ---
 ```
@@ -58,10 +57,12 @@ The filename must match the slug: `src/content/resources/[slug].md`
 
 | Slug | Category | Title |
 |------|----------|-------|
-| `automating-marketing-workflows` | Automation & AI | Automating Marketing Workflows: A Practical Guide |
-| `fractional-cmo-role` | Fractional CMO | The Fractional CMO Role |
-| `ga4-for-b2b.md` (note: check exact slug in frontmatter) | Attribution & Analytics | Attribution in 2026 |
-| `marketing-systems-blueprint` | Marketing Systems | What a Modern Marketing System Actually Looks Like in 2026 |
+| `automating-marketing-workflows` | Automation & Intelligence | Automating Marketing Workflows: A Practical Guide |
+| `attribution-challenges-2025` | Acquisition Systems | Attribution in 2026 |
+| `modern-marketing-system-2025` | Automation & Intelligence | What a Modern Marketing System Actually Looks Like in 2026 |
+| `ai-search-attribution-gap` | AI Search & Experience | The AI Search Attribution Gap |
+| `martech-stack-audit` | Automation & Intelligence | How to Audit Your Martech Stack in a Day |
+| `marketing-automation-readiness-checklist` | Automation & Intelligence | Marketing Automation Readiness Checklist |
 
 Internal link format in body: `[anchor text](/insights/slug)`
 

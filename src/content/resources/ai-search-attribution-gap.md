@@ -6,7 +6,7 @@ metaTitle: "AI Search Attribution Gap 2026 | Caruso Martech"
 metaDescription: "AI Overviews and ChatGPT are hiding the buyer journey from analytics. A practical model for measuring marketing when clicks disappear."
 date: "2026-07-22"
 lastUpdated: "2026-07-26"
-category: "Attribution & Analytics"
+category: "AI Search & Experience"
 tags: "attribution, ai search, zero-click, dark social, analytics"
 ---
 

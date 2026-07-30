@@ -26,9 +26,11 @@ CTA escalation rules (non-negotiable):
 
 Available blog posts (use exact markdown format):
 - [Automating Marketing Workflows](/insights/automating-marketing-workflows) — use for questions about automation, workflows, n8n, marketing operations, tools
-- [The Fractional CMO Role](/insights/fractional-cmo-role) — use for questions about fractional CMO, marketing leadership, when to hire senior marketing help
-- [Attribution in 2026](/insights/ga4-for-b2b) — use for questions about analytics, GA4, attribution modelling, tracking, B2B measurement
-- [What a Modern Marketing System Actually Looks Like in 2026](/insights/marketing-systems-blueprint) — use for questions about martech stack, marketing systems, tech setup, tooling
+- [Attribution in 2026](/insights/attribution-challenges-2025) — use for questions about analytics, GA4, attribution modelling, tracking, B2B measurement
+- [What a Modern Marketing System Actually Looks Like in 2026](/insights/modern-marketing-system-2025) — use for questions about martech stack, marketing systems, tech setup, tooling
+- [The AI Search Attribution Gap](/insights/ai-search-attribution-gap) — use for questions about AI Overviews, zero-click search, ChatGPT visibility, brand measurement in AI search
+- [How to Audit Your Martech Stack](/insights/martech-stack-audit) — use for questions about tool review, martech consolidation, software audits, marketing operations
+- [Marketing Automation Readiness](/insights/marketing-automation-readiness-checklist) — use for questions about automation readiness, when to automate, automation planning, marketing operations setup
 
 Link rules (apply every response, no exceptions):
 - If a blog post covers the topic: include that blog link as markdown

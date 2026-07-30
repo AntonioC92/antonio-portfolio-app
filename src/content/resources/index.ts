@@ -1,14 +1,12 @@
 export type ResourceCategory =
-  | 'Fractional CMO'
-  | 'Marketing Systems'
-  | 'Attribution & Analytics'
-  | 'Automation & AI';
+  | 'Acquisition Systems'
+  | 'AI Search & Experience'
+  | 'Automation & Intelligence';
 
 export const INSIGHT_CATEGORIES: ResourceCategory[] = [
-  'Fractional CMO',
-  'Marketing Systems',
-  'Attribution & Analytics',
-  'Automation & AI',
+  'Acquisition Systems',
+  'AI Search & Experience',
+  'Automation & Intelligence',
 ];
 
 export type Resource = {

@@ -6,7 +6,7 @@ metaTitle: "Future of the Fractional CMO in 2026 | Caruso Martech"
 metaDescription: "Learn how the Fractional CMO role is shifting from strategy advice to full-stack operating system design across tracking, CRM, and growth execution."
 date: "2026-02-18"
 lastUpdated: "2026-07-26"
-category: "Fractional CMO"
+category: "Acquisition Systems"
 tags: "fractional cmo, growth leadership, revenue operations, crm, funnel"
 ---
 

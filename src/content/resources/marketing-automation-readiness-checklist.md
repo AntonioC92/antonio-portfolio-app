@@ -6,7 +6,7 @@ metaTitle: "Marketing Automation Readiness Checklist | Caruso Martech"
 metaDescription: "Why marketing automation projects stall, and the readiness questions small business teams should answer before they buy or build one."
 date: "2026-07-24"
 lastUpdated: "2026-07-26"
-category: "Automation & AI"
+category: "Automation & Intelligence"
 tags: "marketing automation, automation readiness, marketing operations, ai adoption"
 ---
 

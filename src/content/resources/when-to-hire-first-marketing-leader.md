@@ -6,7 +6,7 @@ metaTitle: "When to Hire Your First Marketing Leader | Caruso Martech"
 metaDescription: "A practical framework for small business owners on when to hire marketing leadership: fractional CMO, full-time, or agency, and what to line up first."
 date: "2026-07-25"
 lastUpdated: "2026-07-25"
-category: "Fractional CMO"
+category: "Acquisition Systems"
 tags: "marketing leadership, hiring, startup marketing, marketing operations, small business marketing"
 ---
 
