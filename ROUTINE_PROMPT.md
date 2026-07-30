@@ -2,6 +2,7 @@
 # carusomartech.com / antonio-portfolio-app
 # No LinkedIn. Automation stops at "branch pushed, PR link ready".
 # Updated: 2026-07-22
+# Note (2026-07-30): this file has drifted behind the live CM-seo-blog-builder Routine in several places (branch naming is now claude/blog/*, not blog/*; auth is now a stored GITHUB_PAT, not platform-injected credentials; GSC and target-market sections were added later). Full resync is a separate follow-up. The Paragraph rhythm rule below was added directly to the live Routine on 2026-07-30 and is reflected here too so this file doesn't drift further on this one point.
 
 ---
 
@@ -146,6 +147,10 @@ The filename must match the slug exactly: src/content/resources/[slug].md
 
 Target length: 1,100–1,600 words.
 
+### Paragraph rhythm
+
+Keep paragraphs short: 2-3 sentences as the default, 4 only when a single idea genuinely needs the room. Do not let paragraphs run to 5+ sentences or 90+ words, that reads as a dense wall of text on a phone screen. Inside a paragraph, vary sentence length on purpose: mix a short 6-12 word sentence with a longer 20+ word one rather than stringing together several similar-length sentences in a row. This is modeled directly on how HubSpot's blog reads (per Antonio's direct feedback, 2026-07-30): airy, scannable, easy to digest. Headers stay as frequent as the current structure already has them, and this does not mean adding more bullet points to the body outside the Quick answer section.
+
 ### Internal links (use at least one)
 
 Link format in body: [anchor text](/insights/slug)
@@ -245,3 +250,4 @@ With this reminder: "Click the link above to open the PR, review the post, and m
 - No fluff, no academic tone
 - Primary colour: #ff8164 (for any image/visual references only)
 - Internal links use /insights/[slug] pattern
+- Paragraph rhythm: 2-3 sentences per paragraph by default (4 max), with deliberate sentence-length variation, modeled on HubSpot's blog style

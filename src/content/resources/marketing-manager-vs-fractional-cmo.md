@@ -12,7 +12,9 @@ tags: "marketing manager, fractional cmo, hiring, marketing leadership, small bu
 
 Most businesses make their first marketing hire the same way: someone posts a job for a marketing manager, because that is the title everyone recognizes. Six months later the plan still is not clear, spend has no strategy behind it, and the founder is still the one deciding what to run and why. The person hired to execute never had the mandate to decide what was worth executing in the first place.
 
-That mismatch is common, and it is expensive. A marketing manager and a fractional CMO solve genuinely different problems. Getting the order backwards, or picking the wrong one outright, costs real money and real time. Here is how to tell which one your business needs right now.
+That mismatch is common, and it is expensive. A marketing manager and a fractional CMO solve genuinely different problems.
+
+Getting the order backwards, or picking the wrong one outright, costs real money and real time. Here is how to tell which one your business needs right now.
 
 ## Quick answer: marketing manager or fractional CMO?
 
@@ -26,7 +28,9 @@ That mismatch is common, and it is expensive. A marketing manager and a fraction
 
 A marketing manager runs the work. They execute campaigns, manage a content calendar, coordinate agencies or freelancers, and keep projects on schedule. They are strong at getting approved plans done well.
 
-Fractional marketing leadership works one level up. The job is deciding what the work should be: which channels deserve budget, how success gets measured, and where the current plan is quietly wasting money. A marketing manager needs that direction to do their job well. Without it, they are executing guesses.
+Fractional marketing leadership works one level up. The job is deciding what the work should be: which channels deserve budget, how success gets measured, and where the current plan is quietly wasting money.
+
+A marketing manager needs that direction to do their job well. Without it, they are executing guesses.
 
 Confusing the two roles is where most first hires go wrong. Bringing in execution capacity to solve a strategy gap just adds payroll to an unsolved problem. Bringing in strategic leadership when the plan is already clear and agreed is expensive for what amounts to project management.
 

@@ -52,13 +52,17 @@ Most small teams can fix this without buying a new platform. The move is to stop
 
 Start with what already exists. A short audit of the current stack, along the lines of the process in our [martech audit](/insights/martech-stack-audit), usually turns up two or three tools already capable of feeding a shared dashboard: the CRM, the ad platforms, and whatever analytics tool is already installed. Looker Studio, a shared spreadsheet, or a lightweight BI tool can pull from all three without a new contract.
 
-Anchor each metric to one source of truth. Define CAC as ad spend divided by CRM-attributed customers. Pull revenue per channel from the CRM's closed-deal data. Disagreements between tools are normal. Pick one owner per metric and move on.
+Anchor each metric to one source of truth. Define CAC as ad spend divided by CRM-attributed customers. Pull revenue per channel from the CRM's closed-deal data.
+
+Disagreements between tools are normal. Pick one owner per metric and move on.
 
 Review it on a fixed cadence, weekly for the leading indicators like conversion rate, monthly for lagging ones like retention. A dashboard nobody opens is just a screenshot. This is also where a broader measurement structure earns its keep: the KPI layer described here fits inside the wider approach we laid out in our [marketing system](/insights/modern-marketing-system-2025) blueprint, where measurement is one of four layers that all have to work together.
 
 ## The mistakes that sink a first dashboard
 
-Two mistakes show up constantly. The first is packing in too many metrics because everything feels important during the build. A dashboard with thirty tiles gets ignored within a month. Five to seven core numbers, reviewed consistently, beats thirty numbers nobody trusts.
+Two mistakes show up constantly. The first is packing in too many metrics because everything feels important during the build.
+
+A dashboard with thirty tiles gets ignored within a month. Five to seven core numbers, reviewed consistently, beats thirty numbers nobody trusts.
 
 The second is building it once and never revisiting the definitions. Channels change, pricing changes, and a CAC formula from eighteen months ago can quietly stop matching how the business actually sells. Revisit the metric definitions every quarter, alongside the numbers inside them.
 

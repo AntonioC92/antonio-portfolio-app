@@ -36,19 +36,25 @@ We see the same root cause in our own client work. Automation gets bought to sol
 
 [Epitomise](https://www.epitomise.co.uk/blog/throwing-away-60-percent-of-your-marketing-budget/) cites research putting wasted marketing budget at up to 60 percent, and reports that roughly two-thirds of SMEs operate with no documented marketing plan at all. The same piece found 91 percent of firms believe poor data quality is driving their wasted spend, while only 40 percent of SMEs use their CRM effectively across sales and marketing.
 
-Automation amplifies whatever data it is fed. Clean records flowing through a simple workflow produce reliable output every time. Duplicated, half-tagged contact records flowing through an automated sequence just move the same mess faster and at greater volume. When your [attribution](/insights/attribution-challenges-2025) data already has holes in it, automating the reporting on top just gets the wrong numbers into the deck quicker.
+Automation amplifies whatever data it is fed. Clean records flowing through a simple workflow produce reliable output every time.
+
+Duplicated, half-tagged contact records flowing through an automated sequence just move the same mess faster and at greater volume. When your [attribution](/insights/attribution-challenges-2025) data already has holes in it, automating the reporting on top just gets the wrong numbers into the deck quicker.
 
 This is why we run a stack [audit](/insights/martech-stack-audit) before recommending any automation build. Seeing exactly what data flows where, and where it breaks, has to come before you touch a workflow builder.
 
 ## AI adoption is accelerating this problem
 
-The pressure to automate has grown fast. HubSpot's 2026 data, summarised by [Averi](https://www.averi.ai/blog/hubspot-2026-marketing-report-7-takeaways-that-matter), shows 86.4 percent of marketing teams now use AI somewhere in their workflow, up from 41 percent two years earlier. That pace of adoption means more teams are automating broken processes without noticing, simply because the tools got easier to switch on. AI tools make it faster to build a workflow. The process behind it still needs to be correct first, or the automation just runs the mistake at a higher speed.
+The pressure to automate has grown fast. HubSpot's 2026 data, summarised by [Averi](https://www.averi.ai/blog/hubspot-2026-marketing-report-7-takeaways-that-matter), shows 86.4 percent of marketing teams now use AI somewhere in their workflow, up from 41 percent two years earlier. That pace of adoption means more teams are automating broken processes without noticing, simply because the tools got easier to switch on.
+
+AI tools make it faster to build a workflow. The process behind it still needs to be correct first, or the automation just runs the mistake at a higher speed.
 
 Small business teams get the most value from two or three automations that remove a genuine bottleneck already proven to work by hand. That is usually a much shorter list than the feature set most vendors are pitching this quarter.
 
 ## What "ready to automate" actually looks like
 
-A team that is ready has usually done three things first. They have written the workflow down, step by step, in language a non-technical stakeholder could follow. They have run it manually long enough to know exactly where it slows down or breaks. And they have picked one metric that tells them whether the automated version is actually working, rather than just running.
+A team that is ready has usually done three things first. They have written the workflow down, step by step, in language a non-technical stakeholder could follow.
+
+They have run it manually long enough to know exactly where it slows down or breaks. And they have picked one metric that tells them whether the automated version is actually working, rather than just running.
 
 This is the same discipline behind any properly built [system](/insights/modern-marketing-system-2025): the tool supports a process the team has already defined and tested by hand. Someone also has to own that system once it is live, deciding what gets automated next and what gets left alone, which is exactly the operating role we cover in our piece on the [fractional](/insights/future-fractional-cmo-operating-builder) model.
 
@@ -62,7 +68,9 @@ Avoid starting with anything that depends on human judgment calls, like qualifyi
 
 ## A simple build sequence
 
-Run the stack audit first, so you know exactly what data flows where and what breaks along the way. Define the workflow in plain words a new hire could follow without training. Only then choose the tool, and build the smallest version that solves the one problem you defined. Expand it only once that version is proven in production.
+Run the stack audit first, so you know exactly what data flows where and what breaks along the way. Define the workflow in plain words a new hire could follow without training.
+
+Only then choose the tool, and build the smallest version that solves the one problem you defined. Expand it only once that version is proven in production.
 
 Skipping straight to the tool purchase is the single most common reason automation projects get quietly abandoned within six months of launch, with the license still being paid for months after anyone stopped using it.
 
