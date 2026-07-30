@@ -10,7 +10,9 @@ category: "Attribution & Analytics"
 tags: "attribution, ai search, zero-click, dark social, analytics"
 ---
 
-Your traffic is down, your pipeline is not, and your attribution reports cannot explain either fact. That is the position a growing number of marketing teams are in during 2026. The buyer did the research, formed an opinion, and arrived ready to talk, but none of it happened on a page your analytics tool could see. It happened inside a chat window, an AI Overview, or a Slack message someone forwarded to a colleague.
+Your traffic is down, your pipeline is not, and your attribution reports cannot explain either fact. That is the position a growing number of marketing teams are in during 2026.
+
+The buyer did the research, formed an opinion, and arrived ready to talk, but none of it happened on a page your analytics tool could see. It happened inside a chat window, an AI Overview, or a Slack message someone forwarded to a colleague.
 
 This is not a tracking bug you can fix with better UTMs. It is a structural change in where research happens, and most attribution setups now report on a shrinking fraction of the journey.
 

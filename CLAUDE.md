@@ -72,7 +72,7 @@ Internal link format in body: `[anchor text](/insights/slug)`
 3. **Body sections** (`##` headings) — practical, specific. Avoid generalities.
 4. **Closing** — actionable next step or internal link to related post. No summary rehash.
 
-Target length: 1,100–1,600 words.
+Target length: 1,100–1,600 words. Paragraph rhythm: 2-3 sentences per paragraph by default (4 max), with deliberate sentence-length variation, see Writing rules below.
 
 ---
 
@@ -101,6 +101,7 @@ Write a complete post following the frontmatter spec and post structure above. A
 - **No summary sentences at the end of sections.** The last sentence should land on something new, not echo what was just said.
 - **Fluid prose, no AI sentence structures.** No "Let's be real:", no "Here's the truth:", no three-word staccato. Write like a practitioner explaining to a peer.
 - **Never use "founder-led".** It is overused jargon. Say what you mean: "the founder runs sales", "the founder is the main point of contact", "a business where one person owns and operates everything", etc.
+- **Paragraph rhythm (added 2026-07-30, per Antonio's direct feedback comparing house style to HubSpot's blog).** Keep paragraphs to 2-3 sentences by default, 4 only when one idea genuinely needs the room. Nothing at 5+ sentences or 90+ words, that reads as a dense wall of text. Inside a paragraph, vary sentence length on purpose: pair a short 6-12 word sentence with a longer 20+ word one instead of stringing together several similar-length sentences. Headers stay as frequent as the current structure calls for, this rule does not mean adding more bullets to the body.
 
 ### Step 3 — Save the file
 
