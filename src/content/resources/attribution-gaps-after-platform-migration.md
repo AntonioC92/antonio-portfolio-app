@@ -6,7 +6,7 @@ metaTitle: "Attribution Gaps After a Platform Change | Caruso"
 metaDescription: "A platform or tracking change broke your attribution reporting. A practical checklist for finding the gap fast and fixing it before budget review."
 date: "2026-07-30"
 lastUpdated: "2026-07-30"
-category: "Attribution & Analytics"
+category: "Acquisition Systems"
 tags: "attribution, ga4, marketing analytics, data gaps, marketing operations"
 ---
 

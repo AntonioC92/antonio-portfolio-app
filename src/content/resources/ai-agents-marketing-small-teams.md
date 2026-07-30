@@ -6,7 +6,7 @@ metaTitle: "What AI Agents Actually Do in Marketing | Caruso Martech"
 metaDescription: "AI agents promise to run marketing on autopilot. Here is what they can actually do for a small team today, and where a human still checks the work."
 date: "2026-07-28"
 lastUpdated: "2026-07-28"
-category: "Automation & AI"
+category: "Automation & Intelligence"
 tags: "ai agents, marketing automation, ai adoption, marketing operations, small business marketing"
 ---
 

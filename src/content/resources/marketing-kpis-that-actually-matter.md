@@ -6,7 +6,7 @@ metaTitle: "Marketing KPIs That Actually Matter | Caruso Martech"
 metaDescription: "Most marketing dashboards track the wrong things. Here are the KPIs that actually predict revenue, and how small teams can build a dashboard around them."
 date: "2026-07-27"
 lastUpdated: "2026-07-27"
-category: "Marketing Systems"
+category: "Automation & Intelligence"
 tags: "marketing kpis, marketing dashboard, marketing measurement, marketing systems, small business marketing"
 ---
 

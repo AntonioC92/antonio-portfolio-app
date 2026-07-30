@@ -6,7 +6,7 @@ metaTitle: "Marketing Manager vs Fractional CMO | Caruso Martech"
 metaDescription: "A practical framework for choosing between a marketing manager and a fractional CMO as your first marketing hire, backed by real cost and hiring data."
 date: "2026-07-29"
 lastUpdated: "2026-07-29"
-category: "Fractional CMO"
+category: "Acquisition Systems"
 tags: "marketing manager, fractional cmo, hiring, marketing leadership, small business marketing"
 ---
 
