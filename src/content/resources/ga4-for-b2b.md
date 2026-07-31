@@ -141,4 +141,4 @@ Attribution in 2026 is less about certainty and more about useful confidence. Te
 
 If your team is still making budget calls on incomplete or inconsistent signals, fix measurement hygiene first, then improve modelling. [BrandBooster](https://brandbooster.ai/blog/navigating-the-complexities-overcoming-key-marketing-attribution-challenges-in-2025/) covers this well too, especially around signal quality and implementation hygiene.
 
-Align leadership ownership with the [Fractional CMO](/insights/future-fractional-cmo-operating-builder) model to keep decisions consistent. If your reporting needs this kind of hardening, see our [services](/services) or [get in touch](/contact).
+If your reporting needs this kind of hardening, see our [services](/services) or [get in touch](/contact).

@@ -14,7 +14,7 @@ Marketing automation works best when it starts from a very ordinary question: wh
 
 That is why the strongest automation projects in 2026 feel less like software rollouts and more like operations cleanups. The technology matters, but the order matters more: first, you define the workflow, then you automate the parts that are repetitive, fragile, or expensive to get wrong.
 
-If you are working through this transition, align priorities with the [marketing system](/insights/modern-marketing-system-2025) foundation and the [Fractional CMO](/insights/future-fractional-cmo-operating-builder) operating model before you automate anything.
+If you are working through this transition, align priorities with the [marketing system](/insights/modern-marketing-system-2025) foundation before you automate anything.
 
 ## Quick answer: what marketing workflow automation means in 2026
 

@@ -14,7 +14,7 @@ A modern marketing system is the structure that helps a team turn activity into 
 
 That is why companies can invest heavily in software and still feel disorganized. Campaign planning happens in one platform, lead routing in another, reporting somewhere else, and nobody has a clean view of the journey from first touch to revenue. The result is usually a business that is busy, but not especially coordinated.
 
-If your team is rebuilding this foundation, align leadership ownership with the [Fractional CMO](/insights/future-fractional-cmo-operating-builder) model and then define exactly how your operating cadence maps to execution.
+If your team is rebuilding this foundation, start by defining clear ownership for each layer, then map exactly how your operating cadence connects to execution.
 
 ## Quick answer: what a modern marketing system includes
 

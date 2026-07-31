@@ -56,7 +56,7 @@ A team that is ready has usually done three things first. They have written the 
 
 They have run it manually long enough to know exactly where it slows down or breaks. And they have picked one metric that tells them whether the automated version is actually working, rather than just running.
 
-This is the same discipline behind any properly built [system](/insights/modern-marketing-system-2025): the tool supports a process the team has already defined and tested by hand. Someone also has to own that system once it is live, deciding what gets automated next and what gets left alone, which is exactly the operating role we cover in our piece on the [fractional](/insights/future-fractional-cmo-operating-builder) model.
+This is the same discipline behind any properly built [system](/insights/modern-marketing-system-2025): the tool supports a process the team has already defined and tested by hand. Someone also has to own that system once it is live, deciding what gets automated next and what gets left alone.
 
 Skipping that groundwork is how teams end up needing our guide on [workflows](/insights/automating-marketing-workflows) to untangle an automation that was built before the process underneath it was ready.
 

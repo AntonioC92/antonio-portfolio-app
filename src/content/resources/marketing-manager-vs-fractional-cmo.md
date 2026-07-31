@@ -65,7 +65,7 @@ Either version of the wrong hire is expensive to unwind. Replacing an employee a
 
 ## A sequence that works for most small businesses
 
-For businesses without a marketing function yet, the order that tends to work is fractional leadership first, then a marketing manager once there is a real plan to execute. A short fractional engagement, often 60 to 90 days, produces a clear operating model: which channels to run, how to measure them, and what the next hire should actually own. Once that exists, a marketing manager can walk in with a real brief instead of a blank page, similar to what we cover in [our piece](/insights/future-fractional-cmo-operating-builder) on how the fractional role is shifting toward hands-on system building.
+For businesses without a marketing function yet, the order that tends to work is fractional leadership first, then a marketing manager once there is a real plan to execute. A short fractional engagement, often 60 to 90 days, produces a clear operating model: which channels to run, how to measure them, and what the next hire should actually own. Once that exists, a marketing manager can walk in with a real brief instead of a blank page.
 
 Businesses that already have a working plan and simply need it run well can skip straight to the execution hire. Before doing that, it is worth confirming the plan is actually as solid as it looks. Our [readiness checklist](/insights/marketing-automation-readiness-checklist) is a fast way to pressure-test that before committing to a salary.
 
