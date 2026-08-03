@@ -31,7 +31,7 @@ Martech audits get derailed when they turn into open-ended discovery exercises. 
 
 A one-day audit works because it forces triage instead of analysis paralysis. Instead of building the perfect long-term architecture in eight hours, you are trying to answer three questions clearly enough to make near-term decisions: what do we have, what is it doing, and what should change.
 
-If you want the longer-term picture once the audit is done, our [marketing system blueprint](/insights/modern-marketing-system-2025) covers how to design the target state.
+If you want the longer-term picture once the audit is done, our [marketing system](/insights/modern-marketing-system-2025) blueprint covers how to design the target state.
 
 ## Morning: build the real inventory
 
@@ -71,7 +71,7 @@ Trace the real data flow for each tool:
 - Is the connection native, built through a middleware tool like Zapier or Make, or manual (someone exporting a CSV)?
 - Is anything downstream silently dependent on this tool staying alive?
 
-This is also where you will usually find the most expensive kind of waste: manual data movement standing in for what should be an automated connection. If your team is exporting CSVs between systems that both support native integrations, there is a clear workflow gap. Our guide on [automating marketing workflows](/insights/automating-marketing-workflows) covers how to fix that once the audit surfaces it.
+This is also where you will usually find the most expensive kind of waste: manual data movement standing in for what should be an automated connection. If your team is exporting CSVs between systems that both support native integrations, there is a clear workflow gap. Our guide on [automating workflows](/insights/automating-marketing-workflows) covers how to fix that once the audit surfaces it.
 
 Map this on a whiteboard or a simple node diagram if you have time. Visualizing the connections almost always reveals redundancy that a spreadsheet hides, most commonly two tools doing the same job for two different teams because nobody ever compared notes.
 
@@ -99,6 +99,6 @@ Do not let the audit become a static document. The three deliverables that make 
 
 Most teams find that a disciplined one-day audit surfaces enough redundant or dormant spend to pay for itself several times over, often before accounting for the operational clarity it creates. The bigger win is having one accurate picture of the stack that the whole team can work from, instead of everyone carrying a slightly different mental model of what tools actually exist and why.
 
-If the audit reveals that the deeper issue is not tool sprawl but a missing operating system underneath the tools, that is a bigger conversation worth having separately. Start there once the immediate cleanup is done.
+If the audit reveals that the deeper issue is a missing operating system underneath the tools rather than tool sprawl itself, that is a bigger conversation worth having separately. Start there once the immediate cleanup is done.
 
 If you want a second set of eyes on the results, see our [services](/services) or [contact](/contact) us to walk through what the audit turned up.

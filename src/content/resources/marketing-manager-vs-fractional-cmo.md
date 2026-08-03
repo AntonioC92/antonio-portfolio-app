@@ -42,7 +42,7 @@ A full-time marketing manager in the US carries an average base salary of [$76,4
 
 Fractional engagements are priced differently. According to [GoFractional](https://www.gofractional.com/blog/fractional-cmo-salary), a fractional CMO retainer typically runs $4,000 to $20,000 a month, with no benefits burden and no severance risk if the engagement is not working. At the mid-point of that range, a year of fractional leadership can land close to what a fully loaded marketing manager costs, without the 12-month commitment either side is locked into.
 
-Neither option is automatically cheaper. The right comparison is not cost alone. It is cost against the specific gap you are actually trying to close.
+Neither option is automatically cheaper. The right comparison weighs cost against the specific gap you are actually trying to close.
 
 ## The signal that tells you which one to hire
 
@@ -61,7 +61,7 @@ Hiring a marketing manager before the strategy exists tends to produce a specifi
 
 The reverse mistake is less common but just as costly. Bringing in fractional leadership when the plan is already solid and agreed mostly buys a second opinion on decisions that were already right, at a price that would have been better spent on execution.
 
-Either version of the wrong hire is expensive to unwind. Replacing an employee at this level of seniority costs [50 to 200 percent](https://www.shrm.org/executive-network/insights/myth-replaceability-preparing-loss-key-employees) of their annual salary once recruiting, ramp time, and lost productivity are factored in, and the average time-to-hire across roles now sits at roughly [63 days](https://management.org/time-to-hire-statistics) from posting to accepted offer. That is not a mistake most small businesses can afford to make twice.
+Either version of the wrong hire is expensive to unwind. Replacing an employee at this level of seniority costs 50 to [200 percent](https://www.shrm.org/executive-network/insights/myth-replaceability-preparing-loss-key-employees) of their annual salary once recruiting, ramp time, and lost productivity are factored in, and the average time-to-hire across roles now sits at roughly [63 days](https://management.org/time-to-hire-statistics) from posting to accepted offer. That is not a mistake most small businesses can afford to make twice.
 
 ## A sequence that works for most small businesses
 
@@ -71,6 +71,6 @@ Businesses that already have a working plan and simply need it run well can skip
 
 ## What to have in place before either hire starts
 
-Whichever role comes first, the first 30 days go better when basic infrastructure already exists: a CRM that reflects reality, a shared definition of a qualified lead, and reporting that leadership trusts without having to double-check it. None of that requires a senior marketing hire to build. It requires an hour spent on a [martech stack audit](/insights/martech-stack-audit) before the search even starts, so whoever joins can be useful in week one instead of week eight.
+Whichever role comes first, the first 30 days go better when basic infrastructure already exists: a CRM that reflects reality, a shared definition of a qualified lead, and reporting that leadership trusts without having to double-check it. None of that requires a senior marketing hire to build. It requires an hour spent on a [stack audit](/insights/martech-stack-audit) before the search even starts, so whoever joins can be useful in week one instead of week eight.
 
 We help small business owners and scale-up teams work out exactly which of these hires solves the problem actually in front of them, then build the plan and the systems underneath it so the hire has something real to run from day one. If you are weighing this decision now, our [services](/services) page covers how that engagement typically works, or you can [get in touch](/contact) to talk through where your business stands.
