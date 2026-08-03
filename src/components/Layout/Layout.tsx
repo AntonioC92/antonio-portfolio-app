@@ -89,7 +89,6 @@ const organizationStructuredData = {
   },
   sameAs: [
     'https://www.linkedin.com/in/antoniocaruso2702/',
-    'https://github.com/AntonioC92',
   ],
 };
 

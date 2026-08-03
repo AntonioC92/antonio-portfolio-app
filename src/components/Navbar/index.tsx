@@ -20,7 +20,6 @@ import {
 import { useNavigate } from 'react-router-dom';
 import { StyledSocialIconContainer, StyledSocialIcon } from '../Footer/styles';
 import linkedin from '../../assets/socials/linkedin.svg';
-import github from '../../assets/socials/github.svg';
 
 const menu = [
   { name: 'Home', path: '/' },
@@ -69,11 +68,6 @@ export function Navbar(): JSX.Element {
                 src={linkedin}
                 alt="linkedin"
                 onClick={() => window.open('https://www.linkedin.com/in/antoniocaruso2702/')}
-              />
-              <StyledSocialIcon
-                src={github}
-                alt="github"
-                onClick={() => window.open('https://github.com/AntonioC92')}
               />
             </StyledSocialIconContainer>
             <Button onClick={() => navigate('/contact')}>Contact</Button>
