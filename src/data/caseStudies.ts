@@ -10,7 +10,7 @@ export interface CaseStudy {
 export const caseStudies: CaseStudy[] = [
   {
     slug: 'dublin-beer-festival',
-    badge: 'Paid Media · Events · Ireland',
+    badge: 'Performance Marketing · Events · Ireland',
     title: 'Dublin Beer Festival',
     description:
       'Full-funnel paid media strategy across Google and Meta for one of Ireland\'s biggest craft beer events. Drove ticket sales at scale with tight ROAS targets.',
@@ -18,7 +18,7 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     slug: 'jobbio-career-fair',
-    badge: 'Paid Media · Business · Ireland',
+    badge: 'Performance Marketing · B2B Lead Gen · Ireland',
     title: 'Jobbio Career Fair',
     description:
       'B2B lead generation campaign targeting employers and recruiters for a high-profile career fair. Focused on cost-efficient MQL acquisition and revenue attribution.',
@@ -26,7 +26,7 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     slug: 'nineteenth-golf-club',
-    badge: 'Paid Media · Golf & Recreation · Australia',
+    badge: 'Performance Marketing · Golf & Recreation · Australia',
     title: 'Nineteenth Golf Club',
     description:
       'Membership acquisition campaign for a premium Australian golf club. Leveraged Google and Meta to target high-intent audiences and convert prospective members.',
@@ -35,7 +35,7 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     slug: 'chefs-office-academy',
-    badge: 'Paid Media · Education · Australia',
+    badge: 'Performance Marketing · Funnel Build · Australia',
     title: "Chef's Office Academy",
     description:
       'Meta ads and Systeme.io funnel built a free guide pipeline and direct eBook revenue for chefs learning the business side of the kitchen. Dual-path campaign: opt-ins compounding through email, purchases returning revenue mid-flight.',
@@ -44,7 +44,7 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     slug: 'gates-coaching-group',
-    badge: 'Paid Media · Coaching · US',
+    badge: 'Performance Marketing · Funnel Build · US',
     title: 'Gates Coaching Group',
     description:
       'Paid media lead generation for a US-based executive coaching firm. Built and optimised funnels across multiple channels to drive qualified leads at volume.',
