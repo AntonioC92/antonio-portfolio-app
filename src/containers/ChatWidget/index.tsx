@@ -855,8 +855,8 @@ export function ChatWidget(): JSX.Element {
           <IconClose />
         </Fab>
       ) : (
-        <PillBtn onClick={() => setOpen(true)} aria-label="Open chat">
-          <IconChat />
+        <PillBtn onClick={() => setOpen(true)}>
+          <IconChat aria-hidden="true" />
           <PillText>Ask any marketing question</PillText>
         </PillBtn>
       )}

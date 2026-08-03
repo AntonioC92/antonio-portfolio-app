@@ -1,5 +1,13 @@
 export const colors = {
   primary: '#ff8164',
+  // White text on the raw brand orange (#ff8164) only hits a 2.45:1 contrast
+  // ratio, well under the WCAG AA 4.5:1 minimum for normal text. Use this
+  // darker shade (contrast 4.80:1 with white text) for any button/badge
+  // background that carries white text; keep `primary` for text/accent use
+  // on dark backgrounds, where it already passes on its own. Added 2026-08-03
+  // per a PageSpeed Insights accessibility audit.
+  primaryButtonBg: '#c94618',
+  primaryButtonBgHover: '#a83a13',
   tertiary: '#611440',
   text: '#58595b',
   light: '#fff',

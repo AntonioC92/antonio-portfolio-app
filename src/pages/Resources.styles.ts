@@ -307,7 +307,7 @@ export const CtaBtnPrimary = styled.a`
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  background: ${colors.primary};
+  background: ${colors.primaryButtonBg};
   color: #fff;
   font-size: 0.9rem;
   font-weight: 700;

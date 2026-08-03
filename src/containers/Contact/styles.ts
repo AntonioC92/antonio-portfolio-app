@@ -17,7 +17,7 @@ export const StyledHeader = styled.h1`
   }
 `;
 
-export const StyledsubHeader = styled.h3`
+export const StyledsubHeader = styled.h2`
   font-size: 24px;
   margin-bottom: 30px;
   color: ${colors.light};
@@ -220,6 +220,8 @@ export const StyledCalendlyBox = styled.div`
 
   img {
     width: 100%;
+    height: auto;
+    aspect-ratio: 900 / 503;
     display: block;
   }
 

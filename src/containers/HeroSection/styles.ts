@@ -45,7 +45,7 @@ export const Header = styled.h1<{ $size?: number }>`
 `;
 
 /* Subheader (new line under title) */
-export const SubHeader = styled.h3`
+export const SubHeader = styled.h2`
   font-size: 1.9rem;
   font-weight: 400;
   margin: 0 auto 3rem auto;
@@ -83,12 +83,12 @@ export const PrimaryBtn = styled.button`
   border-radius: 8px;
   font-size: 1rem;
   font-weight: 600;
-  background: ${colors.primary};
+  background: ${colors.primaryButtonBg};
   color: #fff;
   border: none;
   cursor: pointer;
   transition: background 0.2s;
-  &:hover { background: #c94618; }
+  &:hover { background: ${colors.primaryButtonBgHover}; }
 
   @media ${device.mobile} {
     width: 100%;

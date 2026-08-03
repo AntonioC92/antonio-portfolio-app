@@ -10,7 +10,7 @@ import {
   HubspotOverrides,
 } from "./styles";
 
-import calendarIcon from "../../assets/icons/calendly.png";
+import calendarIcon from "../../assets/icons/calendly.webp";
 import { Button } from "../../components/Button";
 
 type TurnstileApi = {
@@ -242,7 +242,7 @@ export function Contact({ headingLevel = "h1" }: ContactProps): JSX.Element {
 
         {/* CALENDLY */}
         <StyledCalendlyBox>
-          <img src={calendarIcon} alt="Calendar Icon" />
+          <img src={calendarIcon} alt="Calendar Icon" width={900} height={503} loading="lazy" decoding="async" />
           <div style={{ padding: 30 }}>
             <p>
               Want to chat about a project?
@@ -254,7 +254,14 @@ export function Contact({ headingLevel = "h1" }: ContactProps): JSX.Element {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button type="button">Book</Button>
+              {/* Default outline variant's brand-orange text (#ff8164) is only
+                  2.45:1 against this card's white background, under the WCAG
+                  AA 4.5:1 minimum. Override to the same darker accessible
+                  shade used for solid CTA backgrounds elsewhere (4.80:1 on
+                  white). Added 2026-08-03 per a PageSpeed accessibility audit. */}
+              <Button type="button" text="#c94618" borderColor="#c94618">
+                Book
+              </Button>
             </a>
           </div>
         </StyledCalendlyBox>

@@ -100,7 +100,7 @@ export const StyledButton = styled.button`
   transition: background 0.3s;
 
   &:hover {
-    background: ${colors.primary};
+    background: ${colors.primaryButtonBg};
     color: white;
   }
 `;

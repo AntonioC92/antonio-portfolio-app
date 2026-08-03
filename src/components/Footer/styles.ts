@@ -68,7 +68,8 @@ export const StyledTitle = styled.h3`
 `;
 
 export const StyledLink = styled.a`
-  margin-bottom: 5px;
+  display: inline-block;
+  padding: 7px 0;
   color: #323232;
   text-decoration: none;
 

@@ -146,7 +146,7 @@ export const CardCta = styled.a`
 export const CardCtaBtn = styled.a`
   display: inline-flex;
   align-items: center;
-  background: ${colors.primary};
+  background: ${colors.primaryButtonBg};
   color: #fff;
   font-size: 0.82rem;
   font-weight: 700;

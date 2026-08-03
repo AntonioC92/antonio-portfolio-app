@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useInView } from 'react-intersection-observer';
-import photo from '../../assets/avatar.png';
+import photo from '../../assets/avatar.webp';
 import {
   StyledSection,
   HeroArea,
@@ -120,7 +120,7 @@ export function AboutSection(): JSX.Element {
 
       {/* ── Photo + paragraphs ── */}
       <SplitLayout>
-        <Photo src={photo} alt="Antonio Caruso" />
+        <Photo src={photo} alt="Antonio Caruso" width={680} height={553} />
 
         <ContentCol ref={paraRef}>
           <AnimPara $inView={paraInView} $delay={0}>

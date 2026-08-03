@@ -84,6 +84,6 @@ export const CardPain = styled.p`
 
 export const CardOutcome = styled.p`
   font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.48);
+  color: rgba(255, 255, 255, 0.65);
   line-height: 1.55;
 `;

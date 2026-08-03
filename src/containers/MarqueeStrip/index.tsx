@@ -39,7 +39,7 @@ const Divider = styled.div`
   font-weight: 700;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: rgba(255, 129, 100, 0.6);
+  color: #ff8164;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 `;

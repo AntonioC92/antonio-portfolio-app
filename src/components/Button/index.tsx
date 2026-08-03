@@ -4,6 +4,7 @@ import { StyledButton } from './styles';
 interface ButtonProps {
   children: ReactNode;
   text?: string;
+  borderColor?: string;
   fullWidth?: boolean;
   type?: 'button' | 'submit' | 'reset';
   disabled?: boolean;
@@ -20,6 +21,7 @@ export function Button({
 }: ButtonProps): JSX.Element {
   const style = {
     color: props.text,
+    borderColor: props.borderColor,
     width: props.fullWidth ? '100%' : undefined,
   };
 

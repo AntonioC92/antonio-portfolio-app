@@ -72,7 +72,11 @@ export function Navbar(): JSX.Element {
             </StyledSocialIconContainer>
             <Button onClick={() => navigate('/contact')}>Contact</Button>
           </StyledAuthButtons>
-          <NavToggle onClick={() => setMenuOpen(!menuOpen)}>
+          <NavToggle
+            onClick={() => setMenuOpen(!menuOpen)}
+            aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+            aria-expanded={menuOpen}
+          >
             <span />
             <span />
             <span />

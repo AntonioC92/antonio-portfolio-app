@@ -15,7 +15,7 @@ import {
   StyledNameWithIcon,
 } from './styles';
 import { SectionTitle } from '../WhatIDoBestSection/styles';
-import linkedin from '../../assets/icons/linkedin.png';
+import linkedin from '../../assets/icons/linkedin.webp';
 
 const testimonials = [
   {

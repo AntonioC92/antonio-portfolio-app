@@ -182,7 +182,7 @@ export const StatLabel = styled.div`
 
 export const StatSub = styled.div`
   font-size: 0.75rem;
-  color: rgba(255, 255, 255, 0.28);
+  color: rgba(255, 255, 255, 0.5);
   letter-spacing: 0.06em;
   margin-top: 0.3rem;
 `;
@@ -220,7 +220,7 @@ export const BeliefIcon = styled.div`
   font-size: 1.75rem;
 `;
 
-export const BeliefTitle = styled.h3`
+export const BeliefTitle = styled.h2`
   font-size: 1.05rem;
   font-weight: 700;
   color: ${colors.light};
@@ -253,7 +253,7 @@ export const ClosingStatement = styled.p`
 `;
 
 export const ClosingBtn = styled.button`
-  background: ${colors.primary};
+  background: ${colors.primaryButtonBg};
   color: #fff;
   border: none;
   font-size: 1rem;

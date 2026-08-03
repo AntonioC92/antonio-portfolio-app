@@ -194,7 +194,7 @@ export const CtaLink = styled(Link)`
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  background: ${colors.primary};
+  background: ${colors.primaryButtonBg};
   color: #fff;
   font-weight: 700;
   font-size: 0.92rem;
