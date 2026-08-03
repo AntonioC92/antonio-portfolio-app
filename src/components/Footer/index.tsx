@@ -73,12 +73,13 @@ export function Footer(): JSX.Element {
               </StyledColumn>
 
               <StyledColumn>
-                <StyledTitle>Pages</StyledTitle>
+                <StyledTitle style={{ fontWeight: 700 }}>Pages</StyledTitle>
                 <StyledLink href="/services">Services</StyledLink>
                 <StyledLink href="/work">Work</StyledLink>
                 <StyledLink href="/about">About</StyledLink>
                 <StyledLink href="/insights">Insights</StyledLink>
                 <StyledLink href="/contact">Contact</StyledLink>
+                <StyledLink href="/privacy-policy">Privacy Policy</StyledLink>
               </StyledColumn>
             </StyledColumnContainer>
 
