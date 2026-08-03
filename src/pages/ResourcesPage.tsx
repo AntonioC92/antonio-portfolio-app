@@ -21,7 +21,7 @@ import {
   StartHereTitle,
 } from './Resources.styles';
 
-const RESOURCES_CANONICAL = 'https://carusomartech.com/resources/';
+const RESOURCES_CANONICAL = 'https://carusomartech.com/resources';
 
 function formatDate(date: string): string {
   return new Date(`${date}T00:00:00`).toLocaleDateString('en-US', {

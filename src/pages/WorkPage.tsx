@@ -19,7 +19,7 @@ import {
   CardCtaBtn,
 } from './WorkPage.styles';
 
-const WORK_CANONICAL = 'https://carusomartech.com/work/';
+const WORK_CANONICAL = 'https://carusomartech.com/work';
 
 export function WorkPage(): JSX.Element {
   return (
