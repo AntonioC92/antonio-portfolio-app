@@ -6,8 +6,8 @@ export function PrivacyPolicy() {
       <Seo
         title="Privacy Policy | Caruso Martech"
         description="Privacy policy for Caruso Martech, including how personal data is collected, used, and protected."
-        canonical="https://carusomartech.com/privacy-policy/"
-        ogUrl="https://carusomartech.com/privacy-policy/"
+        canonical="https://carusomartech.com/privacy-policy"
+        ogUrl="https://carusomartech.com/privacy-policy"
         ogImage="https://carusomartech.com/preview.png"
         twitterImage="https://carusomartech.com/preview.png"
       />
