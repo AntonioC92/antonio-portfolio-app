@@ -1,2 +1,7 @@
 /resources/insights/* /insights/:splat 301
 /privacypolicy /privacy-policy 301
+/case-studies/gates-coaching-group /case-studies/gates-coaching-group.html 301
+/case-studies/dublin-beer-festival /case-studies/dublin-beer-festival.html 301
+/case-studies/nineteenth-golf-club /case-studies/nineteenth-golf-club.html 301
+/case-studies/jobbio-career-fair /case-studies/jobbio-career-fair.html 301
+/case-studies/chefs-office-academy /case-studies/chefs-office-academy.html 301
