@@ -9,7 +9,7 @@ export function AboutPage(): JSX.Element {
     <Layout>
       <Seo
         title="About | Caruso Martech"
-        description="The thinking behind Caruso Martech. A decade of noticing the same broken systems across SaaS, events, ecommerce, and professional services. A consultancy built to fix it properly."
+        description="The thinking behind Caruso Martech: a decade of noticing the same broken systems across SaaS, events, ecommerce, and professional services."
         canonical={ABOUT_CANONICAL}
         ogUrl={ABOUT_CANONICAL}
         ogImage="https://carusomartech.com/preview.png"

@@ -58,7 +58,7 @@ Founder stories, case studies, and anything written during a crisis need a perso
 
 ## Keep voice consistent as more people start using AI
 
-Voice drift gets worse as more people on a team start using AI tools without a shared reference point. [Oxford College of Marketing](https://blog.oxfordcollegeofmarketing.com/2025/08/04/ai-brand-voice-guidelines-keep-your-content-on-brand-at-scale/) suggests anchoring the whole team around a short voice snapshot, three to five adjectives with a real example of what each one means in practice, so everyone is prompting from the same page.
+Voice drift gets worse as more people on a team start using AI tools without a shared reference point. [Oxford College](https://blog.oxfordcollegeofmarketing.com/2025/08/04/ai-brand-voice-guidelines-keep-your-content-on-brand-at-scale/) of Marketing suggests anchoring the whole team around a short voice snapshot, three to five adjectives with a real example of what each one means in practice, so everyone is prompting from the same page.
 
 Trust is the real cost of getting this wrong. [eMarketer](https://www.emarketer.com/content/shoppers-aren-t-impressed-by-ai-generated-marketing) found that only 7 percent of consumers say visible AI content increases their trust in a brand, while 31 percent say it decreases trust outright.
 

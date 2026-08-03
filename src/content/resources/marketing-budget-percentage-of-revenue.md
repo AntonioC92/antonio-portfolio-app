@@ -50,7 +50,7 @@ Once the target CAC is set, the budget follows from it: divide the number of cus
 
 We have seen this play out directly. Our [Dublin Beer Festival](/case-studies/dublin-beer-festival.html) campaign ran on a tight ROAS target rather than a fixed percentage of ticket revenue, and it sold over 3,500 tickets at 15.5x return.
 
-Our Jobbio campaign worked the same way from the demand side. Holding cost per lead to a set, scalable number generated 60 MQLs and [€135K in attributed revenue](/case-studies/jobbio-career-fair.html), all planned from the target cost rather than a fixed spending line.
+Our Jobbio campaign worked the same way from the demand side. Holding cost per lead to a set, scalable number generated 60 MQLs and [€135K](/case-studies/jobbio-career-fair.html) in attributed revenue, all planned from the target cost rather than a fixed spending line.
 
 ## Growth stage changes the math
 

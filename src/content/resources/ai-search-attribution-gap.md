@@ -14,7 +14,7 @@ Your traffic is down, your pipeline is not, and your attribution reports cannot 
 
 The buyer did the research, formed an opinion, and arrived ready to talk, but none of it happened on a page your analytics tool could see. It happened inside a chat window, an AI Overview, or a Slack message someone forwarded to a colleague.
 
-This is not a tracking bug you can fix with better UTMs. It is a structural change in where research happens, and most attribution setups now report on a shrinking fraction of the journey.
+This is a structural change in where research happens, and most attribution setups now report on a shrinking fraction of the journey.
 
 ## Quick answer: how do you measure marketing when AI search hides the buyer journey?
 

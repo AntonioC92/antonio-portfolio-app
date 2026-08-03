@@ -36,7 +36,7 @@ This is also why the problem is hard to catch early. [Supermetrics'](https://sup
 
 Attribution is already fragile before a migration happens. A platform change just exposes how fragile, and most teams only find out once a number moves in a direction they cannot explain.
 
-We covered the broader shift away from last-click thinking in [Attribution in 2026](/insights/attribution-challenges-2025), and a related but different problem, AI search hiding parts of the buyer journey entirely, in the [AI search gap](/insights/ai-search-attribution-gap). A platform migration gap is more mechanical than either of those. It is usually traceable to one setting or one date, and fixable in an afternoon once you know where to look.
+We covered the broader shift away from last-click thinking in our [attribution guide](/insights/attribution-challenges-2025), and a related but different problem, AI search hiding parts of the buyer journey entirely, in the [AI search](/insights/ai-search-attribution-gap) gap. A platform migration gap is more mechanical than either of those. It is usually traceable to one setting or one date, and fixable in an afternoon once you know where to look.
 
 ## The diagnostic checklist
 
@@ -54,7 +54,7 @@ We covered the broader shift away from last-click thinking in [Attribution in 20
 
 ## Who should own this before it becomes a crisis
 
-The recurring pattern behind most of these gaps is not a technical failure. It is an ownership gap.
+The recurring pattern behind most of these gaps is an ownership gap.
 
 Nobody is explicitly responsible for noticing when a platform update changes reporting behavior, so the team finds out reactively, usually during a budget meeting. Building that ownership into how the business runs is part of what a properly structured [marketing system](/insights/modern-marketing-system-2025) is supposed to prevent: someone owns measurement governance specifically, and platform changes get checked against reporting before they surface as a surprise.
 
