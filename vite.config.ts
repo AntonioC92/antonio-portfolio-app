@@ -15,16 +15,26 @@ export default defineConfig(({ isSsrBuild }) => ({
       output: isSsrBuild
         ? {}
         : {
-            // Split the 446 KB monolith into parallel-loadable vendor chunks.
-            // Smaller initial chunks = shorter long tasks = lower TBT.
-            // All chunks are still loaded eagerly (static imports, not dynamic),
-            // so hydration order is preserved.
+            // Split vendor runtime into a stable long-cached chunk.
+            // Non-homepage pages are lazy-loaded via React.lazy in main.tsx,
+            // so Rollup auto-splits them into per-page chunks — no manual
+            // assignment needed for page-specific deps like react-markdown.
             manualChunks(id: string) {
               if (!id.includes('node_modules')) return undefined;
-              // framer-motion alone is ~110 KB; isolate it so the React
-              // hydration critical path doesn't have to wait for it.
-              if (id.includes('framer-motion')) return 'vendor-animation';
-              // Markdown renderer + remark/rehype ecosystem (~80 KB combined).
+              // React runtime (react + react-dom + scheduler) stays together
+              // so the reconciler is never split across chunks.
+              if (
+                id.includes('/react-dom/') ||
+                id.includes('/react/') ||
+                id.includes('/scheduler/')
+              )
+                return 'vendor-react';
+              // Everything else shared across routes (react-router,
+              // styled-components, react-helmet-async, etc.) goes into one
+              // vendor chunk that is eagerly downloaded (always needed).
+              // Markdown/remark/rehype deps are intentionally omitted here —
+              // they will be co-located with the lazy ResourceDetailPage chunk
+              // and only fetched when the user visits a blog post.
               if (
                 id.includes('react-markdown') ||
                 id.includes('remark') ||
@@ -38,16 +48,7 @@ export default defineConfig(({ isSsrBuild }) => ({
                 id.includes('trough') ||
                 id.includes('bail')
               )
-                return 'vendor-markdown';
-              // React runtime (react + react-dom + scheduler) stays together
-              // so the reconciler is never split across chunks.
-              if (
-                id.includes('/react-dom/') ||
-                id.includes('/react/') ||
-                id.includes('/scheduler/')
-              )
-                return 'vendor-react';
-              // Everything else (react-router, styled-components, helmet, etc.)
+                return undefined; // auto-split with lazy ResourceDetailPage chunk
               return 'vendor';
             },
           },

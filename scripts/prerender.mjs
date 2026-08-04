@@ -130,11 +130,18 @@ async function run() {
   ).href;
   const { render } = await import(serverEntry);
 
-  // 3. Load HTML template produced by client build, then inline the font-face
-  //    CSS so the page has no render-blocking <link rel="stylesheet"> at all.
-  //    The CSS file only contains @font-face declarations (< 1 KB after the
-  //    latin-only subset change in src/fonts.css) so inlining is safe and
-  //    eliminates one full round-trip under slow connections.
+  // 3. Load HTML template produced by client build, then:
+  //    a) Inline the font-face CSS so the page has no render-blocking
+  //       <link rel="stylesheet"> at all.  The CSS file only contains
+  //       @font-face declarations (< 1 KB after the latin-only subset change
+  //       in src/fonts.css) so inlining is safe and eliminates one full
+  //       round-trip under slow connections.
+  //    b) Extract the woff2 font URLs from the inlined CSS and inject
+  //       <link rel="preload"> hints right after the GTM preconnect tag.
+  //       This causes the browser to start fetching the font files as soon
+  //       as the first few hundred bytes of HTML arrive — in parallel with
+  //       the JS chunks — instead of waiting until the browser has parsed
+  //       the entire head and discovered the urls inside the <style> tag.
   const rawTemplate = await readFile(path.join(distDir, 'index.html'), 'utf8');
   let template = rawTemplate;
   const cssLinkRe = /<link rel="stylesheet" crossorigin href="(\/assets\/[^"]+\.css)">/;
@@ -151,6 +158,28 @@ async function run() {
         `<style id="font-face">${cssContent}</style>`
       );
       console.log(`  ♻  Font CSS inlined (${cssContent.length} bytes, was render-blocking)`);
+
+      // Extract woff2 URLs from the font CSS and inject preload hints early
+      // in the head so the browser fetches fonts before it has even finished
+      // parsing the 26 KB styled-components block.
+      const fontUrlRe = /url\(['"]?(\/assets\/[^"')]+\.woff2)['"]?\)/g;
+      const fontPreloadLinks = [];
+      let fontMatch;
+      while ((fontMatch = fontUrlRe.exec(cssContent)) !== null) {
+        fontPreloadLinks.push(
+          `<link rel="preload" as="font" type="font/woff2" crossorigin href="${fontMatch[1]}">`
+        );
+      }
+      if (fontPreloadLinks.length > 0) {
+        // Inject right after the GTM preconnect hint — the earliest stable
+        // marker in the head that survives every build.
+        const preconnectTag = `<link rel="preconnect" href="https://www.googletagmanager.com" />`;
+        template = template.replace(
+          preconnectTag,
+          preconnectTag + '\n    ' + fontPreloadLinks.join('\n    ')
+        );
+        console.log(`  🔤  Font preloads injected: ${fontPreloadLinks.map(l => l.match(/href="([^"]+)"/)?.[1]?.split('/').pop()).join(', ')}`);
+      }
     } catch (e) {
       console.warn(`  ⚠  Could not inline font CSS (${e.message}) — falling back to non-blocking load`);
       // Fallback: load the CSS non-blocking so it at least doesn't delay FCP.
