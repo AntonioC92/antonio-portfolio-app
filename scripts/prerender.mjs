@@ -130,8 +130,37 @@ async function run() {
   ).href;
   const { render } = await import(serverEntry);
 
-  // 3. Load HTML template produced by client build
-  const template = await readFile(path.join(distDir, 'index.html'), 'utf8');
+  // 3. Load HTML template produced by client build, then inline the font-face
+  //    CSS so the page has no render-blocking <link rel="stylesheet"> at all.
+  //    The CSS file only contains @font-face declarations (< 1 KB after the
+  //    latin-only subset change in src/fonts.css) so inlining is safe and
+  //    eliminates one full round-trip under slow connections.
+  const rawTemplate = await readFile(path.join(distDir, 'index.html'), 'utf8');
+  let template = rawTemplate;
+  const cssLinkRe = /<link rel="stylesheet" crossorigin href="(\/assets\/[^"]+\.css)">/;
+  const cssLinkMatch = rawTemplate.match(cssLinkRe);
+  if (cssLinkMatch) {
+    const cssHref = cssLinkMatch[1]; // e.g. "/assets/index-Cj5IOoc2.css"
+    const cssFilePath = path.join(distDir, cssHref.replace(/^\//, ''));
+    try {
+      const cssContent = await readFile(cssFilePath, 'utf8');
+      // Replace the blocking <link> with an inline <style> so the browser
+      // never has to open a separate connection before it can paint.
+      template = rawTemplate.replace(
+        cssLinkMatch[0],
+        `<style id="font-face">${cssContent}</style>`
+      );
+      console.log(`  ♻  Font CSS inlined (${cssContent.length} bytes, was render-blocking)`);
+    } catch (e) {
+      console.warn(`  ⚠  Could not inline font CSS (${e.message}) — falling back to non-blocking load`);
+      // Fallback: load the CSS non-blocking so it at least doesn't delay FCP.
+      template = rawTemplate.replace(
+        cssLinkMatch[0],
+        `<link rel="preload" href="${cssHref}" as="style" onload="this.onload=null;this.rel='stylesheet'">` +
+        `<noscript><link rel="stylesheet" crossorigin href="${cssHref}"></noscript>`
+      );
+    }
+  }
 
   // 4. Collect routes
   const resources = await getResources();

@@ -1,5 +1,4 @@
-import '@fontsource-variable/montserrat';
-import '@fontsource-variable/open-sans';
+import './fonts.css';
 
 import React from 'react';
 import { createRoot, hydrateRoot } from 'react-dom/client';

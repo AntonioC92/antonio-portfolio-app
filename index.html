@@ -21,6 +21,9 @@
       first.
     -->
 
+    <!-- Warm up the GTM connection early so the async GTM script loads faster -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" />
+
     <link rel="icon" href="/favicon.png" />
     <meta name="theme-color" content="#111827" />
 
@@ -60,7 +63,6 @@
     <!-- Vite entry -->
     <script type="module" src="/src/main.tsx"></script>
 
-    <script src="https://js.hsforms.net/forms/embed/49326248.js" defer></script>
 
   </body>
 </html>
