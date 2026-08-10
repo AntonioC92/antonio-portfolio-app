@@ -19,7 +19,7 @@ import {
   SearchInput,
 } from './Resources.styles';
 
-const INSIGHTS_CANONICAL = 'https://carusomartech.com/insights';
+const INSIGHTS_CANONICAL = 'https://carusomartech.com/insights/';
 
 function formatDate(date: string): string {
   return new Date(`${date}T00:00:00`).toLocaleDateString('en-US', {

@@ -39,6 +39,62 @@ function formatDate(date: string): string {
   });
 }
 
+type FaqPair = { question: string; answer: string };
+
+// Derives FAQPage schema directly from the same markdown body ReactMarkdown
+// renders, so the schema can never drift from what's actually visible on
+// the page. Looks for a "## FAQ" or "## Frequently Asked Questions" section
+// containing one or more "### Question?" headings, each followed by a short
+// answer paragraph. Returns an empty array (no schema emitted) if the
+// article doesn't have this section — most articles won't, and that's fine.
+function extractFaqFromBody(body: string): FaqPair[] {
+  const lines = body.split('\n');
+  const faqSectionStart = lines.findIndex((line) =>
+    /^##\s+(FAQ|Frequently Asked Questions)\s*$/i.test(line.trim())
+  );
+  if (faqSectionStart === -1) return [];
+
+  const sectionLines: string[] = [];
+  for (let i = faqSectionStart + 1; i < lines.length; i += 1) {
+    if (/^##\s+\S/.test(lines[i])) break; // next H2 ends the FAQ section
+    sectionLines.push(lines[i]);
+  }
+
+  const stripMarkdown = (text: string): string =>
+    text
+      .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+      .replace(/[*_`]/g, '')
+      .trim();
+
+  const pairs: FaqPair[] = [];
+  let currentQuestion: string | null = null;
+  let currentAnswer: string[] = [];
+
+  const flush = () => {
+    if (currentQuestion && currentAnswer.length > 0) {
+      const answer = stripMarkdown(currentAnswer.join(' ').trim());
+      if (answer) pairs.push({ question: stripMarkdown(currentQuestion), answer });
+    }
+    currentQuestion = null;
+    currentAnswer = [];
+  };
+
+  sectionLines.forEach((line) => {
+    const headingMatch = /^###\s+(.+)$/.exec(line.trim());
+    if (headingMatch) {
+      flush();
+      currentQuestion = headingMatch[1];
+      return;
+    }
+    if (currentQuestion && line.trim()) {
+      currentAnswer.push(line.trim());
+    }
+  });
+  flush();
+
+  return pairs;
+}
+
 export function ResourceDetailPage(): JSX.Element {
   const { slug = '' } = useParams();
   const resource = getResourceBySlug(slug);
@@ -49,8 +105,8 @@ export function ResourceDetailPage(): JSX.Element {
         <Seo
           title="Resource Not Found | Caruso Martech"
           description="The requested resource could not be found."
-          canonical={`${SITE_URL}/insights`}
-          ogUrl={`${SITE_URL}/insights`}
+          canonical={`${SITE_URL}/insights/`}
+          ogUrl={`${SITE_URL}/insights/`}
         />
         <NotFoundWrap>
           <h1>Resource not found</h1>
@@ -61,7 +117,7 @@ export function ResourceDetailPage(): JSX.Element {
     );
   }
 
-  const canonical = `${SITE_URL}/insights/${resource.slug}`;
+  const canonical = `${SITE_URL}/insights/${resource.slug}/`;
   const socialImage = `${SITE_URL}/og/${resource.slug}.svg`;
   const relatedResources = getRelatedResources(resource, 3);
   const articleStructuredData = {
@@ -74,11 +130,17 @@ export function ResourceDetailPage(): JSX.Element {
     dateModified: resource.lastUpdated,
     articleSection: resource.category,
     keywords: resource.tags.join(', '),
+    // Named Person author (not just Organization) is an E-E-A-T signal for
+    // Google and a citation-trust signal for AI answer engines. LinkedIn
+    // URL corrected 2026-08-10 to match the profile already used in
+    // Layout.tsx and Navbar (antoniocaruso2702) — a different, unverified
+    // slug (antonio-caruso-martech) had been introduced here separately.
+    // Keep this in sync with the visible byline below.
     author: {
       '@type': 'Person',
       name: 'Antonio Caruso',
-      url: 'https://www.linkedin.com/in/antonio-caruso-martech/',
-      sameAs: ['https://www.linkedin.com/in/antonio-caruso-martech/'],
+      url: `${SITE_URL}/about/`,
+      sameAs: ['https://www.linkedin.com/in/antoniocaruso2702/'],
     },
     publisher: {
       '@type': 'Organization',
@@ -89,6 +151,24 @@ export function ResourceDetailPage(): JSX.Element {
       },
     },
   };
+
+  const faqPairs = extractFaqFromBody(resource.body);
+  const faqStructuredData =
+    faqPairs.length > 0
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: faqPairs.map((pair) => ({
+            '@type': 'Question',
+            name: pair.question,
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: pair.answer,
+            },
+          })),
+        }
+      : null;
+
   return (
     <Layout>
       <Seo
@@ -108,11 +188,17 @@ export function ResourceDetailPage(): JSX.Element {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleStructuredData) }}
       />
+      {faqStructuredData && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
+        />
+      )}
 
       <ArticleWrap>
         <ArticleTitle>{resource.title}</ArticleTitle>
         <ArticleAuthorLine>
-          Caruso Martech
+          By Antonio Caruso, Caruso Martech
         </ArticleAuthorLine>
         <ArticleMeta>
           Published {formatDate(resource.date)} · Updated {formatDate(resource.lastUpdated)} ·{' '}

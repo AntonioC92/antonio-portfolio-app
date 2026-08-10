@@ -2,7 +2,7 @@ import { Layout } from '../components/Layout/Layout';
 import { Seo } from '../components/Seo';
 import { AboutSection } from '../containers/AboutSection';
 
-const ABOUT_CANONICAL = 'https://carusomartech.com/about';
+const ABOUT_CANONICAL = 'https://carusomartech.com/about/';
 
 export function AboutPage(): JSX.Element {
   return (
