@@ -75,9 +75,10 @@ export function ResourceDetailPage(): JSX.Element {
     articleSection: resource.category,
     keywords: resource.tags.join(', '),
     author: {
-      '@type': 'Organization',
-      name: 'Caruso Martech',
-      url: SITE_URL,
+      '@type': 'Person',
+      name: 'Antonio Caruso',
+      url: 'https://www.linkedin.com/in/antonio-caruso-martech/',
+      sameAs: ['https://www.linkedin.com/in/antonio-caruso-martech/'],
     },
     publisher: {
       '@type': 'Organization',

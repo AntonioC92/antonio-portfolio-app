@@ -69,7 +69,7 @@ export function InsightsPage(): JSX.Element {
         <ResourcesHeader>
           <ResourcesTitle>Insights</ResourcesTitle>
           <ResourcesSubtitle>
-            Practical perspectives on marketing leadership, system design, attribution, and automation for founder-led teams.
+            Practical perspectives on marketing leadership, system design, attribution, and automation for growing marketing teams.
           </ResourcesSubtitle>
         </ResourcesHeader>
 
