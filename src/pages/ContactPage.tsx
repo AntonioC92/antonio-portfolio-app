@@ -2,7 +2,7 @@ import { Layout } from '../components/Layout/Layout';
 import { Seo } from '../components/Seo';
 import { Contact } from '../containers/Contact/index.tsx';
 
-const CONTACT_CANONICAL = 'https://carusomartech.com/contact';
+const CONTACT_CANONICAL = 'https://carusomartech.com/contact/';
 
 export function ContactPage(): JSX.Element {
   return (

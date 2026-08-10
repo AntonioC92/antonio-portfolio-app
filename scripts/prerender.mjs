@@ -81,17 +81,24 @@ function outputPathForRoute(route) {
 }
 
 function buildSitemap(resources) {
+  // All loc values carry a trailing slash. Cloudflare Pages serves this
+  // static build as one index.html per directory and 308-redirects any
+  // non-trailing-slash request to the trailing-slash form (confirmed via
+  // curl on live routes, 2026-08-10) — so a sitemap without trailing
+  // slashes submits URLs that immediately redirect, which is exactly what
+  // GSC's "Redirect error" / failed-validation findings were flagging.
+  // Every canonical/ogUrl in the page components was fixed to match.
   const staticUrls = [
     { loc: `${siteUrl}/`,                      changefreq: 'weekly',  priority: '1.0' },
-    { loc: `${siteUrl}/work`,                  changefreq: 'monthly', priority: '0.9' },
-    { loc: `${siteUrl}/services`,              changefreq: 'monthly', priority: '0.9' },
-    { loc: `${siteUrl}/about`,                 changefreq: 'monthly', priority: '0.8' },
-    { loc: `${siteUrl}/insights`,              changefreq: 'weekly',  priority: '0.8' },
-    { loc: `${siteUrl}/contact`,               changefreq: 'yearly',  priority: '0.5' },
-    { loc: `${siteUrl}/privacy-policy`,        changefreq: 'yearly',  priority: '0.3' },
+    { loc: `${siteUrl}/work/`,                 changefreq: 'monthly', priority: '0.9' },
+    { loc: `${siteUrl}/services/`,             changefreq: 'monthly', priority: '0.9' },
+    { loc: `${siteUrl}/about/`,                changefreq: 'monthly', priority: '0.8' },
+    { loc: `${siteUrl}/insights/`,             changefreq: 'weekly',  priority: '0.8' },
+    { loc: `${siteUrl}/contact/`,              changefreq: 'yearly',  priority: '0.5' },
+    { loc: `${siteUrl}/privacy-policy/`,       changefreq: 'yearly',  priority: '0.3' },
   ];
   const resourceUrls = resources.map((r) => ({
-    loc:        `${siteUrl}/insights/${r.slug}`,
+    loc:        `${siteUrl}/insights/${r.slug}/`,
     lastmod:    r.lastUpdated,
     changefreq: 'monthly',
     priority:   '0.7',

@@ -29,7 +29,7 @@ import {
   CtaLink,
 } from './ServicesPage.styles';
 
-const SERVICES_CANONICAL = 'https://carusomartech.com/services';
+const SERVICES_CANONICAL = 'https://carusomartech.com/services/';
 
 const services = [
   {
