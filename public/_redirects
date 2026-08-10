@@ -6,7 +6,12 @@
 # src/content/resources/ (confirmed via git log --all) and has 404'd
 # since Google first indexed it 2026-03-15. Redirecting to the closest
 # live equivalent article instead of leaving it a dead end.
+# Both forms are needed: Cloudflare _redirects matches literally, and
+# Google's crawler was found (via URL Inspection API, same day) to be
+# checking the trailing-slash form specifically — the no-slash-only rule
+# left that variant still 404ing after the first fix went live.
 /insights/future-fractional-cmo-operating-builder /insights/marketing-manager-vs-fractional-cmo 301
+/insights/future-fractional-cmo-operating-builder/ /insights/marketing-manager-vs-fractional-cmo 301
 # /fractional-cmo previously only had a client-side React Router redirect
 # (<Navigate to="/" replace/> in entry-server.tsx / main.tsx), which sends
 # no HTTP status to crawlers or non-JS clients. Adding the matching
