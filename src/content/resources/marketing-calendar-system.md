@@ -24,7 +24,7 @@ Most marketing calendars are date trackers. They list what publishes when, but s
 
 Content Marketing Institute frames the fix directly: [treat](https://contentmarketinginstitute.com/content-optimization/7-steps-to-a-more-strategic-editorial-calendar) the calendar as the evolving implementation plan for your content strategy. That means capacity, quarterly goals, and content mix need to be set before a single date goes on the grid.
 
-Most teams skip straight to scheduling instead. That is how a calendar ends up with forty planned pieces and three people to write them, then quietly stalls by week three. A [campaign brief](/insights/campaign-brief-template) forces the same discipline at the individual campaign level, and the calendar is where that discipline has to hold across a full quarter.
+Most teams skip straight to scheduling instead. That is how a calendar ends up with forty planned pieces and three people to write them, then quietly stalls by week three. A [campaign brief](/insights/marketing-automation-readiness-checklist) forces the same discipline at the individual campaign level, and the calendar is where that discipline has to hold across a full quarter.
 
 ## The fields that turn a list of dates into a pipeline system
 
@@ -40,7 +40,7 @@ Most teams overbuild awareness content and underbuild everything after it. Two o
 
 The fix is tagging what already exists against funnel stage, spotting the gap, and filling it from the bottom up: decision stage first, then consideration, then whatever awareness gaps remain. A Dublin-based B2B SaaS team we advised found this the hard way. Their calendar had eleven awareness posts scheduled for one quarter and a single case study, while their sales team was asking prospects for proof points that did not exist yet.
 
-This is also where [attribution](/insights/attribution-challenges-2025) work pays off. A calendar tagged by funnel stage proves its value once you can trace which stage-tagged content actually touched closed deals, and that tracing depends on tracking discipline set up elsewhere in the stack.
+This is also where [attribution](/insights/attribution-gaps-after-platform-migration) work pays off. A calendar tagged by funnel stage proves its value once you can trace which stage-tagged content actually touched closed deals, and that tracing depends on tracking discipline set up elsewhere in the stack.
 
 ## Setting the planning horizon and protecting capacity
 
@@ -48,7 +48,7 @@ Two time horizons need to run at once. A 6 to 12 month strategic roadmap holds t
 
 Reserve 20 to 30% of monthly capacity for reactive work. A competitor move, a trending question in the market, or a sales request will always show up mid-quarter. A calendar with zero slack either ignores that work or blows up the rest of the plan trying to fit it in.
 
-Tracking which campaigns actually drive traffic back to the roadmap depends on consistent [UTM tagging](/insights/utm-system-setup) across every channel the calendar touches. A UK agency running five paid and organic channels in parallel cannot answer "what worked" from publish dates alone. Building the tagging in from the start keeps that answer ready well ahead of any quarterly report.
+Tracking which campaigns actually drive traffic back to the roadmap depends on consistent [UTM tagging](/insights/automating-marketing-workflows) across every channel the calendar touches. A UK agency running five paid and organic channels in parallel cannot answer "what worked" from publish dates alone. Building the tagging in from the start keeps that answer ready well ahead of any quarterly report.
 
 ## Running a review cadence that keeps the calendar honest
 
