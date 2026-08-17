@@ -12,7 +12,7 @@ tags: "utm parameters, campaign tracking, marketing operations, ga4, attribution
 
 Most UTM tracking starts clean and falls apart within a quarter. One person builds the first few links carefully, then a freelancer, a new hire, or an agency partner adds their own version. Within weeks, "newsletter," "Newsletter," and "email-newsletter" are all sitting in the same report as separate sources. Nobody trusts the data enough to act on it.
 
-The fix is not a smarter tool. It is a written convention, a place to enforce it, and a habit of checking it. That is the whole system.
+The fix is a written convention, a place to enforce it, and a habit of checking it. That is the whole system.
 
 ## Quick answer: how do you build a UTM system that holds up?
 

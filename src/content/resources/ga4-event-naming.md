@@ -56,7 +56,7 @@ This is slower than a one-time rename, but it is the only approach that does not
 
 ## Making the convention stick
 
-A naming convention that lives in someone's head is not a convention, it is a habit one person has. Write it down: the pattern, a short list of approved objects and actions, and two or three real examples. One shared doc, linked from wherever your team keeps its tracking plan, is enough for most small teams.
+A naming convention that lives in someone's head is just a habit one person has. Write it down: the pattern, a short list of approved objects and actions, and two or three real examples. One shared doc, linked from wherever your team keeps its tracking plan, is enough for most small teams.
 
 Assign an owner. It does not need to be a full-time analytics role, just one person who reviews new events before they ship rather than after a dashboard breaks. This is the same ownership gap we cover in our piece on why [marketing ops](/insights/marketing-ops-underfunded) tends to be underfunded until something forces the issue.
 
