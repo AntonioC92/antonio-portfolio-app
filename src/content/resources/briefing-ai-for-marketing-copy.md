@@ -48,7 +48,9 @@ A working version might read: write a 150-word email announcing the new pricing 
 
 That extra structure changes what comes back. Instead of a generic first draft, the output already sounds close enough to edit rather than rewrite, which is the real difference between AI saving time and AI creating more work.
 
-This is the same distinction we cover in our piece on what [AI agents](/insights/ai-agents-marketing-small-teams) can genuinely handle for a small team: the tools that save time are the ones given enough structure to act on. AI copy drafting sits inside the broader shift toward [automating](/insights/automating-marketing-workflows) marketing operations, and it works best under the same discipline, defining the process clearly before handing any part of it to software.
+This is the same distinction we cover in our piece on what [AI agents](/insights/ai-agents-marketing-small-teams) can genuinely handle for a small team: the tools that save time are the ones given enough structure to act on.
+
+AI copy drafting sits inside the broader shift toward [automating](/insights/automating-marketing-workflows) marketing operations, and it works best under the same discipline, defining the process clearly before handing any part of it to software.
 
 ## Where AI earns its keep, and where a person stays in control
 
@@ -68,4 +70,4 @@ Before adding AI drafting to a real workflow, it is worth running the same [read
 
 None of this requires an enterprise content operation. A one-page brief, a better prompt, and a real edit step get most small teams most of the way there, without adding another line item to a [martech](/insights/martech-stack-audit) stack that might already be too crowded.
 
-If your team is scaling up how much content AI drafts and the voice keeps slipping, that usually means the brief needs rebuilding. We help marketing teams put that structure in place: see our [services](/services) or [get in touch](/contact) to talk through what yours needs.
+If your team is scaling up how much content AI drafts and the voice keeps slipping, that usually means the brief needs rebuilding. We help marketing teams put that structure in place: see our services, or [get in touch](/contact) to talk through what yours needs.

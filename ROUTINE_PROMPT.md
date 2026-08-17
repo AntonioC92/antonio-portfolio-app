@@ -1,3 +1,10 @@
+# DEPRECATED (2026-08-17): this file is a historical snapshot only, not a source of truth.
+# It has drifted from the live CM-seo-blog-builder Routine on multiple points (branch naming,
+# auth method, and the category list below, which still names a stale four-category set
+# instead of the three actual categories). CLAUDE.md at the repo root is the current,
+# canonical reference for house style, categories, and the blog-generation workflow —
+# check there first. This file is kept only for historical context and is not maintained.
+#
 # SEO Blog Agent — Caruso Martech
 # carusomartech.com / antonio-portfolio-app
 # No LinkedIn. Automation stops at "branch pushed, PR link ready".

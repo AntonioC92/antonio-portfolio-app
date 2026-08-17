@@ -78,4 +78,4 @@ Add schema to those same pages while you are in there. It is a small technical l
 
 None of this replaces a measurement plan for what AI search is already doing to your funnel, which is a related but separate problem we cover in our piece on the [attribution gap](/insights/ai-search-attribution-gap). Getting cited and knowing what that citation is worth are two different projects, and most businesses have started neither.
 
-We help small marketing teams build both: the content and mention strategy that earns citations, and the measurement system that proves what they are worth. If that gap sounds familiar, [our services](/services) cover exactly this, or you can [reach out](/contact) to talk through where your brand currently stands.
+We help small marketing teams build both: the content and mention strategy that earns citations, and the measurement system that proves what they are worth. If that gap sounds familiar, our services cover exactly this, or you can [reach out](/contact) to talk through where your brand currently stands.

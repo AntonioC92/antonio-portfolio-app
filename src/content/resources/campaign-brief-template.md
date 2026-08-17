@@ -74,4 +74,4 @@ The point of a one-page brief with a single objective is that it is easy to chec
 
 Building this rhythm into your [marketing system](/insights/modern-marketing-system-2025) is what turns campaign briefs from a compliance step into a genuine planning tool. Teams that treat the brief as disposable paperwork keep rebriefing. Teams that treat it as the campaign's contract with itself stop.
 
-If your team is still rebriefing every cycle or arguing about what a campaign was actually supposed to achieve, that is usually a systems gap rather than a people problem. [Our services](/services) include building the operating rhythm, from brief to reporting, that stops this from happening. [Get in touch](/contact) if you want a second pair of eyes on how your team plans and reviews campaigns.
+If your team is still rebriefing every cycle or arguing about what a campaign was actually supposed to achieve, that is usually a systems gap rather than a people problem. Our services include building the operating rhythm, from brief to reporting, that stops this from happening. [Get in touch](/contact) if you want a second pair of eyes on how your team plans and reviews campaigns.

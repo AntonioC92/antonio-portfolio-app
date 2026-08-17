@@ -101,4 +101,6 @@ Most teams find that a disciplined one-day audit surfaces enough redundant or do
 
 If the audit reveals that the deeper issue is a missing operating system underneath the tools rather than tool sprawl itself, that is a bigger conversation worth having separately. Start there once the immediate cleanup is done.
 
-If you want a second set of eyes on the results, see our [services](/services) or [contact](/contact) us to walk through what the audit turned up.
+If you want a second set of eyes on the results, see our [services](/services) to see how we approach it.
+
+Or [contact](/contact) us to walk through what the audit turned up.

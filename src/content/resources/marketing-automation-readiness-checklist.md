@@ -74,4 +74,4 @@ Only then choose the tool, and build the smallest version that solves the one pr
 
 Skipping straight to the tool purchase is the single most common reason automation projects get quietly abandoned within six months of launch, with the license still being paid for months after anyone stopped using it.
 
-We help small business and scale-up teams run this readiness check before they spend a cent on new software, then build the automation properly the first time. If your team is weighing a marketing automation purchase, or trying to work out why the last one never delivered, our [services](/services) page covers how we approach this, or you can [contact](/contact) us directly to talk through where your team actually stands today.
+We help small business and scale-up teams run this readiness check before they spend a cent on new software, then build the automation properly the first time. If your team is weighing a marketing automation purchase, or trying to work out why the last one never delivered, our services page covers how we approach this, or you can [contact](/contact) us directly to talk through where your team actually stands today.

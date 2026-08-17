@@ -62,4 +62,4 @@ Draft, send is the pattern that produces the apology emails. The same discipline
 
 None of this requires waiting for the technology to mature further. It requires the same thing most automation projects need and skip: a scoped problem, clean data feeding it, and a metric that says whether it worked.
 
-We help small marketing teams pilot AI agents inside a system that already has that discipline built in, rather than bolting one on top of a stack nobody has audited. If you are weighing where an agent would actually earn its keep in your marketing operation, our [services](/services) page covers how that engagement works, or [get in touch](/contact) to talk through your specific stack.
+We help small marketing teams pilot AI agents inside a system that already has that discipline built in, rather than bolting one on top of a stack nobody has audited. If you are weighing where an agent would actually earn its keep in your marketing operation, our services page covers how that engagement works, or [get in touch](/contact) to talk through your specific stack.

@@ -76,6 +76,6 @@ Run this audit monthly, not annually. It takes fifteen minutes once the conventi
 
 ## Why this matters more than it looks like it should
 
-Clean UTM data is the foundation everything else in your [attribution model](/insights/attribution-challenges-2025) depends on. A well-built dashboard cannot fix source data that was never consistent to begin with. Get the tagging right and the rest of the [marketing system](/insights/modern-marketing-system-2025) gets meaningfully easier to trust.
+Clean UTM data is the foundation everything else in your [attribution model](/insights/attribution-challenges-2025) depends on. A well-built dashboard cannot fix source data that was never consistent to begin with. Get the tagging right and the rest of the marketing system gets meaningfully easier to trust.
 
-None of this needs new software or a bigger budget. It needs one written rule, one place to enforce it, and a short monthly check. We help growing marketing teams build exactly this kind of tracking discipline into how they operate day to day. If your reporting has started to feel unreliable, [get in touch](/contact) or take a look at how we [approach this work](/services).
+None of this needs new software or a bigger budget. It needs one written rule, one place to enforce it, and a short monthly check. We help growing marketing teams build exactly this kind of tracking discipline into how they operate day to day. If your reporting has started to feel unreliable, [get in touch](/contact) or take a look at how we approach this work.

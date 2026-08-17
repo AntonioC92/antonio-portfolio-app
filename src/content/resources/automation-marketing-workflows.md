@@ -133,4 +133,6 @@ Marketing workflow automation in 2026 is really about building a calmer, more de
 
 If your team is spending more time preparing information than acting on it, workflow design is probably the real bottleneck. A useful perspective from [Code Conspirators](https://www.codeconspirators.com/how-ai-and-automation-will-transform-digital-marketing-in-2025/) reinforces the same need for reliable operating workflows.
 
-Stabilize the system first, then automate the parts that remove real friction. See our [services](/services), or [get in touch](/contact) if you want help stabilizing yours.
+Stabilize the system first, then automate the parts that remove real friction. See our [services](/services) for how we approach it.
+
+[Get in touch](/contact) if you want help stabilizing yours.

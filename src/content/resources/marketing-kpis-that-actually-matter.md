@@ -68,4 +68,4 @@ The second is building it once and never revisiting the definitions. Channels ch
 
 Getting this right comes down to picking the right questions before reaching for new software. Once the five core numbers are in place and everyone agrees on where they come from, the rest of the reporting stack gets much easier to trust.
 
-If your team is still stitching together five reports before every leadership meeting, that usually signals the measurement layer needs rebuilding. That is exactly the kind of system we help small marketing teams put in place. Take a look at [our services](/services) or [reach out](/contact) if you want a second pair of eyes on what your dashboard should actually track.
+If your team is still stitching together five reports before every leadership meeting, that usually signals the measurement layer needs rebuilding. That is exactly the kind of system we help small marketing teams put in place. Take a look at our services, or [reach out](/contact) if you want a second pair of eyes on what your dashboard should actually track.
