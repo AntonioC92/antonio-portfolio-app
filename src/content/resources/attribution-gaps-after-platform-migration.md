@@ -36,7 +36,7 @@ This is also why the problem is hard to catch early. [Supermetrics'](https://sup
 
 Attribution is already fragile before a migration happens. A platform change just exposes how fragile, and most teams only find out once a number moves in a direction they cannot explain.
 
-We covered the broader shift away from last-click thinking in our [attribution guide](/insights/attribution-challenges-2025), and a related but different problem, AI search hiding parts of the buyer journey entirely, in the [AI search](/insights/ai-search-attribution-gap) gap. A platform migration gap is more mechanical than either of those. It is usually traceable to one setting or one date, and fixable in an afternoon once you know where to look.
+We covered the broader shift away from last-click thinking in our [attribution guide](/insights/attribution-challenges-2025), and a related but different problem, AI search hiding parts of the buyer journey entirely, in the AI search gap. A platform migration gap is more mechanical than either of those. It is usually traceable to one setting or one date, and fixable in an afternoon once you know where to look.
 
 ## The diagnostic checklist
 
@@ -66,4 +66,6 @@ Platform migrations are not going away. GA4 will keep changing its attribution m
 
 The businesses that handle this well are not the ones with the most sophisticated attribution stack. They are the ones with a documented process for catching the gap fast and a person accountable for running it, so a platform update becomes a five-minute check instead of a quarter of confused reporting.
 
-If your reporting stopped making sense after a recent platform change and you cannot pin down why, that is exactly the kind of diagnostic work we do. [Reach out](/contact) and we will help you find the gap, or look at [our services](/services) if you want that check built into how your marketing system runs going forward.
+If your reporting stopped making sense after a recent platform change and you cannot pin down why, that is exactly the kind of diagnostic work we do. [Reach out](/contact) and we will help you find the gap.
+
+Or look at our services if you want that check built into how your marketing system runs going forward.

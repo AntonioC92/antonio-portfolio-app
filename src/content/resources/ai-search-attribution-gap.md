@@ -68,4 +68,6 @@ None of these four views is complete alone. Together, they get you close enough 
 
 ## The next step
 
-Start by auditing what your attribution setup quietly files under "Direct" or "Unknown." A growing bucket over the past two quarters is your evidence: the buyer journey has moved somewhere your tools cannot see. We help small owner-operated and scale-up teams build exactly this kind of blended measurement model. See our [services](/services), or [get in touch](/contact) to talk through your setup.
+Start by auditing what your attribution setup quietly files under "Direct" or "Unknown." A growing bucket over the past two quarters is your evidence: the buyer journey has moved somewhere your tools cannot see. We help small owner-operated and scale-up teams build exactly this kind of blended measurement model. See our [services](/services) for how that works.
+
+[Get in touch](/contact) to talk through your setup.

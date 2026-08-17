@@ -73,4 +73,6 @@ Businesses that already have a working plan and simply need it run well can skip
 
 Whichever role comes first, the first 30 days go better when basic infrastructure already exists: a CRM that reflects reality, a shared definition of a qualified lead, and reporting that leadership trusts without having to double-check it. None of that requires a senior marketing hire to build. It requires an hour spent on a [stack audit](/insights/martech-stack-audit) before the search even starts, so whoever joins can be useful in week one instead of week eight.
 
-We help small business owners and scale-up teams work out exactly which of these hires solves the problem actually in front of them, then build the plan and the systems underneath it so the hire has something real to run from day one. If you are weighing this decision now, our [services](/services) page covers how that engagement typically works, or you can [get in touch](/contact) to talk through where your business stands.
+We help small business owners and scale-up teams work out exactly which of these hires solves the problem actually in front of them, then build the plan and the systems underneath it so the hire has something real to run from day one. If you are weighing this decision now, our [services](/services) page covers how that engagement typically works.
+
+Or you can [get in touch](/contact) to talk through where your business stands.

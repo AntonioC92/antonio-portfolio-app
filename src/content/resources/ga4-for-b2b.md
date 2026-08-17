@@ -14,7 +14,9 @@ Last-click attribution still appears in a lot of dashboards because it is easy t
 
 That is why most teams do not need a fantasy version of perfect attribution. They need a version that is steady enough to support better budget decisions, clearer channel reviews, and more honest conversations about what is driving pipeline.
 
-If you are upgrading your model, connect measurement reviews to your [marketing system](/insights/modern-marketing-system-2025) and [automation quality](/insights/automating-marketing-workflows) before changing budget logic.
+If you are upgrading your model, connect measurement reviews to your [marketing system](/insights/modern-marketing-system-2025) before changing budget logic.
+
+Check [automation quality](/insights/automating-marketing-workflows) across the stack while you're at it.
 
 ## Quick answer: what good attribution looks like in 2026
 
@@ -141,4 +143,6 @@ Attribution in 2026 is less about certainty and more about useful confidence. Te
 
 If your team is still making budget calls on incomplete or inconsistent signals, fix measurement hygiene first, then improve modelling. [BrandBooster](https://brandbooster.ai/blog/navigating-the-complexities-overcoming-key-marketing-attribution-challenges-in-2025/) covers this well too, especially around signal quality and implementation hygiene.
 
-If your reporting needs this kind of hardening, see our [services](/services) or [get in touch](/contact).
+If your reporting needs this kind of hardening, see our [services](/services) for how that works.
+
+Or [get in touch](/contact) directly.

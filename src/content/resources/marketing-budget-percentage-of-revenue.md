@@ -68,4 +68,4 @@ Include the martech stack in the number rather than treating it as a separate co
 
 Review the number every quarter. Channel costs move, margins shift, and a budget built on last year's CAC will quietly stop matching how the business actually acquires customers.
 
-Setting the number is the easier part. Building the measurement system that tells you whether it is working is where most small teams get stuck. That is exactly what [our services](/services) cover, from acquisition strategy through to the reporting layer behind it. [Get in touch](/contact) if you want a second opinion on your budget before you commit to next quarter's number.
+Setting the number is the easier part. Building the measurement system that tells you whether it is working is where most small teams get stuck. That is exactly what our services cover, from acquisition strategy through to the reporting layer behind it. [Get in touch](/contact) if you want a second opinion on your budget before you commit to next quarter's number.
