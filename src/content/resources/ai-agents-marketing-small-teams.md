@@ -21,8 +21,8 @@ That distinction matters more than the marketing copy around it suggests. An age
 - **Research and drafting at scale.** Agents are genuinely strong at pulling together background on a lead, a competitor, or a topic, then producing a first draft from it, faster than a person starting from a blank page.
 - **Monitoring and alerts.** Watching campaign performance, spend pacing, or brand mentions and flagging what needs attention beats a human checking dashboards manually.
 - **Structured, repeatable tasks.** Tagging leads, summarizing call notes, or routing form submissions with context attached are tasks agents handle reliably once scoped narrowly.
-- **Not strategy, and not judgment calls.** Deciding what to say to a nervous enterprise prospect, or which campaign to kill, still needs a person who understands the account.
-- **Not unsupervised, yet.** [Gartner](https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027) expects more than 40 percent of agentic AI projects to be canceled by the end of 2027, mostly over unclear payoff and weak controls, a sign that "set it running and walk away" is not where the category is yet.
+- **Judgment calls stay human.** Deciding what to say to a nervous enterprise prospect, or which campaign to kill, still needs a person who understands the account.
+- **Still needs supervision.** [Gartner](https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027) expects more than 40 percent of agentic AI projects to be canceled by the end of 2027, mostly over unclear payoff and weak controls, a sign that "set it running and walk away" is not where the category is yet.
 
 ## What "AI agent" actually means, and what it does not
 

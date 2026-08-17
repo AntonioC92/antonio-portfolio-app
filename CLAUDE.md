@@ -78,6 +78,8 @@ Internal link format in body: `[anchor text](/insights/slug)`
 
 Target length: 1,100–1,600 words. Paragraph rhythm: 2-3 sentences per paragraph by default (4 max), with deliberate sentence-length variation, see Writing rules below.
 
+**AEO structure rule (added 2026-08-06, reconciled 2026-08-17):** every body section (`##` heading, item 3 above) opens with a short, self-contained paragraph, roughly 40-60 words, that directly answers the question or claim in that heading before moving into supporting detail. This is the highest-leverage lever for AI-answer-engine extraction and it also improves featured-snippet capture in classic Google search. It applies to item 3 body sections only, not to the `## Quick answer` section in item 2: Quick answer is intentionally bullet-first for scannability, and its bullets already are the direct answer, so a lead-in paragraph there would be redundant filler working against the "scannable" goal. Flag a body section only if it opens with scene-setting or a lead-in sentence before actually answering the heading's question.
+
 ---
 
 ## Blog generation routine

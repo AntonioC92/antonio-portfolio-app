@@ -12,7 +12,7 @@ tags: "campaign brief, marketing operations, campaign planning"
 
 Most campaign briefs get written once and ignored by the second week of execution. Someone fills in a template, sends it around, and the actual work starts from a Slack thread instead. The brief becomes a formality, not a working document, and the campaign drifts from whatever the brief originally said.
 
-This is not a discipline problem. It is a design problem. A brief that takes 45 minutes to read, buries the objective on page three, or leaves the audience vague will get skipped, no matter how conscientious the team is.
+This is a design problem. A brief that takes 45 minutes to read, buries the objective on page three, or leaves the audience vague will get skipped, no matter how conscientious the team is.
 
 ## Quick answer: what makes a campaign brief that actually gets used?
 
@@ -26,7 +26,7 @@ This is not a discipline problem. It is a design problem. A brief that takes 45 
 
 There is a real gap between how marketers rate their own briefs and how the people executing them rate the same document. In the [BetterBriefs research](https://www.thedrum.com/news/2021/10/18/research-reveals-major-gap-between-client-and-agency-perception-briefing-process), 80% of marketers believed they wrote clear briefs, while only 10% of the agencies receiving them agreed. On strategic direction specifically, the gap was even wider: 78% versus 5%.
 
-That gap has a cost attached to it. [Roughly a third of marketing budgets get wasted](https://www.marketingmag.com.au/news/study-finds-33-percent-of-budget-wasted-due-to-poor-briefs/) on work that starts from an unclear brief and has to be redone. Rebriefing is common on both sides of the table, and it is never cheap: it burns the time of whoever briefed, whoever executed, and whoever now has to redo it.
+That gap has a cost attached to it. Roughly a third of marketing budgets get wasted on work that starts from an unclear brief and has to be redone, per [Marketing Mag](https://www.marketingmag.com.au/news/study-finds-33-percent-of-budget-wasted-due-to-poor-briefs/). Rebriefing is common on both sides of the table, and it is never cheap: it burns the time of whoever briefed, whoever executed, and whoever now has to redo it.
 
 The pattern behind most failed briefs is the same. They list everything the team could possibly want instead of the one thing that matters most this cycle. A brief that tries to serve five objectives serves none of them well, and the person executing has to guess which one you actually meant.
 
@@ -38,7 +38,7 @@ The business problem comes first: what is actually going wrong, in plain terms, 
 
 The audience comes second, specific enough that two different people would picture the same person. "Small business owners" is not specific. "Owners of 10-30 person services businesses evaluating a second martech tool after their first one failed" is.
 
-The measurable objective comes third, and there should only be one. Pick the number that tells you whether the campaign worked, not a wishlist of secondary metrics. Teams that keep this discipline see it pay off: [briefing consistency correlates with a 38% higher chance of hitting campaign KPIs](https://www.envigo.co.uk/signals/the-brief-is-where-most-marketing-work-goes-wrong).
+The measurable objective comes third, and there should only be one. Pick the number that tells you whether the campaign worked, not a wishlist of secondary metrics. Teams that keep this discipline see it pay off: briefing consistency correlates with a 38% higher chance of hitting campaign KPIs, per [Envigo](https://www.envigo.co.uk/signals/the-brief-is-where-most-marketing-work-goes-wrong).
 
 The insight comes fourth: the one true thing about the audience or the market that explains why this campaign, this way, right now. This is usually the piece marketers skip, and it is the piece that makes the creative or channel decisions make sense downstream.
 
@@ -54,7 +54,7 @@ If background context genuinely needs preserving, put it in a linked doc, not th
 
 A brief with no named owner becomes everyone's job, which means it becomes no one's job. Whoever owns the brief should be the person who can answer a scope question in five minutes without convening a call.
 
-This is part of why [marketing ops tends to be the underfunded role](/insights/marketing-ops-underfunded) that would fix this exact problem if it had the headcount. Someone needs to hold the brief as a living document, not a PDF that gets forwarded once and forgotten.
+This is part of why [marketing ops](/insights/marketing-ops-underfunded) tends to be the underfunded role that would fix this exact problem if it had the headcount. Someone needs to hold the brief as a living document, not a PDF that gets forwarded once and forgotten.
 
 ## Make it a living document, not a static file
 
@@ -64,9 +64,9 @@ Put the brief somewhere everyone touches daily: a shared doc, a project manageme
 
 ## Tie the brief to what you can actually measure
 
-A brief's objective is only useful if you can report against it later. Before locking the brief, check that your tracking setup can actually attribute results to this specific campaign. That usually means [naming conventions and tagging structures](/insights/utm-system-setup) are set up before the campaign launches, not patched in afterward.
+A brief's objective is only useful if you can report against it later. Before locking the brief, check that your tracking setup can actually attribute results to this specific campaign. That usually means [naming conventions](/insights/utm-system-setup) and tagging structures are set up before the campaign launches, not patched in afterward.
 
-This is also where a lot of briefs quietly fail. The objective says "improve conversion," but nobody checks whether the [KPIs the team is tracking](/insights/marketing-kpis-that-actually-matter) can actually isolate this campaign's contribution from everything else running that quarter. A brief that references a metric your reporting cannot cleanly produce is a brief that cannot be judged as a success or failure.
+This is also where a lot of briefs quietly fail. The objective says "improve conversion," but nobody checks whether the [tracked KPIs](/insights/marketing-kpis-that-actually-matter) can actually isolate this campaign's contribution from everything else running that quarter. A brief that references a metric your reporting cannot cleanly produce is a brief that cannot be judged as a success or failure.
 
 ## Review the brief against results, not just against a checklist
 
