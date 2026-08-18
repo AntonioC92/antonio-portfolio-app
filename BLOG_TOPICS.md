@@ -18,7 +18,7 @@ Mark `[x]` when written and committed. Add new topics at the bottom of each sect
 - [ ] **GA4 event naming conventions: a practical guide** — `ga4-event-naming` — Target: "ga4 event naming" — The naming decisions that make GA4 actually usable across teams.
 - [ ] **How to set up a UTM system that everyone actually follows** — `utm-system-setup` — Target: "utm parameter system" — Governance, naming convention, spreadsheet, the works.
 - [x] **The difference between attribution and measurement** — `attribution-vs-measurement` — Target: "marketing attribution vs measurement" — Clears up a common confusion that leads teams to make bad model choices.
-- [ ] **First-party data strategy for small marketing teams** — `first-party-data-strategy` — Target: "first party data strategy" — Practical steps for capturing and using owned data when you're not an enterprise.
+- [x] **First-party data strategy for small marketing teams** — `first-party-data-strategy` — Target: "first party data strategy" — Practical steps for capturing and using owned data when you're not an enterprise.
 
 ## Automation & AI
 
