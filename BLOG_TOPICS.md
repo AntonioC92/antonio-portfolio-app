@@ -24,7 +24,7 @@ Mark `[x]` when written and committed. Add new topics at the bottom of each sect
 
 - [x] **How to use AI to speed up marketing reporting without losing accuracy** — `ai-marketing-reporting` — Target: "ai marketing reporting" — Specific workflows: summarising dashboards, writing variance commentary, flagging anomalies.
 - [x] **Building a lead scoring system that sales will actually trust** — `lead-scoring-system` — Target: "lead scoring system" — From criteria to CRM field to handoff SLA.
-- [ ] **The automation stack for a 3-person marketing team** — `marketing-automation-stack-small-team` — Target: "marketing automation small team" — What to automate first when you have limited time and budget.
+- [x] **The automation stack for a 3-person marketing team** — `marketing-automation-stack-small-team` — Target: "marketing automation small team" — What to automate first when you have limited time and budget.
 - [ ] **How to brief AI for marketing copy without losing brand voice** — `briefing-ai-for-marketing-copy` — Target: "how to use ai for marketing copy" — Prompt structure, review process, what AI is good and bad at in copy.
 
 ## Fractional CMO
