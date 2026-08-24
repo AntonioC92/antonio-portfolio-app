@@ -10,7 +10,7 @@ category: "Automation & Intelligence"
 tags: "ai marketing reporting, marketing automation, reporting workflow, marketing analytics"
 ---
 
-Most marketing reporting is not analysis. It is copying numbers from three platforms into a spreadsheet, writing a paragraph explaining why spend went up, and formatting the same slide deck for the fourth week in a row. That work is exactly what AI is good at, but bring it in the wrong way and you end up with a report full of numbers nobody checked.
+Most marketing reporting is copying numbers from three platforms into a spreadsheet, writing a paragraph explaining why spend went up, and formatting the same slide deck for the fourth week in a row. That work is exactly what AI is good at, but bring it in the wrong way and you end up with a report full of numbers nobody checked.
 
 The fix is not "add AI to reporting." It is knowing which parts of the reporting process AI should touch, in what order, and where a human still has to look at the actual data before anything ships.
 
@@ -24,7 +24,7 @@ The fix is not "add AI to reporting." It is knowing which parts of the reporting
 
 ## What AI is actually good at in reporting
 
-AI is strong at turning a table of numbers into a readable paragraph, and at doing it fast enough that reporting stops eating half a day every week. According to [HubSpot's AI Trends report](https://blog.hubspot.com/marketing/state-of-ai-report), 48% of marketers already use generative AI for research tasks like summarizing data, and most who use AI this way report saving one to two hours a day.
+AI is strong at turning a table of numbers into a readable paragraph, and at doing it fast enough that reporting stops eating half a day every week. According to [HubSpot](https://blog.hubspot.com/marketing/state-of-ai-report)'s AI Trends report, 48% of marketers already use generative AI for research tasks like summarizing data, and most who use AI this way report saving one to two hours a day.
 
 That time saving comes from a narrow set of tasks: writing the first draft of an executive summary, turning a spend-versus-results table into two paragraphs of commentary, and rewording the same insight for three different audiences. None of that requires AI to know the real numbers. It requires AI to explain numbers you already gave it.
 
@@ -52,7 +52,7 @@ One agency case is worth citing for scale: a director at McCann Central told [Su
 
 Start with the report you write most often and hate the most, usually a weekly or monthly performance summary sent to the same stakeholders. Set up a fixed template with the metrics that never change, then build a script or workflow tool that pulls those metrics into the template automatically.
 
-Once the pulling and formatting are automated, layer in AI for the narrative section only. Feed it the completed metrics table and a short prompt describing your report's tone, then have someone review the draft against the numbers before it goes out. This is the same sequencing we use when we [brief AI for any marketing copy](/insights/briefing-ai-for-marketing-copy): structure and source material first, generation second, human review always.
+Once the pulling and formatting are automated, layer in AI for the narrative section only. Feed it the completed metrics table and a short prompt describing your report's tone, then have someone review the draft against the numbers before it goes out. This is the same sequencing we use when we [brief AI](/insights/briefing-ai-for-marketing-copy) for any marketing copy: structure and source material first, generation second, human review always.
 
 Anomaly detection and variance commentary are good second additions once the base workflow is stable. Save fully autonomous reporting, where AI decides what to include without a human template, for later. Most teams are not ready for that step, and most reports do not need it.
 

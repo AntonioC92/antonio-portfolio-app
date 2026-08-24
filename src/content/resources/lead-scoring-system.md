@@ -34,7 +34,7 @@ Skipping this step is the root cause of most scoring rejection. [Research from S
 
 A lead's fit with your ideal customer profile should carry more weight than how many pages they've browsed. Someone at the right company, in the right role, with the right revenue band is worth more to sales than a stranger who downloaded three ebooks in one afternoon. Behavior refines the ranking. Fit sets the floor.
 
-[Bombora's framework for account and lead scoring](https://bombora.com/core-concepts/how-to-score-prioritize-accounts-leads-b2b/) groups signals into three tiers: firmographic data such as role, company size, industry, and location, behavioral engagement with your brand, and third-party intent signals showing active research elsewhere. Fit sits at the base for a reason: it filters out volume that behavior alone would score too high.
+[Bombora](https://bombora.com/core-concepts/how-to-score-prioritize-accounts-leads-b2b/)'s framework for account and lead scoring groups signals into three tiers: firmographic data such as role, company size, industry, and location, behavioral engagement with your brand, and third-party intent signals showing active research elsewhere. Fit sits at the base for a reason: it filters out volume that behavior alone would score too high.
 
 Practically, this means a demo request from someone outside your ICP should never outrank a pricing page visit from someone squarely inside it. Weight the model in that order and reps stop seeing leads that waste their time at the top of the queue. If fit criteria aren't clearly defined yet, a [readiness checklist](/insights/marketing-automation-readiness-checklist) is a fast way to get the basics settled before scoring compounds the gap.
 
@@ -42,7 +42,7 @@ Practically, this means a demo request from someone outside your ICP should neve
 
 Intent data is powerful when it points to a small number of high-value actions. Pricing page visits, competitor comparison searches, and repeat visits within a short window are strong signals worth real points. A single blog pageview should stay worth close to zero, no matter how many times it repeats.
 
-[Landbase's research on lead scoring](https://www.landbase.com/blog/lead-scoring-statistics) found that machine learning-based models deliver roughly 75% higher conversion rates than traditional point systems, with top performers converting around 6% of leads versus a 3.2% industry average. The gap usually comes down to weighing the right few signals correctly.
+[Landbase](https://www.landbase.com/blog/lead-scoring-statistics)'s research on lead scoring found that machine learning-based models deliver roughly 75% higher conversion rates than traditional point systems, with top performers converting around 6% of leads versus a 3.2% industry average. The gap usually comes down to weighing the right few signals correctly.
 
 Cap the model at ten to twelve inputs total, including firmographic, behavioral, and intent signals combined. Past that point, reps stop being able to explain why a lead scored the way it did, and an unexplainable score is one they'll override on instinct anyway.
 
@@ -68,6 +68,6 @@ A scoring model calibrated once and left alone drifts out of sync with reality w
 
 Pull closed-won and closed-lost data every quarter and check whether high-scoring leads actually converted at a higher rate. If they didn't, look at the weighting first: a sound scoring concept still needs criteria that match current reality. Adjust one or two criteria at a time so you can tell what moved the needle.
 
-Loop sales into that review the same way you did at the start. A model that stays accurate because both teams keep testing it against real outcomes is the one that survives past the second quarter, long after the ones built in isolation get quietly abandoned. Whoever owns that quarterly review matters too, and it's usually the case for why [marketing ops is underfunded](/insights/marketing-ops-underfunded) in the first place: nobody is tasked with maintaining the system after launch.
+Loop sales into that review the same way you did at the start. A model that stays accurate because both teams keep testing it against real outcomes is the one that survives past the second quarter, long after the ones built in isolation get quietly abandoned. Whoever owns that quarterly review matters too, and it's usually the case for why [marketing ops](/insights/marketing-ops-underfunded) is underfunded in the first place: nobody is tasked with maintaining the system after launch.
 
 A trusted scoring system is really a trust exercise between two teams that measure success differently. If your current setup is more guesswork than system, our [martech stack audit](/insights/martech-stack-audit) is a useful place to check whether the CRM fields and automation underneath the score are even set up to support it. When you're ready to build or fix the model itself, our [services](/services) page covers how we work with teams on exactly this, or you can [get in touch](/contact) to talk through where yours is breaking down.
