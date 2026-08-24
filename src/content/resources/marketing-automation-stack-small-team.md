@@ -50,9 +50,9 @@ A platform that consolidates CRM, email automation, and reporting into one place
 
 Every additional tool is another login, another integration that can break, and another line item competing for a limited budget. A platform that handles CRM, email automation, and basic reporting in one place beats four best-in-class tools that do not talk to each other cleanly.
 
-This matters more than it sounds. Mid-sized marketing teams manage 15 or more tools on average, and [HubSpot's research on tool sprawl](https://blog.hubspot.com/marketing/marketing-tool-sprawl) found that consolidating down to a unified platform typically retains about 95% of functionality while cutting platform costs roughly in half. A three-person team carrying that same sprawl pays the cost with none of the headcount to manage it.
+This matters more than it sounds. Mid-sized marketing teams manage 15 or more tools on average, and [HubSpot](https://blog.hubspot.com/marketing/marketing-tool-sprawl)'s research on tool sprawl found that consolidating down to a unified platform typically retains about 95% of functionality while cutting platform costs roughly in half. A three-person team carrying that same sprawl pays the cost with none of the headcount to manage it.
 
-Budget the tool cost against the hours it saves. A $150 monthly platform that eliminates five hours of manual work a week has paid for itself several times over: [small business automation data](https://stealthagents.com/research/small-business-automation-statistics-2026) puts the median time savings for owners at five hours weekly, with employees reclaiming closer to 11.5 hours once workflows are running.
+Budget the tool cost against the hours it saves. A $150 monthly platform that eliminates five hours of manual work a week has paid for itself several times over: [Stealth Agents](https://stealthagents.com/research/small-business-automation-statistics-2026) puts the median time savings for owners at five hours weekly, with employees reclaiming closer to 11.5 hours once workflows are running.
 
 ## What to leave manual, deliberately
 
@@ -66,8 +66,8 @@ Read our [readiness checklist](/insights/marketing-automation-readiness-checklis
 
 The only metric that matters here is time reclaimed and how much faster leads get a first response. A dashboard full of active workflows means nothing if nobody can point to what changed for the team.
 
-Track two numbers monthly: hours spent on manual data tasks, which should trend toward zero, and average time from lead capture to first outreach, which should shrink to minutes. [Industry data on automation benefits](https://backlinko.com/marketing-automation-stats) points to improved customer experience as the top-cited gain from automation, at 43% of surveyed marketers, and that improvement shows up first in response speed.
+Track two numbers monthly: hours spent on manual data tasks, which should trend toward zero, and average time from lead capture to first outreach, which should shrink to minutes. [Backlinko](https://backlinko.com/marketing-automation-stats) data points to improved customer experience as the top-cited gain from automation, at 43% of surveyed marketers, and that improvement shows up first in response speed.
 
-If those two numbers are not moving after 90 days, rebuild the workflows before buying another tool. That is often the point where [a dedicated ops function](/insights/marketing-ops-underfunded) starts to pay for itself, well before the team grows past three people.
+If those two numbers are not moving after 90 days, rebuild the workflows before buying another tool. That is often the point where a dedicated [ops function](/insights/marketing-ops-underfunded) starts to pay for itself, well before the team grows past three people.
 
 Getting this sequence right without an ops hire on staff is exactly the kind of gap our [services](/services) are built to close. If your team is stuck between doing everything by hand and hiring for a role you cannot justify yet, [get in touch](/contact) and we will walk through what to automate first.

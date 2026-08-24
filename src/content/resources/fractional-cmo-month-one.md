@@ -38,7 +38,7 @@ A roadmap built on numbers nobody trusts gets ignored the first time results dis
 
 This is where a lot of engagements quietly break down. [Marketing ops](/insights/marketing-ops-underfunded) usually has no real owner in a small team, which means the reporting that exists was built ad hoc, by whoever needed a number for a specific meeting.
 
-Fixing that does not require new tools. It requires picking the [KPIs that actually matter](/insights/marketing-kpis-that-actually-matter) for this specific business, writing down how each one is calculated, and getting the client to sign off on that definition before month two.
+Fixing that does not require new tools. It requires picking the [core KPIs](/insights/marketing-kpis-that-actually-matter) that actually matter for this specific business, writing down how each one is calculated, and getting the client to sign off on that definition before month two.
 
 Once the baseline exists, every later recommendation gets measured against it. A leader who skips this step ends up defending judgment calls with anecdotes, which is a losing position six months in.
 
@@ -66,7 +66,7 @@ The strategy can be right and the engagement can still fail if the working relat
 
 Adoption of this model is accelerating well beyond isolated cases. [Distribute Digital](https://distributedigital.co.uk/the-rise-of-fractional-marketing/) reports that 68 percent of UK businesses have already considered or currently use fractional marketing, and 67 percent of UK SMEs are still operating without a formal marketing strategy at all, which is exactly the gap this model is built to close.
 
-Cost is part of why the model spreads. A full-time marketing manager in the UK carries a base salary of roughly £45,000 to £60,000 before National Insurance, pensions, and tooling, while a senior marketing director runs £125,000 or more. Fractional engagements in the US typically price between [$4,000 and $20,000 a month](https://www.gofractional.com/blog/fractional-cmo-salary), which gives smaller businesses access to senior judgment without the full-time overhead.
+Cost is part of why the model spreads. A full-time marketing manager in the UK carries a base salary of roughly £45,000 to £60,000 before National Insurance, pensions, and tooling, while a senior marketing director runs £125,000 or more. Fractional engagements in the US typically price between $4,000 and $20,000 a month, per [GoFractional](https://www.gofractional.com/blog/fractional-cmo-salary), which gives smaller businesses access to senior judgment without the full-time overhead.
 
 None of this replaces the [decision framework](/insights/marketing-manager-vs-fractional-cmo) for choosing between a marketing manager and outside leadership in the first place. It only matters once that choice is made and the clock on month one has already started.
 
