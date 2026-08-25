@@ -17,3 +17,19 @@
 # no HTTP status to crawlers or non-JS clients. Adding the matching
 # server-level 301 so it's a real redirect, not just a JS-side one.
 /fractional-cmo / 301
+
+# Added 2026-08-25, fixing GSC page-indexing findings from this week's
+# "Not found (404)" report:
+# /resources/ (the bare root of the old content prefix) 404s — the splat
+# rule on line 1 only matches /resources/insights/*, it never covered the
+# bare root itself. Redirecting it to the closest live equivalent.
+/resources/ /insights/ 301
+/resources /insights 301
+
+# when-to-hire-first-marketing-leader was removed in the same "Remove
+# Fractional CMO articles" cleanup as future-fractional-cmo-operating-builder
+# above (git 553aeb8) but never got a matching redirect, so it's 404'd
+# since Google first indexed it back in March. Same treatment: send it to
+# the closest live equivalent instead of leaving a dead end.
+/insights/when-to-hire-first-marketing-leader /insights/marketing-manager-vs-fractional-cmo 301
+/insights/when-to-hire-first-marketing-leader/ /insights/marketing-manager-vs-fractional-cmo 301
