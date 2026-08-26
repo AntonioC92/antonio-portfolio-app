@@ -32,7 +32,7 @@ Mark `[x]` when written and committed. Add new topics at the bottom of each sect
 - [x] **What a fractional marketing leader actually does in month one** — `fractional-cmo-month-one` — Target: "fractional cmo first 90 days" — Practical account of audit, prioritisation, and first deliverables.
 - [ ] **When to hire a fractional CMO vs a full-time head of marketing** — `fractional-vs-fulltime-cmo` — Target: "fractional cmo vs full time" — Decision framework based on stage, budget, and pace of change.
 - [x] **How to measure the ROI of a fractional marketing engagement** — `fractional-cmo-roi` — Target: "fractional cmo roi" — What to track, what to expect, and how to present results to founders.
-- [ ] **The onboarding process that makes fractional marketing work** — `fractional-cmo-onboarding` — Target: "fractional marketing onboarding" — What the client needs to provide and what the engagement needs to deliver in week one.
+- [x] **The onboarding process that makes fractional marketing work** — `fractional-cmo-onboarding` — Target: "fractional marketing onboarding" — What the client needs to provide and what the engagement needs to deliver in week one.
 
 ---
 
