@@ -21,7 +21,7 @@ Mark `[x]` when written and committed. Add new topics at the bottom of each sect
 - [x] **How to set up a UTM system that everyone actually follows** — `utm-system-setup` — Target: "utm parameter system" — Governance, naming convention, spreadsheet, the works. (Already published; checkbox was stale.)
 - [x] **The difference between attribution and measurement** — `attribution-vs-measurement` — Target: "marketing attribution vs measurement" — Clears up a common confusion that leads teams to make bad model choices.
 - [x] **First-party data strategy for small marketing teams** — `first-party-data-strategy` — Target: "first party data strategy" — Practical steps for capturing and using owned data when you're not an enterprise.
-- [ ] **Server-side tracking for small marketing teams: what it actually requires** — `server-side-tracking-small-teams` — Target: "server side tracking setup" — Plain-language walkthrough of what changes with a server-side GTM setup and whether it's worth it before serious ad spend.
+- [x] **Server-side tracking for small marketing teams: what it actually requires** — `server-side-tracking-small-teams` — Target: "server side tracking setup" — Plain-language walkthrough of what changes with a server-side GTM setup and whether it's worth it before serious ad spend.
 - [ ] **How to read a GA4 attribution report without getting misled** — `ga4-attribution-report-guide` — Target: "ga4 attribution report" — Where GA4's default attribution model quietly overstates or understates channel performance.
 
 ## Automation & AI
