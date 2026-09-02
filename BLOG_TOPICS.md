@@ -44,7 +44,7 @@ Mark `[x]` when written and committed. Add new topics at the bottom of each sect
 ## AI Search & Experience
 
 - [x] **How to structure a webpage so AI answer engines can actually cite it** — `structuring-pages-for-ai-citations` — Target: "how to get cited by ai search" — Concrete on-page patterns: quick-answer blocks, clear heading hierarchy, sourced claims.
-- [ ] **Tracking visibility in ChatGPT, Perplexity, and Google AI Overviews** — `tracking-ai-search-visibility` — Target: "track ai search visibility" — What's measurable today, what isn't yet, and which tools actually do it.
+- [x] **Tracking visibility in ChatGPT, Perplexity, and Google AI Overviews** — `tracking-ai-search-visibility` — Target: "track ai search visibility" — What's measurable today, what isn't yet, and which tools actually do it.
 
 ---
 
