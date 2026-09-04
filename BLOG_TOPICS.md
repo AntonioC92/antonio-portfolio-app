@@ -31,7 +31,7 @@ Mark `[x]` when written and committed. Add new topics at the bottom of each sect
 - [x] **The automation stack for a 3-person marketing team** — `marketing-automation-stack-small-team` — Target: "marketing automation small team" — What to automate first when you have limited time and budget.
 - [x] **How to brief AI for marketing copy without losing brand voice** — `briefing-ai-for-marketing-copy` — Target: "how to use ai for marketing copy" — Prompt structure, review process, what AI is good and bad at in copy. (Already published; checkbox was stale.)
 - [ ] **Where AI actually saves time in a small marketing team (and where it doesn't)** — `ai-time-savings-marketing-team` — Target: "ai for small marketing team" — A realistic breakdown by task type: drafting, research, reporting, creative, strategy.
-- [ ] **Building an AI-assisted content workflow without losing quality control** — `ai-content-workflow-quality-control` — Target: "ai content workflow" — Where to keep a human checkpoint and where AI can run unsupervised.
+- [x] **Building an AI-assisted content workflow without losing quality control** — `ai-content-workflow-quality-control` — Target: "ai content workflow" — Where to keep a human checkpoint and where AI can run unsupervised.
 
 ## Fractional CMO
 
