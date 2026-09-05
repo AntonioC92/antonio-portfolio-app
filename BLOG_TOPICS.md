@@ -39,7 +39,7 @@ Mark `[x]` when written and committed. Add new topics at the bottom of each sect
 - [x] **When to hire a fractional CMO vs a full-time head of marketing** — `fractional-vs-fulltime-cmo` — Target: "fractional cmo vs full time" — Decision framework based on stage, budget, and pace of change. (Covered by `when-to-hire-first-marketing-leader`; checkbox was stale.)
 - [x] **How to measure the ROI of a fractional marketing engagement** — `fractional-cmo-roi` — Target: "fractional cmo roi" — What to track, what to expect, and how to present results to founders.
 - [x] **The onboarding process that makes fractional marketing work** — `fractional-cmo-onboarding` — Target: "fractional marketing onboarding" — What the client needs to provide and what the engagement needs to deliver in week one.
-- [ ] **What to ask a fractional CMO before signing a contract** — `questions-before-hiring-fractional-cmo` — Target: "questions to ask fractional cmo" — A vetting checklist covering scope, deliverables, reporting cadence, and exit terms.
+- [x] **What to ask a fractional CMO before signing a contract** — `questions-before-hiring-fractional-cmo` — Target: "questions to ask fractional cmo" — A vetting checklist covering scope, deliverables, reporting cadence, and exit terms.
 
 ## AI Search & Experience
 
