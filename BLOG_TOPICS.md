@@ -45,6 +45,7 @@ Mark `[x]` when written and committed. Add new topics at the bottom of each sect
 
 - [x] **How to structure a webpage so AI answer engines can actually cite it** — `structuring-pages-for-ai-citations` — Target: "how to get cited by ai search" — Concrete on-page patterns: quick-answer blocks, clear heading hierarchy, sourced claims.
 - [x] **Tracking visibility in ChatGPT, Perplexity, and Google AI Overviews** — `tracking-ai-search-visibility` — Target: "track ai search visibility" — What's measurable today, what isn't yet, and which tools actually do it.
+- [x] **AI citations vs. AI mentions: why the difference decides whether you get chosen** — `ai-citations-vs-mentions` — Target: "ai citations vs mentions" — Added 2026-09-07 (off-queue, trend-driven): the distinction between being named and being linked as a source, why most brands get one but not both, and how to track competitors' citations specifically.
 
 ---
 
