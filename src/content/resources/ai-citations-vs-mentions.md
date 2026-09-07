@@ -28,6 +28,8 @@ A mention signals that an AI model associates your brand with a topic strongly e
 
 [RankScience's research](https://www.rankscience.com/blog/ai-citations-brand-mentions-visibility-gap) puts a number on the gap: 80% of brands experience what it calls the "mention-source divide," where they get cited for data without ever being recommended, or recommended without ever being cited. Only 28% of brands land both in the same response. Treating them as one metric hides which half of your visibility problem you actually have.
 
+In practice, this looks like a founder searching "best CRM for a 10-person sales team" and seeing a competitor named twice in the answer with no link attached, while a G2 comparison page gets the only footnote. The competitor won the mention. The comparison page won the citation. Neither result tells the full story on its own.
+
 ## Why the gap exists in the first place
 
 AI systems appear to score usefulness and recommendation-worthiness on separate tracks. A page can supply a clean, well-structured fact the model wants to quote, without the brand behind it being one the model considers worth naming as an option.
@@ -55,6 +57,8 @@ A pattern usually shows up fast. If three competitors keep getting cited from th
 ## What to actually do about the gap
 
 Three moves show up across the data as the ones that close it. Build a presence on the specific third-party platforms a model already trusts for your category, since that is where most citations originate. Publish original data or benchmarks periodically, since proprietary numbers get quoted in ways generic advice never does. Structure on-site content using the same [quick-answer pattern](/insights/structuring-pages-for-ai-citations) that already works for citation capture.
+
+A quarterly cadence works better than a one-time push for the research piece specifically. Run a small survey or pull a stat from your own client data twice a year, publish it with the underlying numbers visible, and pitch it to the trade press and comparison sites your buyers already read. That single asset can earn both a mention and a citation at once, which is rarer than either alone.
 
 None of this happens through a one-off content push. It requires the same kind of ongoing, measured system that used to belong to keyword rankings, now aimed at a target that shifts by platform and by month. [RankScience](https://www.rankscience.com/blog/ai-citations-brand-mentions-visibility-gap) found brands pairing mentions with citations resurface in follow-up AI answers about 40% more often than brands with only one, so the two genuinely reinforce each other once both are in place.
 
