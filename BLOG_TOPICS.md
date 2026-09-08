@@ -14,6 +14,7 @@ Mark `[x]` when written and committed. Add new topics at the bottom of each sect
 - [x] **How to build a marketing calendar that connects to real outcomes** — `marketing-calendar-system` — Target: "marketing calendar template" — Not just dates — a calendar tied to pipeline stages and decision points.
 - [ ] **Building a single source of truth for marketing data** — `marketing-data-source-of-truth` — Target: "marketing data single source of truth" — How to stop reconciling different numbers from ad platforms, CRM, and spreadsheets before every leadership meeting.
 - [x] **How to brief a marketing agency so the work actually lands** — `agency-brief-template` — Target: "how to brief a marketing agency" — What separates a brief that gets strong creative and media work from one that gets guesses.
+- [x] **Why campaign calendars keep outrunning creative production** — `campaign-calendar-creative-bottleneck` — Target: "campaign execution bottleneck" — Added 2026-09-08 (off-queue, trend-driven): the gap between publish dates and real production capacity, why approvals cause more missed launches than creative work does, and how to build a calendar around actual capacity instead of wishful dates.
 
 ## Attribution & Analytics
 
