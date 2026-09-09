@@ -24,6 +24,7 @@ Mark `[x]` when written and committed. Add new topics at the bottom of each sect
 - [x] **First-party data strategy for small marketing teams** — `first-party-data-strategy` — Target: "first party data strategy" — Practical steps for capturing and using owned data when you're not an enterprise.
 - [x] **Server-side tracking for small marketing teams: what it actually requires** — `server-side-tracking-small-teams` — Target: "server side tracking setup" — Plain-language walkthrough of what changes with a server-side GTM setup and whether it's worth it before serious ad spend.
 - [x] **How to read a GA4 attribution report without getting misled** — `ga4-attribution-report-guide` — Target: "ga4 attribution report" — Where GA4's default attribution model quietly overstates or understates channel performance.
+- [x] **Marketing mix modeling is back: what it takes for a small team** — `marketing-mix-modeling-small-teams` — Target: "marketing mix modeling small business" — Added 2026-09-09 (off-queue, trend-driven): cookie deprecation and the cancelled Privacy Sandbox cookie replacement pushed MMM back into relevance, free open-source tools (Google Meridian, Meta Robyn) removed the old six-figure vendor cost, and what the real data bar looks like for a team without a data science function.
 
 ## Automation & AI
 
