@@ -28,6 +28,7 @@ Mark `[x]` when written and committed. Add new topics at the bottom of each sect
 
 ## Automation & AI
 
+- [x] **AI agent governance for marketing teams: what guardrails actually look like** — `ai-agent-governance-marketing-teams` — Target: "ai agent governance marketing" — Added 2026-09-15 (off-queue, trend-driven): GSC showed sustained interest in "governed marketing workflows" with nothing on the site addressing it, and web search confirmed guardrails/governance for autonomous marketing agents is a genuinely current 2026 theme (Salesforce AI Control Plane, Gartner's 40%+ agentic-project cancellation forecast). Covers permission scopes, approval gates, audit trails, and where human judgment still can't be automated away.
 - [x] **How to use AI to speed up marketing reporting without losing accuracy** — `ai-marketing-reporting` — Target: "ai marketing reporting" — Specific workflows: summarising dashboards, writing variance commentary, flagging anomalies.
 - [x] **Building a lead scoring system that sales will actually trust** — `lead-scoring-system` — Target: "lead scoring system" — From criteria to CRM field to handoff SLA.
 - [x] **The automation stack for a 3-person marketing team** — `marketing-automation-stack-small-team` — Target: "marketing automation small team" — What to automate first when you have limited time and budget.
