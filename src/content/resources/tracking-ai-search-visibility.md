@@ -12,7 +12,7 @@ tags: "ai search visibility, ai overviews, share of voice, ai search tracking"
 
 Most marketing teams can tell you exactly where they rank for their top keywords in Google. Ask the same team where their site shows up inside a ChatGPT answer or a Google [AI Overview](https://www.omnibound.ai/blog/google-ai-overviews-statistics), and the honest answer is usually "we don't know." That gap matters more each quarter. AI Overviews now appear on roughly half of US searches, and a growing share of buyers start their research inside a chat window instead of a search box.
 
-We've already covered [how sites get cited](/insights/how-ai-search-engines-decide-which-sites-to-cite) and [how to structure pages for it](/insights/structuring-pages-for-ai-citations). This piece picks up the next question teams ask once that work is done: how do you actually know if it's working.
+We've already covered how sites get [cited](/insights/how-ai-search-engines-decide-which-sites-to-cite) and how to [structure](/insights/structuring-pages-for-ai-citations) pages for it. This piece picks up the next question teams ask once that work is done: how do you actually know if it's working.
 
 ## Quick answer: how do you track AI search visibility?
 
@@ -40,7 +40,7 @@ The framing layer matters just as much and gets tracked far less. The same Searc
 
 ## The tools marketing teams are actually using
 
-A real market has formed around this problem, and most small teams are choosing between a handful of purpose-built platforms rather than building tracking themselves. A recent [comparison of the category](https://www.frase.io/blog/the-10-best-ai-visibility-tools-in-2026) lists the main options and what each one leans on.
+A real market has formed around this problem, and most small teams are choosing between a handful of purpose-built platforms rather than building tracking themselves. A recent [comparison](https://www.frase.io/blog/the-10-best-ai-visibility-tools-in-2026) of the category lists the main options and what each one leans on.
 
 Otterly.ai sits at the entry level, with credit-based pricing starting around $29 a month and coverage across six major engines. Frase folds AI visibility into its existing content research and optimization workflow, useful if your team already writes there. Semrush's AI toolkit plugs the same tracking into a suite most SEO teams already pay for, though it starts closer to $165 a month. SE Ranking adds AI Overview and chatbot tracking to its standard rank tracker, which keeps the buying decision simple if you're already a customer.
 
@@ -58,7 +58,7 @@ None of that makes tracking worthless. It means a monthly visibility check shoul
 
 Start narrower than the tools want you to. Write down 15 to 20 prompts that map to the actual questions your buyers ask before they contact you, run them through one tracking tool monthly, and log mentions, citations, and framing in a simple sheet before you ever touch a dashboard.
 
-Then connect that data to what you already track. If [your Search Console data](/insights/ai-search-attribution-gap) shows non-branded queries clustering around a topic, check whether those same prompts surface your site in an AI answer. A [martech stack audit](/insights/martech-stack-audit) is a reasonable moment to formally add an AI visibility tool rather than bolting it on separately, and the [KPIs that actually matter](/insights/marketing-kpis-that-actually-matter) for your team should absorb this data rather than treat it as a side report nobody reads.
+Then connect that data to what you already track. If your [Search Console](/insights/ai-search-attribution-gap) data shows non-branded queries clustering around a topic, check whether those same prompts surface your site in an AI answer. A [martech stack audit](/insights/martech-stack-audit) is a reasonable moment to formally add an AI visibility tool rather than bolting it on separately, and your [core KPIs](/insights/marketing-kpis-that-actually-matter) should absorb this data rather than treat it as a side report nobody reads.
 
 One open [Quora thread](https://www.quora.com/How-do-you-track-brand-visibility-in-AI-search-ChatGPT-Gemini-etc) asking exactly this question is a reasonable proxy for where most teams still are: curious, unsure which tool to trust, and not yet running anything consistently.
 

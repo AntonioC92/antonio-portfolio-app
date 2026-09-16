@@ -28,7 +28,7 @@ AI systems pull the passage that answers a question most directly, ahead of anyt
 
 The same research found 76% of cited URLs also rank in Google's top 10, at a median position of two. Ranking predicts inclusion in the mix, but which passage actually gets quoted is a separate decision the AI system makes on its own.
 
-A [UK case study from Whitehat SEO](https://whitehat-seo.co.uk/blog/ai-content-strategy-chatgpt-citations) covers a company that rewrote its comparison pages around short, self-contained "answer capsules" at the top of each section. AI visibility went from 3.2% to 22.2% in a single month, per tracking from Profound, on pages that were already ranking well and simply had not been formatted to be lifted.
+A [UK case study](https://whitehat-seo.co.uk/blog/ai-content-strategy-chatgpt-citations) from Whitehat SEO covers a company that rewrote its comparison pages around short, self-contained "answer capsules" at the top of each section. AI visibility went from 3.2% to 22.2% in a single month, per tracking from Profound, on pages that were already ranking well and simply had not been formatted to be lifted.
 
 That is the pattern worth copying: state the answer in the first two or three sentences of a section, then explain, qualify, and add detail underneath it.
 
@@ -40,7 +40,7 @@ A human reader tolerates a paragraph that builds toward a point. An AI system re
 
 This changes how a subheading should read. "Pricing considerations" invites a paragraph that wanders before it answers anything. "How much does this cost?" forces the first sentence to actually contain a number. The second version is the one that survives being lifted out and dropped into someone else's chat window.
 
-This matters for how you brief content in the first place. If AI tools are drafting a first pass, the [prompt structure you use](/insights/briefing-ai-for-marketing-copy) should ask for that answer-first shape explicitly, because most default AI writing still opens with throat-clearing.
+This matters for how you brief content in the first place. If AI tools are drafting a first pass, the prompt [structure](/insights/briefing-ai-for-marketing-copy) you use should ask for that answer-first shape explicitly, because most default AI writing still opens with throat-clearing.
 
 ## Fix crawlability before touching the copy
 
@@ -52,7 +52,7 @@ This is exactly the kind of gap a proper [stack audit](/insights/martech-stack-a
 
 ## Schema markup: a smaller lever than it looks
 
-Schema feels like the obvious lever, and it is the one most teams reach for first. The data says otherwise. [Ahrefs tracked 1,885 pages](https://ahrefs.com/blog/schema-ai-citations/) that added JSON-LD schema against 4,000 pages that did not, over an eight-month window. Citations moved by 2.4% in Google's AI Mode and 2.2% in ChatGPT, both statistically insignificant, and actually fell 4.6% in AI Overviews, a significant decline.
+Schema feels like the obvious lever, and it is the one most teams reach for first. The data says otherwise. [Ahrefs](https://ahrefs.com/blog/schema-ai-citations/) tracked 1,885 pages that added JSON-LD schema against 4,000 pages that did not, over an eight-month window. Citations moved by 2.4% in Google's AI Mode and 2.2% in ChatGPT, both statistically insignificant, and actually fell 4.6% in AI Overviews, a significant decline.
 
 Schema still helps a search engine parse a page correctly, and 53% of already-cited pages do carry it. That is correlation, though. Those pages were likely already well-organized before anyone added a script tag, and the schema came along for the ride rather than causing the result.
 
@@ -62,7 +62,7 @@ Spend the hour on answer-first structure instead. It is the change that actually
 
 [Otterly.ai's URL analysis](https://otterly.ai/blog/url-ai-citations-study/), covering nearly two million citations, found guide-format pages average 2.7 citations, 42% higher than shorter or narrower pages on the same topic. Clean URLs without query strings averaged 2.1 citations against 1.6 for dynamic, parameter-heavy URLs, a 24% gap.
 
-The practical move is consolidation. If a topic is currently split across three thin pages plus a couple of tag or filter URLs, merge it into one comprehensive guide at a single stable address. That also solves a problem you will hit once citations start showing up: proving they are actually driving anything. Getting quoted is only half the picture, and the [attribution gap in AI search](/insights/ai-search-attribution-gap) is real enough that it deserves its own tracking plan once the citations start coming in.
+The practical move is consolidation. If a topic is currently split across three thin pages plus a couple of tag or filter URLs, merge it into one comprehensive guide at a single stable address. That also solves a problem you will hit once citations start showing up: proving they are actually driving anything. Getting quoted is only half the picture, and the [attribution gap](/insights/ai-search-attribution-gap) in AI search is real enough that it deserves its own tracking plan once the citations start coming in.
 
 Real questions on this topic circulate constantly on forums like [Quora](https://www.quora.com/How-are-AI-search-engines-like-Perplexity-and-ChatGPT-deciding-which-websites-to-cite-in-their-answers), and most of them boil down to the same confusion: why does a lower-ranked competitor keep getting the mention. Page structure is usually the answer, and it is the part a team can actually control this quarter.
 
