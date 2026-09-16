@@ -58,7 +58,7 @@ Pick one source of truth per platform. For Google Ads, that means leaving auto-t
 
 This is a small decision that saves hours of reconciliation later. Write it into the same document as your naming rules: which platforms use gclid-style auto-tagging, and which ones need UTMs applied manually every time.
 
-## Where to enforce it, not just document it
+## Where to enforce it
 
 Documentation alone does not stop drift. The fix is putting the convention inside the tool people actually use to build links, so following it takes less effort than breaking it.
 
