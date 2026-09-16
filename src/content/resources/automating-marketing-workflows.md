@@ -63,7 +63,7 @@ This is why CRM automation should usually cover:
 - owner assignment by segment, territory, or product line
 - alerts when follow-up windows are missed
 
-The real benefit is operational confidence. Teams can see where leads moved, who owns the next step, and where breakdowns are happening.
+The real benefit is operational confidence. Teams can see where leads moved, who owns the next step, and where breakdowns are happening. Pairing this with a working [lead scoring system](/insights/lead-scoring-system) means routing rules move qualified leads first instead of treating every inbound form fill the same way.
 
 ### 3) Attribution and measurement pipelines
 
@@ -86,9 +86,9 @@ The team was exporting data manually every week, campaign naming varied across m
 
 We approached the fix in three steps:
 
-- **Workflow mapping:** document each handoff from click to lead to pipeline update
-- **Reporting automation:** standardize naming and automate ingestion into a central reporting layer
-- **Lead operations automation:** validate form inputs and preserve metadata through CRM routing
+- Workflow mapping: document each handoff from click to lead to pipeline update
+- Reporting automation: standardize naming and automate ingestion into a central reporting layer
+- Lead operations automation: validate form inputs and preserve metadata through CRM routing
 
 Within a quarter, reporting prep time dropped, confidence in weekly reviews improved, and channel conversations became much more commercial. The team was no longer spending most of the meeting deciding whether the numbers were trustworthy.
 
@@ -108,10 +108,10 @@ What tends to underperform is AI layered on top of inconsistent tracking or uncl
 
 If you want a workable starting point, use this sequence:
 
-1. **Diagnose:** find the recurring workflows that consume the most time or create the most errors.
-2. **Design:** define owners, inputs, outputs, and quality checks.
-3. **Automate:** implement the smallest viable version of the workflow.
-4. **Audit:** review failures, exceptions, and business impact on a regular cadence.
+1. Diagnose: find the recurring workflows that consume the most time or create the most errors.
+2. Design: define owners, inputs, outputs, and quality checks.
+3. Automate: implement the smallest viable version of the workflow.
+4. Audit: review failures, exceptions, and business impact on a regular cadence.
 
 This keeps automation tied to business outcomes instead of turning it into a disconnected tooling exercise.
 

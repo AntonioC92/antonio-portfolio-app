@@ -54,7 +54,7 @@ Knak's report found 88% of teams say AI-generated output still needs moderate to
 
 That might mean a single editor reviewing AI drafts before they reach a client, or a two-person check for higher-stakes assets like paid ad creative. Either way, someone's job description needs to explicitly include that review.
 
-The teams getting real speed from AI are the ones who [keep a defined human checkpoint](/insights/ai-content-workflow-quality-control) instead of letting AI-drafted assets go straight into the review queue unchecked. Skipping that checkpoint pushes the correction work further downstream, closer to the launch date, and costs more time than it saves.
+The teams getting real speed from AI are the ones who keep a defined human [checkpoint](/insights/ai-content-workflow-quality-control) instead of letting AI-drafted assets go straight into the review queue unchecked. Skipping that checkpoint pushes the correction work further downstream, closer to the launch date, and costs more time than it saves.
 
 ## Fixing the calendar means fixing who owns capacity
 

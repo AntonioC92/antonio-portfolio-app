@@ -20,11 +20,11 @@ None of this shows up as an error message. The dashboard keeps loading, the char
 
 ## Quick answer: how do you diagnose a broken attribution report after a platform change?
 
-- **Find the break date first.** Pull daily trend data and identify the exact day the numbers diverge from expectation, not the week you happened to notice.
-- **Check the model settings, then the numbers.** Attribution model configuration causes most post-migration discrepancies, more often than tracking code does.
-- **Reconcile platform against platform.** Compare GA4 conversions to ad platform conversions to CRM-sourced revenue for the same date range and same definition of a conversion.
-- **Separate event-scoped from user-scoped changes.** A setting change at one scope can silently override reporting that looks correct at the other.
-- **Document what changed and why.** The gap will happen again with the next update. A dated changelog turns a fire drill into a five-minute check.
+- Find the break date first. Pull daily trend data and identify the exact day the numbers diverge from expectation, not the week you happened to notice.
+- Check the model settings, then the numbers. Attribution model configuration causes most post-migration discrepancies, more often than tracking code does.
+- Reconcile platform against platform. Compare GA4 conversions to ad platform conversions to CRM-sourced revenue for the same date range and same definition of a conversion.
+- Separate event-scoped from user-scoped changes. A setting change at one scope can silently override reporting that looks correct at the other.
+- Document what changed and why. The gap will happen again with the next update. A dated changelog turns a fire drill into a five-minute check.
 
 ## Why the reporting breaks in the first place
 

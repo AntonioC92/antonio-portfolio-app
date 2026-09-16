@@ -61,8 +61,8 @@ Cookie restrictions, consent limitations, and platform blind spots mean determin
 
 Many companies still frame MMM and MTA as if they are mutually exclusive choices. They are usually more useful when treated as complementary lenses.
 
-- **MTA-style views** help with short-cycle campaign and channel optimization.
-- **MMM-style views** help with broader budget allocation and planning.
+- MTA-style views help with short-cycle campaign and channel optimization.
+- MMM-style views help with broader budget allocation and planning.
 
 The more useful question is: "Which one helps this decision?"
 
@@ -85,9 +85,9 @@ Until those are addressed, even sophisticated modelling will struggle.
 
 Most teams do not need a dedicated data science function to improve attribution. They need a cleaner structure across three layers:
 
-- **Tracking integrity layer:** GA4 and GTM implementation standards with ongoing QA
-- **CRM alignment layer:** shared lifecycle stages and source attribution logic
-- **Decision layer:** weekly channel review plus monthly allocation review
+- Tracking integrity layer: GA4 and GTM implementation standards with ongoing QA
+- CRM alignment layer: shared lifecycle stages and source attribution logic
+- Decision layer: weekly channel review plus monthly allocation review
 
 That is usually when attribution starts becoming genuinely useful, because it is tied to decisions that happen on a consistent cadence.
 
@@ -99,7 +99,7 @@ At first glance, the dashboards looked healthy. Once we audited the setup, the p
 
 The first job was to restore measurement integrity:
 
-- normalize event naming and trigger logic
+- [normalize event naming](/insights/ga4-event-naming) and trigger logic
 - add QA checks and anomaly alerts
 - preserve source fields into CRM lifecycle records
 - rebuild reporting around funnel-stage definitions
@@ -120,9 +120,9 @@ What matters is governance. Teams still need shared definitions, review cadence,
 
 One of the simplest ways to keep attribution practical is to match the method to the decision:
 
-- **Weekly:** use directional attribution and funnel movement to optimize execution
-- **Monthly:** review spend allocation through a blended MTA and MMM lens
-- **Quarterly:** revisit assumptions as privacy rules, channels, and market conditions shift
+- Weekly: use directional attribution and funnel movement to optimize execution
+- Monthly: review spend allocation through a blended MTA and MMM lens
+- Quarterly: revisit assumptions as privacy rules, channels, and market conditions shift
 
 This keeps measurement grounded in action rather than turning it into a standalone analytics exercise.
 

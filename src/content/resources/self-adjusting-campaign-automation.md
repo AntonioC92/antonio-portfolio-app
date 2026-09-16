@@ -44,19 +44,19 @@ That middle layer can be a simple rules engine, where a cart abandoned above a c
 
 ## Building it without an enterprise budget
 
-A small team can run this well without a customer data platform. The [automation stack most teams already have](/insights/marketing-automation-stack-small-team) supports event triggers directly, as long as the events actually flow into it instead of sitting in an analytics tool nobody connected back to the send platform.
+A small team can run this well without a customer data platform. The [automation stack](/insights/marketing-automation-stack-small-team) most teams already have supports event triggers directly, as long as the events actually flow into it instead of sitting in an analytics tool nobody connected back to the send platform.
 
-Start with one high-intent event: cart abandonment, demo-page exit, or a second visit to a pricing page within 48 hours. Wire that single trigger end to end, from event to message to a result you can measure, before touching a second one. Teams that try to make everything reactive at once tend to ship nothing, because the [automation workflows worth automating first](/insights/automating-marketing-workflows) are the ones with a clear owner and a single measurable outcome, ahead of the most technically interesting one.
+Start with one high-intent event: cart abandonment, demo-page exit, or a second visit to a pricing page within 48 hours. Wire that single trigger end to end, from event to message to a result you can measure, before touching a second one. Teams that try to make everything reactive at once tend to ship nothing, because the [workflows worth automating first](/insights/automating-marketing-workflows) are the ones with a clear owner and a single measurable outcome, ahead of the most technically interesting one.
 
 ## Where AI decisioning fits, and where a person stays in control
 
 AI earns its place here by handling the branching a human would find tedious: which of six possible next messages to send, based on twelve behavioral signals updating in real time. That is a genuinely different job from writing the message itself.
 
-Treat AI as the layer that picks the next step. Strategy and final copy stay with a person, applying the [same discipline that governs AI agents doing other marketing work](/insights/ai-agents-marketing-small-teams): a human sets the boundaries and the offer logic, the system executes inside them, and someone checks outcomes weekly rather than assuming the model got quieter because it got smarter.
+Treat AI as the layer that picks the next step. Strategy and final copy stay with a person, applying the same [discipline](/insights/ai-agents-marketing-small-teams) that governs AI agents doing other marketing work: a human sets the boundaries and the offer logic, the system executes inside them, and someone checks outcomes weekly rather than assuming the model got quieter because it got smarter.
 
 ## Common mistakes when teams reach for this too early
 
-The most common mistake is skipping the readiness check. A [team without clean event data or a working baseline](/insights/marketing-automation-readiness-checklist) will just automate its existing mess faster, which is worse than the mess running slowly.
+The most common mistake is skipping the readiness check. A team without a clean [readiness baseline](/insights/marketing-automation-readiness-checklist) will just automate its existing mess faster, which is worse than the mess running slowly.
 
 The second mistake is scoring behavior without a scoring model behind it. If your [lead scoring criteria](/insights/lead-scoring-system) are not solid, layering real-time triggers on top just means bad signals get acted on faster. Fix the scoring first, then let it drive triggers.
 

@@ -24,7 +24,7 @@ Google also recalibrated the default model for a lot of accounts in 2026, quietl
 
 ## What the attribution report actually measures
 
-The GA4 attribution report assigns conversion credit across touchpoints according to whichever model is active for that conversion event, not according to what actually caused the sale. Three models are available today, after Google retired [first-click, linear, time-decay, and position-based attribution](https://mbuzz.co/articles/ga4-attribution-models-removed): data-driven, paid and organic last click, and Google paid channels last click.
+The GA4 attribution report assigns conversion credit across touchpoints according to whichever model is active for that conversion event, not according to what actually caused the sale. Three models are available today, after Google retired first-click, linear, time-decay, and position-based [attribution](https://mbuzz.co/articles/ga4-attribution-models-removed): data-driven, paid and organic last click, and Google paid channels last click.
 
 Each model tells a different story from the same raw data. Switching from last-click to data-driven can move a channel's reported share of conversions by double digits without a single dollar of spend changing.
 
@@ -42,7 +42,7 @@ If your reported channel mix shifted sharply this year with no change in campaig
 
 ## The silent fallback to last-click
 
-GA4 keeps the label "data-driven" on your attribution settings even when it can't actually run that model. The system needs [roughly 400 conversions a month](https://seresa.io/blog/attribution-measurement/ga4-data-driven-attribution-minimum-requirements-why-small-stores-get-last-click) for the specific [conversion event](/insights/ga4-event-naming) in question, plus enough ad interaction volume to train on, or it quietly reverts to last-click.
+GA4 keeps the label "data-driven" on your attribution settings even when it can't actually run that model. The system needs roughly 400 [conversions a month](https://seresa.io/blog/attribution-measurement/ga4-data-driven-attribution-minimum-requirements-why-small-stores-get-last-click) for the specific [conversion event](/insights/ga4-event-naming) in question, plus enough ad interaction volume to train on, or it quietly reverts to last-click.
 
 Smaller accounts hit this ceiling constantly. Last-click then inflates credit for close-the-deal channels like branded search and direct traffic, while starving the awareness channels that actually opened the door.
 
@@ -50,13 +50,13 @@ There's no banner warning when this happens. The only reliable check is to compa
 
 ## Reading the attribution paths view correctly
 
-The attribution paths report, now folded into a tabbed Attribution view rather than sitting on its own, shows the sequence of touchpoints across a conversion journey instead of a single credit score. It splits the [path into early, middle, and late-stage interactions](https://optimizesmart.com/blog/ga4-attribution-paths-conversion-paths-report/) and shows how credit distributes across that sequence under whichever model you've selected.
+The attribution paths report, now folded into a tabbed Attribution view rather than sitting on its own, shows the sequence of touchpoints across a conversion journey instead of a single credit score. It splits the path into early, middle, and late-stage [interactions](https://optimizesmart.com/blog/ga4-attribution-paths-conversion-paths-report/) and shows how credit distributes across that sequence under whichever model you've selected.
 
 A long path is not automatically a warning sign. It usually reflects how much consideration the purchase requires, so a considered B2B service will show longer paths than an impulse ecommerce purchase by design.
 
 GA4 also only tracks touchpoints it can see. Offline channels, weak cross-device identity resolution, and any [tracking gaps](/insights/server-side-tracking-small-teams) simply disappear from the path instead of showing up as unknown.
 
-## Use model comparison as a diagnostic, not a verdict
+## Use model comparison as a diagnostic
 
 Model comparison exists to show how sensitive your results are to the model, not to tell you which model is correct. Run the same date range through data-driven and last-click side by side, and look at which channels move the most. Those are the channels most dependent on modeling assumptions rather than proven performance.
 

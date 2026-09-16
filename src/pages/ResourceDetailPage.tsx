@@ -122,7 +122,7 @@ export function ResourceDetailPage(): JSX.Element {
   const relatedResources = getRelatedResources(resource, 3);
   const articleStructuredData = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': 'BlogPosting',
     headline: resource.title,
     description: resource.metaDescription,
     url: canonical,

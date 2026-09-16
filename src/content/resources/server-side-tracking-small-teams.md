@@ -34,7 +34,7 @@ The client-side pixel does not disappear entirely; it still fires the initial ev
 
 The honest answer is more than most dashboards suggest. Roughly one in three visitors now blocks tracking outright, and Safari's cookie limits quietly shorten the memory of every analytics tool that has not moved server-side.
 
-[Backlinko's](https://backlinko.com/ad-blockers-users) tracking of GWI survey data puts global ad blocker usage at 29.5% as of Q2 2025, and 32.5% in the US specifically. That is not niche behavior at this point, it is a third of the audience your pixel never sees at all.
+[Backlinko's](https://backlinko.com/ad-blockers-users) tracking of GWI survey data puts global ad blocker usage at 29.5% as of Q2 2025, and 32.5% in the US specifically. That is a third of the audience your pixel never sees at all.
 
 The gap shows up directly in ad platform reporting once it is fixed. A New Path Digital [case study](https://stape.io/blog/case-study-comparing-facebook-pixel-and-facebook-capi) comparing a university's pixel-only campaign against a follow-up campaign using Meta's Conversions API found a 251% increase in overall reported results and a cost per result cut by more than half, from broadly the same spend pattern. None of that was new demand. It was demand the pixel-only setup had been failing to report.
 

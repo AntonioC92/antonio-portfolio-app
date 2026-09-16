@@ -56,7 +56,7 @@ A brief with no named owner becomes everyone's job, which means it becomes no on
 
 This is part of why [marketing ops](/insights/marketing-ops-underfunded) tends to be the underfunded role that would fix this exact problem if it had the headcount. Someone needs to hold the brief as a living document, not a PDF that gets forwarded once and forgotten.
 
-## Make it a living document, not a static file
+## Make it a living document
 
 A brief saved as a Word doc or PDF starts decaying the moment it is written. The market shifts, a stakeholder changes the objective mid-flight, and nobody updates the file, so the team keeps executing against a brief that is already wrong.
 
@@ -68,7 +68,7 @@ A brief's objective is only useful if you can report against it later. Before lo
 
 This is also where a lot of briefs quietly fail. The objective says "improve conversion," but nobody checks whether the [tracked KPIs](/insights/marketing-kpis-that-actually-matter) can actually isolate this campaign's contribution from everything else running that quarter. A brief that references a metric your reporting cannot cleanly produce is a brief that cannot be judged as a success or failure.
 
-## Review the brief against results, not just against a checklist
+## Review the brief against results
 
 The point of a one-page brief with a single objective is that it is easy to check afterward. Did the campaign hit the number stated in the brief? If not, was the objective wrong, the audience wrong, or the execution wrong? A brief with five vague goals cannot answer this. A brief with one measurable target can, every time.
 

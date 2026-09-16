@@ -26,7 +26,7 @@ The fix is not complicated. It needs a real cost baseline, one formula applied c
 
 Any ROI number is only as good as the cost baseline underneath it. Compare the fractional retainer against the full first-year cost of a permanent hire, since recruitment fees, payroll taxes, benefits, and ramp time all belong in that number alongside the base salary itself.
 
-In the UK, a full-time marketing director typically costs £300,000 to £450,000 in year one once recruitment and benefits are folded into the [true cost of hiring](https://www.themarketingcentre.com/blog/calculate-cmo-cost), against a fractional retainer running roughly £60,000 to £120,000 annually for a few days a week. In the US, [MarkCMO](https://markcmo.com/fractional-cmo-roi) puts a fully loaded full-time CMO at $350,000 to $550,000 a year, compared with $96,000 to $240,000 for a fractional engagement at similar seniority.
+In the UK, a full-time marketing director typically costs £300,000 to £450,000 in year one once recruitment and benefits are folded into the true [cost of hiring](https://www.themarketingcentre.com/blog/calculate-cmo-cost), against a fractional retainer running roughly £60,000 to £120,000 annually for a few days a week. In the US, [MarkCMO](https://markcmo.com/fractional-cmo-roi) puts a fully loaded full-time CMO at $350,000 to $550,000 a year, compared with $96,000 to $240,000 for a fractional engagement at similar seniority.
 
 That gap becomes the denominator every ROI calculation depends on. Getting it wrong, by leaving out recruitment cost or ramp time, makes every later number look better than it really is.
 

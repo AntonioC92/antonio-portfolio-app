@@ -35,9 +35,9 @@ One of the simplest definitions is also one of the most useful:
 
 Three words do most of the work here:
 
-- **Connected:** data and workflows move across systems with consistency.
-- **Process:** recurring actions follow rules instead of depending on memory.
-- **Ownership:** someone is clearly accountable for each important workflow.
+- Connected: data and workflows move across systems with consistency.
+- Process: recurring actions follow rules instead of depending on memory.
+- Ownership: someone is clearly accountable for each important workflow.
 
 Without those three elements, "system" tends to mean "collection of tools" rather than something the business can truly operate with.
 
@@ -107,7 +107,7 @@ We mapped channel execution to specific funnel goals instead of broad activity t
 
 ### Measurement layer governance
 
-We created weekly operating reviews and monthly leadership dashboards tied directly to booking outcomes.
+We created weekly operating reviews and monthly leadership dashboards built around the [core KPIs](/insights/marketing-kpis-that-actually-matter) that actually matter for the business, tied directly to booking outcomes.
 
 Within one operating cycle, reporting rework dropped and the team had far more confidence in budget decisions. The biggest improvement did not come from adding more software. It came from giving the existing stack better logic and clearer ownership.
 
@@ -150,9 +150,9 @@ Most system problems come down to clarity long before they become sophistication
 
 Teams often worry that system work will slow down ongoing execution. In most cases, it does not have to. A practical 90-day rollout can work like this:
 
-- **Month 1:** stabilize data quality and workflow reliability
-- **Month 2:** align channel plans to shared funnel definitions
-- **Month 3:** lock in reporting governance and leadership review cadence
+- Month 1: stabilize data quality and workflow reliability
+- Month 2: align channel plans to shared funnel definitions
+- Month 3: lock in reporting governance and leadership review cadence
 
 That is usually enough to create measurable operational lift without overwhelming the team.
 

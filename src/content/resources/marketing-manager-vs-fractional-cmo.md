@@ -18,11 +18,11 @@ Getting the order backwards, or picking the wrong one outright, costs real money
 
 ## Quick answer: marketing manager or fractional CMO?
 
-- **Hire a marketing manager when strategy already exists.** Someone senior owns the plan, and the gap is hands to run campaigns, manage vendors, and keep projects moving.
-- **Bring in fractional leadership when nobody owns the plan.** If the founder is still deciding which channels matter and how spend maps to revenue, execution capacity will not fix that.
-- **Cost is closer than it looks.** A full-time marketing manager and a fractional engagement often land in a similar year-one range once benefits and overhead are counted.
-- **The wrong first hire is costly to reverse.** Replacing a hire this senior typically runs well beyond their salary in lost time and rework, per [SHRM](https://www.shrm.org/executive-network/insights/myth-replaceability-preparing-loss-key-employees).
-- **The two roles work well in sequence, not as competitors.** Many small businesses end up using both, in a specific order, once the business is big enough to need it.
+- Hire a marketing manager when strategy already exists. Someone senior owns the plan, and the gap is hands to run campaigns, manage vendors, and keep projects moving.
+- Bring in fractional leadership when nobody owns the plan. If the founder is still deciding which channels matter and how spend maps to revenue, execution capacity will not fix that.
+- Cost is closer than it looks. A full-time marketing manager and a fractional engagement often land in a similar year-one range once benefits and overhead are counted.
+- The wrong first hire is costly to reverse. Replacing a hire this senior typically runs well beyond their salary in lost time and rework, per [SHRM](https://www.shrm.org/executive-network/insights/myth-replaceability-preparing-loss-key-employees).
+- The two roles work well in sequence, not as competitors. Many small businesses end up using both, in a specific order, once the business is big enough to need it.
 
 ## What each role is actually built to do
 
