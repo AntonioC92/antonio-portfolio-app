@@ -36,7 +36,7 @@ Documentation matters more than most owners expect. Anything written down about 
 
 Audit and access come before any new campaign work, because skipping straight to action means building recommendations on assumptions instead of facts. The instinct in week one is to start doing something visible, and resisting it is what separates engagements that hold up from ones that unravel once the real numbers surface.
 
-The first two weeks should mirror a proper [stack audit](/insights/martech-stack-audit): what tools exist, what is actually connected, what data can be trusted, and what has been quietly broken for months. This is also where the fractional leader confirms the actual gap the business has, the distinction that determines [which role to hire](/insights/marketing-manager-vs-fractional-cmo) when strategy and execution get confused for the same problem.
+The first two weeks should mirror a proper [stack audit](/insights/martech-stack-audit): what tools exist, what is actually connected, what data can be trusted, and what has been quietly broken for months. This is also where the fractional leader confirms the actual gap the business has, the distinction that determines which [role](/insights/marketing-manager-vs-fractional-cmo) to hire when strategy and execution get confused for the same problem.
 
 Interviews help here too, and they should happen early. A short conversation with whoever runs sales, whoever handles customer support, and whoever built the current reporting surfaces context that no dashboard shows on its own. Ten minutes with each of them in week one saves guesswork in week four.
 
@@ -52,7 +52,7 @@ The reporting cadence deserves the same treatment. A monthly dashboard review an
 
 Vague scope is the most common failure. When nobody agrees in writing what the fractional leader owns and what stays with internal staff or an existing agency, overlapping work and dropped tasks follow within weeks. Writing the scope down before day one costs an hour and saves a quarter of confusion.
 
-Assignment length matters here too. The [2026 Interim Management Survey](https://www.stantonhouse.com/career-resources/interim-management-survey-2026-challenges-insights-and-what-comes-next) found the average interim assignment now runs around ten months, with close to a quarter delivered on a fractional basis. An engagement running that long cannot afford two of those months lost to unclear access or an undefined point of contact.
+Assignment length matters here too. The 2026 [Interim Management Survey](https://www.stantonhouse.com/career-resources/interim-management-survey-2026-challenges-insights-and-what-comes-next) found the average interim assignment now runs around ten months, with close to a quarter delivered on a fractional basis. An engagement running that long cannot afford two of those months lost to unclear access or an undefined point of contact.
 
 The other common failure is treating onboarding as something that happens once. A fractional engagement that never revisits scope, access, or reporting after month one drifts. What got agreed at the start needs a light check-in at 90 days to confirm it still matches what the business actually needs, especially once the [readiness checklist](/insights/marketing-automation-readiness-checklist) work from the audit phase starts surfacing gaps nobody flagged initially.
 
