@@ -53,14 +53,14 @@ In practice, this means:
 
 This is not a replacement for the operational side of measurement. If your CRM handoffs and reporting cadence are still built around a pre-2026 idea of the funnel, the visibility work above has nowhere useful to land. That is as much a workflow problem as a tracking one, covered in [workflow automation](/insights/automating-marketing-workflows).
 
-## Rebuild the report around a blended model, not a single source of truth
+## Rebuild the report around a blended model
 
 The teams handling this well in 2026 are not searching for the one tool that solves attribution. They run three or four partial views side by side, as part of a broader [marketing system](/insights/modern-marketing-system-2025), and read them together:
 
-1. **Tracked digital attribution** for channels that still produce clean paths (paid search, paid social, email).
-2. **AI visibility monitoring** for citation frequency and share of voice inside chat-based search.
-3. **Self-reported attribution** captured at the point of demo request or signup, asked as an open question rather than a dropdown of known channels.
-4. **Leading indicators** like branded search volume and direct traffic trend, read as a signal of awareness rather than a conversion metric.
+1. Tracked digital attribution for channels that still produce clean paths (paid search, paid social, email).
+2. AI visibility monitoring for citation frequency and share of voice inside chat-based search.
+3. Self-reported attribution captured at the point of demo request or signup, asked as an open question rather than a dropdown of known channels.
+4. Leading indicators like branded search volume and direct traffic trend, read as a signal of awareness rather than a conversion metric.
 
 None of these four views is complete alone. Together, they get you close enough to make a confident budget decision, which is the actual bar attribution needs to clear.
 
