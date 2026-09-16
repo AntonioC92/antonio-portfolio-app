@@ -30,7 +30,7 @@ For years, link building was the main lever for search visibility. AI citations 
 
 The practical read: being talked about, in reviews, comparison posts, local write-ups, and forum answers, now matters more than being linked to. A backlink strategy alone will not close this gap.
 
-## Being crawlable is the floor, not the ceiling
+## Being crawlable is only the floor
 
 Before any of that matters, an AI system has to be able to reach your content in the first place. Research on citation ranking factors scores URL accessibility, whether a page is crawlable, unblocked, and not paywalled, as one of the single strongest predictors of citation.
 
