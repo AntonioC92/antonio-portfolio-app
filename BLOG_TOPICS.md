@@ -35,6 +35,7 @@ Mark `[x]` when written and committed. Add new topics at the bottom of each sect
 - [ ] **Where AI actually saves time in a small marketing team (and where it doesn't)** — `ai-time-savings-marketing-team` — Target: "ai for small marketing team" — A realistic breakdown by task type: drafting, research, reporting, creative, strategy.
 - [x] **Building an AI-assisted content workflow without losing quality control** — `ai-content-workflow-quality-control` — Target: "ai content workflow" — Where to keep a human checkpoint and where AI can run unsupervised.
 - [x] **Self-adjusting campaigns: what marketing automation looks like beyond the schedule** — `self-adjusting-campaign-automation` — Target: "real-time marketing automation" — Added 2026-09-16 (off-queue, trend-driven): the shift from scheduled batch campaigns to behavior-triggered, self-adjusting flows, what a small team needs beyond its current ESP to build one, and where AI decisioning should and should not run unsupervised.
+- [x] **Keeping brand voice consistent when everyone on the team uses AI** — `brand-voice-consistency-ai-content` — Target: "brand voice consistency ai content" — Added 2026-09-17 (off-queue, trend-driven): AI content creation has spread past a single content owner to sales, ops, and the founder, and most teams have no shared way to keep it sounding like one brand. What a usable voice guide contains, where enforcement actually has to live, and how to assign ownership without adding headcount.
 
 ## Fractional CMO
 
