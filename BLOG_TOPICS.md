@@ -35,6 +35,7 @@ Mark `[x]` when written and committed. Add new topics at the bottom of each sect
 - [ ] **Where AI actually saves time in a small marketing team (and where it doesn't)** — `ai-time-savings-marketing-team` — Target: "ai for small marketing team" — A realistic breakdown by task type: drafting, research, reporting, creative, strategy.
 - [x] **Building an AI-assisted content workflow without losing quality control** — `ai-content-workflow-quality-control` — Target: "ai content workflow" — Where to keep a human checkpoint and where AI can run unsupervised.
 - [x] **Self-adjusting campaigns: what marketing automation looks like beyond the schedule** — `self-adjusting-campaign-automation` — Target: "real-time marketing automation" — Added 2026-09-16 (off-queue, trend-driven): the shift from scheduled batch campaigns to behavior-triggered, self-adjusting flows, what a small team needs beyond its current ESP to build one, and where AI decisioning should and should not run unsupervised.
+- [x] **How to actually prove the ROI of your AI marketing tools** — `ai-marketing-tools-roi` — Target: "measure ROI of AI marketing tools" — Added 2026-09-18 (off-queue, trend-driven): AI-tool adoption in marketing is running well ahead of the measurement discipline needed to prove what any of it returns, a practical baseline-isolate-report method for small teams to show real ROI instead of vendor-invented scores.
 
 ## Fractional CMO
 
