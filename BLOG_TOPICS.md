@@ -8,6 +8,7 @@ Mark `[x]` when written and committed. Add new topics at the bottom of each sect
 
 ## Marketing Systems
 
+- [x] **Google's AI Max migration: what changed in your search campaigns** — `google-ai-max-migration-what-to-check` — Target: "google ai max migration" — Added 2026-09-23 (off-queue, trend-driven): Google force-migrated legacy Search campaigns to AI Max with no opt-out by September 30, 2026, GSC showed live search demand around "how ai decided what sites to cite" and AI-automation topics, and nothing pending in the queue covered this specific, time-sensitive platform change.
 - [x] **How to audit your martech stack in a day** — `martech-stack-audit` — Target: "martech stack audit" — Walk through a practical single-day audit: what tools exist, what's connected, what's not used, what to cut.
 - [x] **The campaign brief that actually gets used** — `campaign-brief-template` — Target: "marketing campaign brief template" — What a brief needs to contain so it survives contact with execution.
 - [x] **Why marketing ops is the most underfunded role in a growth team** — `marketing-ops-underfunded` — Target: "marketing operations role" — Case for investing in ops before adding more headcount or spend.
