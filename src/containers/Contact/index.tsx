@@ -247,7 +247,7 @@ export function Contact({ headingLevel = "h1" }: ContactProps): JSX.Element {
             <p>
               Want to chat about a project?
               <br />
-              Use the Calendly link to book a meeting with me.
+              Use the Calendly link to book a call with us.
             </p>
             <a
               href="https://calendly.com/caruso-martech/new-meeting"
