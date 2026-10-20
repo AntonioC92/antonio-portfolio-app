@@ -6,7 +6,7 @@
  *  1. vite build (client bundle → dist/)            ← done by caller
  *  2. vite build --ssr entry-server.tsx             ← this script does it
  *  3. For each route: render to string, inject into dist/index.html template
- *  4. Write sitemap.xml
+ *  4. Write sitemap.xml and llms.txt
  */
 
 import { build } from 'vite';
@@ -67,6 +67,8 @@ async function getResources() {
       slug:        fm.slug,
       date:        fm.date ?? '',
       lastUpdated: fm.lastUpdated ?? fm.date ?? '',
+      title:       fm.title ?? '',
+      description: fm.description ?? '',
     });
   }
   return resources.sort(
@@ -112,6 +114,47 @@ function buildSitemap(resources) {
     return parts.join('\n');
   });
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries.join('\n')}\n</urlset>\n`;
+}
+
+// public/llms.txt was hand-maintained and kept drifting from the real
+// article list (11 articles missing as of 2026-10-20). Generating it here,
+// the same way sitemap.xml is, keeps it in sync with src/content/resources/
+// on every build. public/llms.txt stays only as the dev-server fallback.
+const llmsStaticPages = [
+  { title: 'Home',     path: '/',          description: 'Overview of Caruso Martech and what we do. Marketing systems and growth strategy for SaaS, events, ecommerce, and professional services.' },
+  { title: 'Work',     path: '/work/',     description: 'Case studies from paid media campaigns across events, B2B, coaching, and recreation verticals, with measurable ROAS and lead generation results.' },
+  { title: 'Services', path: '/services/', description: 'Services covering growth strategy, paid media, SEO, marketing automation, and analytics. Retainer and project engagements available.' },
+  { title: 'About',    path: '/about/',    description: 'The thinking behind Caruso Martech and the approach to fixing broken marketing systems across industries.' },
+  { title: 'Insights', path: '/insights/', description: 'Practical articles on marketing leadership, system design, attribution, and automation.' },
+  { title: 'Contact',  path: '/contact/',  description: 'How to get in touch to discuss a marketing challenge or book a call.' },
+];
+
+function buildLlmsTxt(resources) {
+  const pages = llmsStaticPages
+    .map((p) => `- [${p.title}](${siteUrl}${p.path}): ${p.description}`)
+    .join('\n');
+  const articles = resources
+    .map((r) => `- [${r.title}](${siteUrl}/insights/${r.slug}/): ${r.description}`)
+    .join('\n');
+  return `# Caruso Martech
+
+> Caruso Martech is a marketing consultancy that builds marketing systems and growth strategy for small businesses and scale-up teams. We work across strategy, paid media, marketing automation, and analytics for SaaS, events, ecommerce, and professional services companies, with budgets typically in the €5,000-€30,000 range.
+
+Key areas of work: performance marketing (Meta, Google, LinkedIn), marketing automation and CRM workflow design, SEO, attribution and measurement, and fractional marketing leadership engagements. We favor practical, evidenced writing over generic marketing advice, with real campaign numbers and case studies wherever possible.
+
+## Pages
+
+${pages}
+
+## Insights Articles
+
+${articles}
+
+## Optional
+
+- [Sitemap](${siteUrl}/sitemap.xml): Full XML sitemap of all pages and articles.
+- [Privacy Policy](${siteUrl}/privacy-policy/): Site privacy policy.
+`;
 }
 
 // ─── main ───────────────────────────────────────────────────────────────────
@@ -227,8 +270,9 @@ async function run() {
     }
   }
 
-  // 6. Sitemap
+  // 6. Sitemap + llms.txt
   await writeFile(path.join(distDir, 'sitemap.xml'), buildSitemap(resources), 'utf8');
+  await writeFile(path.join(distDir, 'llms.txt'), buildLlmsTxt(resources), 'utf8');
 
   // 7. Clean up server bundle
   await rm(serverDistDir, { recursive: true, force: true });

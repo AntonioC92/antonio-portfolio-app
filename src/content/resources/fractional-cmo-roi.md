@@ -7,7 +7,7 @@ metaDescription: "How to calculate ROI on a fractional marketing engagement: the
 date: "2026-08-25"
 lastUpdated: "2026-08-25"
 category: "Acquisition Systems"
-tags: "fractional CMO, marketing ROI, pipeline attribution, marketing leadership, fractional marketing"
+tags: "fractional marketing leader, marketing ROI, pipeline attribution, marketing leadership, fractional marketing"
 ---
 
 Most businesses that bring in fractional marketing leadership never build a real way to measure what it returns. They watch for a general feeling, whether the founder feels less stretched, rather than a number tied to pipeline or revenue. That gap gets expensive: an engagement producing a genuine 300 percent return looks identical on paper to one that only broke even.

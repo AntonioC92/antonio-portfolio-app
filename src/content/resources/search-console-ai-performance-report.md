@@ -17,7 +17,7 @@ That gap matters more now than it would have a year ago. In [McKinsey's research
 ## Quick answer: what does the Search Console AI performance report actually track?
 
 - It shows impressions, meaning how often a link to your site appeared inside an AI Overview or AI Mode, broken down by page, country, device, and date.
-- It does not include clicks, click-through rate, or the search queries that triggered the appearance, per [Google's own help documentation](https://support.google.com/webmasters/answer/16984139).
+- It does not include clicks, click-through rate, or the search queries that triggered the appearance, per Google's own [help documentation](https://support.google.com/webmasters/answer/16984139).
 - AI Overviews and AI Mode sit together in one report, so a spike could come from either surface.
 - Generative AI features in Discover get their own separate report, which [Search Engine Journal](https://www.searchenginejournal.com/google-search-console-ai-reports-rolled-out-worldwide/587836/) covered when both reached all sites worldwide on August 31, 2026.
 - Third-party click studies still have to fill the gap this report leaves, since Google has not committed to a timeline for adding more metrics.

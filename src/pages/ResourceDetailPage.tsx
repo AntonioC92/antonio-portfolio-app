@@ -95,6 +95,52 @@ function extractFaqFromBody(body: string): FaqPair[] {
   return pairs;
 }
 
+type HowToBlock = { name: string; steps: string[] };
+
+// Derives HowTo schema from the visible markdown body, same approach as the
+// FAQ extractor above. Only fires for an ordered list of 3+ items sitting
+// under a heading that names a procedure (sequence, framework, steps,
+// rollout, "next 30 days" and so on), so parallel lists such as field
+// definitions or report components never get tagged as steps.
+const HOWTO_HEADING = /\b(steps?|sequence|framework|process|procedure|checklist|how to|rollout|follow|next \d+ days)\b/i;
+
+function extractHowToFromBody(body: string): HowToBlock[] {
+  const stripMarkdown = (text: string): string =>
+    text
+      .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+      .replace(/[*_`]/g, '')
+      .trim();
+
+  const blocks: HowToBlock[] = [];
+  let heading: string | null = null;
+  let steps: string[] = [];
+
+  const flush = () => {
+    if (heading && HOWTO_HEADING.test(heading) && steps.length >= 3) {
+      blocks.push({ name: stripMarkdown(heading), steps: steps.map(stripMarkdown) });
+    }
+    steps = [];
+  };
+
+  body.split('\n').forEach((line) => {
+    const headingMatch = /^#{2,3}\s+(.+)$/.exec(line.trim());
+    if (headingMatch) {
+      flush();
+      heading = headingMatch[1];
+      return;
+    }
+    const stepMatch = /^\d+\.\s+(.+)$/.exec(line.trim());
+    if (stepMatch) {
+      steps.push(stepMatch[1]);
+      return;
+    }
+    if (line.trim() && steps.length > 0) flush(); // list ended
+  });
+  flush();
+
+  return blocks;
+}
+
 export function ResourceDetailPage(): JSX.Element {
   const { slug = '' } = useParams();
   const resource = getResourceBySlug(slug);
@@ -169,6 +215,17 @@ export function ResourceDetailPage(): JSX.Element {
         }
       : null;
 
+  const howToStructuredData = extractHowToFromBody(resource.body).map((block) => ({
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: block.name,
+    step: block.steps.map((text, index) => ({
+      '@type': 'HowToStep',
+      position: index + 1,
+      text,
+    })),
+  }));
+
   return (
     <Layout>
       <Seo
@@ -192,6 +249,12 @@ export function ResourceDetailPage(): JSX.Element {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
+        />
+      )}
+      {howToStructuredData.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToStructuredData) }}
         />
       )}
 

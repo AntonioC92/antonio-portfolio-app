@@ -68,4 +68,4 @@ The businesses that handle this well are not the ones with the most sophisticate
 
 If your reporting stopped making sense after a recent platform change and you cannot pin down why, that is exactly the kind of diagnostic work we do. [Reach out](/contact) and we will help you find the gap.
 
-Or look at our services if you want that check built into how your marketing system runs going forward.
+Or look at our [services](/services) if you want that check built into how your marketing system runs going forward.
