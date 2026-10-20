@@ -118,7 +118,7 @@ export function ResourceDetailPage(): JSX.Element {
   }
 
   const canonical = `${SITE_URL}/insights/${resource.slug}/`;
-  const socialImage = `${SITE_URL}/og/${resource.slug}.svg`;
+  const socialImage = `${SITE_URL}/og/${resource.slug}.jpg`;
   const relatedResources = getRelatedResources(resource, 3);
   const articleStructuredData = {
     '@context': 'https://schema.org',
