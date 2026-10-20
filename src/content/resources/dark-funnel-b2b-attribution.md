@@ -15,8 +15,8 @@ Most B2B marketing teams build their attribution model around the touchpoints a 
 ## Quick answer: what is the dark funnel in B2B attribution?
 
 - The dark funnel is the part of a buyer's journey that happens outside tracked channels: Slack and Discord communities, podcast mentions, forwarded PDFs, LinkedIn DMs, peer recommendations, and reviews on sites like G2.
-- Research behind CaliberMind's [2026 State of Attribution report](https://calibermind.com/2026-state-of-attribution-report/) found the average B2B journey now runs 88 touchpoints across 4 channels and 10 stakeholders over 272 days, and 81% of it never touches a tracked pipeline, up from 70% a year earlier.
-- 6sense's [2025 B2B Buyer Experience Report](https://6sense.com/b2b-buyer-experience-report/) found sellers aren't contacted until buyers are 61% through the journey, and the eventual winning vendor sits on the buyer's day-one shortlist 95% of the time.
+- Research behind CaliberMind's 2026 State of Attribution [report](https://calibermind.com/2026-state-of-attribution-report/) found the average B2B journey now runs 88 touchpoints across 4 channels and 10 stakeholders over 272 days, and 81% of it never touches a tracked pipeline, up from 70% a year earlier.
+- 6sense's 2025 B2B Buyer Experience [Report](https://6sense.com/b2b-buyer-experience-report/) found sellers aren't contacted until buyers are 61% through the journey, and the eventual winning vendor sits on the buyer's day-one shortlist 95% of the time.
 - Last-click and multi-touch attribution can only credit what they can observe, so both systematically undercount the channels actually building awareness and preference.
 - Self-reported attribution, branded search tracking, and first-party data capture won't close the gap completely, but they give a small team a real read on dark funnel activity without enterprise ABM tooling.
 

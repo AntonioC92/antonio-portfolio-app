@@ -85,7 +85,7 @@ export function ServicesPage(): JSX.Element {
     <Layout>
       <Seo
         title="Services | Caruso Martech"
-        description="Three practice areas — acquisition systems, AI search and experience, and automation and intelligence — built to work together as a single revenue engine."
+        description="Three practice areas: acquisition systems, AI search and experience, and automation and intelligence, built to work together as a single revenue engine."
         canonical={SERVICES_CANONICAL}
         ogUrl={SERVICES_CANONICAL}
         ogImage="https://carusomartech.com/preview.png"
