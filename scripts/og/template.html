@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!-- Branded 1200x627 share image for each Insight article (og:image / LinkedIn card).
+     Rendered by scripts/generate-og-images.mjs. Mirrors the LinkedIn page drafter template. -->
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+@font-face {
+  font-family: 'Montserrat V';
+  src: url(data:font/woff2;base64,__MONTSERRAT_B64__) format('woff2-variations');
+  font-weight: 100 900;
+}
+@font-face {
+  font-family: 'Open Sans V';
+  src: url(data:font/woff2;base64,__OPENSANS_B64__) format('woff2-variations');
+  font-weight: 300 800;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+html,body { width:1200px; height:627px; overflow:hidden; }
+body {
+  position:relative;
+  background: linear-gradient(120deg, #0c0d11 0%, #171923 48%, #12131a 100%);
+  font-family: 'Open Sans V', sans-serif;
+}
+.texture { position:absolute; inset:0; opacity:0.5; }
+
+.brandrow {
+  position:absolute;
+  left:80px; top:66px;
+  display:flex;
+  align-items:center;
+}
+.mark {
+  width:52px; height:52px;
+  border-radius:13px;
+  background:#E8541D;
+  position:relative;
+  flex-shrink:0;
+}
+.mark svg { position:absolute; inset:0; width:100%; height:100%; }
+.brandname {
+  margin-left:16px;
+  font-family:'Montserrat V', sans-serif;
+  font-weight:700;
+  font-size:21px;
+  letter-spacing:1.5px;
+  color:#EDEDEE;
+}
+
+.tag {
+  position:absolute;
+  left:80px; top:158px;
+  font-family:'Open Sans V', sans-serif;
+  font-weight:700;
+  font-size:15px;
+  letter-spacing:2px;
+  color:#FF8A63;
+  text-transform:uppercase;
+}
+
+.content {
+  position:absolute;
+  left:80px; top:200px;
+  width:1040px;
+  height:330px;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  gap:28px;
+}
+
+.headline {
+  font-family:'Montserrat V', sans-serif;
+  font-weight:800;
+  font-size:52px;
+  line-height:1.18;
+  color:#FBFBF6;
+}
+
+.subline {
+  width:960px;
+  font-family:'Open Sans V', sans-serif;
+  font-weight:400;
+  font-size:22px;
+  line-height:1.5;
+  color:#A9AAB4;
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+
+.footer {
+  position:absolute;
+  right:80px; bottom:56px;
+  font-family:'Open Sans V', sans-serif;
+  font-weight:600;
+  font-size:16px;
+  letter-spacing:0.5px;
+  color:#6E6F79;
+}
+</style>
+</head>
+<body>
+  <svg class="texture" width="1200" height="627">
+    <defs>
+      <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+        <circle cx="1" cy="1" r="1" fill="rgba(255,255,255,0.06)"/>
+        <line x1="1" y1="1" x2="33" y2="1" stroke="rgba(255,255,255,0.045)" stroke-width="1"/>
+        <line x1="1" y1="1" x2="1" y2="33" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+      </pattern>
+    </defs>
+    <rect width="1200" height="627" fill="url(#grid)"/>
+  </svg>
+
+  <div class="brandrow">
+    <div class="mark">
+      <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 26 16 A 12 12 0 1 0 26 32" stroke="white" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+        <line x1="26" y1="16" x2="40" y2="16" stroke="white" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="43.5" cy="16" r="3.5" fill="white"/>
+        <line x1="29" y1="24" x2="40" y2="24" stroke="white" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="43.5" cy="24" r="3.5" fill="white"/>
+        <line x1="26" y1="32" x2="40" y2="32" stroke="white" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="43.5" cy="32" r="3.5" fill="white"/>
+      </svg>
+    </div>
+    <div class="brandname">CARUSO MARTECH</div>
+  </div>
+
+  <div class="tag">__CATEGORY__</div>
+
+  <div class="content">
+    <div class="headline">__HEADLINE__</div>
+    <div class="subline">__SUBLINE__</div>
+  </div>
+
+  <div class="footer">carusomartech.com</div>
+  <script>
+    // Shrink long headlines until headline + subline fit the content box.
+    const box = document.querySelector('.content');
+    const headline = document.querySelector('.headline');
+    let size = 52;
+    while (box.scrollHeight > box.clientHeight && size > 34) {
+      size -= 2;
+      headline.style.fontSize = size + 'px';
+    }
+  </script>
+</body>
+</html>

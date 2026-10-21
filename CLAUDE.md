@@ -115,6 +115,17 @@ Save to: `src/content/resources/[slug].md`
 
 The slug must be URL-safe (lowercase, hyphens only, no special chars).
 
+### Step 3b — Share image and LinkedIn caption (added 2026-10-20)
+
+Run `npm run og`. It renders the branded 1200x627 share image `public/og/[slug].jpg` (template: `scripts/og/template.html`) for any article that doesn't have one yet. Commit the image with the post. Without it the article falls back to `/preview.png` as its og:image.
+
+Write the LinkedIn company-page caption to `src/content/linkedin/[slug].md` and commit it with the post. The build publishes it in `https://carusomartech.com/feeds/linkedin.json`, which n8n reads to post to LinkedIn after the merge. Only articles with a caption file appear in that feed. Caption rules (full version: the LinkedIn page drafter `runbook.md` in Antonio's outbound marketing folder):
+
+- "We" voice, 50-90 words, 2-3 short paragraphs, no bullets, no em dashes, no contrast framing, no named data sources.
+- Name the problem specifically but hold back the answer, so the click is the payoff.
+- Last body line: one hook sentence naming the reader's problem, ending with `: https://carusomartech.com/insights/[slug]/`.
+- Blank line, then 3-5 specific hashtags on one line. Nothing else in the file.
+
 ### Step 4 — Mark topic as done
 
 In `BLOG_TOPICS.md`, change `[ ]` to `[x]` for the topic you used.
