@@ -46,7 +46,7 @@ That middle layer can be a simple rules engine, where a cart abandoned above a c
 
 A small team can run this well without a customer data platform. The [automation stack](/insights/marketing-automation-stack-small-team) most teams already have supports event triggers directly, as long as the events actually flow into it instead of sitting in an analytics tool nobody connected back to the send platform.
 
-Start with one high-intent event: cart abandonment, demo-page exit, or a second visit to a pricing page within 48 hours. Wire that single trigger end to end, from event to message to a result you can measure, before touching a second one. Teams that try to make everything reactive at once tend to ship nothing, because the [workflows worth automating first](/insights/automating-marketing-workflows) are the ones with a clear owner and a single measurable outcome, ahead of the most technically interesting one.
+Start with one high-intent event: cart abandonment, demo-page exit, or a second visit to a pricing page within 48 hours. Wire that single trigger end to end, from event to message to a result you can measure, before touching a second one. Teams that try to make everything reactive at once tend to ship nothing, because the [workflows](/insights/automating-marketing-workflows) worth automating first are the ones with a clear owner and a single measurable outcome, ahead of the most technically interesting one.
 
 ## Where AI decisioning fits, and where a person stays in control
 
@@ -66,6 +66,6 @@ The third is treating every channel as equally fast. Email can react in seconds.
 
 Track two numbers once a trigger goes live: conversion rate on the triggered flow against the segment's old batch-campaign baseline, and time-to-send from the triggering event to the message going out. Together they show whether the system is actually reacting fast enough to matter.
 
-A slow trigger, one that fires hours after the event that caused it, delivers close to zero benefit over a scheduled send. Marketing automation programs overall [return around $5 for every dollar spent](https://cropink.com/marketing-automation-statistics), and a fast, well-targeted trigger usually clears that average by a wide margin. If speed and lift both look flat after a month, the fix is almost always upstream, in where the event fires rather than in the offer itself.
+A slow trigger, one that fires hours after the event that caused it, delivers close to zero benefit over a scheduled send. Marketing automation programs overall [return around $5](https://cropink.com/marketing-automation-statistics) for every dollar spent, and a fast, well-targeted trigger usually clears that average by a wide margin. If speed and lift both look flat after a month, the fix is almost always upstream, in where the event fires rather than in the offer itself.
 
 If your current automation still runs entirely on a fixed schedule, the fastest path forward is picking one high-intent trigger, wiring it properly, and proving the model before expanding it. That is the kind of build we scope inside a [services](/services) engagement, and if you want a second opinion on where your setup actually stands, [get in touch](/contact).
