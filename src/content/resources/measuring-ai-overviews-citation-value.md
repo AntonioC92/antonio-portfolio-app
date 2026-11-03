@@ -40,7 +40,7 @@ That last figure is the one worth sitting with. Uncited brands are losing more t
 
 A citation depth score tracks three separate outcomes instead of collapsing them into one number: a linked source citation, a text mention with no link, and a product or brand recommendation named directly in the answer. Each one signals a different level of trust from the model, and each converts differently.
 
-Treating a mention and a citation as the same event, [as we've covered before](/insights/ai-citations-vs-mentions), hides exactly the kind of visibility problem worth knowing about. A page that earns three text mentions a month but zero linked citations has a different problem than one earning citations from a single low-authority source repeatedly. Neither shows up if you're only counting whether the brand appeared at all.
+Treating a mention and a citation as the same event, as we've [covered before](/insights/ai-citations-vs-mentions), hides exactly the kind of visibility problem worth knowing about. A page that earns three text mentions a month but zero linked citations has a different problem than one earning citations from a single low-authority source repeatedly. Neither shows up if you're only counting whether the brand appeared at all.
 
 Building the underlying visibility that earns any of these three outcomes still comes back to the same on-page fundamentals: [clear structure](/insights/structuring-pages-for-ai-citations), direct answers near the top of a page, and claims a model can quote without stitching together multiple paragraphs. The depth score tells you which part of that work is paying off.
 
@@ -56,6 +56,6 @@ Log citation depth and mention rate every run in the same spreadsheet or dashboa
 
 The reporting gap shows up when a citation earns real value in brand recall and downstream branded search, but the only line item in a monthly report is organic clicks, which makes a genuinely working channel look flat or declining. Closing it means giving citation depth and mention rate their own rows in the report, tracked separately from the click-based channels they don't behave like.
 
-Google's own citation panel keeps changing shape and prominence, which affects how models [decide what to surface](/insights/how-ai-search-engines-decide-which-sites-to-cite) as much as it affects how visible a citation looks once earned. Treat this measurement as a routine to repeat every time the interface shifts, since a setup that worked last quarter can go stale without warning.
+Google's own citation panel keeps changing shape and prominence, which affects how models [decide](/insights/how-ai-search-engines-decide-which-sites-to-cite) what to surface as much as it affects how visible a citation looks once earned. Treat this measurement as a routine to repeat every time the interface shifts, since a setup that worked last quarter can go stale without warning.
 
 If your reporting still leans on clicks alone to judge whether AI Overviews visibility is working, it's worth adding citation depth and mention rate before the next review. We build that kind of measurement into the broader [marketing systems](/services) we run for clients, or if you want a read on what your current AI visibility actually looks like, [reach out](/contact).
