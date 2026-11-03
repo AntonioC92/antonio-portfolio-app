@@ -192,7 +192,7 @@ async function buildLinkedInFeed(resources, images) {
 }
 
 // public/llms.txt was hand-maintained and kept drifting from the real
-// article list (11 articles missing as of 2026-10-20). Generating it here,
+// article list (13 articles missing as of 2026-11-03). Generating it here,
 // the same way sitemap.xml is, keeps it in sync with src/content/resources/
 // on every build. public/llms.txt stays only as the dev-server fallback.
 const llmsStaticPages = [
