@@ -48,7 +48,7 @@ Channel cost varies enormously by category. [WordStream's](https://www.wordstrea
 
 Once the target CAC is set, the budget follows from it: divide the number of customers needed by the affordable cost per customer, and that is the real spend requirement, independent of what a benchmark table says a company like yours should be doing.
 
-We have seen this play out directly. Our [Dublin Beer Festival](/case-studies/dublin-beer-festival.html) campaign ran on a tight ROAS target rather than a fixed percentage of ticket revenue, and it sold over 3,500 tickets at 15.5x return.
+We have seen this play out directly. Our [Dublin Beer Festival](/case-studies/dublin-beer-festival.html) campaign ran on a tight ROAS target rather than a fixed percentage of ticket revenue, and it sold 3,971 tickets at 15.5x return.
 
 Our Jobbio campaign worked the same way from the demand side. Holding cost per lead to a set, scalable number generated 60 registrations and [€135K](/case-studies/jobbio-career-fair.html) in attributed revenue, all planned from the target cost rather than a fixed spending line.
 
