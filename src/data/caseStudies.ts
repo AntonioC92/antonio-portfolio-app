@@ -14,15 +14,15 @@ export const caseStudies: CaseStudy[] = [
     title: 'Dublin Beer Festival',
     description:
       'Full-funnel paid media strategy across Google and Meta for one of Ireland\'s biggest craft beer events. Drove ticket sales at scale with tight ROAS targets.',
-    metrics: ['3,500+ tickets sold', '15.5x ROAS', 'Google & Meta channels'],
+    metrics: ['3,971 tickets sold', '15.5x ROAS', 'Google & Meta channels'],
   },
   {
     slug: 'jobbio-career-fair',
     badge: 'Performance Marketing · B2B Lead Gen · Ireland',
     title: 'Jobbio Career Fair',
     description:
-      'B2B lead generation campaign targeting employers and recruiters for a high-profile career fair. Focused on cost-efficient MQL acquisition and revenue attribution.',
-    metrics: ['4.5x ROAS', '60 MQLs generated', '€135K attributed revenue'],
+      'B2B lead generation campaign targeting employers and recruiters for a high-profile career fair. Focused on cost-efficient registrations and revenue attribution.',
+    metrics: ['4.5x ROAS', '60 registrations generated', '€135K attributed revenue'],
   },
   {
     slug: 'nineteenth-golf-club',
