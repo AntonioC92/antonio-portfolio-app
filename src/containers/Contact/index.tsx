@@ -10,7 +10,6 @@ import {
   HubspotOverrides,
 } from "./styles";
 
-import calendarIcon from "../../assets/icons/calendly.webp";
 import { Button } from "../../components/Button";
 
 type TurnstileApi = {
@@ -242,12 +241,11 @@ export function Contact({ headingLevel = "h1" }: ContactProps): JSX.Element {
 
         {/* CALENDLY */}
         <StyledCalendlyBox>
-          <img src={calendarIcon} alt="Calendar Icon" width={900} height={503} loading="lazy" decoding="async" />
           <div style={{ padding: 30 }}>
             <p>
               Want to chat about a project?
               <br />
-              Use the Calendly link to book a call with us.
+              Pick a time that suits you and we will take it from there.
             </p>
             <a
               href="https://calendly.com/caruso-martech/new-meeting"
@@ -260,7 +258,7 @@ export function Contact({ headingLevel = "h1" }: ContactProps): JSX.Element {
                   shade used for solid CTA backgrounds elsewhere (4.80:1 on
                   white). Added 2026-08-03 per a PageSpeed accessibility audit. */}
               <Button type="button" text="#c94618" borderColor="#c94618">
-                Book
+                Book a call
               </Button>
             </a>
           </div>

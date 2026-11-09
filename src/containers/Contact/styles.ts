@@ -217,13 +217,7 @@ export const StyledCalendlyBox = styled.div`
   border-radius: 16px;
   text-align: center;
   overflow: hidden;
-
-  img {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 900 / 503;
-    display: block;
-  }
+  align-self: start;
 
   p {
     font-size: 16px;
