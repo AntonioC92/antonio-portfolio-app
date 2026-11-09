@@ -56,10 +56,10 @@ export function WorkPage(): JSX.Element {
                 <PartnerCaption>In partnership with {cs.partner}</PartnerCaption>
               )}
               <CardCtaRow>
-                <CardCta href={`/case-studies/${cs.slug}.html`}>
+                <CardCta href={`/case-studies/${cs.slug}`}>
                   View Case Study →
                 </CardCta>
-                <CardCtaBtn href="https://carusomartech.com/contact">
+                <CardCtaBtn href="https://carusomartech.com/contact/">
                   Get Results Like This →
                 </CardCtaBtn>
               </CardCtaRow>

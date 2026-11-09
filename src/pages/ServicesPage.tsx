@@ -142,7 +142,7 @@ export function ServicesPage(): JSX.Element {
             <CtaTitle>Ready to grow?</CtaTitle>
             <CtaSubtext>Let's talk about what your marketing needs to do next.</CtaSubtext>
           </CtaText>
-          <CtaLink to="/contact">Get in touch →</CtaLink>
+          <CtaLink to="/contact/">Get in touch →</CtaLink>
         </CtaSection>
       </ServicesWrapper>
     </Layout>

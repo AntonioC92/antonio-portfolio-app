@@ -180,7 +180,7 @@ export function AboutSection(): JSX.Element {
           If your marketing is not working the way it should, that is usually a systems
           problem. We can fix that.
         </ClosingStatement>
-        <ClosingBtn onClick={() => navigate('/contact')}>Get in touch →</ClosingBtn>
+        <ClosingBtn onClick={() => navigate('/contact/')}>Get in touch →</ClosingBtn>
       </ClosingSection>
     </StyledSection>
   );

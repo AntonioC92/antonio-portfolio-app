@@ -232,7 +232,7 @@ export function Contact({ headingLevel = "h1" }: ContactProps): JSX.Element {
 
           <StyledPolicyNote>
             By submitting this form, you agree to our{" "}
-            <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">
+            <a href="/privacy-policy/" target="_blank" rel="noopener noreferrer">
               Privacy Policy
             </a>
             .
