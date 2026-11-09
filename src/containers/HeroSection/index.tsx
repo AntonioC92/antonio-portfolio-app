@@ -100,8 +100,8 @@ export function HeroSection(): JSX.Element {
         </SubHeader>
 
         <ButtonRow>
-          <PrimaryBtn onClick={() => navigate('/contact')}>Book a Call</PrimaryBtn>
-          <SecondaryBtn onClick={() => navigate('/work')}>See Our Work</SecondaryBtn>
+          <PrimaryBtn onClick={() => navigate('/contact/')}>Book a Call</PrimaryBtn>
+          <SecondaryBtn onClick={() => navigate('/work/')}>See Our Work</SecondaryBtn>
         </ButtonRow>
 
       </ContentWrapper>

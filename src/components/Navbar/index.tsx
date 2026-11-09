@@ -23,10 +23,10 @@ import linkedin from '../../assets/socials/linkedin.svg';
 
 const menu = [
   { name: 'Home', path: '/' },
-  { name: 'Services', path: '/services' },
-  { name: 'Work', path: '/work' },
-  { name: 'About', path: '/about' },
-  { name: 'Insights', path: '/insights' },
+  { name: 'Services', path: '/services/' },
+  { name: 'Work', path: '/work/' },
+  { name: 'About', path: '/about/' },
+  { name: 'Insights', path: '/insights/' },
 ];
 
 export function Navbar(): JSX.Element {
@@ -70,7 +70,7 @@ export function Navbar(): JSX.Element {
                 onClick={() => window.open('https://www.linkedin.com/in/antoniocaruso2702/')}
               />
             </StyledSocialIconContainer>
-            <Button onClick={() => navigate('/contact')}>Contact</Button>
+            <Button onClick={() => navigate('/contact/')}>Contact</Button>
           </StyledAuthButtons>
           <NavToggle
             onClick={() => setMenuOpen(!menuOpen)}
@@ -92,7 +92,7 @@ export function Navbar(): JSX.Element {
           ))}
         </MobileNavLinks>
         <MobileAuthButtons>
-          <Button onClick={() => { navigate('/contact'); setMenuOpen(false); }}>Contact</Button>
+          <Button onClick={() => { navigate('/contact/'); setMenuOpen(false); }}>Contact</Button>
         </MobileAuthButtons>
       </MobileNav>
       {menuOpen && <Backdrop onClick={() => setMenuOpen(false)} />}{' '}

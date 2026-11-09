@@ -136,7 +136,7 @@ export function MiniAboutSection(): JSX.Element {
 
         <Divider />
 
-        <LearnMore onClick={() => navigate('/about')}>
+        <LearnMore onClick={() => navigate('/about/')}>
           About Caruso Martech &rarr;
         </LearnMore>
       </Inner>

@@ -1,5 +1,5 @@
 /resources/insights/* /insights/:splat 301
-/privacypolicy /privacy-policy 301
+/privacypolicy /privacy-policy/ 301
 
 # Added 2026-08-10, fixing GSC page-indexing findings:
 # future-fractional-cmo-operating-builder was never a file in
@@ -10,8 +10,8 @@
 # Google's crawler was found (via URL Inspection API, same day) to be
 # checking the trailing-slash form specifically — the no-slash-only rule
 # left that variant still 404ing after the first fix went live.
-/insights/future-fractional-cmo-operating-builder /insights/marketing-manager-vs-fractional-cmo 301
-/insights/future-fractional-cmo-operating-builder/ /insights/marketing-manager-vs-fractional-cmo 301
+/insights/future-fractional-cmo-operating-builder /insights/marketing-manager-vs-fractional-cmo/ 301
+/insights/future-fractional-cmo-operating-builder/ /insights/marketing-manager-vs-fractional-cmo/ 301
 # /fractional-cmo previously only had a client-side React Router redirect
 # (<Navigate to="/" replace/> in entry-server.tsx / main.tsx), which sends
 # no HTTP status to crawlers or non-JS clients. Adding the matching
@@ -24,12 +24,12 @@
 # rule on line 1 only matches /resources/insights/*, it never covered the
 # bare root itself. Redirecting it to the closest live equivalent.
 /resources/ /insights/ 301
-/resources /insights 301
+/resources /insights/ 301
 
 # when-to-hire-first-marketing-leader was removed in the same "Remove
 # Fractional CMO articles" cleanup as future-fractional-cmo-operating-builder
 # above (git 553aeb8) but never got a matching redirect, so it's 404'd
 # since Google first indexed it back in March. Same treatment: send it to
 # the closest live equivalent instead of leaving a dead end.
-/insights/when-to-hire-first-marketing-leader /insights/marketing-manager-vs-fractional-cmo 301
-/insights/when-to-hire-first-marketing-leader/ /insights/marketing-manager-vs-fractional-cmo 301
+/insights/when-to-hire-first-marketing-leader /insights/marketing-manager-vs-fractional-cmo/ 301
+/insights/when-to-hire-first-marketing-leader/ /insights/marketing-manager-vs-fractional-cmo/ 301

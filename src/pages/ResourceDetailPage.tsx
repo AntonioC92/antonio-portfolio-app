@@ -31,6 +31,19 @@ import {
 
 const SITE_URL = 'https://carusomartech.com';
 
+/**
+ * Points article body links straight at the canonical URL so they skip
+ * Cloudflare's redirects: trailing slash on site pages, no .html or slash
+ * on the static case-study pages. Files such as /llms.txt are left alone.
+ */
+function normalizeInternalHref(href: string): string {
+  if (!href.startsWith('/') || href.startsWith('//')) return href;
+  const [, path, suffix] = href.match(/^([^?#]*)(.*)$/) ?? ['', href, ''];
+  if (path.startsWith('/case-studies/')) return `${path.replace(/\.html$/, '')}${suffix}`;
+  if (path.endsWith('/') || /\.[a-z0-9]+$/i.test(path)) return href;
+  return `${path}/${suffix}`;
+}
+
 function formatDate(date: string): string {
   return new Date(`${date}T00:00:00`).toLocaleDateString('en-US', {
     year: 'numeric',
@@ -157,7 +170,7 @@ export function ResourceDetailPage(): JSX.Element {
         <NotFoundWrap>
           <h1>Resource not found</h1>
           <p>The resource you requested is not available.</p>
-          <BackLink to="/insights">Back to Insights</BackLink>
+          <BackLink to="/insights/">Back to Insights</BackLink>
         </NotFoundWrap>
       </Layout>
     );
@@ -265,7 +278,7 @@ export function ResourceDetailPage(): JSX.Element {
         </ArticleAuthorLine>
         <ArticleMeta>
           Published {formatDate(resource.date)} · Updated {formatDate(resource.lastUpdated)} ·{' '}
-            <MetaLink to={`/insights?category=${encodeURIComponent(resource.category)}`}>
+            <MetaLink to={`/insights/?category=${encodeURIComponent(resource.category)}`}>
               {resource.category}
             </MetaLink>
         </ArticleMeta>
@@ -278,7 +291,7 @@ export function ResourceDetailPage(): JSX.Element {
                 const isExternalLink = href.startsWith('http://') || href.startsWith('https://');
                 return (
                   <a
-                    href={href}
+                    href={isExternalLink ? href : normalizeInternalHref(href)}
                     target={isExternalLink ? '_blank' : undefined}
                     rel={isExternalLink ? 'noopener noreferrer' : undefined}
                   >
@@ -305,7 +318,7 @@ export function ResourceDetailPage(): JSX.Element {
             >
               Book a strategy call ↗
             </CtaBtnPrimary>
-            <CtaBtnSecondary href="/contact">
+            <CtaBtnSecondary href="/contact/">
               Send an enquiry
             </CtaBtnSecondary>
           </SignatureCtaRow>
@@ -315,7 +328,7 @@ export function ResourceDetailPage(): JSX.Element {
           <RelatedTitle>Related insights</RelatedTitle>
           <RelatedList>
             {relatedResources.map((related) => (
-              <ResourceCard key={related.slug} to={`/insights/${related.slug}`}>
+              <ResourceCard key={related.slug} to={`/insights/${related.slug}/`}>
                 <ResourceMeta>
                   {related.category} • {formatDate(related.date)}
                 </ResourceMeta>
@@ -327,7 +340,7 @@ export function ResourceDetailPage(): JSX.Element {
         </RelatedSection>
 
         <BackLinkRow>
-          <BackLink to="/insights">Back to all insights</BackLink>
+          <BackLink to="/insights/">Back to all insights</BackLink>
         </BackLinkRow>
       </ArticleWrap>
     </Layout>

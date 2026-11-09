@@ -101,7 +101,7 @@ export function InsightsPage(): JSX.Element {
         ) : (
           <ResourceGrid>
             {filteredResources.map((resource) => (
-              <ResourceCard key={resource.slug} to={`/insights/${resource.slug}`}>
+              <ResourceCard key={resource.slug} to={`/insights/${resource.slug}/`}>
                 <ResourceMeta>
                   {resource.category} • {formatDate(resource.date)}
                 </ResourceMeta>
