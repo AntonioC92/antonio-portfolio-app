@@ -6,7 +6,7 @@
  *  1. vite build (client bundle → dist/)            ← done by caller
  *  2. vite build --ssr entry-server.tsx             ← this script does it
  *  3. For each route: render to string, inject into dist/index.html template
- *  4. Write sitemap.xml, rss.xml, feeds/linkedin.json and llms.txt
+ *  4. Write sitemap.xml, rss.xml and llms.txt
  */
 
 import { build } from 'vite';
@@ -21,7 +21,6 @@ const rootDir       = path.resolve(__dirname, '..');
 const distDir       = path.resolve(rootDir, 'dist');
 const serverDistDir = path.resolve(rootDir, 'dist-server');
 const resourcesDir  = path.resolve(rootDir, 'src/content/resources');
-const linkedinDir   = path.resolve(rootDir, 'src/content/linkedin');
 const siteUrl       = 'https://carusomartech.com';
 
 const STATIC_ROUTES = [
@@ -163,32 +162,6 @@ ${items.join('\n')}
   </channel>
 </rss>
 `;
-}
-
-// Feed for the n8n LinkedIn workflow. Only articles with a hand-reviewed
-// LinkedIn caption in src/content/linkedin/<slug>.md are included, so older
-// posts never get auto-shared by accident.
-async function buildLinkedInFeed(resources, images) {
-  const items = [];
-  for (const r of resources) {
-    let text;
-    try {
-      text = (await readFile(path.join(linkedinDir, `${r.slug}.md`), 'utf8')).trim();
-    } catch {
-      continue;
-    }
-    items.push({
-      slug:     r.slug,
-      url:      `${siteUrl}/insights/${r.slug}/`,
-      title:    r.title,
-      summary:  r.metaDescription,
-      category: r.category,
-      date:     r.date,
-      image:    images[r.slug],
-      text,
-    });
-  }
-  return `${JSON.stringify({ generated: new Date().toISOString(), items }, null, 2)}\n`;
 }
 
 // public/llms.txt was hand-maintained and kept drifting from the real
@@ -355,11 +328,9 @@ async function run() {
     }
   }
 
-  // 6. Sitemap, RSS, LinkedIn feed and llms.txt
+  // 6. Sitemap, RSS and llms.txt
   await writeFile(path.join(distDir, 'sitemap.xml'), buildSitemap(resources), 'utf8');
   await writeFile(path.join(distDir, 'rss.xml'), buildRss(resources, images), 'utf8');
-  await mkdir(path.join(distDir, 'feeds'), { recursive: true });
-  await writeFile(path.join(distDir, 'feeds', 'linkedin.json'), await buildLinkedInFeed(resources, images), 'utf8');
   await writeFile(path.join(distDir, 'llms.txt'), buildLlmsTxt(resources), 'utf8');
 
   // 7. Clean up server bundle
