@@ -84,7 +84,7 @@ function outputPathForRoute(route) {
   return path.join(distDir, clean, 'index.html');
 }
 
-function buildSitemap(resources) {
+function buildSitemap(resources, caseStudySlugs = []) {
   // All loc values carry a trailing slash. Cloudflare Pages serves this
   // static build as one index.html per directory and 308-redirects any
   // non-trailing-slash request to the trailing-slash form (confirmed via
@@ -107,7 +107,15 @@ function buildSitemap(resources) {
     changefreq: 'monthly',
     priority:   '0.7',
   }));
-  const entries = [...staticUrls, ...resourceUrls].map((u) => {
+  // Static case-study pages in public/case-studies/. Cloudflare serves them
+  // at the clean URL with no trailing slash (the .html form 308s there), and
+  // their canonical tags use that form, so the sitemap does too.
+  const caseStudyUrls = caseStudySlugs.map((slug) => ({
+    loc:        `${siteUrl}/case-studies/${slug}`,
+    changefreq: 'yearly',
+    priority:   '0.6',
+  }));
+  const entries = [...staticUrls, ...caseStudyUrls, ...resourceUrls].map((u) => {
     const parts = ['  <url>', `    <loc>${u.loc}</loc>`];
     if (u.lastmod) parts.push(`    <lastmod>${u.lastmod}</lastmod>`);
     parts.push(`    <changefreq>${u.changefreq}</changefreq>`);
@@ -329,7 +337,11 @@ async function run() {
   }
 
   // 6. Sitemap, RSS and llms.txt
-  await writeFile(path.join(distDir, 'sitemap.xml'), buildSitemap(resources), 'utf8');
+  const caseStudySlugs = (await readdir(path.join(distDir, 'case-studies')))
+    .filter((f) => f.endsWith('.html'))
+    .map((f) => f.replace(/\.html$/, ''))
+    .sort();
+  await writeFile(path.join(distDir, 'sitemap.xml'), buildSitemap(resources, caseStudySlugs), 'utf8');
   await writeFile(path.join(distDir, 'rss.xml'), buildRss(resources, images), 'utf8');
   await writeFile(path.join(distDir, 'llms.txt'), buildLlmsTxt(resources), 'utf8');
 
