@@ -759,7 +759,11 @@ export function ChatWidget(): JSX.Element {
         body: JSON.stringify({ name: formName, email: formEmail, message: formMessage }),
       });
       const data: { success?: boolean; error?: string } = await res.json();
-      setCtaState(res.ok && data.success ? 'done' : 'error');
+      const ok = res.ok && data.success;
+      if (ok) {
+        (window as unknown as { dataLayer?: unknown[] }).dataLayer?.push({ event: 'chat_lead_submitted' });
+      }
+      setCtaState(ok ? 'done' : 'error');
     } catch {
       setCtaState('error');
     }
