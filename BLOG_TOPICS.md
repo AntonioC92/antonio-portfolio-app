@@ -94,7 +94,7 @@ Mark `[x]` when written and committed. Add new topics at the bottom of each sect
 - [x] **How to report AI search performance to leadership** — `ai-search-performance-reporting` — Target: "how to report ai search performance" — Added 2026-11-04 (off-queue, trend-driven: no pending queue entries; GSC shows "how to report ai search performance to clients" and "how can agencies create custom ai search performance reports" at positions 5-7 with zero clicks, while 2027 budgets push toward AI search).
 - [x] **Bing AI Performance report: what it shows and how to use it** — `bing-ai-performance-report` — Target: "bing ai performance report" — Added 2026-11-05 (queue health; Bing's own Feb 2026 public preview, the only first-party citation data; no article covers it).
 - [x] **Branded search as a signal of AI search influence** — `branded-search-ai-influence` — Target: "branded search ai overviews" — Added 2026-11-05 (queue health; zero-click AI answers push influence into branded and direct traffic; follows the AI search reporting post).
-- [ ] **YouTube as an AI visibility lever for B2B brands** — `youtube-ai-visibility` — Target: "youtube ai search visibility" — Added 2026-11-13 (queue health; Ahrefs 75K-brand study: YouTube mentions had the strongest correlation with AI visibility, about 0.737).
+- [x] **YouTube as an AI visibility lever for B2B brands** — `youtube-ai-visibility` — Target: "youtube ai search visibility" — Added 2026-11-13 (queue health; Ahrefs 75K-brand study: YouTube mentions had the strongest correlation with AI visibility, about 0.737).
 
 ---
 
