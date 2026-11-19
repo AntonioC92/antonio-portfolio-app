@@ -39,7 +39,7 @@ export function ResourcesPage(): JSX.Element {
     <Layout>
       <Seo
         title="Insights | Caruso Martech"
-        description="Resources hub for insights on fractional CMO leadership, marketing systems, attribution, and automation."
+        description="Practical insights on marketing systems, attribution, automation, and AI search for teams in the UK, Ireland, and the US."
         canonical={RESOURCES_CANONICAL}
         ogUrl={RESOURCES_CANONICAL}
         ogImage="https://carusomartech.com/preview.png"
