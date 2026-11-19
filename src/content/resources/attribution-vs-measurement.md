@@ -5,7 +5,7 @@ description: "Attribution tracks which touchpoint got the credit. Measurement te
 metaTitle: "Attribution vs Measurement Explained | Caruso Martech"
 metaDescription: "Attribution and measurement get used interchangeably, but they answer different questions. Here's how to tell them apart and build a system that uses both."
 date: "2026-08-12"
-lastUpdated: "2026-08-12"
+lastUpdated: "2026-11-19"
 category: "Acquisition Systems"
 tags: "attribution, marketing measurement, incrementality, GA4, marketing analytics"
 ---
@@ -65,3 +65,21 @@ Get the tracking foundation right first. A UTM system nobody actually follows, o
 Finally, tie whatever you measure back to a small number of [core KPIs](/insights/marketing-kpis-that-actually-matter) that matter to the business, and treat every other metric a platform surfaces as background context. A dashboard with forty numbers doesn't make you more rigorous. It just makes it easier to find one that agrees with whatever you already wanted to do.
 
 If your current reporting can't tell you whether a channel is causing growth or just riding alongside it, the fix belongs at the system level, above whatever settings your attribution tool exposes. Our services cover building that measurement layer properly, or [get in touch](/contact) and we'll walk through what your current setup is actually telling you.
+
+## FAQ
+
+### What is attribution in marketing?
+
+Attribution assigns credit for a lead or sale to the touchpoints that came before it, such as an ad click, an email or an organic visit, using a rule like last click or linear. It shows what touched the customer. Whether the sale would have happened without that channel is a question it leaves open.
+
+### What is the difference between attribution and marketing measurement?
+
+Attribution describes the path a customer took. Measurement asks whether marketing caused the result, using attribution together with incrementality tests, such as pausing a channel for one region or audience, and marketing mix modelling. For budget decisions measurement is the stronger read, because it separates cause from coincidence.
+
+### Which attribution tool should a small business use?
+
+Start with what you already have: GA4, your ad platforms and a CRM such as HubSpot that records the source of every lead and the revenue it turned into. Dedicated attribution software earns its cost once that data is clean and spend is large enough to test. Until then, a CRM report by source answers most questions.
+
+### Is last-click attribution good enough for a small team?
+
+As a starting point, yes, as long as nobody treats it as proof. Last click over-credits the channel closest to the sale, usually paid search or direct, and under-credits the channels that created the demand. Before cutting a channel that scores poorly, pause it for one segment for a few weeks and compare.

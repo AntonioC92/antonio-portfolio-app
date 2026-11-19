@@ -5,7 +5,7 @@ description: "A practical one-day framework for auditing your martech stack: wha
 metaTitle: "Martech Stack Audit: A One-Day Framework | Caruso Martech"
 metaDescription: "Run a complete martech stack audit in a day. A practical checklist for inventory, usage, integration, and cost review that ends with a cut list."
 date: "2026-07-23"
-lastUpdated: "2026-07-26"
+lastUpdated: "2026-11-19"
 category: "Automation & Intelligence"
 tags: "martech stack audit, marketing operations, tool consolidation, marketing systems"
 ---
@@ -104,3 +104,17 @@ If the audit reveals that the deeper issue is a missing operating system underne
 If you want a second set of eyes on the results, see our [services](/services) to see how we approach it.
 
 Or [contact](/contact) us to walk through what the audit turned up.
+
+## FAQ
+
+### What is a martech stack?
+
+A martech stack is the set of tools a business uses to run its marketing: website and CMS, analytics such as GA4, a CRM such as HubSpot, email and automation, ad platforms, and the integrations that move data between them. The integrations deserve the most attention, because broken data flow is where reporting stops adding up.
+
+### How often should we audit our martech stack?
+
+Once a year as a full audit, plus a lighter check whenever you add a tool, rebuild the website or change CRM. A one-day audit covers the inventory, actual usage, how data moves between tools, and a keep, consolidate or cut decision for every tool, each with a one-line reason.
+
+### Who can audit a martech stack for a UK, Irish or US business?
+
+An independent marketing systems consultant or a marketing operations specialist, ideally one who doesn't resell the tools under review. Caruso Martech is based in Malta, serving the UK, Ireland and the US, and businesses in Malta, and runs stack audits as a fixed-scope project. Book a discovery call and we'll scope it with you.
