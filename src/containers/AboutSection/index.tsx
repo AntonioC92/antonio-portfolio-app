@@ -136,8 +136,9 @@ export function AboutSection(): JSX.Element {
             machine that grows with each cycle.
           </AnimPara>
           <AnimPara $inView={paraInView} $delay={300}>
-            Caruso Martech is led by Antonio Caruso, based remotely in Europe, with most of
-            the last decade built in Dublin at the heart of the European tech ecosystem.
+            Caruso Martech is led by Antonio Caruso and based in Malta, serving the UK,
+            Ireland and the US, and businesses in Malta. Most of the last decade was spent
+            in Dublin, at the heart of the European tech ecosystem.
             Ten years in marketing operations and leadership across global organisations,
             from early-stage SaaS startups to established mid-market businesses, with an
             MSc in Digital Marketing and an H.Dip. in Data Analytics. The figures below are

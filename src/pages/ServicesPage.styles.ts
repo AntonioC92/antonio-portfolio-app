@@ -163,6 +163,33 @@ export const EngagementDesc = styled.p`
   line-height: 1.6;
 `;
 
+export const FaqList = styled.div`
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+`;
+
+export const FaqItem = styled.div`
+  background: #252525;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 12px;
+  padding: 1.25rem 1.3rem;
+`;
+
+export const FaqQuestion = styled.h3`
+  color: #ffffff;
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+`;
+
+export const FaqAnswer = styled.p`
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.93rem;
+  line-height: 1.6;
+  max-width: 780px;
+`;
+
 export const CtaSection = styled.section`
   background: #2c2c2c;
   border: 1px solid rgba(255, 129, 100, 0.25);

@@ -5,7 +5,7 @@ description: "Inconsistent event names turn GA4 into a reporting mess within a f
 metaTitle: "GA4 Event Naming Conventions Guide | Caruso"
 metaDescription: "A practical GA4 event naming convention that scales past the first few months, plus how to clean up a messy account without losing historical data."
 date: "2026-08-05"
-lastUpdated: "2026-08-05"
+lastUpdated: "2026-11-19"
 category: "Acquisition Systems"
 tags: "ga4, event naming, marketing analytics, tracking setup, marketing operations"
 ---
@@ -63,3 +63,21 @@ Assign an owner. It does not need to be a full-time analytics role, just one per
 Review the taxonomy whenever the site gets a significant redesign or a new tool gets added to the stack. A [stack audit](/insights/martech-stack-audit) is a natural moment to check whether the events being collected still map to a document anyone can find, or whether the taxonomy has quietly drifted again.
 
 Clean event naming will not fix a broken attribution model or replace a properly built measurement plan, but it removes one of the most common reasons small business reporting stops being trustworthy. If your GA4 account has reached the point where nobody is confident which events are actually reliable, that cleanup is exactly the kind of foundational work we do. [Get in touch](/contact) or look at our services if you want your tracking plan rebuilt on a taxonomy that will still make sense a year from now.
+
+## FAQ
+
+### How do I track form submissions in GA4?
+
+Fire one event when the form succeeds, such as generate_lead, from Google Tag Manager on the success message or thank-you page. Add a form_name parameter so every form reports under the same event. Then mark that event as a key event in GA4 Admin, so it counts as a conversion in your reports.
+
+### What should I name my GA4 events?
+
+Use lowercase snake_case in an object_action pattern, such as form_submit or cta_click, and keep names under 40 characters. Avoid the google_, ga_ and firebase_ prefixes, which GA4 reserves. Put the detail in parameters: one form_submit event with a form_name parameter is easier to report on than five separately named form events.
+
+### Why does GA4 show fewer leads than our CRM?
+
+In the UK and Ireland, GA4 usually runs behind a cookie banner, so it only counts visitors who accept analytics cookies. Ad blockers and forms that submit without a page change cut the count further. Treat the CRM as the record of leads, and use GA4 for trends and for comparing channels.
+
+### How many events should a small business track in GA4?
+
+Fewer than most accounts collect. Treat 40 to 60 well-defined events as a practical ceiling for a small business site, and make sure the few that matter for revenue are solid: lead submitted, booking or call click, and purchase if you sell online. Write each one into a shared tracking plan before it ships.

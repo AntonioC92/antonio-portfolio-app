@@ -5,7 +5,7 @@ description: "Most marketing mix models end up as a slide deck that never moves 
 metaTitle: "Turning MMM Results Into Budget Decisions | Caruso Martech"
 metaDescription: "How to read marginal ROI and response curves, test the big budget shifts, and set a decision cadence so your marketing mix model changes where money goes."
 date: "2026-11-02"
-lastUpdated: "2026-11-02"
+lastUpdated: "2026-11-19"
 category: "Acquisition Systems"
 tags: "marketing mix modeling, budget allocation, marginal ROI, response curves, marketing measurement"
 ---
@@ -75,3 +75,21 @@ The owner's job is narrow and clear. Move money within the agreed floor and ceil
 This setup also fixes the access problem. When the owner explains each change in plain terms, the model stops being a black box held by the analysts. Teams still building their measurement foundation can start with what a [small team](/insights/marketing-mix-modeling-small-teams) actually needs before adding this layer.
 
 If your model is producing charts that never reach the budget, we help teams set up the ranges, tests and review cadence that turn MMM output into spend decisions. See how we work on our [services](/services) page, or [contact us](/contact) before your 2027 numbers are locked.
+
+## FAQ
+
+### What is the difference between marketing mix modelling and attribution?
+
+Marketing mix modelling uses weekly spend and sales totals to estimate how much each channel contributes, without tracking individuals. Attribution follows user-level journeys and gives credit per touchpoint. MMM copes better with offline channels and privacy limits; attribution gives faster, more detailed reads. Most teams use attribution week to week and MMM for budget planning.
+
+### Does a small B2B company need marketing mix modelling?
+
+Usually not yet. Google's Meridian documentation recommends about two years of weekly spend and outcome data for a reliable model, and at least 12 months for a first one. A small B2B team with a few channels gets more from clean CRM attribution and one holdout test a quarter, then adds MMM once the history exists.
+
+### What is marginal ROI?
+
+Marginal ROI is the return on the next pound, euro or dollar spent in a channel. A channel's average return on past spend can look strong while its next unit of spend returns little, because the channel is close to saturation. That is why budget moves should follow marginal ROI, with historical ROI as background.
+
+### How often should MMM results change the budget?
+
+Tie budget reviews to the model refresh, quarterly at minimum. At each refresh, read marginal ROI by channel, move spend within the ranges the response curves support, and test any move above 15 to 20 percent of a channel's budget before committing. One named owner explains each change in plain terms.

@@ -27,6 +27,10 @@ import {
   CtaTitle,
   CtaSubtext,
   CtaLink,
+  FaqList,
+  FaqItem,
+  FaqQuestion,
+  FaqAnswer,
 } from './ServicesPage.styles';
 
 const SERVICES_CANONICAL = 'https://carusomartech.com/services/';
@@ -80,6 +84,44 @@ const engagements = [
   },
 ];
 
+const faqs = [
+  {
+    question: "What does a marketing automation consultant do?",
+    answer:
+      "A marketing automation consultant designs and builds the workflows that move a lead from first contact to sale: lead capture, CRM setup, lead scoring, nurturing emails and the reports that tie it all to revenue. Our automation work connects that layer to the paid media and attribution around it, so campaigns learn from what closes.",
+  },
+  {
+    question: "Do you work with HubSpot?",
+    answer:
+      "Yes. HubSpot setup and automation is a large part of our Automation and Intelligence practice: CRM properties and pipelines, lead scoring, lifecycle workflows, form tracking and dashboards. It also covers sending closed deals back to Google Ads and other ad platforms, so campaigns optimise for the leads that turn into revenue.",
+  },
+  {
+    question: "How much does it cost to work with Caruso Martech?",
+    answer:
+      "Every engagement is scoped after a discovery call, so the price follows the work. Most clients choose a retainer, typically 2 to 4 days a month of senior marketing leadership, or a fixed-scope project such as an audit, a campaign build, a funnel build or a go-to-market launch.",
+  },
+  {
+    question: "Where are you based, and which markets do you work with?",
+    answer:
+      "Caruso Martech is based in Malta, serving the UK, Ireland and the US, and businesses in Malta. Our past work spans seven markets, the UK, US, Ireland, Italy, Spain, Brazil and Australia, in English, Italian, Portuguese and Spanish. Calls and delivery run remotely.",
+  },
+  {
+    question: "What results have you delivered for clients?",
+    answer:
+      "Past results, for those clients: EUR 135,000 in revenue from EUR 30,000 of LinkedIn spend for the Jobbio career fair, about 4.5x return. EUR 72,000 in ticket revenue on EUR 4,639 of ad spend for the Beer Festival Dublin, 3,971 tickets. Results depend on the market, offer and budget, so we never promise numbers.",
+  },
+];
+
+const faqStructuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((f) => ({
+    '@type': 'Question',
+    name: f.question,
+    acceptedAnswer: { '@type': 'Answer', text: f.answer },
+  })),
+};
+
 export function ServicesPage(): JSX.Element {
   return (
     <Layout>
@@ -90,6 +132,10 @@ export function ServicesPage(): JSX.Element {
         ogUrl={SERVICES_CANONICAL}
         ogImage="https://carusomartech.com/preview.png"
         twitterImage="https://carusomartech.com/preview.png"
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
       />
 
       <ServicesWrapper>
@@ -136,6 +182,18 @@ export function ServicesPage(): JSX.Element {
         </EngagementSection>
 
         <TestimonialSection />
+
+        <EngagementSection>
+          <SectionLabel>Questions we get asked</SectionLabel>
+          <FaqList>
+            {faqs.map((f) => (
+              <FaqItem key={f.question}>
+                <FaqQuestion>{f.question}</FaqQuestion>
+                <FaqAnswer>{f.answer}</FaqAnswer>
+              </FaqItem>
+            ))}
+          </FaqList>
+        </EngagementSection>
 
         <CtaSection>
           <CtaText>
