@@ -589,7 +589,7 @@ function CtaBlock({
         {ctaState === 'idle' && (
           <CtaButtons>
             <BookBtn
-              href="https://calendly.com/caruso-martech/new-meeting?utm_source=website&utm_medium=chatbot&utm_campaign=organic"
+              href="https://meetings.hubspot.com/antonio393?utm_source=website&utm_medium=chatbot&utm_campaign=organic"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -632,7 +632,7 @@ function CtaBlock({
               {isSubmitting ? 'Sending...' : 'Send →'}
             </SubmitBtn>
             <AltBookLink
-              href="https://calendly.com/caruso-martech/new-meeting?utm_source=website&utm_medium=chatbot&utm_campaign=organic"
+              href="https://meetings.hubspot.com/antonio393?utm_source=website&utm_medium=chatbot&utm_campaign=organic"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -648,7 +648,7 @@ function CtaBlock({
             <br />
             <br />
             <BookBtn
-              href="https://calendly.com/caruso-martech/new-meeting?utm_source=website&utm_medium=chatbot&utm_campaign=organic"
+              href="https://meetings.hubspot.com/antonio393?utm_source=website&utm_medium=chatbot&utm_campaign=organic"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -813,7 +813,7 @@ export function ChatWidget(): JSX.Element {
                 {msg.hasCta && i !== lastCtaIdx && (
                   <CtaWrap>
                     <BookBtn
-                      href="https://calendly.com/caruso-martech/new-meeting?utm_source=website&utm_medium=chatbot&utm_campaign=organic"
+                      href="https://meetings.hubspot.com/antonio393?utm_source=website&utm_medium=chatbot&utm_campaign=organic"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
