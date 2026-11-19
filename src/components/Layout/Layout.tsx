@@ -16,7 +16,7 @@ const organizationStructuredData = {
   url: `${SITE_URL}/`,
   logo: `${SITE_URL}/transparent-logo.svg`,
   description:
-    'Caruso Martech builds marketing systems for founders and leadership teams across Ireland, the UK, and the US. We design and implement attribution, automation, and growth infrastructure that compounds over time, so every campaign is smarter than the last.',
+    'Caruso Martech builds marketing systems for founders and leadership teams across the UK, Ireland, and the US. Based in Malta. We design and implement attribution, automation, and growth infrastructure that compounds over time, so every campaign is smarter than the last.',
   founder: {
     '@type': 'Person',
     name: 'Antonio Caruso',
@@ -79,15 +79,16 @@ const organizationStructuredData = {
     ],
   },
   areaServed: [
-    { '@type': 'Country', name: 'Ireland' },
     { '@type': 'Country', name: 'United Kingdom' },
+    { '@type': 'Country', name: 'Ireland' },
     { '@type': 'Country', name: 'United States' },
   ],
   address: {
     '@type': 'PostalAddress',
-    addressCountry: 'IE',
+    addressCountry: 'MT',
   },
   sameAs: [
+    'https://www.linkedin.com/company/caruso-martech',
     'https://www.linkedin.com/in/antoniocaruso2702/',
   ],
 };
