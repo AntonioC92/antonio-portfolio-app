@@ -312,7 +312,7 @@ export function ResourceDetailPage(): JSX.Element {
           </AuthorText>
           <SignatureCtaRow>
             <CtaBtnPrimary
-              href="https://calendly.com/caruso-martech/new-meeting"
+              href="https://meetings.hubspot.com/antonio393?utm_source=website&utm_medium=article-cta&utm_campaign=organic"
               target="_blank"
               rel="noopener"
             >
