@@ -83,7 +83,7 @@ The measurement layer turns activity into decision-ready insight. That usually i
 - attribution methods that match the business's maturity
 - leadership reporting with clear stop, scale, and adjust decisions
 
-For attribution depth, our [attribution guide](/insights/attribution-challenges-2025) is a useful next read.
+For attribution depth, my [attribution guide](/insights/attribution-challenges-2025) is a useful next read.
 
 ## What this looks like in practice
 
@@ -91,23 +91,23 @@ A Swiss retreat lodge wanted to grow high-value direct bookings while reducing t
 
 Campaign naming changed by season, paid and CRM data lived in separate spreadsheets, lead qualification ownership was unclear, and monthly reviews focused heavily on traffic without enough visibility into booking quality.
 
-We rebuilt the system one layer at a time.
+I rebuilt the system one layer at a time.
 
 ### Data layer reset
 
-We established a standardized campaign taxonomy and a cleaner source-of-truth structure for channel and booking data.
+I established a standardized campaign taxonomy and a cleaner source-of-truth structure for channel and booking data.
 
 ### Workflow layer installation
 
-We defined lead-status rules, clarified routing ownership, and set escalation paths for delayed follow-up.
+I defined lead-status rules, clarified routing ownership, and set escalation paths for delayed follow-up.
 
 ### Channel layer alignment
 
-We mapped channel execution to specific funnel goals instead of broad activity targets.
+I mapped channel execution to specific funnel goals instead of broad activity targets.
 
 ### Measurement layer governance
 
-We created weekly operating reviews and monthly leadership dashboards built around the [core KPIs](/insights/marketing-kpis-that-actually-matter) that actually matter for the business, tied directly to booking outcomes.
+I created weekly operating reviews and monthly leadership dashboards built around the [core KPIs](/insights/marketing-kpis-that-actually-matter) that actually matter for the business, tied directly to booking outcomes.
 
 Within one operating cycle, reporting rework dropped and the team had far more confidence in budget decisions. The biggest improvement did not come from adding more software. It came from giving the existing stack better logic and clearer ownership.
 
@@ -164,6 +164,6 @@ If your growth model feels fragmented, rebuild the architecture before scaling e
 
 Use [workflow standards](/insights/automating-marketing-workflows) to stabilize execution first.
 
-Then see our [services](/services) for how we approach a full rebuild.
+Then see my [services](/services) for how I approach a full rebuild.
 
 Or [get in touch](/contact) if you want to talk it through.

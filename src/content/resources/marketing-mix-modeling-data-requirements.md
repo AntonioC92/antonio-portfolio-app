@@ -14,7 +14,7 @@ Most marketing mix modeling pitches open with the output: channel-level incremen
 
 A model built on nine months of patchy spend data will still produce a confident-looking answer. You will not find out it was wrong until you have already reallocated budget on the strength of it.
 
-We covered the case for small teams adopting [marketing mix modeling](/insights/marketing-mix-modeling-small-teams) once the tooling got cheap. This is the part that pitch decks skip: what the model actually needs from you first, and how long that takes to put in place.
+I covered the case for small teams adopting [marketing mix modeling](/insights/marketing-mix-modeling-small-teams) once the tooling got cheap. This is the part that pitch decks skip: what the model actually needs from you first, and how long that takes to put in place.
 
 ## Quick answer: how much data does marketing mix modeling actually need?
 
@@ -46,7 +46,7 @@ Marketing mix modeling pricing splits into two real options, and the cheaper one
 
 Managed services run $50,000 to $200,000 or more per engagement and include embedded expertise, data onboarding, and ongoing model operation. Self-service platforms run $24,000 to $60,000 a year but need a standing 15 to 20 hours of analyst time weekly, according to [Improvado's](https://improvado.io/blog/marketing-mix-modeling-providers) 2026 vendor review, which also scores buyer readiness: a low score points toward managed services, a high one toward self-service or open-source tools like Google Meridian or Meta Robyn.
 
-A readiness check like the one we use for [automation rollouts](/insights/marketing-automation-readiness-checklist) applies just as well here. The real test is whether the system feeding the model stays clean enough to run without someone babysitting it every week. Most teams only discover the true maintenance cost once the first monthly reconciliation slips.
+A readiness check like the one I use for [automation rollouts](/insights/marketing-automation-readiness-checklist) applies just as well here. The real test is whether the system feeding the model stays clean enough to run without someone babysitting it every week. Most teams only discover the true maintenance cost once the first monthly reconciliation slips.
 
 ## Why the Robyn-versus-Meridian choice matters right now
 
@@ -60,4 +60,4 @@ Before any model gets built, the useful question is simpler than the vendor pitc
 
 A no to either question points to real groundwork: cleaning the data and freeing up the analyst hours before a vendor gets involved. Cookie loss and the arrival of free, open-source tooling already made the case for small teams revisiting marketing mix modeling in the first place.
 
-Closing the data and time gap is what makes that case hold up once a vendor is actually in the room, and a sales demo leaves that gap for you to discover later, usually after the contract is signed. If you want a straight read on whether your current setup can support a model before you sign anything, [get in touch](/contact) or see how we approach it in [our services](/services).
+Closing the data and time gap is what makes that case hold up once a vendor is actually in the room, and a sales demo leaves that gap for you to discover later, usually after the contract is signed. If you want a straight read on whether your current setup can support a model before you sign anything, [get in touch](/contact) or see how I approach it in [my services](/services).

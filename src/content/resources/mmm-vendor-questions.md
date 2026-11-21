@@ -12,7 +12,7 @@ tags: "marketing mix modeling, MMM vendors, vendor selection, marketing measurem
 
 Every marketing mix modeling vendor demo looks the same. A clean dashboard, a response curve, a confident ROI number per channel and a promise that the model will tell you where to move budget. The differences that decide whether you get value only show up months after the contract is signed.
 
-The market is crowded enough that this matters. An [IAB Australia](https://ppc.land/iab-australia-unveils-comprehensive-market-mix-modeling-vendor-landscape/) landscape report profiled twelve active vendors, from classical econometrics shops to Bayesian software platforms and Google's and Meta's open-source tools. Most teams evaluating MMM for 2027 will speak to three or four of them, and the questions below are what we use to tell them apart.
+The market is crowded enough that this matters. An [IAB Australia](https://ppc.land/iab-australia-unveils-comprehensive-market-mix-modeling-vendor-landscape/) landscape report profiled twelve active vendors, from classical econometrics shops to Bayesian software platforms and Google's and Meta's open-source tools. Most teams evaluating MMM for 2027 will speak to three or four of them, and the questions below are what I use to tell them apart.
 
 ## Quick answer: what should you ask an MMM vendor before signing?
 
@@ -28,7 +28,7 @@ Ownership is the first question because it decides your switching cost. Some ven
 
 This matters more now that free frameworks exist. Google's [Meridian](https://developers.google.com/meridian/docs/basics/roi-mroi-response-curves) and Meta's Robyn mean a capable analyst can run a model in-house, so a managed vendor should be selling expertise and speed. Lock-in through data custody is a weaker reason to pay.
 
-Ask for a sample export file during the sales process. If the vendor hesitates to show what you would walk away with, that tells you how the exit conversation will go. We apply the same test to every tool in a [stack audit](/insights/martech-stack-audit): know what you can take with you before you commit to it.
+Ask for a sample export file during the sales process. If the vendor hesitates to show what you would walk away with, that tells you how the exit conversation will go. I apply the same test to every tool in a [stack audit](/insights/martech-stack-audit): know what you can take with you before you commit to it.
 
 ## Whether they can explain how the model works
 
@@ -52,13 +52,13 @@ The refresh cadence should match how often you can move budget. A model that ref
 
 Sellforte's framework makes the same point, scoring vendors on whether refreshes match the client's decision cycle. Ask the vendor what their typical client actually does with each refresh, and who on the client side owns that decision.
 
-We covered the internal side of this in our guide to [budget decisions](/insights/mmm-results-budget-decisions). The vendor question is simpler: can they deliver on the cadence your planning process needs, without charging extra for each run?
+I covered the internal side of this in my guide to [budget decisions](/insights/mmm-results-budget-decisions). The vendor question is simpler: can they deliver on the cadence your planning process needs, without charging extra for each run?
 
 ## How long until the first useful answer
 
 Time to first insight depends mostly on your data, and a good vendor will tell you that before quoting a date. Ask what they need from you, in what format, and who on their side owns data onboarding. Vague timelines usually mean the data work lands on your team.
 
-The same IAB Australia report notes that vendors typically need at least two years of weekly historical data, with daily data sometimes shortening the requirement. Our article on [data requirements](/insights/marketing-mix-modeling-data-requirements) covers what that window looks like in practice and why implementation runs longer than sales calls suggest.
+The same IAB Australia report notes that vendors typically need at least two years of weekly historical data, with daily data sometimes shortening the requirement. My article on [data requirements](/insights/marketing-mix-modeling-data-requirements) covers what that window looks like in practice and why implementation runs longer than sales calls suggest.
 
 Ask for named onboarding milestones in the contract. A first model date, a first refresh date and a calibration test date give you something to hold the vendor to.
 
@@ -74,6 +74,6 @@ A pilot with a holdout period is the cleanest way to compare two shortlisted ven
 
 Smaller teams with a capable analyst and clean data can often run an open-source model themselves for a fraction of a managed contract. The trade is time and maintenance: someone has to own the code, the refreshes and the calibration tests. If nobody can, a vendor is the faster route.
 
-We walk through that trade-off in our piece on MMM for a [small team](/insights/marketing-mix-modeling-small-teams). The questions above apply either way, because an in-house model needs the same answers on ownership, calibration and cadence.
+I walk through that trade-off in my piece on MMM for a [small team](/insights/marketing-mix-modeling-small-teams). The questions above apply either way, because an in-house model needs the same answers on ownership, calibration and cadence.
 
-If you are shortlisting MMM vendors for 2027, we run independent vendor evaluations and set up the testing and review process that makes the model pay off. See our [services](/services) or [contact us](/contact) before the contract is signed.
+If you are shortlisting MMM vendors for 2027, I run independent vendor evaluations and set up the testing and review process that makes the model pay off. See my [services](/services) or [contact me](/contact) before the contract is signed.

@@ -95,7 +95,7 @@ That is usually when attribution starts becoming genuinely useful, because it is
 
 An Italian indie-pop artist's growth team was increasing paid spend across social and search, but the reported conversions from those platforms did not line up with ticket and merch outcomes downstream.
 
-At first glance, the dashboards looked healthy. Once we audited the setup, the picture changed. Key GTM conversion events were firing multiple times in certain flows, GA4 naming conventions were inconsistent across campaign variants, and CRM ingestion was dropping source metadata on some entry paths.
+At first glance, the dashboards looked healthy. Once I audited the setup, the picture changed. Key GTM conversion events were firing multiple times in certain flows, GA4 naming conventions were inconsistent across campaign variants, and CRM ingestion was dropping source metadata on some entry paths.
 
 The first job was to restore measurement integrity:
 
@@ -143,6 +143,6 @@ Attribution in 2026 is less about certainty and more about useful confidence. Te
 
 If your team is still making budget calls on incomplete or inconsistent signals, fix measurement hygiene first, then improve modelling. [BrandBooster](https://brandbooster.ai/blog/navigating-the-complexities-overcoming-key-marketing-attribution-challenges-in-2025/) covers this well too, especially around signal quality and implementation hygiene.
 
-If your reporting needs this kind of hardening, see our [services](/services) for how that works.
+If your reporting needs this kind of hardening, see my [services](/services) for how that works.
 
 Or [get in touch](/contact) directly.

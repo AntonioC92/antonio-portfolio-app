@@ -38,7 +38,7 @@ Lead capture and routing comes first: every form fill, ad conversion, or referra
 
 A welcome sequence follows immediately after signup or download. It should acknowledge the action, deliver whatever was promised, and set expectations for what comes next. [Zapier's automation library](https://zapier.com/blog/marketing-automation-examples-for-lead-nurture/) documents this as the most commonly built first workflow for exactly this reason: it is simple to set up and it closes the gap between interest and first real touchpoint.
 
-Lead scoring comes third, and it does not need to be sophisticated. A basic point system based on job title, company size, and engagement (opened emails, visited pricing page, downloaded a case study) is enough to separate leads worth a personal follow-up from ones that need more nurturing. We cover the full build in our [lead scoring guide](/insights/lead-scoring-system).
+Lead scoring comes third, and it does not need to be sophisticated. A basic point system based on job title, company size, and engagement (opened emails, visited pricing page, downloaded a case study) is enough to separate leads worth a personal follow-up from ones that need more nurturing. I cover the full build in my [lead scoring guide](/insights/lead-scoring-system).
 
 Internal reporting is the fourth workflow, and the one small teams skip most often because it feels like it can wait. It cannot. A weekly dashboard pull that used to take an hour of copying numbers between platforms can run unattended, freeing that hour for actual analysis instead of data entry.
 
@@ -60,7 +60,7 @@ Automation should never touch a conversation that depends on judgment. Personali
 
 The goal of automating the five workflows above is to free up the hours that judgment-heavy work actually requires. If automation is consuming the time it was supposed to create, something in the setup needs revisiting, usually a workflow trying to do too much personalization without the data to support it.
 
-Read our [readiness checklist](/insights/marketing-automation-readiness-checklist) before adding anything beyond the five workflows above. Adding automation before the team is ready for it creates more manual cleanup than it saves.
+Read my [readiness checklist](/insights/marketing-automation-readiness-checklist) before adding anything beyond the five workflows above. Adding automation before the team is ready for it creates more manual cleanup than it saves.
 
 ## Measure it by hours reclaimed
 
@@ -70,4 +70,4 @@ Track two numbers monthly: hours spent on manual data tasks, which should trend 
 
 If those two numbers are not moving after 90 days, rebuild the workflows before buying another tool. That is often the point where a dedicated [ops function](/insights/marketing-ops-underfunded) starts to pay for itself, well before the team grows past three people.
 
-Getting this sequence right without an ops hire on staff is exactly the kind of gap our [services](/services) are built to close. If your team is stuck between doing everything by hand and hiring for a role you cannot justify yet, [get in touch](/contact) and we will walk through what to automate first.
+Getting this sequence right without an ops hire on staff is exactly the kind of gap my [services](/services) are built to close. If your team is stuck between doing everything by hand and hiring for a role you cannot justify yet, [get in touch](/contact) and I will walk through what to automate first.

@@ -12,7 +12,7 @@ tags: "AI search reporting, AI visibility, AI Overviews, executive reporting, GE
 
 Sooner or later someone in leadership asks whether AI search is working. The honest answer is spread across four tools, none of which agree, and most teams respond with a screenshot of a visibility dashboard that means nothing to a finance director.
 
-That question is getting harder to dodge. Budgets for 2027 are being set now, AI search is competing for a share of them, and the team that can show a clear picture of what it is worth will keep its funding. The report below is the structure we use, built to fit on one page and answer the question leadership is actually asking.
+That question is getting harder to dodge. Budgets for 2027 are being set now, AI search is competing for a share of them, and the team that can show a clear picture of what it is worth will keep its funding. The report below is the structure I use, built to fit on one page and answer the question leadership is actually asking.
 
 ## Quick answer: how do you report AI search performance to leadership?
 
@@ -36,7 +36,7 @@ A leadership report on AI search needs five numbers: AI referral sessions, conve
 
 Keep the order fixed. Outcomes go at the top because they are what the budget decision rests on, and visibility sits underneath as the explanation.
 
-For the visibility line, use citations wherever you can. A cited page can send a visitor, which makes it easier to connect to the outcome numbers above it, and we explain how it differs from a plain mention in our piece on [AI citations](/insights/ai-citations-vs-mentions).
+For the visibility line, use citations wherever you can. A cited page can send a visitor, which makes it easier to connect to the outcome numbers above it, and I explain how it differs from a plain mention in my piece on [AI citations](/insights/ai-citations-vs-mentions).
 
 Each number gets a trend line covering the last six months and one sentence of interpretation. If a figure needs a paragraph to explain, it belongs in the appendix.
 
@@ -44,11 +44,11 @@ Each number gets a trend line covering the last six months and one sentence of i
 
 Each of the five numbers has a specific source, and naming it on the report builds trust. Referral sessions and conversions come from GA4, pipeline from your CRM, AI Overview impressions from Search Console, citations from Bing Webmaster Tools, and competitor citation share from a prompt-tracking tool.
 
-Google's generative [AI report](https://support.google.com/webmasters/answer/16984139) in Search Console shows how often links to your site appear in AI Overviews and AI Mode. It reports impressions only, as we covered in our breakdown of the [Search Console](/insights/search-console-ai-performance-report) report.
+Google's generative [AI report](https://support.google.com/webmasters/answer/16984139) in Search Console shows how often links to your site appear in AI Overviews and AI Mode. It reports impressions only, as I covered in my breakdown of the [Search Console](/insights/search-console-ai-performance-report) report.
 
 Bing covers the citation side. Its [AI Performance](https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/) report, in public preview since February 2026, counts how often Copilot and Bing's AI summaries cite your pages and which grounding queries led to them.
 
-GA4 needs some setup before its numbers are usable. AI referrals often land in the Direct or Referral channel by default, so build a custom channel group for known AI sources first. Our guide to [tracking visibility](/insights/tracking-ai-search-visibility) covers the prompt-tracking side in more detail.
+GA4 needs some setup before its numbers are usable. AI referrals often land in the Direct or Referral channel by default, so build a custom channel group for known AI sources first. My guide to [tracking visibility](/insights/tracking-ai-search-visibility) covers the prompt-tracking side in more detail.
 
 ## How to connect visibility to revenue
 
@@ -63,7 +63,7 @@ The link between AI visibility and revenue is usually small in volume and strong
 
 Step 3 is the one leadership remembers. Even ten deals with a known AI source give them a concrete number, and that number carries more weight than any visibility score.
 
-Step 4 covers influence that never shows up as a click, a gap we described in our piece on the [attribution gap](/insights/ai-search-attribution-gap). The signal is approximate, and a branded search trend that rises with your AI visibility is still evidence leadership can follow.
+Step 4 covers influence that never shows up as a click, a gap I described in my piece on the [attribution gap](/insights/ai-search-attribution-gap). The signal is approximate, and a branded search trend that rises with your AI visibility is still evidence leadership can follow.
 
 ## What to say about the gaps
 
@@ -81,4 +81,4 @@ Send the one-pager to the same people who sign off the marketing budget. A separ
 
 Use the quarterly review to retire numbers that stopped being useful. If citation share has been flat for six months while pipeline grows, leadership needs to see the pipeline line, and the citation chart can move to the appendix.
 
-If your AI search reporting is a collection of screenshots, we help teams build the one-page structure, connect GA4 and CRM data, and set the review cadence leadership will use. See our [services](/services) or [contact us](/contact) before your 2027 budget review.
+If your AI search reporting is a collection of screenshots, I help teams build the one-page structure, connect GA4 and CRM data, and set the review cadence leadership will use. See my [services](/services) or [contact me](/contact) before your 2027 budget review.

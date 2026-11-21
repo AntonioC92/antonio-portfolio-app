@@ -58,7 +58,7 @@ Run server-side and client-side tracking in parallel for two to four weeks befor
 
 Start with the highest-value conversion event, usually a purchase or a qualified lead, rather than migrating every tag at once. Get that one event stable and verified in both [GA4](/insights/ga4-event-naming) and your ad platforms before adding the next.
 
-Document what changed and when, because two systems reporting slightly different numbers for the same period gets confusing fast if the team is not aligned on why. Our [attribution and measurement](/insights/attribution-vs-measurement) piece covers that distinction if it is still fuzzy for your team.
+Document what changed and when, because two systems reporting slightly different numbers for the same period gets confusing fast if the team is not aligned on why. My [attribution and measurement](/insights/attribution-vs-measurement) piece covers that distinction if it is still fuzzy for your team.
 
 ## Common mistakes that undo the benefit
 
@@ -68,4 +68,4 @@ The second mistake is skipping the first-party subdomain and pointing the server
 
 The third is rebuilding tags without testing them against live traffic first, which surfaces missing parameters only after a week of quietly wrong numbers. A setup this fragile depends on the same underlying data discipline as everything else in the stack, including how the team is capturing [first-party data](/insights/first-party-data-strategy) in the first place.
 
-Server-side tracking is worth building once spend and conversion volume can absorb the setup and hosting cost, and once existing tracking is clean enough to be worth protecting. If you are not sure which side of that line your team is on, [get in touch](/contact) and we will look at your current setup together, or see how this fits into a broader measurement system on our [services](/services) page.
+Server-side tracking is worth building once spend and conversion volume can absorb the setup and hosting cost, and once existing tracking is clean enough to be worth protecting. If you are not sure which side of that line your team is on, [get in touch](/contact) and I will look at your current setup together, or see how this fits into a broader measurement system on my [services](/services) page.

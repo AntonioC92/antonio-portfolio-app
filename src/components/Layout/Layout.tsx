@@ -16,7 +16,7 @@ const organizationStructuredData = {
   url: `${SITE_URL}/`,
   logo: `${SITE_URL}/transparent-logo.svg`,
   description:
-    'Caruso Martech is based in Malta and builds marketing systems for founders and leadership teams, serving the UK, Ireland and the US, and businesses in Malta. We design and implement attribution, automation, and growth infrastructure that compounds over time, so every campaign is smarter than the last.',
+    'Caruso Martech is based in Malta and builds marketing systems for founders and leadership teams, serving the UK, Ireland and the US, and businesses in Malta. Antonio Caruso designs and implements attribution, automation, and growth infrastructure that compounds over time, so every campaign is smarter than the last.',
   founder: {
     '@type': 'Person',
     name: 'Antonio Caruso',

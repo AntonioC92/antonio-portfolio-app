@@ -79,12 +79,12 @@ const beliefs = [
   {
     icon: '📊',
     title: 'Revenue is the only metric that matters',
-    body: 'Clicks, impressions, and reach are inputs. Revenue is the output. We work backwards from the outcome.',
+    body: 'Clicks, impressions, and reach are inputs. Revenue is the output. I work backwards from the outcome.',
   },
   {
     icon: '🔁',
     title: 'The work should outlast the engagement',
-    body: 'We build systems you can run, measure, and grow. Not dependencies.',
+    body: 'I build systems you can run, measure, and grow. Not dependencies.',
   },
 ];
 
@@ -114,7 +114,7 @@ export function AboutSection(): JSX.Element {
           The thinking behind <span>Caruso Martech</span>
         </HeroHeading>
         <HeroSub>
-          A decade of noticing the same problem. A consultancy built to fix it properly.
+          A decade of noticing the same problem. A practice built to fix it properly.
         </HeroSub>
       </HeroArea>
 
@@ -125,21 +125,21 @@ export function AboutSection(): JSX.Element {
         <ContentCol ref={paraRef}>
           <AnimPara $inView={paraInView} $delay={0}>
             A decade working inside marketing teams across SaaS, events, ecommerce, and
-            professional services taught one consistent lesson: most teams have the right
+            professional services taught me one consistent lesson: most teams have the right
             people and real budgets, but the infrastructure underneath them is broken.
             Campaigns do not connect and data does not flow, resulting in outcomes that
             never match the effort invested.
           </AnimPara>
           <AnimPara $inView={paraInView} $delay={150}>
-            That pattern is why Caruso Martech exists. We build the systems that make
+            That pattern is why I started Caruso Martech. I build the systems that make
             every campaign smarter than the last, turning strategy from a plan into a
             machine that grows with each cycle.
           </AnimPara>
           <AnimPara $inView={paraInView} $delay={300}>
-            Caruso Martech is led by Antonio Caruso and based in Malta, serving the UK,
-            Ireland and the US, and businesses in Malta. Most of the last decade was spent
-            in Dublin, at the heart of the European tech ecosystem.
-            Ten years in marketing operations and leadership across global organisations,
+            I am Antonio Caruso. Caruso Martech is based in Malta, serving the UK,
+            Ireland and the US, and businesses in Malta. I spent most of the last decade
+            in Dublin, at the heart of the European tech ecosystem:
+            ten years in marketing operations and leadership across global organisations,
             from early-stage SaaS startups to established mid-market businesses, with an
             MSc in Digital Marketing and an H.Dip. in Data Analytics. The figures below are
             the footprint of that work.
@@ -179,7 +179,7 @@ export function AboutSection(): JSX.Element {
       <ClosingSection ref={closingRef} $inView={closingInView}>
         <ClosingStatement>
           If your marketing is not working the way it should, that is usually a systems
-          problem. We can fix that.
+          problem. I can fix that.
         </ClosingStatement>
         <ClosingBtn onClick={() => navigate('/contact/')}>Get in touch →</ClosingBtn>
       </ClosingSection>

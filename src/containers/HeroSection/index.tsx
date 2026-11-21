@@ -95,13 +95,13 @@ export function HeroSection(): JSX.Element {
         </Header>
 
         <SubHeader>
-          We help founders and leadership teams build the strategy, execution, and
+          I help founders and leadership teams build the strategy, execution, and
           infrastructure that turns marketing into a reliable growth engine.
         </SubHeader>
 
         <ButtonRow>
           <PrimaryBtn onClick={() => navigate('/contact/')}>Book a Call</PrimaryBtn>
-          <SecondaryBtn onClick={() => navigate('/work/')}>See Our Work</SecondaryBtn>
+          <SecondaryBtn onClick={() => navigate('/work/')}>See My Work</SecondaryBtn>
         </ButtonRow>
 
       </ContentWrapper>

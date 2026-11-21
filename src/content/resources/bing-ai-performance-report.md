@@ -48,7 +48,7 @@ The report shows presence in answers and stops there. It has no click data, no t
 
 The UK agency [Koozai](https://www.koozai.com/blog/search-marketing/bing-webmaster-tools-launches-ai-performance-reporting/) flagged this at launch: the data is about citations, with no traffic or engagement metrics. Google's equivalent has a gap of its own. Its generative [AI report](https://support.google.com/webmasters/answer/16984139) in Search Console counts how often links to your site were shown in AI Overviews and AI Mode. Those are impressions, which tell you a link was on screen, while Bing's figures tell you a page was used as a source.
 
-Put the two side by side and each covers a different part of the same picture. We walked through the Google side in our breakdown of the [Search Console](/insights/search-console-ai-performance-report) report.
+Put the two side by side and each covers a different part of the same picture. I walked through the Google side in my breakdown of the [Search Console](/insights/search-console-ai-performance-report) report.
 
 ## How to use the report, step by step
 
@@ -66,10 +66,10 @@ Step 3 is where the useful findings usually sit. If AI answers cite an old blog 
 
 Bing's report belongs in the visibility section of an AI search report, below the business outcomes. It is the only first-party citation data available, which makes it the most reliable visibility signal you have. It still describes one ecosystem, so present it as a sample of how AI answers treat your content.
 
-In a leadership report, one line is enough: total citations and Citation Share on your priority queries, with a six-month trend. Pair it with referral sessions from Bing and Copilot in GA4, so the visibility line and the outcome line describe the same ecosystem. We set out the full one-page structure in our guide to [reporting AI](/insights/ai-search-performance-reporting) search performance.
+In a leadership report, one line is enough: total citations and Citation Share on your priority queries, with a six-month trend. Pair it with referral sessions from Bing and Copilot in GA4, so the visibility line and the outcome line describe the same ecosystem. I set out the full one-page structure in my guide to [reporting AI](/insights/ai-search-performance-reporting) search performance.
 
 Keep the cadence monthly. Citation counts move with Bing's own changes as well as yours, and a single week rarely tells you anything you can act on.
 
 Watch the trend more than the absolute number. A steady rise in citations on the topics you sell into tells you the content is being used, even before referral traffic is large enough to show up clearly in GA4.
 
-If you want the report connected to GA4 and your CRM in one monthly view that leadership will read, see our [services](/services) or [contact us](/contact) to set it up.
+If you want the report connected to GA4 and your CRM in one monthly view that leadership will read, see my [services](/services) or [contact me](/contact) to set it up.

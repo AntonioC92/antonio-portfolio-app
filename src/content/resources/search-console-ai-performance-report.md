@@ -10,7 +10,7 @@ category: "AI Search & Experience"
 tags: "ai overviews, search console, ai search visibility, aeo"
 ---
 
-Google now gives every Search Console property a dedicated report on how often its pages show up inside AI Overviews and AI Mode. Most site owners we talk to opened it, saw an impressions number, and assumed they finally had a real measurement tool. The report only shows half the picture: it confirms that Google is pulling your content into its AI layer, without telling you whether that visibility sends anyone to your site.
+Google now gives every Search Console property a dedicated report on how often its pages show up inside AI Overviews and AI Mode. Most site owners I talk to opened it, saw an impressions number, and assumed they finally had a real measurement tool. The report only shows half the picture: it confirms that Google is pulling your content into its AI layer, without telling you whether that visibility sends anyone to your site.
 
 That gap matters more now than it would have a year ago. In [McKinsey's research](https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/new-front-door-to-the-internet-winning-in-the-age-of-ai-search), 44 percent of AI search users named it their primary source for buying decisions, ahead of traditional search at 31 percent. A report that only counts impressions, in a channel that large, can flatter a number that leadership is already inclined to over-read.
 
@@ -34,7 +34,7 @@ The timing also lines up with Google restructuring paid search around the same A
 
 The report sits alongside the standard Search and Discover reports under Performance in Search Console. It counts impressions for any page whose link appeared inside a generative AI feature, broken out by page, country, device, and date, making it the first native signal Google has given site owners about their presence inside AI-generated answers.
 
-Before this report, most of what we tracked came from indirect signals. A page ranking at position one with an unusually low click-through rate was one clue, and manual testing of target queries against AI Overviews was another. Those signals still matter for spotting where AI answers pull from your content, and this report now adds a confirmed number underneath them.
+Before this report, most of what I tracked came from indirect signals. A page ranking at position one with an unusually low click-through rate was one clue, and manual testing of target queries against AI Overviews was another. Those signals still matter for spotting where AI answers pull from your content, and this report now adds a confirmed number underneath them.
 
 That number moves fast, too. A page can go from zero AI impressions to several hundred in a week if Google starts surfacing it for a query cluster it previously ignored. Watching that shift by page is the most useful thing the report does today.
 
@@ -42,9 +42,9 @@ That number moves fast, too. A page can go from zero AI impressions to several h
 
 The report tracks impressions only, with no clicks, no click-through rate, and no query-level detail, a limitation Google states directly in its [Search Console documentation](https://support.google.com/webmasters/answer/16984139). It also groups AI Overviews and AI Mode together, so you cannot tell which surface drove a change in the numbers.
 
-An impression spike alone tells a leadership team very little. It cannot confirm whether your brand is earning a citation with a live link, appearing as an unlinked mention, or being summarized with no attribution at all, the distinction we cover in [citations vs mentions](/insights/ai-citations-vs-mentions). For that, you still need query-level testing or a dedicated citation-tracking tool sitting alongside this report.
+An impression spike alone tells a leadership team very little. It cannot confirm whether your brand is earning a citation with a live link, appearing as an unlinked mention, or being summarized with no attribution at all, the distinction I cover in [citations vs mentions](/insights/ai-citations-vs-mentions). For that, you still need query-level testing or a dedicated citation-tracking tool sitting alongside this report.
 
-This is the same reporting hole we described in the [attribution gap](/insights/ai-search-attribution-gap) that AI search opened up well before this feature existed. A first-party impressions count narrows that hole slightly, while the deeper question of what AI visibility is worth in revenue terms stays open. Setting that expectation with leadership now saves a harder conversation later.
+This is the same reporting hole I described in the [attribution gap](/insights/ai-search-attribution-gap) that AI search opened up well before this feature existed. A first-party impressions count narrows that hole slightly, while the deeper question of what AI visibility is worth in revenue terms stays open. Setting that expectation with leadership now saves a harder conversation later.
 
 ## Why the click gap matters for your reporting
 
@@ -52,7 +52,7 @@ Clicks on AI Overview results are already scarce, so an impressions-only report 
 
 Pew Research Center's study of roughly 69,000 Google searches found users clicked a traditional result in just 8 percent of visits where an AI summary appeared, against 15 percent when no summary showed up, per [Pew Research Center](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/). Clicks on the summary's own source links were rarer still, at just 1 percent of those visits.
 
-If a monthly report shows AI impressions climbing, say so clearly. Pair that number with what we cover in [citation value](/insights/measuring-ai-overviews-citation-value): citation depth and mention rate carry more weight than a raw impression count, because the click math behind AI Overviews already works against you before a single user sees the result.
+If a monthly report shows AI impressions climbing, say so clearly. Pair that number with what I cover in [citation value](/insights/measuring-ai-overviews-citation-value): citation depth and mention rate carry more weight than a raw impression count, because the click math behind AI Overviews already works against you before a single user sees the result.
 
 ## How to actually use the report this month
 
@@ -64,4 +64,4 @@ Cross-reference the new data against a tool built for [visibility tracking](/ins
 
 For pages with rising impressions and no matching lift in organic clicks, check [page structure](/insights/structuring-pages-for-ai-citations) first. A page can appear inside an AI Overview and still fail to earn the kind of citation that sends anyone further than the summary box.
 
-None of this replaces a full measurement plan built around what these tools can and cannot tell you. If your current stack cannot connect an AI impression to a lead, a citation, or a lost click, that gap only gets more expensive as AI-mediated search keeps growing. Our [services](/services) start with exactly that kind of audit, or [get in touch](/contact) if you want a second opinion on what your Search Console data is actually telling you.
+None of this replaces a full measurement plan built around what these tools can and cannot tell you. If your current stack cannot connect an AI impression to a lead, a citation, or a lost click, that gap only gets more expensive as AI-mediated search keeps growing. My [services](/services) start with exactly that kind of audit, or [get in touch](/contact) if you want a second opinion on what your Search Console data is actually telling you.

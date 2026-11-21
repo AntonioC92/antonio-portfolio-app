@@ -76,7 +76,7 @@ A practical attribution workflow should include:
 - touchpoint classification into a shared funnel model
 - exports built for weekly and monthly decision reviews
 
-The underlying measurement principles are explored in our [attribution framework](/insights/attribution-challenges-2025), but the key idea is simple: automation makes judgment more useful because the inputs are cleaner.
+The underlying measurement principles are explored in my [attribution framework](/insights/attribution-challenges-2025), but the key idea is simple: automation makes judgment more useful because the inputs are cleaner.
 
 ## A realistic example
 
@@ -84,7 +84,7 @@ A global skincare brand had healthy demand signals across paid social, search, a
 
 The team was exporting data manually every week, campaign naming varied across markets, and CRM records were missing campaign metadata on too many leads. None of this looked dramatic in isolation, but together it created constant rework before every performance review.
 
-We approached the fix in three steps:
+I approached the fix in three steps:
 
 - Workflow mapping: document each handoff from click to lead to pipeline update
 - Reporting automation: standardize naming and automate ingestion into a central reporting layer
@@ -133,6 +133,6 @@ Marketing workflow automation in 2026 is really about building a calmer, more de
 
 If your team is spending more time preparing information than acting on it, workflow design is probably the real bottleneck. A useful perspective from [Code Conspirators](https://www.codeconspirators.com/how-ai-and-automation-will-transform-digital-marketing-in-2025/) reinforces the same need for reliable operating workflows.
 
-Stabilize the system first, then automate the parts that remove real friction. See our [services](/services) for how we approach it.
+Stabilize the system first, then automate the parts that remove real friction. See my [services](/services) for how I approach it.
 
 [Get in touch](/contact) if you want help stabilizing yours.

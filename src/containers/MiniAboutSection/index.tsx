@@ -106,7 +106,7 @@ export function MiniAboutSection(): JSX.Element {
   return (
     <StyledSection id="mini-about">
       <Inner>
-        <SectionLabel>Why we exist</SectionLabel>
+        <SectionLabel>Why Caruso Martech exists</SectionLabel>
 
         <Headline>
           Most marketing problems are not strategy problems. They are systems problems.
@@ -122,13 +122,13 @@ export function MiniAboutSection(): JSX.Element {
 
         <Body>
           A decade of hands-on marketing leadership across global SaaS, events, ecommerce, and
-          professional services showed us the same pattern repeating, from early-stage startups to
+          professional services showed me the same pattern repeating, from early-stage startups to
           established mid-market businesses. Good teams, real budgets, and genuine ambition held
           back by infrastructure that was never built to connect.
         </Body>
 
         <Body>
-          That experience is what made Caruso Martech inevitable. We exist to rebuild those systems
+          That experience is what made Caruso Martech inevitable. I started it to rebuild those systems
           properly: designing full-funnel marketing machines where data flows cleanly, audiences
           engage at the right moment, and revenue becomes a direct, measurable, long-term outcome
           of the work.

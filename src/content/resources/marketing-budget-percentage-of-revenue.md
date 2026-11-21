@@ -36,9 +36,9 @@ UK research from [Whito](https://whito.co.uk/research/how-much-should-marketing-
 
 A percentage tells a business what it can afford. It says nothing about whether the money is working. Two companies can both spend 9 percent of revenue on marketing and get wildly different results, because one is buying customers efficiently and the other is not.
 
-This is where most small teams get stuck. They pick a number, spend it across the usual channels, and only find out at quarter end whether it paid off. Fixing that requires the KPI layer we cover in our [KPI guide](/insights/marketing-kpis-that-actually-matter): customer acquisition cost by channel, CAC to lifetime value, and revenue tied back through the CRM to where it actually came from.
+This is where most small teams get stuck. They pick a number, spend it across the usual channels, and only find out at quarter end whether it paid off. Fixing that requires the KPI layer I cover in my [KPI guide](/insights/marketing-kpis-that-actually-matter): customer acquisition cost by channel, CAC to lifetime value, and revenue tied back through the CRM to where it actually came from.
 
-It also requires a working measurement model. If attribution is broken, a business cannot tell which part of that 9 percent is earning its keep. We wrote a longer breakdown of what that model needs to include in our [attribution guide](/insights/attribution-challenges-2025).
+It also requires a working measurement model. If attribution is broken, a business cannot tell which part of that 9 percent is earning its keep. I wrote a longer breakdown of what that model needs to include in my [attribution guide](/insights/attribution-challenges-2025).
 
 ## Building the number from acquisition cost up
 
@@ -48,9 +48,9 @@ Channel cost varies enormously by category. [WordStream's](https://www.wordstrea
 
 Once the target CAC is set, the budget follows from it: divide the number of customers needed by the affordable cost per customer, and that is the real spend requirement, independent of what a benchmark table says a company like yours should be doing.
 
-We have seen this play out directly. Our [Dublin Beer Festival](/case-studies/dublin-beer-festival.html) campaign ran on a tight ROAS target rather than a fixed percentage of ticket revenue, and it sold 3,971 tickets at 15.5x return.
+I have seen this play out directly. My [Dublin Beer Festival](/case-studies/dublin-beer-festival.html) campaign ran on a tight ROAS target rather than a fixed percentage of ticket revenue, and it sold 3,971 tickets at 15.5x return.
 
-Our Jobbio campaign worked the same way from the demand side. Holding cost per lead to a set, scalable number generated 60 registrations and [€135K](/case-studies/jobbio-career-fair.html) in attributed revenue, all planned from the target cost rather than a fixed spending line.
+My Jobbio campaign worked the same way from the demand side. Holding cost per lead to a set, scalable number generated 60 registrations and [€135K](/case-studies/jobbio-career-fair.html) in attributed revenue, all planned from the target cost rather than a fixed spending line.
 
 ## Growth stage changes the math
 
@@ -58,14 +58,14 @@ A pre-revenue or early-stage business often needs to spend above the benchmark r
 
 An established business with strong referral and repeat rates can often spend less than the benchmark suggests, because part of its growth is effectively free. The mistake is applying a growth-stage number to a mature business, or a mature-business number to a business still building its first hundred customers.
 
-This is also usually the point where the budget outgrows what one generalist can manage well. Our [hiring guide](/insights/marketing-manager-vs-fractional-cmo) covers how to decide who should own that budget as it scales, since the right owner changes depending on whether the business needs execution or strategic direction.
+This is also usually the point where the budget outgrows what one generalist can manage well. My [hiring guide](/insights/marketing-manager-vs-fractional-cmo) covers how to decide who should own that budget as it scales, since the right owner changes depending on whether the business needs execution or strategic direction.
 
 ## Turning the number into an actual budget
 
 Set a target CAC from margin. Check it against current channel costs using real data. Decide which channels are proven enough to scale and which still need testing on a smaller, separate line.
 
-Include the martech stack in the number rather than treating it as a separate cost. Ad spend without the tools to track what it produced is money spent blind. Our [stack audit](/insights/martech-stack-audit) is a fast way to see what is already paid for and what is actually being used before adding anything new to the budget.
+Include the martech stack in the number rather than treating it as a separate cost. Ad spend without the tools to track what it produced is money spent blind. My [stack audit](/insights/martech-stack-audit) is a fast way to see what is already paid for and what is actually being used before adding anything new to the budget.
 
 Review the number every quarter. Channel costs move, margins shift, and a budget built on last year's CAC will quietly stop matching how the business actually acquires customers.
 
-Setting the number is the easier part. Building the measurement system that tells you whether it is working is where most small teams get stuck. That is exactly what our services cover, from acquisition strategy through to the reporting layer behind it. [Get in touch](/contact) if you want a second opinion on your budget before you commit to next quarter's number.
+Setting the number is the easier part. Building the measurement system that tells you whether it is working is where most small teams get stuck. That is exactly what my services cover, from acquisition strategy through to the reporting layer behind it. [Get in touch](/contact) if you want a second opinion on your budget before you commit to next quarter's number.

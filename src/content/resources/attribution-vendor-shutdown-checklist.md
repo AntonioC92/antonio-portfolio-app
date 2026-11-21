@@ -66,4 +66,4 @@ Teams that already treat their stack as something to review regularly tend to ca
 
 Treat this as a standing habit: export on a schedule, document what depends on what, and treat the exit plan as part of every purchase decision instead of something written during a 60-day countdown. Every tool carries some vendor risk, and that's manageable once you know what you're exposed to before a notice ever arrives.
 
-If your team is staring at a LeadsRx-shaped gap right now, or just realized you don't actually know what you'd lose if any current tool shut down tomorrow, that's exactly the kind of stack review we run with clients. [Get in touch](/contact) and we'll help you map the exit plan before you need one.
+If your team is staring at a LeadsRx-shaped gap right now, or just realized you don't actually know what you'd lose if any current tool shut down tomorrow, that's exactly the kind of stack review I run with clients. [Get in touch](/contact) and I'll help you map the exit plan before you need one.

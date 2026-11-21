@@ -36,7 +36,7 @@ Saying yes by default costs more than the subscription. Each new tool adds a log
 
 Unused capacity is the clearest sign. Zylo's [2024 index](https://zylo.com/news/2024-saas-management-index) found companies were only using 49 percent of their provisioned licences, and that more than a third of their applications were shadow IT.
 
-We see the same pattern in small teams on a smaller scale. Two tools doing the same job, a third one nobody remembers buying, and an operations lead who spends Fridays fixing the sync between them. That load is why we argue marketing ops is so often [underfunded](/insights/marketing-ops-underfunded).
+I see the same pattern in small teams on a smaller scale. Two tools doing the same job, a third one nobody remembers buying, and an operations lead who spends Fridays fixing the sync between them. That load is why I argue marketing ops is so often [underfunded](/insights/marketing-ops-underfunded).
 
 ## The request process, in five steps
 
@@ -48,7 +48,7 @@ A workable request process has five steps, and it should take days. It starts wi
 4. The tool starts on a 60 or 90 day trial with a fixed review date, and security and finance see it before any annual contract.
 5. At the review date, the owner shows the measure, and the tool is either kept, replaced or cancelled.
 
-Step 2 is where most requests resolve. In our experience, a large share of "we need a new tool" requests turn out to be features the team already has and never set up. Others need a small [automation](/insights/automating-marketing-workflows) between two tools you already pay for.
+Step 2 is where most requests resolve. In my experience, a large share of "we need a new tool" requests turn out to be features the team already has and never set up. Others need a small [automation](/insights/automating-marketing-workflows) between two tools you already pay for.
 
 ## Who decides, and how fast
 
@@ -74,4 +74,4 @@ If you have never done a full pass, start with a one-day [stack audit](/insights
 
 The review is also where the request process proves its value. Teams that have just been through a [consolidation](/insights/martech-stack-consolidation) usually find the request form is what keeps the savings from disappearing within a year.
 
-If new tool requests keep landing on one overloaded person, we help teams set up the request form, the inventory and the quarterly review in a few weeks. See our [services](/services) or [contact us](/contact) to talk it through.
+If new tool requests keep landing on one overloaded person, I help teams set up the request form, the inventory and the quarterly review in a few weeks. See my [services](/services) or [contact me](/contact) to talk it through.

@@ -26,7 +26,7 @@ Attribution is a bookkeeping exercise. It takes the touchpoints a user interacte
 
 None of these rules know what actually caused the purchase. They know what happened before it, which is a different thing entirely. Last-click attribution in particular tends toward [over-crediting paid media](https://www.incrmntal.com/faq/what-is-the-difference-between-attribution-and-incrementality) for conversions that would have happened without any ad at all, because it rewards whichever channel happened to be closest to the moment of purchase.
 
-The mechanics have also gotten shakier. Cross-device journeys, cookie restrictions, and consent-based tracking mean a growing share of touchpoints simply can't be tied back to a customer's later actions, per [Braze](https://www.braze.com/resources/articles/challenges-of-marketing-attribution). A platform dashboard showing clean, confident numbers is often hiding gaps the platform itself can't see. We've walked through exactly what breaks after a [platform migration](/insights/attribution-gaps-after-platform-migration) strips out that historical data entirely.
+The mechanics have also gotten shakier. Cross-device journeys, cookie restrictions, and consent-based tracking mean a growing share of touchpoints simply can't be tied back to a customer's later actions, per [Braze](https://www.braze.com/resources/articles/challenges-of-marketing-attribution). A platform dashboard showing clean, confident numbers is often hiding gaps the platform itself can't see. I've walked through exactly what breaks after a [platform migration](/insights/attribution-gaps-after-platform-migration) strips out that historical data entirely.
 
 ## What measurement covers that attribution doesn't
 
@@ -48,11 +48,11 @@ Some channels genuinely do deserve to be cut. The point is to test before cuttin
 
 ## Why the confusion costs you budget
 
-Here's the pattern we see most often. A campaign shows strong last-click numbers, so it keeps getting funded. A brand or upper-funnel channel shows weak attributed conversions, so it gets cut first when budget tightens.
+Here's the pattern I see most often. A campaign shows strong last-click numbers, so it keeps getting funded. A brand or upper-funnel channel shows weak attributed conversions, so it gets cut first when budget tightens.
 
 The problem is that upper-funnel channels rarely win attribution credit by design. They set up the conversion; they don't close it. Cutting them because attribution shows them underperforming often just shifts more of the workload onto whichever channel sits closest to checkout, and total pipeline shrinks even though the attribution report for the surviving channel looks better than ever.
 
-This is the same failure mode search engines are running into with AI answer summaries: the system optimizes for whatever it can measure cleanly, and the parts of the picture that resist easy measurement quietly lose their budget. We've written about that gap in [AI search citations](/insights/how-ai-search-engines-decide-which-sites-to-cite), and the fix is structurally similar here too. You have to build measurement that accounts for what the easy metric can't see.
+This is the same failure mode search engines are running into with AI answer summaries: the system optimizes for whatever it can measure cleanly, and the parts of the picture that resist easy measurement quietly lose their budget. I've written about that gap in [AI search citations](/insights/how-ai-search-engines-decide-which-sites-to-cite), and the fix is structurally similar here too. You have to build measurement that accounts for what the easy metric can't see.
 
 ## Building a system that uses both
 
@@ -60,11 +60,11 @@ Don't throw out attribution. It's still useful for tactical, in-platform decisio
 
 For budget-level decisions, and anything a founder or board will act on, layer in a second signal. That could be a quarterly incrementality test on your largest channel, a simple pre/post holdout when you pause a campaign, or a lightweight mix model if you have the volume to support one. The goal is a second data point that doesn't share attribution's blind spots.
 
-Get the tracking foundation right first. A UTM system nobody actually follows, or GA4 event names that stay inconsistent, will corrupt both your attribution data and any measurement layered on top of it. We covered the fuller picture of what decision-grade tracking requires in our piece on [attribution in 2026](/insights/attribution-challenges-2025).
+Get the tracking foundation right first. A UTM system nobody actually follows, or GA4 event names that stay inconsistent, will corrupt both your attribution data and any measurement layered on top of it. I covered the fuller picture of what decision-grade tracking requires in my piece on [attribution in 2026](/insights/attribution-challenges-2025).
 
 Finally, tie whatever you measure back to a small number of [core KPIs](/insights/marketing-kpis-that-actually-matter) that matter to the business, and treat every other metric a platform surfaces as background context. A dashboard with forty numbers doesn't make you more rigorous. It just makes it easier to find one that agrees with whatever you already wanted to do.
 
-If your current reporting can't tell you whether a channel is causing growth or just riding alongside it, the fix belongs at the system level, above whatever settings your attribution tool exposes. Our services cover building that measurement layer properly, or [get in touch](/contact) and we'll walk through what your current setup is actually telling you.
+If your current reporting can't tell you whether a channel is causing growth or just riding alongside it, the fix belongs at the system level, above whatever settings your attribution tool exposes. My services cover building that measurement layer properly, or [get in touch](/contact) and I'll walk through what your current setup is actually telling you.
 
 ## FAQ
 

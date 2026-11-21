@@ -66,12 +66,12 @@ Pause automated changes whenever the model's inputs change in a way it cannot se
 
 Watch the gap between predicted and actual results every month. If a channel the model scaled up keeps underdelivering against its forecast for two cycles in a row, put that channel back on manual approval until a test explains the difference.
 
-The rule about data quality never goes away. A model fitted to broken conversion tracking will recommend confident, precise and wrong budget moves, which is why we cover the [data requirements](/insights/marketing-mix-modeling-data-requirements) before any of this.
+The rule about data quality never goes away. A model fitted to broken conversion tracking will recommend confident, precise and wrong budget moves, which is why I cover the [data requirements](/insights/marketing-mix-modeling-data-requirements) before any of this.
 
 ## Who stays accountable
 
 Automation moves the money, but a named person still owns each decision. The budget owner approves the guardrails, reviews the change log every month, and answers for the results. Without that, automated changes become nobody's responsibility the first time one goes wrong.
 
-In most small teams, that owner already exists. It is the person who runs the reallocation meetings we described in our guide to turning MMM output into [budget decisions](/insights/mmm-results-budget-decisions), and automation simply takes the routine moves off their desk.
+In most small teams, that owner already exists. It is the person who runs the reallocation meetings I described in my guide to turning MMM output into [budget decisions](/insights/mmm-results-budget-decisions), and automation simply takes the routine moves off their desk.
 
-If you are still choosing a platform, ask how it handles caps, constraints and approval before you sign, alongside the other [vendor questions](/insights/mmm-vendor-questions) worth raising. If you want help setting up guardrails and an approval flow around your model, see our [services](/services) or [contact us](/contact).
+If you are still choosing a platform, ask how it handles caps, constraints and approval before you sign, alongside the other [vendor questions](/insights/mmm-vendor-questions) worth raising. If you want help setting up guardrails and an approval flow around your model, see my [services](/services) or [contact me](/contact).

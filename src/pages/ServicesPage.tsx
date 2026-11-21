@@ -39,7 +39,7 @@ const services = [
   {
     icon: '📈',
     name: 'Acquisition Systems',
-    desc: 'Paid media strategy and execution built around your revenue targets. We plan the channel mix, run campaigns across LinkedIn, Google, Meta, TikTok, and Pinterest, and design the funnel that converts traffic into pipeline.',
+    desc: 'Paid media strategy and execution built around your revenue targets. I plan the channel mix, run campaigns across LinkedIn, Google, Meta, TikTok, and Pinterest, and design the funnel that converts traffic into pipeline.',
     items: [
       'Paid media strategy and channel mix planning',
       'Campaign setup, management, and optimisation',
@@ -50,7 +50,7 @@ const services = [
   {
     icon: '🔍',
     name: 'AI Search & Experience',
-    desc: 'Search has changed. AI Overviews, featured snippets, and chat-based discovery now sit above the blue links. We build the SEO and UX strategy that gets you found in both, and converts the traffic once it arrives.',
+    desc: 'Search has changed. AI Overviews, featured snippets, and chat-based discovery now sit above the blue links. I build the SEO and UX strategy that gets you found in both, and converts the traffic once it arrives.',
     items: [
       'Technical SEO audit and remediation',
       'Keyword strategy and AI search optimisation',
@@ -88,12 +88,12 @@ const faqs = [
   {
     question: "What does a marketing automation consultant do?",
     answer:
-      "A marketing automation consultant designs and builds the workflows that move a lead from first contact to sale: lead capture, CRM setup, lead scoring, nurturing emails and the reports that tie it all to revenue. Our automation work connects that layer to the paid media and attribution around it, so campaigns learn from what closes.",
+      "A marketing automation consultant designs and builds the workflows that move a lead from first contact to sale: lead capture, CRM setup, lead scoring, nurturing emails and the reports that tie it all to revenue. My automation work connects that layer to the paid media and attribution around it, so campaigns learn from what closes.",
   },
   {
     question: "Do you work with HubSpot?",
     answer:
-      "Yes. HubSpot setup and automation is a large part of our Automation and Intelligence practice: CRM properties and pipelines, lead scoring, lifecycle workflows, form tracking and dashboards. It also covers sending closed deals back to Google Ads and other ad platforms, so campaigns optimise for the leads that turn into revenue.",
+      "Yes. HubSpot setup and automation is a large part of my Automation and Intelligence work: CRM properties and pipelines, lead scoring, lifecycle workflows, form tracking and dashboards. It also covers sending closed deals back to Google Ads and other ad platforms, so campaigns optimise for the leads that turn into revenue.",
   },
   {
     question: "How much does it cost to work with Caruso Martech?",
@@ -103,12 +103,12 @@ const faqs = [
   {
     question: "Where are you based, and which markets do you work with?",
     answer:
-      "Caruso Martech is based in Malta, serving the UK, Ireland and the US, and businesses in Malta. Our past work spans seven markets, the UK, US, Ireland, Italy, Spain, Brazil and Australia, in English, Italian, Portuguese and Spanish. Calls and delivery run remotely.",
+      "Caruso Martech is based in Malta, serving the UK, Ireland and the US, and businesses in Malta. My past work spans seven markets, the UK, US, Ireland, Italy, Spain, Brazil and Australia, in English, Italian, Portuguese and Spanish. Calls and delivery run remotely.",
   },
   {
     question: "What results have you delivered for clients?",
     answer:
-      "Past results, for those clients: EUR 135,000 in revenue from EUR 30,000 of LinkedIn spend for the Jobbio career fair, about 4.5x return. EUR 72,000 in ticket revenue on EUR 4,639 of ad spend for the Beer Festival Dublin, 3,971 tickets. Results depend on the market, offer and budget, so we never promise numbers.",
+      "Past results, for those clients: EUR 135,000 in revenue from EUR 30,000 of LinkedIn spend for the Jobbio career fair, about 4.5x return. EUR 72,000 in ticket revenue on EUR 4,639 of ad spend for the Beer Festival Dublin, 3,971 tickets. Results depend on the market, offer and budget, so I never promise numbers.",
   },
 ];
 
@@ -184,7 +184,7 @@ export function ServicesPage(): JSX.Element {
         <TestimonialSection />
 
         <EngagementSection>
-          <SectionLabel>Questions we get asked</SectionLabel>
+          <SectionLabel>Questions I get asked</SectionLabel>
           <FaqList>
             {faqs.map((f) => (
               <FaqItem key={f.question}>

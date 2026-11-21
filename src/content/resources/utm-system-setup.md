@@ -28,7 +28,7 @@ UTM parameters are just query string tags appended to a URL, five of them, defin
 
 What breaks is consistency. A tag is just a string. GA4 treats `Email` and `email` as two different sources, and treats a missing `utm_medium` as unassigned traffic. Every inconsistency splits your data instead of merging it, and small teams rarely notice until the quarterly numbers stop making sense.
 
-This is the same failure mode we cover in [GA4 event naming](/insights/ga4-event-naming): a governance problem wearing an analytics costume. The tool is never the issue. The absence of a rule, and someone to enforce it, is.
+This is the same failure mode I cover in [GA4 event naming](/insights/ga4-event-naming): a governance problem wearing an analytics costume. The tool is never the issue. The absence of a rule, and someone to enforce it, is.
 
 ## The five parameters, and what actually goes in each one
 
@@ -78,4 +78,4 @@ Run this audit monthly, not annually. It takes fifteen minutes once the conventi
 
 Clean UTM data is the foundation everything else in your [attribution model](/insights/attribution-challenges-2025) depends on. A well-built dashboard cannot fix source data that was never consistent to begin with. Get the tagging right and the rest of the marketing system gets meaningfully easier to trust.
 
-None of this needs new software or a bigger budget. It needs one written rule, one place to enforce it, and a short monthly check. We help growing marketing teams build exactly this kind of tracking discipline into how they operate day to day. If your reporting has started to feel unreliable, [get in touch](/contact) or take a look at how we approach this work.
+None of this needs new software or a bigger budget. It needs one written rule, one place to enforce it, and a short monthly check. I help growing marketing teams build exactly this kind of tracking discipline into how they operate day to day. If your reporting has started to feel unreliable, [get in touch](/contact) or take a look at how I approach this work.

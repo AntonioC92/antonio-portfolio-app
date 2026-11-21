@@ -26,7 +26,7 @@ This is now the normal state for any team using more than one measurement method
 
 The three methods disagree because they answer different questions. Attribution assigns credit for conversions it can track to the touchpoints it saw. Incrementality tests measure what a channel added during a test. A marketing mix model estimates each channel's contribution from aggregate spend and outcomes over months or years.
 
-Attribution only sees the journey it can track, so it tends to over-credit channels close to the conversion, like branded search and retargeting. It also misses influence that never produces a trackable click, a gap we covered in our piece on attribution and [measurement](/insights/attribution-vs-measurement).
+Attribution only sees the journey it can track, so it tends to over-credit channels close to the conversion, like branded search and retargeting. It also misses influence that never produces a trackable click, a gap I covered in my piece on attribution and [measurement](/insights/attribution-vs-measurement).
 
 Incrementality tests are precise for one channel in one period, and they cost money and time to run, so most teams can only afford a few each year. Models see the whole picture across a long window, and they depend heavily on clean input data and sensible assumptions. Each method is wrong in a different direction, which is exactly why comparing them is useful.
 
@@ -66,7 +66,7 @@ The MarTech coverage makes the same point: divergences between models can flag d
 
 Typical causes are easy to test. Compare conversion counts in the ad platforms, analytics and CRM for the same week, check that spend figures match invoices, and confirm that nothing changed in your consent banner or tag setup.
 
-Platform changes are the most common trigger we see. A move to a new CRM, analytics property or ad account structure breaks tracking in quiet ways, and our [migration checklist](/insights/attribution-gaps-after-platform-migration) covers where to look first.
+Platform changes are the most common trigger I see. A move to a new CRM, analytics property or ad account structure breaks tracking in quiet ways, and my [migration checklist](/insights/attribution-gaps-after-platform-migration) covers where to look first.
 
 ## What teams that do this well have in common
 
@@ -74,6 +74,6 @@ The teams that get value from measurement connect their methods into one process
 
 The data backs this up. A Harvard Business Review and Google report, covered by [Mobile Marketing Reads](https://www.mobilemarketingreads.com/marketers-push-to-operationalize-mmm-as-adoption-grows-but-execution-gaps-persist/), found 40 percent of leading organisations have connected MMM with other measurement systems, against 15 percent of laggards.
 
-Connecting the methods also changes the budget conversation. Instead of three reports arguing, the team brings one view with known gaps, which is how we approach turning model output into [budget decisions](/insights/mmm-results-budget-decisions).
+Connecting the methods also changes the budget conversation. Instead of three reports arguing, the team brings one view with known gaps, which is how I approach turning model output into [budget decisions](/insights/mmm-results-budget-decisions).
 
-If your attribution, tests and model keep telling different stories, we help teams set up the cross-check routine and the calibration loop between them. See our [services](/services) or [contact us](/contact) to talk it through.
+If your attribution, tests and model keep telling different stories, I help teams set up the cross-check routine and the calibration loop between them. See my [services](/services) or [contact me](/contact) to talk it through.

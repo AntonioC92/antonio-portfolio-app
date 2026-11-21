@@ -28,7 +28,7 @@ MMM results stall because the output arrives in a format that does not match how
 
 The same report points to the friction behind it. Nearly half of respondents cited data quality as their top technical problem, 46 percent named slow internal workflows as a major obstacle, and 72 percent said MMM insights stay inside a small team.
 
-That last number explains a lot. When the only people who understand the model are the analysts who built it, every recommendation has to be re-argued from scratch in the budget meeting. If your team is still deciding whether a model is worth the effort, our guide to [data requirements](/insights/marketing-mix-modeling-data-requirements) covers what has to be true before the output deserves that trust.
+That last number explains a lot. When the only people who understand the model are the analysts who built it, every recommendation has to be re-argued from scratch in the budget meeting. If your team is still deciding whether a model is worth the effort, my guide to [data requirements](/insights/marketing-mix-modeling-data-requirements) covers what has to be true before the output deserves that trust.
 
 ## Read marginal ROI before average ROI
 
@@ -36,7 +36,7 @@ Marginal ROI tells you what the next unit of spend will return, and that is the 
 
 Google's [Meridian documentation](https://developers.google.com/meridian/docs/basics/roi-mroi-response-curves) draws this distinction directly: ROI is a historical, channel-wide average, while marginal ROI is the return on the next dollar spent. The two can point in opposite directions.
 
-We see this most often with paid search. Branded and high-intent search usually shows the best average return in the model, which makes it the natural place to add money. Its marginal return is often much lower, because the demand it captures is close to fully harvested at current spend.
+I see this most often with paid search. Branded and high-intent search usually shows the best average return in the model, which makes it the natural place to add money. Its marginal return is often much lower, because the demand it captures is close to fully harvested at current spend.
 
 The practical rule is simple. Rank channels by marginal ROI when deciding where the next tranche goes, and use average ROI only to explain past performance to stakeholders.
 
@@ -74,7 +74,7 @@ The owner's job is narrow and clear. Move money within the agreed floor and ceil
 
 This setup also fixes the access problem. When the owner explains each change in plain terms, the model stops being a black box held by the analysts. Teams still building their measurement foundation can start with what a [small team](/insights/marketing-mix-modeling-small-teams) actually needs before adding this layer.
 
-If your model is producing charts that never reach the budget, we help teams set up the ranges, tests and review cadence that turn MMM output into spend decisions. See how we work on our [services](/services) page, or [contact us](/contact) before your 2027 numbers are locked.
+If your model is producing charts that never reach the budget, I help teams set up the ranges, tests and review cadence that turn MMM output into spend decisions. See how I work on my [services](/services) page, or [contact me](/contact) before your 2027 numbers are locked.
 
 ## FAQ
 

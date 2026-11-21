@@ -74,4 +74,4 @@ Ask for one decision: approval of a first phase with a defined saving, a named o
 
 Bring the plan for keeping the savings as well. CFOs have seen software costs creep back after clean-up projects, and a simple [request process](/insights/martech-tool-request-process) for new tools answers that concern directly.
 
-At the review date, report the cash that actually came back against the table you presented. If you want help building the inventory, cost model and renewal timeline before that meeting, see our [services](/services) or [contact us](/contact) ahead of your 2027 budget round.
+At the review date, report the cash that actually came back against the table you presented. If you want help building the inventory, cost model and renewal timeline before that meeting, see my [services](/services) or [contact me](/contact) ahead of your 2027 budget round.

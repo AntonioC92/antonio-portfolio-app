@@ -308,7 +308,7 @@ export function ResourceDetailPage(): JSX.Element {
         <SignatureSection>
           <AuthorTitle>Caruso Martech</AuthorTitle>
           <AuthorText>
-            We write about marketing systems, attribution, and growth operations because these are the problems we work on every day. If something in this post is relevant to what you're building, we're happy to talk through it.
+            I write about marketing systems, attribution, and growth operations because these are the problems I work on every day. If something in this post is relevant to what you're building, I'm happy to talk through it.
           </AuthorText>
           <SignatureCtaRow>
             <CtaBtnPrimary

@@ -30,7 +30,7 @@ Everything else, including traffic, followers, and email open rates, belongs in 
 
 Vanity metrics survive because they are easy to pull and always trend upward somewhere. [ReportDash](https://www.reportdash.com/blog/vanity-metrics) cites a survey finding that 60 percent of marketers still treat website traffic as their top KPI, despite its weak link to revenue or loyalty. The same research found that 89 percent of the strongest-performing marketers had already moved past this, aligning their KPIs to revenue, growth, and retention instead.
 
-The problem compounds as buyer research moves off-page. Chat interfaces and AI Overviews now answer questions that used to generate a tracked click, which means traffic and session counts capture a shrinking share of the real journey. We covered this shift in detail in [this piece](/insights/ai-search-attribution-gap) on AI search and attribution, and it is one more reason a dashboard built on session-based metrics alone will increasingly mislead the team reading it.
+The problem compounds as buyer research moves off-page. Chat interfaces and AI Overviews now answer questions that used to generate a tracked click, which means traffic and session counts capture a shrinking share of the real journey. I covered this shift in detail in [this piece](/insights/ai-search-attribution-gap) on AI search and attribution, and it is one more reason a dashboard built on session-based metrics alone will increasingly mislead the team reading it.
 
 A dashboard should exist to support a decision: raise a budget, cut a channel, change a message, hire another rep. If a metric does not change what someone does next week, it should not be on the front screen.
 
@@ -42,7 +42,7 @@ A dashboard should exist to support a decision: raise a budget, cut a channel, c
 
 **Conversion rate by funnel stage.** One blended conversion rate tells you almost nothing about where a prospect drops off. Break it into stages: visit to lead, lead to opportunity, opportunity to close. This is usually where the real problem lives, and it is invisible in a single top-line number.
 
-**Revenue per channel.** Closed revenue, tied back through the CRM to the channel that originated it. This requires a working attribution model, which is its own discipline. We wrote a longer breakdown of how to build one in our [attribution guide](/insights/attribution-challenges-2025).
+**Revenue per channel.** Closed revenue, tied back through the CRM to the channel that originated it. This requires a working attribution model, which is its own discipline. I wrote a longer breakdown of how to build one in my [attribution guide](/insights/attribution-challenges-2025).
 
 **Retention or repeat purchase rate.** Growth only compounds if customers stick around. Track how many customers are still active, still buying, or still renewing after a defined period, and put it next to acquisition numbers so leadership sees both halves of the picture at once.
 
@@ -50,13 +50,13 @@ A dashboard should exist to support a decision: raise a budget, cut a channel, c
 
 Most small teams can fix this without buying a new platform. The move is to stop pulling five disconnected reports and start pulling one.
 
-Start with what already exists. A short audit of the current stack, along the lines of the process in our [martech audit](/insights/martech-stack-audit), usually turns up two or three tools already capable of feeding a shared dashboard: the CRM, the ad platforms, and whatever analytics tool is already installed. Looker Studio, a shared spreadsheet, or a lightweight BI tool can pull from all three without a new contract.
+Start with what already exists. A short audit of the current stack, along the lines of the process in my [martech audit](/insights/martech-stack-audit), usually turns up two or three tools already capable of feeding a shared dashboard: the CRM, the ad platforms, and whatever analytics tool is already installed. Looker Studio, a shared spreadsheet, or a lightweight BI tool can pull from all three without a new contract.
 
 Anchor each metric to one source of truth. Define CAC as ad spend divided by CRM-attributed customers. Pull revenue per channel from the CRM's closed-deal data.
 
 Disagreements between tools are normal. Pick one owner per metric and move on.
 
-Review it on a fixed cadence, weekly for the leading indicators like conversion rate, monthly for lagging ones like retention. A dashboard nobody opens is just a screenshot. This is also where a broader measurement structure earns its keep: the KPI layer described here fits inside the wider approach we laid out in our [marketing system](/insights/modern-marketing-system-2025) blueprint, where measurement is one of four layers that all have to work together.
+Review it on a fixed cadence, weekly for the leading indicators like conversion rate, monthly for lagging ones like retention. A dashboard nobody opens is just a screenshot. This is also where a broader measurement structure earns its keep: the KPI layer described here fits inside the wider approach I laid out in my [marketing system](/insights/modern-marketing-system-2025) blueprint, where measurement is one of four layers that all have to work together.
 
 ## The mistakes that sink a first dashboard
 
@@ -68,4 +68,4 @@ The second is building it once and never revisiting the definitions. Channels ch
 
 Getting this right comes down to picking the right questions before reaching for new software. Once the five core numbers are in place and everyone agrees on where they come from, the rest of the reporting stack gets much easier to trust.
 
-If your team is still stitching together five reports before every leadership meeting, that usually signals the measurement layer needs rebuilding. That is exactly the kind of system we help small marketing teams put in place. Take a look at our services, or [reach out](/contact) if you want a second pair of eyes on what your dashboard should actually track.
+If your team is still stitching together five reports before every leadership meeting, that usually signals the measurement layer needs rebuilding. That is exactly the kind of system I help small marketing teams put in place. Take a look at my services, or [reach out](/contact) if you want a second pair of eyes on what your dashboard should actually track.

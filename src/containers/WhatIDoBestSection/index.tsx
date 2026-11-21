@@ -44,7 +44,7 @@ export function WhatIDoBestSection(): JSX.Element {
                   <Title>{col.title}</Title>
                   <SubTitle>{col.subtitle}</SubTitle>
                   <ServiceLink onClick={() => navigate('/services/')}>
-                    Explore our services {'→'}
+                    Explore my services {'→'}
                   </ServiceLink>
                 </Column>
                 {i < columns.length - 1 && <ArrowDivider>→</ArrowDivider>}

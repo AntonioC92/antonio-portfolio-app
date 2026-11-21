@@ -67,12 +67,12 @@ Either version of the wrong hire is expensive to unwind. Replacing an employee a
 
 For businesses without a marketing function yet, the order that tends to work is fractional leadership first, then a marketing manager once there is a real plan to execute. A short fractional engagement, often 60 to 90 days, produces a clear operating model: which channels to run, how to measure them, and what the next hire should actually own. Once that exists, a marketing manager can walk in with a real brief instead of a blank page.
 
-Businesses that already have a working plan and simply need it run well can skip straight to the execution hire. Before doing that, it is worth confirming the plan is actually as solid as it looks. Our [readiness checklist](/insights/marketing-automation-readiness-checklist) is a fast way to pressure-test that before committing to a salary.
+Businesses that already have a working plan and simply need it run well can skip straight to the execution hire. Before doing that, it is worth confirming the plan is actually as solid as it looks. My [readiness checklist](/insights/marketing-automation-readiness-checklist) is a fast way to pressure-test that before committing to a salary.
 
 ## What to have in place before either hire starts
 
 Whichever role comes first, the first 30 days go better when basic infrastructure already exists: a CRM that reflects reality, a shared definition of a qualified lead, and reporting that leadership trusts without having to double-check it. None of that requires a senior marketing hire to build. It requires an hour spent on a [stack audit](/insights/martech-stack-audit) before the search even starts, so whoever joins can be useful in week one instead of week eight.
 
-We help small business owners and scale-up teams work out exactly which of these hires solves the problem actually in front of them, then build the plan and the systems underneath it so the hire has something real to run from day one. If you are weighing this decision now, our [services](/services) page covers how that engagement typically works.
+I help small business owners and scale-up teams work out exactly which of these hires solves the problem actually in front of them, then build the plan and the systems underneath it so the hire has something real to run from day one. If you are weighing this decision now, my [services](/services) page covers how that engagement typically works.
 
 Or you can [get in touch](/contact) to talk through where your business stands.
