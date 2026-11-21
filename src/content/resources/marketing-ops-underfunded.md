@@ -43,9 +43,9 @@ This mismatch shows up at scale too, in organizations with far bigger budgets th
 
 The cost shows up in three places, and none of them read as a missing headcount line.
 
-The first is tool waste. [WebFX](https://www.webfx.com/martech/statistics/) found that 45 percent of marketers say they are not fully using the martech tools they already pay for. Nobody owns making sure a paid tool earns its cost, which is exactly the gap our [stack audit](/insights/martech-stack-audit) framework was built to close.
+The first is tool waste. [WebFX](https://www.webfx.com/martech/statistics/) found that 45 percent of marketers say they are not fully using the martech tools they already pay for. Nobody owns making sure a paid tool earns its cost, which is exactly the gap my [stack audit](/insights/martech-stack-audit) framework was built to close.
 
-The second is bad data. When nobody owns the reporting pipeline, small inconsistencies (a missing UTM parameter, a duplicated lead, a broken integration) quietly compound. Our piece on the [KPIs](/insights/marketing-kpis-that-actually-matter) that actually matter only holds up if the underlying pipeline is trustworthy, and that trust is an ops function.
+The second is bad data. When nobody owns the reporting pipeline, small inconsistencies (a missing UTM parameter, a duplicated lead, a broken integration) quietly compound. My piece on the [KPIs](/insights/marketing-kpis-that-actually-matter) that actually matter only holds up if the underlying pipeline is trustworthy, and that trust is an ops function.
 
 The third is slower decisions. Every extra hour spent reconciling numbers before a leadership meeting is an hour not spent acting on what those numbers say. Small teams rarely notice this cost on its own. Across a year, it adds up to a meaningfully slower feedback loop than a team with clean ops runs on.
 
@@ -57,7 +57,7 @@ Hiring data backs this up. [Robert Half's](https://www.roberthalf.com/us/en/insi
 
 At a three-to-ten person marketing team, ops can start as a defined slice of an existing role, often 20 to 30 percent of someone's time. That slice needs to be fenced off and defended, even when a campaign deadline gets tight.
 
-The scope should cover four things: the tool stack and its integrations, the reporting pipeline and its accuracy, campaign infrastructure like naming conventions and UTM structure, and the handoff points with sales or finance. Our [automation readiness](/insights/marketing-automation-readiness-checklist) checklist is a useful starting point for scoping this before assigning it to anyone.
+The scope should cover four things: the tool stack and its integrations, the reporting pipeline and its accuracy, campaign infrastructure like naming conventions and UTM structure, and the handoff points with sales or finance. My [automation readiness](/insights/marketing-automation-readiness-checklist) checklist is a useful starting point for scoping this before assigning it to anyone.
 
 As the team passes ten people, or adds a second major channel, that slice of a role usually needs to become a dedicated hire. Waiting until the stack has already broken down makes that hire more expensive, because someone has to unwind the mess before they can start managing it.
 
@@ -69,4 +69,4 @@ Frame ops as the function that makes the rest of the budget accountable: the lay
 
 Bring one concrete example to the conversation rather than a general appeal. Pick the tool renewal, the delayed launch, or the reporting error that cost the most last quarter, and walk the room through what a dedicated owner would have caught. A specific near-miss is far more persuasive than an abstract efficiency argument, because it gives leadership a real event to weigh against a real salary.
 
-If your team is at the point where nobody quite owns the stack, the data, or the handoffs, that gap is exactly what our services are built to close, from a first ops audit through to building the system that runs without you chasing it. [Get in touch](/contact) if you want a second opinion on whether this year's next hire should go toward another campaign or toward the role that makes every campaign work.
+If your team is at the point where nobody quite owns the stack, the data, or the handoffs, that gap is exactly what my services are built to close, from a first ops audit through to building the system that runs without you chasing it. [Get in touch](/contact) if you want a second opinion on whether this year's next hire should go toward another campaign or toward the role that makes every campaign work.

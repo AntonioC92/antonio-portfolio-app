@@ -177,7 +177,7 @@ ${items.join('\n')}
 // the same way sitemap.xml is, keeps it in sync with src/content/resources/
 // on every build. public/llms.txt stays only as the dev-server fallback.
 const llmsStaticPages = [
-  { title: 'Home',     path: '/',          description: 'Overview of Caruso Martech and what we do. Marketing systems and growth strategy for SaaS, events, ecommerce, and professional services.' },
+  { title: 'Home',     path: '/',          description: 'Overview of Caruso Martech and what Antonio does. Marketing systems and growth strategy for SaaS, events, ecommerce, and professional services.' },
   { title: 'Work',     path: '/work/',     description: 'Case studies from paid media campaigns across events, B2B, coaching, and recreation verticals, with measurable ROAS and lead generation results.' },
   { title: 'Services', path: '/services/', description: 'Services covering growth strategy, paid media, SEO, marketing automation, and analytics. Retainer and project engagements available.' },
   { title: 'About',    path: '/about/',    description: 'The thinking behind Caruso Martech and the approach to fixing broken marketing systems across industries.' },
@@ -194,9 +194,9 @@ function buildLlmsTxt(resources) {
     .join('\n');
   return `# Caruso Martech
 
-> Caruso Martech is a marketing consultancy based in Malta that builds marketing systems and growth strategy for small businesses and scale-up teams, serving the UK, Ireland and the US, and businesses in Malta. We work across strategy, paid media, marketing automation, and analytics for SaaS, events, ecommerce, and professional services companies, with budgets typically in the €5,000-€30,000 range.
+> Caruso Martech is the marketing consultancy of Antonio Caruso, based in Malta. It builds marketing systems and growth strategy for small businesses and scale-up teams, serving the UK, Ireland and the US, and businesses in Malta. Antonio works across strategy, paid media, marketing automation, and analytics for SaaS, events, ecommerce, and professional services companies, with budgets typically in the €5,000-€30,000 range.
 
-Key areas of work: performance marketing (Meta, Google, LinkedIn), marketing automation and CRM workflow design, SEO and AI search, and attribution and measurement, delivered as a retainer or a fixed-scope project. We favor practical, evidenced writing over generic marketing advice, with real campaign numbers and case studies wherever possible.
+Key areas of work: performance marketing (Meta, Google, LinkedIn), marketing automation and CRM workflow design, SEO and AI search, and attribution and measurement, delivered as a retainer or a fixed-scope project. The writing favors practical, evidenced writing over generic marketing advice, with real campaign numbers and case studies wherever possible.
 
 ## Pages
 

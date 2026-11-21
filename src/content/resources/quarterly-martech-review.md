@@ -76,6 +76,6 @@ Each review should leave three outputs: an updated inventory, a decision log wit
 
 That trend matters. [Zylo's](https://zylo.com/2026-saas-management-index) 2026 SaaS Management Index puts the average company portfolio at 305 applications, and marketing stacks grow the same way when nobody checks them.
 
-Use the quarterly numbers when you ask for budget changes or push back on a new tool request. A year of logged decisions makes a stronger case to finance than any one-off proposal, which is the approach we laid out for presenting a [CFO case](/insights/martech-consolidation-cfo-case).
+Use the quarterly numbers when you ask for budget changes or push back on a new tool request. A year of logged decisions makes a stronger case to finance than any one-off proposal, which is the approach I laid out for presenting a [CFO case](/insights/martech-consolidation-cfo-case).
 
-If you want help setting up the inventory, scorecard and first review, see our [services](/services) or [contact us](/contact) before your next renewal comes round.
+If you want help setting up the inventory, scorecard and first review, see my [services](/services) or [contact me](/contact) before your next renewal comes round.

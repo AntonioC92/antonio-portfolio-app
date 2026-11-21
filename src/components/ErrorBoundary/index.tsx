@@ -45,7 +45,7 @@ export class ErrorBoundary extends React.Component<Props, State> {
         >
           <h2 style={{ marginBottom: '1rem' }}>Something went wrong.</h2>
           <p style={{ opacity: 0.6, marginBottom: '1.5rem' }}>
-            Try refreshing the page. If it keeps happening, contact us.
+            Try refreshing the page. If it keeps happening, get in touch.
           </p>
           <button
             onClick={() => window.location.reload()}

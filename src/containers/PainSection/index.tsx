@@ -47,9 +47,9 @@ export function PainSection(): JSX.Element {
         </CardsRow>
 
         <FixBlock>
-          <FixEyebrow>How we fix it</FixEyebrow>
+          <FixEyebrow>How I fix it</FixEyebrow>
           <FixStatement>
-            We build the connective tissue your marketing is missing. One system where your
+            I build the connective tissue your marketing is missing. One system where your
             channels share data, your campaigns build on each other, and revenue stops being
             a guess.
           </FixStatement>

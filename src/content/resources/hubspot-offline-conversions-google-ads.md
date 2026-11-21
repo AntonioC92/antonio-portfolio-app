@@ -24,7 +24,7 @@ Most Google Ads accounts that sell services still optimise for the form fill. Th
 
 Google Ads bidding optimises toward whatever you mark as a conversion. If that is a form submission, the algorithm treats a student asking for a free template the same as a director asking for a proposal. Sending CRM milestones back gives it a signal tied to pipeline, so budget moves toward the searches and audiences that produce buyers.
 
-The gap is widest for businesses with a sales step between the lead and the money. A lead can take weeks to qualify and months to close, and Google only learns about it if you import it. Our [lead scoring](/insights/lead-scoring-system) guide covers how to decide which leads count as qualified, which is the definition this whole setup depends on.
+The gap is widest for businesses with a sales step between the lead and the money. A lead can take weeks to qualify and months to close, and Google only learns about it if you import it. My [lead scoring](/insights/lead-scoring-system) guide covers how to decide which leads count as qualified, which is the definition this whole setup depends on.
 
 ## Which HubSpot milestones to send
 
@@ -46,7 +46,7 @@ A fixed value per stage works when your deals are similar in size. If one client
 
 HubSpot's documentation points to a custom build with HubSpot workflows and Google's import API for actual deal amounts. Lighter options exist: [Zapier templates](https://zapier.com/apps/google-ads/integrations/hubspot) for HubSpot and Google Ads send an offline conversion when a deal reaches a chosen stage, passing the amount and close date. Whichever route you pick, the deal must be associated with the contact that holds the GCLID and email.
 
-Value-based bidding only helps when the values reflect real revenue, so check deal amounts are filled in consistently before you switch to them. Our piece on [bidding targets](/insights/google-ads-bidding-target-change-2026) covers what to review before changing how campaigns bid.
+Value-based bidding only helps when the values reflect real revenue, so check deal amounts are filled in consistently before you switch to them. My piece on [bidding targets](/insights/google-ads-bidding-target-change-2026) covers what to review before changing how campaigns bid.
 
 ## How to set it up: five steps
 
@@ -66,7 +66,7 @@ Google moved offline conversion imports to its Data Manager API in 2026. The [Go
 
 For teams on HubSpot's native sync, the change mostly sits behind the connector. For anyone with a custom script or older integration, it matters directly: a new build has to go through Data Manager. Google also now calls plain GCLID import a legacy feature and recommends enhanced conversions for leads, which [Google's guide](https://support.google.com/google-ads/answer/15713840) says adds hashed email or phone data while still asking you to include the GCLID whenever you have it.
 
-That pairing is the practical reason to collect both identifiers. In the UK and Ireland, consent banners and browser privacy settings mean some clicks arrive without a usable ID, and the email address recovers part of that loss. Our guide to [first-party data](/insights/first-party-data-strategy) covers how to collect it with the right consent.
+That pairing is the practical reason to collect both identifiers. In the UK and Ireland, consent banners and browser privacy settings mean some clicks arrive without a usable ID, and the email address recovers part of that loss. My guide to [first-party data](/insights/first-party-data-strategy) covers how to collect it with the right consent.
 
 ## Checks that keep the numbers honest
 
@@ -74,4 +74,4 @@ Imported conversions are only useful if they match what HubSpot records. Check t
 
 Look at the match rate in Google's diagnostics and at contacts missing a GCLID or email. Watch for duplicate sends when a contact moves back and forth between stages. Note the date each conversion action became primary, so later performance changes can be read against it.
 
-If you want help mapping your HubSpot stages to Google Ads conversions and getting the first imports to match, see our [services](/services) or [contact us](/contact) to plan the setup.
+If you want help mapping your HubSpot stages to Google Ads conversions and getting the first imports to match, see my [services](/services) or [contact me](/contact) to plan the setup.

@@ -53,7 +53,7 @@ export function WorkPage(): JSX.Element {
                 ))}
               </MetricsList>
               {cs.partner && (
-                <PartnerCaption>In partnership with {cs.partner}</PartnerCaption>
+                <PartnerCaption>Delivered with {cs.partner}</PartnerCaption>
               )}
               <CardCtaRow>
                 <CardCta href={`/case-studies/${cs.slug}`}>

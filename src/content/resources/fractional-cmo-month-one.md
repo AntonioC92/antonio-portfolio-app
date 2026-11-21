@@ -70,4 +70,4 @@ Cost is part of why the model spreads. A full-time marketing manager in the UK c
 
 None of this replaces the [decision framework](/insights/marketing-manager-vs-fractional-cmo) for choosing between a marketing manager and outside leadership in the first place. It only matters once that choice is made and the clock on month one has already started.
 
-Getting month one right is what makes the rest of a [marketing system](/insights/modern-marketing-system-2025) worth building. If your business is weighing whether outside marketing leadership is the right move, our [services](/services) page covers how we structure these engagements, or [get in touch](/contact) to talk through what your first 30 days would actually look like.
+Getting month one right is what makes the rest of a [marketing system](/insights/modern-marketing-system-2025) worth building. If your business is weighing whether outside marketing leadership is the right move, my [services](/services) page covers how I structure these engagements, or [get in touch](/contact) to talk through what your first 30 days would actually look like.

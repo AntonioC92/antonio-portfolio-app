@@ -69,4 +69,4 @@ The gap between a stated target and real performance is as much an attribution q
 
 Google will not be the last platform to tighten enforcement like this. Folding a bidding-target check into the same cadence as a broader [martech audit](/insights/martech-stack-audit), or the review checklist a team already runs before adopting new [automation](/insights/marketing-automation-readiness-checklist), keeps it from becoming a surprise every time a platform ships one of these updates.
 
-Checking this takes fifteen minutes and a habit of looking before Google looks for you. If that account review is one more thing competing with everything else on this week's list, it is the kind of work we fold into a broader [services](/services) engagement, or reach out through [contact](/contact) and we will go through the account together.
+Checking this takes fifteen minutes and a habit of looking before Google looks for you. If that account review is one more thing competing with everything else on this week's list, it is the kind of work I fold into a broader [services](/services) engagement, or reach out through [contact](/contact) and I will go through the account together.

@@ -30,7 +30,7 @@ There is evidence for that path. [TechWyse](https://www.techwyse.com/news/report
 
 Direct traffic tells a similar story. Some buyers type your address straight into the browser after reading an AI answer, so a rise in direct visits to your homepage often moves with branded search.
 
-The same gap appears across AI search generally. We covered why last-click models miss most of it in our piece on the [attribution gap](/insights/ai-search-attribution-gap).
+The same gap appears across AI search generally. I covered why last-click models miss most of it in my piece on the [attribution gap](/insights/ai-search-attribution-gap).
 
 ## What the research says, and its limits
 
@@ -70,8 +70,8 @@ Report branded search as a supporting signal of AI influence, with the limits st
 
 Keep it to one sentence and one chart on the page. Show branded impressions over six months with your AI citations on the same timeline, and mark known campaigns so nobody reads them as AI effects.
 
-That line fits into the one-page structure from our guide to [AI reporting](/insights/ai-search-performance-reporting), directly under the business outcomes it helps explain.
+That line fits into the one-page structure from my guide to [AI reporting](/insights/ai-search-performance-reporting), directly under the business outcomes it helps explain.
 
 For the citation data, the [Bing report](/insights/bing-ai-performance-report) is the only first-party source that tells you when AI answers cite your pages. Pair it with a prompt tracker if you also need ChatGPT and Perplexity coverage.
 
-If you want branded search, AI citations and pipeline set up in one monthly view, see our [services](/services) or [contact us](/contact) to talk through your reporting.
+If you want branded search, AI citations and pipeline set up in one monthly view, see my [services](/services) or [contact me](/contact) to talk through your reporting.

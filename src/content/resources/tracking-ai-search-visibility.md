@@ -12,7 +12,7 @@ tags: "ai search visibility, ai overviews, share of voice, ai search tracking"
 
 Most marketing teams can tell you exactly where they rank for their top keywords in Google. Ask the same team where their site shows up inside a ChatGPT answer or a Google [AI Overview](https://www.omnibound.ai/blog/google-ai-overviews-statistics), and the honest answer is usually "we don't know." That gap matters more each quarter. AI Overviews now appear on roughly half of US searches, and a growing share of buyers start their research inside a chat window instead of a search box.
 
-We've already covered how sites get [cited](/insights/how-ai-search-engines-decide-which-sites-to-cite) and how to [structure](/insights/structuring-pages-for-ai-citations) pages for it. This piece picks up the next question teams ask once that work is done: how do you actually know if it's working.
+I've already covered how sites get [cited](/insights/how-ai-search-engines-decide-which-sites-to-cite) and how to [structure](/insights/structuring-pages-for-ai-citations) pages for it. This piece picks up the next question teams ask once that work is done: how do you actually know if it's working.
 
 ## Quick answer: how do you track AI search visibility?
 
@@ -62,4 +62,4 @@ Then connect that data to what you already track. If your [Search Console](/insi
 
 One open [Quora thread](https://www.quora.com/How-do-you-track-brand-visibility-in-AI-search-ChatGPT-Gemini-etc) asking exactly this question is a reasonable proxy for where most teams still are: curious, unsure which tool to trust, and not yet running anything consistently.
 
-That's the gap worth closing before the next budget cycle starts, while you can still act ahead of a competitor's citation count. If you want help building a visibility program that ties back to pipeline instead of vanity mentions, [our services](/services) cover exactly this kind of measurement setup, or you can [get in touch](/contact) to talk through what a first 90 days would look like.
+That's the gap worth closing before the next budget cycle starts, while you can still act ahead of a competitor's citation count. If you want help building a visibility program that ties back to pipeline instead of vanity mentions, [my services](/services) cover exactly this kind of measurement setup, or you can [get in touch](/contact) to talk through what a first 90 days would look like.

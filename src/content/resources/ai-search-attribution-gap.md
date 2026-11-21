@@ -38,7 +38,7 @@ None of this means demand disappeared. The research phase moved somewhere your p
 
 AI search gets the headlines, but it compounds a measurement gap that predates it. [Refine Labs](https://www.refinelabs.com/article/attribution-mirage) found a roughly 90% gap between what software-based attribution tools report and what customers say actually influenced their decision. Dark social channels such as private community threads, DMs, and word of mouth show up as "Direct" or "Unknown" in most platforms.
 
-This matters most for small owner-operated businesses and scale-up companies, since your buyers are the ones most likely to ask a peer, a Slack community, or ChatGPT for a recommendation before ever filling out a form. Reporting that only credits the last tracked click is structurally biased toward channels that happen to be easy to measure, not the ones actually doing the influencing. We covered the mechanics of a cleaner measurement stack in [attribution fundamentals](/insights/attribution-challenges-2025), but the AI search shift adds a layer that GA4 and multi-touch models were never built to see.
+This matters most for small owner-operated businesses and scale-up companies, since your buyers are the ones most likely to ask a peer, a Slack community, or ChatGPT for a recommendation before ever filling out a form. Reporting that only credits the last tracked click is structurally biased toward channels that happen to be easy to measure, not the ones actually doing the influencing. I covered the mechanics of a cleaner measurement stack in [attribution fundamentals](/insights/attribution-challenges-2025), but the AI search shift adds a layer that GA4 and multi-touch models were never built to see.
 
 ## What to track instead of clicks
 
@@ -68,6 +68,6 @@ None of these four views is complete alone. Together, they get you close enough 
 
 ## The next step
 
-Start by auditing what your attribution setup quietly files under "Direct" or "Unknown." A growing bucket over the past two quarters is your evidence: the buyer journey has moved somewhere your tools cannot see. We help small owner-operated and scale-up teams build exactly this kind of blended measurement model. See our [services](/services) for how that works.
+Start by auditing what your attribution setup quietly files under "Direct" or "Unknown." A growing bucket over the past two quarters is your evidence: the buyer journey has moved somewhere your tools cannot see. I help small owner-operated and scale-up teams build exactly this kind of blended measurement model. See my [services](/services) for how that works.
 
 [Get in touch](/contact) to talk through your setup.

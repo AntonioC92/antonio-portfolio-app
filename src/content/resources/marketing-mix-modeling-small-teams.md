@@ -66,4 +66,4 @@ Cleaning that data usually takes longer than running the model. Revenue needs to
 
 Once the inputs are clean, running Meridian or Robyn takes someone comfortable with either language a few days, a fraction of what a vendor-run MMM project used to require. Most small teams get more value from a lightweight analyst engagement to build and interpret that first model than from learning a Bayesian framework internally while also running campaigns.
 
-That first model is where most of the value shows up: a clear read on which channels are actually driving revenue, built on data your team already owns. If you want a second opinion on whether your data is ready for that, [get in touch](/contact) and we will walk through what a first pass would take.
+That first model is where most of the value shows up: a clear read on which channels are actually driving revenue, built on data your team already owns. If you want a second opinion on whether your data is ready for that, [get in touch](/contact) and I will walk through what a first pass would take.

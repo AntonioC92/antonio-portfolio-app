@@ -19,7 +19,7 @@ Live site: `https://carusomartech.com`
 
 ## Brand rules
 
-- Voice: "we" throughout (consultancy brand), except the About page where "I" is used
+- Voice: "I" throughout, first person singular, on every page and in every article (decided 21/11/2026). Exception: case studies delivered with Streetwise Consultancy stay in "we" and say on the page that they were delivered with Streetwise Consultancy. The privacy policy stays impersonal. Never use wording that implies a team.
 - No "Fractional CMO" as a service description
 - Primary colour: `#ff8164`
 - Tone: direct, practical, no fluff. Write like a senior practitioner explaining to a peer.

@@ -36,7 +36,7 @@ ChatGPT rarely cites YouTube as a source, so video does little for direct visibi
 
 [Analyze AI](https://www.tryanalyze.ai/blog/state-of-ai-search-youtube-reddit) found that across 7,651 ChatGPT answers in its dataset, exactly one cited a YouTube URL. When video did appear, it showed up as descriptive prose about the video instead of a link.
 
-So plan by engine. If your buyers mostly research in Google, video earns a real place in the plan. If they lean on ChatGPT, the written page that covers the same question will do more work, and we covered how to build those in our guide to [structuring pages](/insights/structuring-pages-for-ai-citations).
+So plan by engine. If your buyers mostly research in Google, video earns a real place in the plan. If they lean on ChatGPT, the written page that covers the same question will do more work, and I covered how to build those in my guide to [structuring pages](/insights/structuring-pages-for-ai-citations).
 
 ## What the brand-mention data adds
 
@@ -70,12 +70,12 @@ Step 1 keeps the effort targeted. If no video appears in the AI answers for a qu
 
 Video views alone will undersell the effect, because most of the value shows up when an AI answer cites or mentions you. Track citations on your priority questions, branded search and the referral traffic arriving from Google's AI features, and compare the questions where you published video against those where you did not.
 
-Citation tracking tools and manual checks of your priority questions give the direct signal. We explained the difference between being cited and being mentioned in our piece on [AI citations](/insights/ai-citations-vs-mentions), and both count here.
+Citation tracking tools and manual checks of your priority questions give the direct signal. I explained the difference between being cited and being mentioned in my piece on [AI citations](/insights/ai-citations-vs-mentions), and both count here.
 
-Branded search gives the indirect one. If people see your name in an AI answer and search for you afterwards, that shows up in Search Console, which we covered in our guide to [branded search](/insights/branded-search-ai-influence) as an AI signal.
+Branded search gives the indirect one. If people see your name in an AI answer and search for you afterwards, that shows up in Search Console, which I covered in my guide to [branded search](/insights/branded-search-ai-influence) as an AI signal.
 
 Keep a simple log of which videos went live on which date, so you can line them up against changes in citations and branded search.
 
 Give it a full quarter before judging. AI answers refresh their sources on their own schedule, and a small library of focused videos needs time to be picked up across your priority questions.
 
-If you want help choosing which buyer questions deserve video and setting up the tracking around it, see our [services](/services) or [contact us](/contact) to plan the first quarter.
+If you want help choosing which buyer questions deserve video and setting up the tracking around it, see my [services](/services) or [contact me](/contact) to plan the first quarter.

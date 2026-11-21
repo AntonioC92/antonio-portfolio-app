@@ -68,4 +68,4 @@ It's worth putting a standing gate in front of new purchases too: whoever wants 
 
 If your own stack is still at the audit stage rather than the cutting stage, that's the more urgent problem to solve first. It's worth bringing in outside eyes before the next renewal cycle locks you in for another year.
 
-We run this exact consolidation process for clients, from the first audit through sequencing the cuts. You can see how we structure that work on our [services page](/services), or [get in touch](/contact) for a second set of eyes on your own stack before the next round of renewals.
+I run this exact consolidation process for clients, from the first audit through sequencing the cuts. You can see how I structure that work on my [services page](/services), or [get in touch](/contact) for a second set of eyes on your own stack before the next round of renewals.

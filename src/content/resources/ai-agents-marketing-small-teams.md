@@ -28,7 +28,7 @@ That distinction matters more than the marketing copy around it suggests. An age
 
 The useful definition is narrower than the marketing around it. [MarTech](https://martech.org/why-agentic-ai-is-different-from-traditional-marketing-automation/) draws the line clearly: traditional automation "executes marketing tasks based on predefined instructions," while an agent "sets marketing agendas, adapts strategies and implements decisions within defined boundaries." One follows a script. The other decides which parts of the script apply, checks a result, and adjusts the next step accordingly.
 
-That is a meaningful jump from the rule-based automation most small teams already run, the kind we covered in our guide to [automating workflows](/insights/automating-marketing-workflows): a lead comes in, a rule routes it, a template sends a reply. An agent can do more of the judgment in the middle. It can also get more of the middle wrong if nobody checks its work, which is the part vendor demos tend to skip.
+That is a meaningful jump from the rule-based automation most small teams already run, the kind I covered in my guide to [automating workflows](/insights/automating-marketing-workflows): a lead comes in, a rule routes it, a template sends a reply. An agent can do more of the judgment in the middle. It can also get more of the middle wrong if nobody checks its work, which is the part vendor demos tend to skip.
 
 The upside case is real. MarTech cites a U.S. Bank deployment that used agentic AI for lead scoring and saw deal closing speed up by 25 percent and conversion improve by 260 percent.
 
@@ -40,13 +40,13 @@ The clearest wins show up in tasks that are research-heavy but low-stakes if imp
 
 The same applies to first-draft content: outlines, social variations, meeting recaps. A human still edits, but starting from a draft beats starting from nothing.
 
-Monitoring is the other strong category. An agent watching ad spend pacing, ranking positions, or a spike in support tickets tied to a campaign can flag the problem hours before a person would have noticed on a weekly check-in. This is where agents extend the kind of reporting automation we described in our [readiness checklist](/insights/marketing-automation-readiness-checklist): the workflow still needs to be defined and the data still needs to be clean before an agent adds anything useful on top of it.
+Monitoring is the other strong category. An agent watching ad spend pacing, ranking positions, or a spike in support tickets tied to a campaign can flag the problem hours before a person would have noticed on a weekly check-in. This is where agents extend the kind of reporting automation I described in my [readiness checklist](/insights/marketing-automation-readiness-checklist): the workflow still needs to be defined and the data still needs to be clean before an agent adds anything useful on top of it.
 
 Where it gets weaker is anything that depends on context an agent cannot fully see: the tone a specific client expects, the history behind a stalled deal, the read on whether a prospect's hesitation is about price or about trust. Those calls still belong to a person, and pretending otherwise is how a small team ends up apologizing for an email an agent should never have sent unsupervised.
 
 ## Where the hype gets ahead of the reality
 
-Small business owners are, on the whole, more skeptical of this than the trend pieces suggest, and the skepticism is reasonable. [Simply Business's](https://www.simplybusiness.com/resource/small-businesses-are-using-ai-but-theyre-not-letting-it-run-the-show-2026-outlook/) 2026 outlook survey found 62 percent of small business owners already use AI for some part of running the business, but accuracy concerns (36 percent) and data security worries (34 percent) are the top reasons adoption stops short of anything higher-stakes. That tracks with what we see in client work: teams are happy to let a tool draft, slower to let it decide.
+Small business owners are, on the whole, more skeptical of this than the trend pieces suggest, and the skepticism is reasonable. [Simply Business's](https://www.simplybusiness.com/resource/small-businesses-are-using-ai-but-theyre-not-letting-it-run-the-show-2026-outlook/) 2026 outlook survey found 62 percent of small business owners already use AI for some part of running the business, but accuracy concerns (36 percent) and data security worries (34 percent) are the top reasons adoption stops short of anything higher-stakes. That tracks with what I see in client work: teams are happy to let a tool draft, slower to let it decide.
 
 The measurement gap compounds the problem. [HubSpot's](https://www.hubspot.com/marketing-statistics) 2026 research found only 47.63 percent of marketers say they know how to measure the impact of AI in their strategy. Deploying an agent without a clear metric attached means nobody can say afterward whether it earned its subscription cost or just added noise to the reporting stack, the same trap that sinks plenty of standard automation projects too.
 
@@ -58,8 +58,8 @@ Attach a number to it before turning it on. Time saved per lead researched, resp
 
 Keep a human checkpoint on anything customer-facing for at least the first quarter. Draft, review, send is a workable pattern.
 
-Draft, send is the pattern that produces the apology emails. The same discipline applies to how AI is changing what customers see before they ever reach your site, a shift we cover in our piece on the [AI search](/insights/ai-search-attribution-gap) attribution gap: judgment stays with a person even as more of the groundwork gets automated around them.
+Draft, send is the pattern that produces the apology emails. The same discipline applies to how AI is changing what customers see before they ever reach your site, a shift I cover in my piece on the [AI search](/insights/ai-search-attribution-gap) attribution gap: judgment stays with a person even as more of the groundwork gets automated around them.
 
 None of this requires waiting for the technology to mature further. It requires the same thing most automation projects need and skip: a scoped problem, clean data feeding it, and a metric that says whether it worked.
 
-We help small marketing teams pilot AI agents inside a system that already has that discipline built in, rather than bolting one on top of a stack nobody has audited. If you are weighing where an agent would actually earn its keep in your marketing operation, our services page covers how that engagement works, or [get in touch](/contact) to talk through your specific stack.
+I help small marketing teams pilot AI agents inside a system that already has that discipline built in, rather than bolting one on top of a stack nobody has audited. If you are weighing where an agent would actually earn its keep in your marketing operation, my services page covers how that engagement works, or [get in touch](/contact) to talk through your specific stack.

@@ -62,9 +62,9 @@ The subscription flags matter as much as the ad spend. [Vertice](https://www.ver
 
 Reconciliation findings are only useful if they change something. Route tracking and billing errors to whoever owns the platform, send unexplained increases to the budget owner, and bring unused or duplicate subscriptions to your quarterly stack review. Without that routing, the agent produces a report that nobody acts on.
 
-The quarterly review is the natural home for most of it. We set out an agenda and scorecard for that meeting in our guide to the [quarterly review](/insights/quarterly-martech-review), and an agent's flagged list gives it accurate numbers to start from.
+The quarterly review is the natural home for most of it. I set out an agenda and scorecard for that meeting in my guide to the [quarterly review](/insights/quarterly-martech-review), and an agent's flagged list gives it accurate numbers to start from.
 
-Over time, the same output also improves reporting. Clean, reconciled spend makes ROI and channel reporting more trustworthy, which we covered in our piece on [AI reporting](/insights/ai-marketing-reporting).
+Over time, the same output also improves reporting. Clean, reconciled spend makes ROI and channel reporting more trustworthy, which I covered in my piece on [AI reporting](/insights/ai-marketing-reporting).
 
 ## Keeping the agent safe to run
 
@@ -72,6 +72,6 @@ Keep the agent read-only on every platform and in the ledger, and log every comp
 
 Review the rules whenever something changes: a new platform, a new currency, a change to billing thresholds or a new finance system. Most errors in automated reconciliation trace back to a rule that was right when written and quietly went out of date.
 
-Start with one platform and the ledger, prove the matches for a quarter, then add the next. That pace fits a small team and matches how we approach [AI agents](/insights/ai-agents-marketing-small-teams) more generally.
+Start with one platform and the ledger, prove the matches for a quarter, then add the next. That pace fits a small team and matches how I approach [AI agents](/insights/ai-agents-marketing-small-teams) more generally.
 
-If you want help writing the matching rules and setting up a reconciliation agent with the right approvals, see our [services](/services) or [contact us](/contact) to plan the first quarter.
+If you want help writing the matching rules and setting up a reconciliation agent with the right approvals, see my [services](/services) or [contact me](/contact) to plan the first quarter.

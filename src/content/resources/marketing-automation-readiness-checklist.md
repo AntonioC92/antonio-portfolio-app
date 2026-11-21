@@ -30,7 +30,7 @@ The pattern repeats across small teams and large ones. [Demandsage](https://www.
 
 [Sovyn](https://www.sovyn.com/blog/marketing-automation-problems) names the usual causes directly: vendors pitching plug-and-play fixes, goals too vague to automate against, and staff quietly reverting to manual work because nobody trained them properly on the new system. A platform swap does not touch any of those three causes.
 
-We see the same root cause in our own client work. Automation gets bought to solve a planning gap, and planning gaps get fixed with a plan, drawn up before anyone logs into a new platform.
+I see the same root cause in my own client work. Automation gets bought to solve a planning gap, and planning gaps get fixed with a plan, drawn up before anyone logs into a new platform.
 
 ## Data quality is the real bottleneck
 
@@ -40,7 +40,7 @@ Automation amplifies whatever data it is fed. Clean records flowing through a si
 
 Duplicated, half-tagged contact records flowing through an automated sequence just move the same mess faster and at greater volume. When your [attribution](/insights/attribution-challenges-2025) data already has holes in it, automating the reporting on top just gets the wrong numbers into the deck quicker.
 
-This is why we run a stack [audit](/insights/martech-stack-audit) before recommending any automation build. Seeing exactly what data flows where, and where it breaks, has to come before you touch a workflow builder.
+This is why I run a stack [audit](/insights/martech-stack-audit) before recommending any automation build. Seeing exactly what data flows where, and where it breaks, has to come before you touch a workflow builder.
 
 ## AI adoption is accelerating this problem
 
@@ -58,7 +58,7 @@ They have run it manually long enough to know exactly where it slows down or bre
 
 This is the same discipline behind any properly built [system](/insights/modern-marketing-system-2025): the tool supports a process the team has already defined and tested by hand. Someone also has to own that system once it is live, deciding what gets automated next and what gets left alone.
 
-Skipping that groundwork is how teams end up needing our guide on [workflows](/insights/automating-marketing-workflows) to untangle an automation that was built before the process underneath it was ready.
+Skipping that groundwork is how teams end up needing my guide on [workflows](/insights/automating-marketing-workflows) to untangle an automation that was built before the process underneath it was ready.
 
 ## Which workflow to automate first
 
@@ -74,4 +74,4 @@ Only then choose the tool, and build the smallest version that solves the one pr
 
 Skipping straight to the tool purchase is the single most common reason automation projects get quietly abandoned within six months of launch, with the license still being paid for months after anyone stopped using it.
 
-We help small business and scale-up teams run this readiness check before they spend a cent on new software, then build the automation properly the first time. If your team is weighing a marketing automation purchase, or trying to work out why the last one never delivered, our services page covers how we approach this, or you can [contact](/contact) us directly to talk through where your team actually stands today.
+I help small business and scale-up teams run this readiness check before they spend a cent on new software, then build the automation properly the first time. If your team is weighing a marketing automation purchase, or trying to work out why the last one never delivered, my services page covers how I approach this, or you can [contact](/contact) me directly to talk through where your team actually stands today.

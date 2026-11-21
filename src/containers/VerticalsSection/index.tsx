@@ -46,9 +46,9 @@ export function VerticalsSection(): JSX.Element {
   return (
     <StyledSection id="verticals">
       <Inner>
-        <SectionTitle>Who We Work With</SectionTitle>
+        <SectionTitle>Who I Work With</SectionTitle>
         <SectionSub>
-          We work across sectors where marketing complexity is high and the cost of
+          I work across sectors where marketing complexity is high and the cost of
           getting it wrong is real.
         </SectionSub>
 

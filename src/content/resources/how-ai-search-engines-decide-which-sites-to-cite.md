@@ -34,7 +34,7 @@ The practical read: being talked about, in reviews, comparison posts, local writ
 
 Before any of that matters, an AI system has to be able to reach your content in the first place. Research on citation ranking factors scores URL accessibility, whether a page is crawlable, unblocked, and not paywalled, as one of the single strongest predictors of citation.
 
-That means checking whether GPTBot, ClaudeBot, and PerplexityBot are allowed in your robots.txt, and whether key pages return clean, fast responses. It is unglamorous work, and it sits close to the kind of technical debt we cover in a full [martech audit](/insights/martech-stack-audit). Skip it, and none of the content strategy below gets a chance to work.
+That means checking whether GPTBot, ClaudeBot, and PerplexityBot are allowed in your robots.txt, and whether key pages return clean, fast responses. It is unglamorous work, and it sits close to the kind of technical debt I cover in a full [martech audit](/insights/martech-stack-audit). Skip it, and none of the content strategy below gets a chance to work.
 
 ## Write passages that can stand alone
 
@@ -42,7 +42,7 @@ AI engines do not read a page top to bottom the way a person does. They pull pas
 
 Content that leads with a direct answer, uses clear H2 and H3 headings, and includes a short summary near the top gets extracted more reliably. FAQ-style sections get heavy use for the same reason: a clean question-and-answer pair is easy to lift and easy to trust.
 
-This is the same reasoning behind the quick-answer sections at the top of our own articles, including the one you are reading. It is why we brief [AI copy](/insights/briefing-ai-for-marketing-copy) the same way internally: a direct answer first, context after.
+This is the same reasoning behind the quick-answer sections at the top of my own articles, including the one you are reading. It is why I brief [AI copy](/insights/briefing-ai-for-marketing-copy) the same way internally: a direct answer first, context after.
 
 ## Structured data still earns its keep
 
@@ -76,6 +76,6 @@ Start with three things: confirm AI crawlers can reach your key pages, audit how
 
 Add schema to those same pages while you are in there. It is a small technical lift compared with the content and mention work above, and it removes one more reason a model might misattribute or skip your page entirely.
 
-None of this replaces a measurement plan for what AI search is already doing to your funnel, which is a related but separate problem we cover in our piece on the [attribution gap](/insights/ai-search-attribution-gap). Getting cited and knowing what that citation is worth are two different projects, and most businesses have started neither.
+None of this replaces a measurement plan for what AI search is already doing to your funnel, which is a related but separate problem I cover in my piece on the [attribution gap](/insights/ai-search-attribution-gap). Getting cited and knowing what that citation is worth are two different projects, and most businesses have started neither.
 
-We help small marketing teams build both: the content and mention strategy that earns citations, and the measurement system that proves what they are worth. If that gap sounds familiar, our services cover exactly this, or you can [reach out](/contact) to talk through where your brand currently stands.
+I help small marketing teams build both: the content and mention strategy that earns citations, and the measurement system that proves what they are worth. If that gap sounds familiar, my services cover exactly this, or you can [reach out](/contact) to talk through where your brand currently stands.

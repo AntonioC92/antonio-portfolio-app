@@ -44,7 +44,7 @@ Gartner's same survey found CMOs allocate an average of 15.3% of their marketing
 
 Organizations with genuinely mature AI readiness allocated 21.3% of their budget to AI and ran larger overall budgets too, at 8.9% of revenue against the 7.8% survey average. That pattern suggests AI spend pays off once the groundwork exists first, and that groundwork is usually clean, connected data rather than a new tool.
 
-Readiness, in practice, is a reporting problem before it's a tooling one. Our own breakdown of [AI reporting](/insights/ai-marketing-reporting) workflows is a reasonable gut check for whether that groundwork is there yet, or whether the AI line item in a 2027 plan would just be funding a guess dressed up as a pilot project.
+Readiness, in practice, is a reporting problem before it's a tooling one. My own breakdown of [AI reporting](/insights/ai-marketing-reporting) workflows is a reasonable gut check for whether that groundwork is there yet, or whether the AI line item in a 2027 plan would just be funding a guess dressed up as a pilot project.
 
 ## What to cut before you add anything new
 
@@ -56,7 +56,7 @@ Anything that only gets funded out of habit is the easiest money to redirect. A 
 
 ## Building the number around acquisition cost
 
-A percentage-of-revenue rule is only a starting point. We've covered the [benchmark data](/insights/marketing-budget-percentage-of-revenue) behind that rule elsewhere. What matters for 2027 is the number underneath it: what a customer actually costs to acquire, and what that customer is worth once they convert.
+A percentage-of-revenue rule is only a starting point. I've covered the [benchmark data](/insights/marketing-budget-percentage-of-revenue) behind that rule elsewhere. What matters for 2027 is the number underneath it: what a customer actually costs to acquire, and what that customer is worth once they convert.
 
 [WebFX's](https://www.webfx.com/blog/marketing/how-to-plan-a-marketing-budget/) planning framework builds the number from goals and sales cycle length outward, rather than starting from a top-line percentage and working backward. That's the right order for a small team.
 
@@ -70,4 +70,4 @@ That memo needs the right numbers attached to it, and most marketing dashboards 
 
 None of this requires a bigger team or a longer planning cycle than you already run. It requires treating budget season as the one chance all year to question the mix instead of extending it.
 
-If building that case from scratch feels like more than your team has time for this quarter, that's exactly the kind of planning work we help with. Get in touch through [services](/services) or [contact](/contact) and we'll walk through what a defensible 2027 budget looks like for your specific mix.
+If building that case from scratch feels like more than your team has time for this quarter, that's exactly the kind of planning work I help with. Get in touch through [services](/services) or [contact](/contact) and I'll walk through what a defensible 2027 budget looks like for your specific mix.

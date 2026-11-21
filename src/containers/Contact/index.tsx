@@ -159,7 +159,7 @@ export function Contact({ headingLevel = "h1" }: ContactProps): JSX.Element {
   return (
     <StyledLeadGenSection id="contact">
       <StyledHeader as={headingLevel}>Not sure where to start?</StyledHeader>
-      <StyledsubHeader>Let's talk. We'll help you shape your marketing journey.</StyledsubHeader>
+      <StyledsubHeader>Let's talk. I'll help you shape your marketing journey.</StyledsubHeader>
 
       <StyledContainer>
         {/* CONTACT FORM */}
@@ -231,7 +231,7 @@ export function Contact({ headingLevel = "h1" }: ContactProps): JSX.Element {
           </HubspotOverrides>
 
           <StyledPolicyNote>
-            By submitting this form, you agree to our{" "}
+            By submitting this form, you agree to the{" "}
             <a href="/privacy-policy/" target="_blank" rel="noopener noreferrer">
               Privacy Policy
             </a>
@@ -245,7 +245,7 @@ export function Contact({ headingLevel = "h1" }: ContactProps): JSX.Element {
             <p>
               Want to chat about a project?
               <br />
-              Pick a time that suits you and we will take it from there.
+              Pick a time that suits you and I will take it from there.
             </p>
             <a
               href="https://meetings.hubspot.com/antonio393?utm_source=website&utm_medium=contact-page&utm_campaign=organic"

@@ -49,37 +49,37 @@ export function PrivacyPolicy() {
             fontSize: "1rem",
           }}
         >
-          Last updated: 19 February 2026
+          Last updated: 21 November 2026
         </p>
 
         <p style={{ marginBottom: "1.5rem" }}>
-          Caruso Martech (“we”, “our”, “us”) operates
-          https://carusomartech.com. This Privacy Policy explains how we
-          collect, use, and protect personal data.
+          Caruso Martech operates
+          https://carusomartech.com. This Privacy Policy explains how Caruso
+          Martech collects, uses, and protects personal data.
         </p>
 
         <h2 style={{ marginTop: "3rem", color: "#ff7a59" }}>
-          1. Information We Collect
+          1. Information Collected
         </h2>
 
         <p style={{ marginBottom: "1.5rem" }}>
-          We may collect personal information that you voluntarily provide,
+          Caruso Martech may collect personal information that you voluntarily provide,
           including your name, email address, company details, and any
           information submitted through contact forms.
         </p>
 
         <p style={{ marginBottom: "2rem" }}>
-          We may also collect technical and usage data such as IP address,
+          Technical and usage data may also be collected, such as IP address,
           browser type, device information, and interaction data through
           analytics and advertising technologies.
         </p>
 
         <h2 style={{ marginTop: "3rem", color: "#ff7a59" }}>
-          2. How We Use Personal Data
+          2. How Personal Data Is Used
         </h2>
 
         <p style={{ marginBottom: "1.5rem" }}>
-          We use personal data to:
+          Personal data is used to:
         </p>
 
         <ul style={{ marginBottom: "2rem", paddingLeft: "1.2rem" }}>
@@ -94,10 +94,10 @@ export function PrivacyPolicy() {
         </h2>
 
         <p style={{ marginBottom: "2rem" }}>
-          We may engage trusted third-party service providers to support
-          the operation of our website and services, including hosting,
+          Caruso Martech may engage trusted third-party service providers to support
+          the operation of this website and its services, including hosting,
           security, analytics, communication, and advertising performance
-          measurement. These providers process personal data on our behalf
+          measurement. These providers process personal data on behalf of Caruso Martech
           and are required to protect it in accordance with applicable data
           protection laws.
         </p>
@@ -107,8 +107,8 @@ export function PrivacyPolicy() {
         </h2>
 
         <p style={{ marginBottom: "2rem" }}>
-          We process personal data based on your consent, our legitimate
-          business interests, or where required to comply with legal
+          Personal data is processed based on your consent, the legitimate
+          business interests of Caruso Martech, or where required to comply with legal
           obligations.
         </p>
 
@@ -141,6 +141,10 @@ export function PrivacyPolicy() {
         <h2 style={{ marginTop: "3rem", color: "#ff7a59" }}>
           7. Contact
         </h2>
+
+        <p style={{ marginBottom: "1.5rem" }}>
+          The data controller is Antonio Caruso, trading as Caruso Martech.
+        </p>
 
         <p>
           Antonio Caruso<br />

@@ -62,4 +62,4 @@ Every input mapped in the first two weeks becomes an input to the [ROI conversat
 
 The [first month](/insights/fractional-cmo-month-one) still needs its own audit, roadmap, and early win. None of that lands on schedule if the access and scope groundwork from week one was skipped.
 
-Getting a fractional engagement started right is worth the hour it takes to prepare properly. If your business is weighing whether now is the time to bring in fractional marketing leadership, our [services](/services) page outlines how engagements are structured, or [get in touch](/contact) to talk through what onboarding would look like for your team.
+Getting a fractional engagement started right is worth the hour it takes to prepare properly. If your business is weighing whether now is the time to bring in fractional marketing leadership, my [services](/services) page outlines how engagements are structured, or [get in touch](/contact) to talk through what onboarding would look like for your team.

@@ -53,7 +53,7 @@ export function StackSection(): JSX.Element {
         <SectionTitle>MarTech Stack</SectionTitle>
       </SectionHeader>
 
-      <Track aria-label="MarTech tools we work with">
+      <Track aria-label="MarTech tools I work with">
         {doubled.map((logo, i) => (
           <LogoItem key={i}>
             <LogoImg

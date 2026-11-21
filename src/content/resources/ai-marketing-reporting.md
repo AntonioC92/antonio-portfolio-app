@@ -34,7 +34,7 @@ That time saving comes from a narrow set of tasks: writing the first draft of an
 
 AI reporting breaks down the moment a model is asked to produce a number instead of explain one. Language models are built to generate plausible text. Any number a model states from memory, rather than from data you fed it, should be treated as unverified.
 
-This is the single most common failure we see: someone pastes a rough summary into a chat tool and asks for "the CPA trend," and the model returns a confident-sounding figure that does not match the ad platform. The fix is structural: feed the model the actual rows of data, in the message or as an attached file, and instruct it to reference only those numbers.
+This is the single most common failure I see: someone pastes a rough summary into a chat tool and asks for "the CPA trend," and the model returns a confident-sounding figure that does not match the ad platform. The fix is structural: feed the model the actual rows of data, in the message or as an attached file, and instruct it to reference only those numbers.
 
 The second common failure is losing the audit trail. If a report goes to a client and a number is wrong, you need to trace it straight back to a platform export. Structuring your [core KPIs](/insights/marketing-kpis-that-actually-matter) the same way every period makes this traceability possible, because AI is filling a known template rather than deciding what to measure.
 
@@ -42,7 +42,7 @@ The second common failure is losing the audit trail. If a report goes to a clien
 
 The reliable pattern separates three jobs: pulling data, calculating metrics, and writing narrative, and keeps AI out of the first two entirely. Data collection stays in your ad platform APIs, GA4, or export tool. Metric calculation stays in a spreadsheet or a script with formulas you can inspect.
 
-Only once spend, conversions, CPA, and CTR are calculated and sitting in a table do you hand that table to AI and ask for commentary. This mirrors how we structure [automated marketing workflows](/insights/automating-marketing-workflows) generally: collection, transformation, and analysis as separate steps, never combined into one black-box prompt.
+Only once spend, conversions, CPA, and CTR are calculated and sitting in a table do you hand that table to AI and ask for commentary. This mirrors how I structure [automated marketing workflows](/insights/automating-marketing-workflows) generally: collection, transformation, and analysis as separate steps, never combined into one black-box prompt.
 
 Anomaly flagging works the same way. Ask AI to scan a table and flag rows where a metric moved more than a set threshold week over week, then check each flagged row against the source platform yourself. The model is good at pattern spotting across a wide table faster than a human scanning by eye, but the confirmation step stays manual.
 
@@ -52,7 +52,7 @@ One agency case is worth citing for scale: a director at McCann Central told [Su
 
 Start with the report you write most often and hate the most, usually a weekly or monthly performance summary sent to the same stakeholders. Set up a fixed template with the metrics that never change, then build a script or workflow tool that pulls those metrics into the template automatically.
 
-Once the pulling and formatting are automated, layer in AI for the narrative section only. Feed it the completed metrics table and a short prompt describing your report's tone, then have someone review the draft against the numbers before it goes out. This is the same sequencing we use when we [brief AI](/insights/briefing-ai-for-marketing-copy) for any marketing copy: structure and source material first, generation second, human review always.
+Once the pulling and formatting are automated, layer in AI for the narrative section only. Feed it the completed metrics table and a short prompt describing your report's tone, then have someone review the draft against the numbers before it goes out. This is the same sequencing I use when I [brief AI](/insights/briefing-ai-for-marketing-copy) for any marketing copy: structure and source material first, generation second, human review always.
 
 Anomaly detection and variance commentary are good second additions once the base workflow is stable. Save fully autonomous reporting, where AI decides what to include without a human template, for later. Most teams are not ready for that step, and most reports do not need it.
 
@@ -60,4 +60,4 @@ Anomaly detection and variance commentary are good second additions once the bas
 
 None of this requires expensive tooling. A spreadsheet, a script that exports platform data on a schedule, and a disciplined prompt are enough to get the time savings without the risk of a wrong number reaching a client. The teams getting real value from [AI in marketing](/insights/ai-agents-marketing-small-teams) right now are the ones who kept the boring, structural parts of the workflow boring, and let AI handle the parts that were always about communication rather than calculation.
 
-If your reporting still eats a full day every week or you have caught AI stating a number that turned out to be wrong, that is usually a sign the underlying [martech stack](/insights/martech-stack-audit) needs a proper audit before automation gets layered on top. Our [services](/services) page covers how we approach that audit, or you can [get in touch](/contact) directly to talk through your current reporting setup.
+If your reporting still eats a full day every week or you have caught AI stating a number that turned out to be wrong, that is usually a sign the underlying [martech stack](/insights/martech-stack-audit) needs a proper audit before automation gets layered on top. My [services](/services) page covers how I approach that audit, or you can [get in touch](/contact) directly to talk through your current reporting setup.

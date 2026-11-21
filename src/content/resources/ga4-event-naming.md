@@ -58,11 +58,11 @@ This is slower than a one-time rename, but it is the only approach that does not
 
 A naming convention that lives in someone's head is just a habit one person has. Write it down: the pattern, a short list of approved objects and actions, and two or three real examples. One shared doc, linked from wherever your team keeps its tracking plan, is enough for most small teams.
 
-Assign an owner. It does not need to be a full-time analytics role, just one person who reviews new events before they ship rather than after a dashboard breaks. This is the same ownership gap we cover in our piece on why [marketing ops](/insights/marketing-ops-underfunded) tends to be underfunded until something forces the issue.
+Assign an owner. It does not need to be a full-time analytics role, just one person who reviews new events before they ship rather than after a dashboard breaks. This is the same ownership gap I cover in my piece on why [marketing ops](/insights/marketing-ops-underfunded) tends to be underfunded until something forces the issue.
 
 Review the taxonomy whenever the site gets a significant redesign or a new tool gets added to the stack. A [stack audit](/insights/martech-stack-audit) is a natural moment to check whether the events being collected still map to a document anyone can find, or whether the taxonomy has quietly drifted again.
 
-Clean event naming will not fix a broken attribution model or replace a properly built measurement plan, but it removes one of the most common reasons small business reporting stops being trustworthy. If your GA4 account has reached the point where nobody is confident which events are actually reliable, that cleanup is exactly the kind of foundational work we do. [Get in touch](/contact) or look at our services if you want your tracking plan rebuilt on a taxonomy that will still make sense a year from now.
+Clean event naming will not fix a broken attribution model or replace a properly built measurement plan, but it removes one of the most common reasons small business reporting stops being trustworthy. If your GA4 account has reached the point where nobody is confident which events are actually reliable, that cleanup is exactly the kind of foundational work I do. [Get in touch](/contact) or look at my services if you want your tracking plan rebuilt on a taxonomy that will still make sense a year from now.
 
 ## FAQ
 

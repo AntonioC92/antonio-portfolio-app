@@ -42,7 +42,7 @@ Ten stakeholders also means ten separate research paths running in parallel, mos
 
 Attribution models can only assign credit to touchpoints they can observe, so a model built on form fills and tracked clicks has no way to credit a podcast mention or a Slack recommendation, even when that's what actually moved the deal.
 
-We've covered why [attribution and measurement](/insights/attribution-vs-measurement) answer different questions, and the dark funnel is the clearest case where that distinction matters: a channel can be driving real influence while showing zero attributed conversions in your dashboard.
+I've covered why [attribution and measurement](/insights/attribution-vs-measurement) answer different questions, and the dark funnel is the clearest case where that distinction matters: a channel can be driving real influence while showing zero attributed conversions in your dashboard.
 
 The usual [attribution challenges](/insights/attribution-challenges-2025) compound here. Cross-device journeys and consent-based tracking already strip out a share of what happens on channels you do control, before you even account for the channels you never tracked to begin with. Even a careful read of your [GA4 reports](/insights/ga4-attribution-report-guide) will undercount this further, since GA4 only sees sessions that start with a tracked click or referrer.
 
@@ -66,4 +66,4 @@ Build the habit of capturing everything you can observe directly: email replies,
 
 A quarterly win-loss call does the same job for deals you can already see. Ask the buyer what they looked at before they ever talked to sales, and you'll usually hear about a review site, a podcast, or a colleague's recommendation that never touched a tracked channel.
 
-None of this replaces attribution. It gives you a second read on a channel your pixels can't see, and that channel is most of the journey now. If your reporting still treats a form fill as the start of the story instead of the end of one, that's worth fixing before your next planning cycle. [Contact us](/contact) and we'll help you build the systems that show where your pipeline is actually coming from.
+None of this replaces attribution. It gives you a second read on a channel your pixels can't see, and that channel is most of the journey now. If your reporting still treats a form fill as the start of the story instead of the end of one, that's worth fixing before your next planning cycle. [Contact me](/contact) and I'll help you build the systems that show where your pipeline is actually coming from.

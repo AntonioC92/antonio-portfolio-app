@@ -15,7 +15,7 @@ export function LandingPage(): JSX.Element {
     <Layout>
       <Seo
         title="Caruso Martech | Marketing Systems and Growth Strategy"
-        description="We build marketing systems that drive revenue. Strategy, paid media, automation, and analytics for SaaS, events, ecommerce, and professional services."
+        description="I build marketing systems that drive revenue. Strategy, paid media, automation, and analytics for SaaS, events, ecommerce, and professional services."
         canonical="https://carusomartech.com/"
         ogUrl="https://carusomartech.com/"
         ogImage="https://carusomartech.com/preview.png"
