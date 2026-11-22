@@ -84,7 +84,7 @@ Marketing mix modelling uses weekly spend and sales totals to estimate how much 
 
 ### Does a small B2B company need marketing mix modelling?
 
-Usually not yet. Google's Meridian documentation recommends at least two years of weekly data for a geo-level model and three years for a national one. A small B2B team with a few channels gets more from clean CRM attribution and one holdout test a quarter, then adds MMM once the history exists.
+Usually not yet. Google's Meridian documentation recommends at least two years of weekly data for a geo-level model and three years for a national one. For a small B2B team with a few channels, I would start with clean CRM attribution and one holdout test a quarter, then add MMM once that history exists.
 
 ### What is marginal ROI?
 
