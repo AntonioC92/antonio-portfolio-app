@@ -91,9 +91,9 @@ const faqs = [
       "A marketing automation consultant designs the workflows that move a lead from first contact to sale: lead capture, CRM setup, lead scoring, nurturing emails and revenue reporting. I build that layer and the infrastructure around it, tracking, data flow and dashboards, and I run the paid campaigns on LinkedIn, Google and Meta that feed it. Every part is judged on the business results it brings in.",
   },
   {
-    question: "Do you work with HubSpot?",
+    question: "Do you work with HubSpot and other CRM and marketing tools?",
     answer:
-      "Yes. HubSpot setup and automation is a large part of my Automation and Intelligence work: CRM properties and pipelines, lead scoring, lifecycle workflows, form tracking and dashboards. It also covers sending closed deals back to Google Ads and other ad platforms, so campaigns optimise for the leads that turn into revenue.",
+      "Yes. I work in HubSpot: pipelines, lead scoring and lifecycle workflows, connected to GA4, Google Tag Manager and the ad platforms so every lead is tracked to its source and its revenue. I'm not tied to one tool. I automate data between systems with n8n and Claude Code, use Clay for lead enrichment, and set up whatever fits the client's stack.",
   },
   {
     question: "How much does it cost to work with Caruso Martech?",
