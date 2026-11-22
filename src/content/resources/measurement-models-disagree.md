@@ -5,7 +5,7 @@ description: "Attribution says one channel is winning, the marketing mix model s
 metaTitle: "When Attribution and MMM Disagree | Caruso Martech"
 metaDescription: "Attribution, incrementality tests and MMM often give different answers. How to read the gap between them, and which one to trust for each budget decision."
 date: "2026-11-17"
-lastUpdated: "2026-11-17"
+lastUpdated: "2026-11-22"
 category: "Acquisition Systems"
 tags: "attribution, incrementality testing, marketing mix modeling, unified measurement, marketing measurement"
 ---
@@ -72,7 +72,7 @@ Platform changes are the most common trigger I see. A move to a new CRM, analyti
 
 The teams that get value from measurement connect their methods into one process. They run tests on a schedule, calibrate the model with the results, and use one shared view in budget meetings. The disagreements still appear, but they get resolved every quarter before they pile up.
 
-The data backs this up. A Harvard Business Review and Google report, covered by [Mobile Marketing Reads](https://www.mobilemarketingreads.com/marketers-push-to-operationalize-mmm-as-adoption-grows-but-execution-gaps-persist/), found 40 percent of leading organisations have connected MMM with other measurement systems, against 15 percent of laggards.
+The data backs this up. A Harvard Business Review and Google [report](https://hbr.org/sponsored/2026/03/bridging-the-marketing-mix-modeling-actionability-gap) found 40 percent of leading organisations have connected MMM with other measurement systems, against 15 percent of laggards.
 
 Connecting the methods also changes the budget conversation. Instead of three reports arguing, the team brings one view with known gaps, which is how I approach turning model output into [budget decisions](/insights/mmm-results-budget-decisions).
 
