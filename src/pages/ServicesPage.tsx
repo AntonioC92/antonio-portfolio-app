@@ -88,7 +88,7 @@ const faqs = [
   {
     question: "What does a marketing automation consultant do?",
     answer:
-      "A marketing automation consultant designs and builds the workflows that move a lead from first contact to sale: lead capture, CRM setup, lead scoring, nurturing emails and the reports that tie it all to revenue. My automation work connects that layer to the paid media and attribution around it, so campaigns learn from what closes.",
+      "A marketing automation consultant designs the workflows that move a lead from first contact to sale: lead capture, CRM setup, lead scoring, nurturing emails and revenue reporting. I build that layer and the infrastructure around it, tracking, data flow and dashboards, and I run the paid campaigns on LinkedIn, Google and Meta that feed it. Every part is judged on the business results it brings in.",
   },
   {
     question: "Do you work with HubSpot?",
