@@ -5,7 +5,7 @@ description: "Marketing mix modeling vendors quote budgets before they quote dat
 metaTitle: "MMM Data Needs and How Long Setup Takes | Caruso Martech"
 metaDescription: "How long marketing mix modeling takes to implement after you sign with a vendor, how much historical data it needs, and what slows the first model down."
 date: "2026-10-03"
-lastUpdated: "2026-10-03"
+lastUpdated: "2026-11-22"
 category: "Acquisition Systems"
 tags: "marketing mix modeling, attribution, marketing measurement, data strategy"
 ---
@@ -18,7 +18,7 @@ I covered the case for small teams adopting [marketing mix modeling](/insights/m
 
 ## Quick answer: how much data does marketing mix modeling actually need?
 
-- At least 12 months of weekly spend and outcome data for a first model, 24 months or more for one that holds up across a full seasonal cycle, per [Meridian's docs](https://developers.google.com/meridian/docs/pre-modeling/amount-data-needed).
+- At least two years of weekly spend and outcome data for a geo-level model, and three years for a national model or when only monthly data exists, per [Meridian's docs](https://developers.google.com/meridian/docs/user-guide/collect-data).
 - Recast, a widely used managed platform, builds on roughly 27 months of history to account for carry-over effects and a proper burn-in period, according to [Recast](https://getrecast.com/optimize-your-marketing-mix-modeling-with-the-ideal-data-window).
 - Self-service tools can run on less: [Optimix](https://optimix51-optimix-blog.hf.space/?p=229) puts a practical floor around 26 weeks of weekly data for a stable model, a statistical-minimum threshold well short of what real accuracy needs.
 - Implementation runs through several distinct phases: scoping, data collection, cleaning, model build, then calibration against known results. Expect weeks before the first usable output lands.
