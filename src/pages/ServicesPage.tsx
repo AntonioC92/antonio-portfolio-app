@@ -108,7 +108,17 @@ const faqs = [
   {
     question: "What results have you delivered for clients?",
     answer:
-      "Past results, for those clients: EUR 135,000 in revenue from EUR 30,000 of LinkedIn spend for the Jobbio career fair, about 4.5x return. EUR 72,000 in ticket revenue on EUR 4,639 of ad spend for the Beer Festival Dublin, 3,971 tickets. Results depend on the market, offer and budget, so I never promise numbers.",
+      "The Jobbio career fair made EUR 135,000 in revenue from EUR 30,000 of LinkedIn spend, about 4.5x return. The Beer Festival Dublin sold 3,971 tickets for EUR 72,000 in ticket revenue on EUR 4,639 of ad spend. Results depend on the market, offer and budget, so I never promise numbers.",
+    // On-page version with case study links; the plain `answer` above feeds the FAQPage schema.
+    display: (
+      <>
+        The <a href="/case-studies/jobbio-career-fair">Jobbio career fair</a> made EUR 135,000 in
+        revenue from EUR 30,000 of LinkedIn spend, about 4.5x return. The{' '}
+        <a href="/case-studies/dublin-beer-festival">Beer Festival Dublin</a> sold 3,971 tickets for
+        EUR 72,000 in ticket revenue on EUR 4,639 of ad spend. Results depend on the market, offer and
+        budget, so I never promise numbers.
+      </>
+    ),
   },
 ];
 
@@ -189,7 +199,7 @@ export function ServicesPage(): JSX.Element {
             {faqs.map((f) => (
               <FaqItem key={f.question}>
                 <FaqQuestion>{f.question}</FaqQuestion>
-                <FaqAnswer>{f.answer}</FaqAnswer>
+                <FaqAnswer>{'display' in f ? f.display : f.answer}</FaqAnswer>
               </FaqItem>
             ))}
           </FaqList>
