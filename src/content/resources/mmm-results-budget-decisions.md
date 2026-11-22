@@ -5,14 +5,14 @@ description: "Most marketing mix models end up as a slide deck that never moves 
 metaTitle: "Turning MMM Results Into Budget Decisions | Caruso Martech"
 metaDescription: "How to read marginal ROI and response curves, test the big budget shifts, and set a decision cadence so your marketing mix model changes where money goes."
 date: "2026-11-02"
-lastUpdated: "2026-11-19"
+lastUpdated: "2026-11-22"
 category: "Acquisition Systems"
 tags: "marketing mix modeling, budget allocation, marginal ROI, response curves, marketing measurement"
 ---
 
 A marketing mix model usually arrives as a deck. It shows which channels drove revenue last year, a few response curves, and a recommended reallocation. Then budget season starts, the recommendation meets last year's spreadsheet, and the spreadsheet wins.
 
-That gap is common. A Harvard Business Review and Google [report](https://www.mobilemarketingreads.com/marketers-push-to-operationalize-mmm-as-adoption-grows-but-execution-gaps-persist/) found only 22 percent of organisations call themselves very effective at turning MMM insights into action, while 42 percent say they are not very effective at all. With 2027 plans being locked in right now, the teams that close that gap will move money while everyone else is still presenting charts.
+That gap is common. A Harvard Business Review and Google [report](https://hbr.org/sponsored/2026/03/bridging-the-marketing-mix-modeling-actionability-gap) found only 22 percent say they are very effective at both getting insights from MMM and acting on them, while 42 percent say they are not very effective at one or both. With 2027 plans being locked in right now, the teams that close that gap will move money while everyone else is still presenting charts.
 
 ## Quick answer: how do you turn marketing mix model results into budget decisions?
 
@@ -84,7 +84,7 @@ Marketing mix modelling uses weekly spend and sales totals to estimate how much 
 
 ### Does a small B2B company need marketing mix modelling?
 
-Usually not yet. Google's Meridian documentation recommends about two years of weekly spend and outcome data for a reliable model, and at least 12 months for a first one. A small B2B team with a few channels gets more from clean CRM attribution and one holdout test a quarter, then adds MMM once the history exists.
+Usually not yet. Google's Meridian documentation recommends at least two years of weekly data for a geo-level model and three years for a national one. For a small B2B team with a few channels, I would start with clean CRM attribution and one holdout test a quarter, then add MMM once that history exists.
 
 ### What is marginal ROI?
 

@@ -5,7 +5,7 @@ description: "Marketing mix modeling vendors quote budgets before they quote dat
 metaTitle: "MMM Data Needs and How Long Setup Takes | Caruso Martech"
 metaDescription: "How long marketing mix modeling takes to implement after you sign with a vendor, how much historical data it needs, and what slows the first model down."
 date: "2026-10-03"
-lastUpdated: "2026-10-03"
+lastUpdated: "2026-11-22"
 category: "Acquisition Systems"
 tags: "marketing mix modeling, attribution, marketing measurement, data strategy"
 ---
@@ -18,7 +18,7 @@ I covered the case for small teams adopting [marketing mix modeling](/insights/m
 
 ## Quick answer: how much data does marketing mix modeling actually need?
 
-- At least 12 months of weekly spend and outcome data for a first model, 24 months or more for one that holds up across a full seasonal cycle, per [Meridian's docs](https://developers.google.com/meridian/docs/pre-modeling/amount-data-needed).
+- At least two years of weekly spend and outcome data for a geo-level model, and three years for a national model or when only monthly data exists, per [Meridian's docs](https://developers.google.com/meridian/docs/user-guide/collect-data).
 - Recast, a widely used managed platform, builds on roughly 27 months of history to account for carry-over effects and a proper burn-in period, according to [Recast](https://getrecast.com/optimize-your-marketing-mix-modeling-with-the-ideal-data-window).
 - Self-service tools can run on less: [Optimix](https://optimix51-optimix-blog.hf.space/?p=229) puts a practical floor around 26 weeks of weekly data for a stable model, a statistical-minimum threshold well short of what real accuracy needs.
 - Implementation runs through several distinct phases: scoping, data collection, cleaning, model build, then calibration against known results. Expect weeks before the first usable output lands.
@@ -28,7 +28,7 @@ I covered the case for small teams adopting [marketing mix modeling](/insights/m
 
 The time period you feed a model does more to determine its reliability than the modeling tool itself. A model needs enough history to separate a genuine seasonal pattern from a one-off campaign spike, and that separation takes more calendar time than most teams budget for before they start shopping for a vendor.
 
-Google's own [Meridian](https://developers.google.com/meridian/docs/pre-modeling/amount-data-needed) documentation recommends at least two years of weekly data before a model can reliably separate baseline sales from media effects. Twelve months will technically run. It just tends to blur an entire holiday season into the baseline instead of isolating it as the one-off spike it actually was.
+Google's own [Meridian documentation](https://developers.google.com/meridian/docs/user-guide/collect-data) recommends a minimum of two years of weekly data for a geo-level model and three years for a national model.
 
 Recast's 27-month window exists for a related but different reason: carry-over effects from past spend linger for months after a campaign ends, and a shorter window cuts that tail off before it fully plays out, per [Recast](https://getrecast.com/optimize-your-marketing-mix-modeling-with-the-ideal-data-window). Optimix's 26-week floor is a statistical-stability threshold. Accuracy is a separate bar, and a meaningfully higher one for a seasonal business.
 
