@@ -88,12 +88,12 @@ const faqs = [
   {
     question: "What does a marketing automation consultant do?",
     answer:
-      "A marketing automation consultant designs and builds the workflows that move a lead from first contact to sale: lead capture, CRM setup, lead scoring, nurturing emails and the reports that tie it all to revenue. My automation work connects that layer to the paid media and attribution around it, so campaigns learn from what closes.",
+      "A marketing automation consultant designs the workflows that move a lead from first contact to sale: lead capture, CRM setup, lead scoring, nurturing emails and revenue reporting. I build that layer and the infrastructure around it, tracking, data flow and dashboards, and I run the paid campaigns on LinkedIn, Google and Meta that feed it. Every part is judged on the business results it brings in.",
   },
   {
-    question: "Do you work with HubSpot?",
+    question: "Do you work with HubSpot and other CRM and marketing tools?",
     answer:
-      "Yes. HubSpot setup and automation is a large part of my Automation and Intelligence work: CRM properties and pipelines, lead scoring, lifecycle workflows, form tracking and dashboards. It also covers sending closed deals back to Google Ads and other ad platforms, so campaigns optimise for the leads that turn into revenue.",
+      "Yes. I work in HubSpot: pipelines, lead scoring and lifecycle workflows, connected to GA4, Google Tag Manager and the ad platforms so every lead is tracked to its source and its revenue. I'm not tied to one tool. I automate data between systems with n8n and Claude Code, use Clay for lead enrichment, and set up whatever fits the client's stack.",
   },
   {
     question: "How much does it cost to work with Caruso Martech?",
@@ -108,7 +108,17 @@ const faqs = [
   {
     question: "What results have you delivered for clients?",
     answer:
-      "Past results, for those clients: EUR 135,000 in revenue from EUR 30,000 of LinkedIn spend for the Jobbio career fair, about 4.5x return. EUR 72,000 in ticket revenue on EUR 4,639 of ad spend for the Beer Festival Dublin, 3,971 tickets. Results depend on the market, offer and budget, so I never promise numbers.",
+      "The Jobbio career fair made EUR 135,000 in revenue from EUR 30,000 of LinkedIn spend, about 4.5x return. The Beer Festival Dublin sold 3,971 tickets for EUR 72,000 in ticket revenue on EUR 4,639 of ad spend. Results depend on the market, offer and budget, so I never promise numbers.",
+    // On-page version with case study links; the plain `answer` above feeds the FAQPage schema.
+    display: (
+      <>
+        The <a href="/case-studies/jobbio-career-fair">Jobbio career fair</a> made EUR 135,000 in
+        revenue from EUR 30,000 of LinkedIn spend, about 4.5x return. The{' '}
+        <a href="/case-studies/dublin-beer-festival">Beer Festival Dublin</a> sold 3,971 tickets for
+        EUR 72,000 in ticket revenue on EUR 4,639 of ad spend. Results depend on the market, offer and
+        budget, so I never promise numbers.
+      </>
+    ),
   },
 ];
 
@@ -165,10 +175,10 @@ export function ServicesPage(): JSX.Element {
         <SectionDivider />
 
         <EngagementSection>
-          <SectionLabel>How we work together</SectionLabel>
+          <SectionLabel>How I work with clients</SectionLabel>
           <SectionBody>
             Every engagement starts with a discovery call to understand your goals, team structure, and
-            current marketing maturity. From there we agree on the right format.
+            current marketing maturity. From there I recommend the format that fits.
           </SectionBody>
           <EngagementGrid>
             {engagements.map((e) => (
@@ -189,7 +199,7 @@ export function ServicesPage(): JSX.Element {
             {faqs.map((f) => (
               <FaqItem key={f.question}>
                 <FaqQuestion>{f.question}</FaqQuestion>
-                <FaqAnswer>{f.answer}</FaqAnswer>
+                <FaqAnswer>{'display' in f ? f.display : f.answer}</FaqAnswer>
               </FaqItem>
             ))}
           </FaqList>
@@ -198,7 +208,7 @@ export function ServicesPage(): JSX.Element {
         <CtaSection>
           <CtaText>
             <CtaTitle>Ready to grow?</CtaTitle>
-            <CtaSubtext>Let's talk about what your marketing needs to do next.</CtaSubtext>
+            <CtaSubtext>Tell me what your marketing needs to do next.</CtaSubtext>
           </CtaText>
           <CtaLink to="/contact/">Get in touch →</CtaLink>
         </CtaSection>

@@ -188,6 +188,15 @@ export const FaqAnswer = styled.p`
   font-size: 0.93rem;
   line-height: 1.6;
   max-width: 780px;
+  a {
+    color: ${colors.primary};
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  a:hover {
+    color: #fff;
+  }
 `;
 
 export const CtaSection = styled.section`
