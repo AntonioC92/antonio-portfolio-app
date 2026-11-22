@@ -75,7 +75,7 @@ const engagements = [
   {
     type: 'Retainer',
     title: 'Ongoing Marketing Leadership',
-    desc: 'Senior marketing leadership that works directly alongside your business. Typically 2–4 days per month. Covers strategy, execution oversight, team alignment, and reporting cadence.',
+    desc: 'Senior marketing leadership that works directly alongside your business. Ongoing monthly work on your campaigns, tracking and automation, with a regular reporting rhythm.',
   },
   {
     type: 'Project',
@@ -98,7 +98,7 @@ const faqs = [
   {
     question: "How much does it cost to work with Caruso Martech?",
     answer:
-      "Every engagement is scoped after a discovery call, so the price follows the work. Most clients choose a retainer, typically 2 to 4 days a month of senior marketing leadership, or a fixed-scope project such as an audit, a campaign build, a funnel build or a go-to-market launch.",
+      "Every engagement is scoped after a discovery call, so the price follows the work. There are two formats: a monthly retainer for ongoing work on your campaigns, tracking and automation, or a fixed-scope project such as an audit, a campaign build, a funnel build or a go-to-market launch.",
   },
   {
     question: "Where are you based, and which markets do you work with?",
