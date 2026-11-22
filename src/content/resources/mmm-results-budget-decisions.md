@@ -5,7 +5,7 @@ description: "Most marketing mix models end up as a slide deck that never moves 
 metaTitle: "Turning MMM Results Into Budget Decisions | Caruso Martech"
 metaDescription: "How to read marginal ROI and response curves, test the big budget shifts, and set a decision cadence so your marketing mix model changes where money goes."
 date: "2026-11-02"
-lastUpdated: "2026-11-19"
+lastUpdated: "2026-11-22"
 category: "Acquisition Systems"
 tags: "marketing mix modeling, budget allocation, marginal ROI, response curves, marketing measurement"
 ---
@@ -84,7 +84,7 @@ Marketing mix modelling uses weekly spend and sales totals to estimate how much 
 
 ### Does a small B2B company need marketing mix modelling?
 
-Usually not yet. Google's Meridian documentation recommends about two years of weekly spend and outcome data for a reliable model, and at least 12 months for a first one. A small B2B team with a few channels gets more from clean CRM attribution and one holdout test a quarter, then adds MMM once the history exists.
+Usually not yet. Google's Meridian documentation recommends at least two years of weekly data for a geo-level model and three years for a national one. A small B2B team with a few channels gets more from clean CRM attribution and one holdout test a quarter, then adds MMM once the history exists.
 
 ### What is marginal ROI?
 
