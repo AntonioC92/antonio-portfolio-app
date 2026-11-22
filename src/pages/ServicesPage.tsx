@@ -175,10 +175,10 @@ export function ServicesPage(): JSX.Element {
         <SectionDivider />
 
         <EngagementSection>
-          <SectionLabel>How we work together</SectionLabel>
+          <SectionLabel>How I work with clients</SectionLabel>
           <SectionBody>
             Every engagement starts with a discovery call to understand your goals, team structure, and
-            current marketing maturity. From there we agree on the right format.
+            current marketing maturity. From there I recommend the format that fits.
           </SectionBody>
           <EngagementGrid>
             {engagements.map((e) => (
@@ -208,7 +208,7 @@ export function ServicesPage(): JSX.Element {
         <CtaSection>
           <CtaText>
             <CtaTitle>Ready to grow?</CtaTitle>
-            <CtaSubtext>Let's talk about what your marketing needs to do next.</CtaSubtext>
+            <CtaSubtext>Tell me what your marketing needs to do next.</CtaSubtext>
           </CtaText>
           <CtaLink to="/contact/">Get in touch →</CtaLink>
         </CtaSection>
