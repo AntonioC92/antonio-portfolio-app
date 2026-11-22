@@ -12,7 +12,7 @@ tags: "marketing mix modeling, budget allocation, marginal ROI, response curves,
 
 A marketing mix model usually arrives as a deck. It shows which channels drove revenue last year, a few response curves, and a recommended reallocation. Then budget season starts, the recommendation meets last year's spreadsheet, and the spreadsheet wins.
 
-That gap is common. A Harvard Business Review and Google [report](https://www.mobilemarketingreads.com/marketers-push-to-operationalize-mmm-as-adoption-grows-but-execution-gaps-persist/) found only 22 percent of organisations call themselves very effective at turning MMM insights into action, while 42 percent say they are not very effective at all. With 2027 plans being locked in right now, the teams that close that gap will move money while everyone else is still presenting charts.
+That gap is common. A Harvard Business Review and Google [report](https://www.mobilemarketingreads.com/marketers-push-to-operationalize-mmm-as-adoption-grows-but-execution-gaps-persist/) found only 22 percent say they are very effective at both getting insights from MMM and acting on them, while 42 percent say they are not very effective at one or both. With 2027 plans being locked in right now, the teams that close that gap will move money while everyone else is still presenting charts.
 
 ## Quick answer: how do you turn marketing mix model results into budget decisions?
 
