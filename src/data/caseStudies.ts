@@ -53,7 +53,7 @@ export const caseStudies: CaseStudy[] = [
     badge: 'Performance Marketing · Funnel Build · US',
     title: 'Gates Coaching Group',
     description:
-      'Paid media lead generation for a US-based executive coaching firm. Built and optimised funnels across multiple channels to drive qualified leads at volume.',
+      'Paid media lead generation for a US-based executive coaching firm. Built and optimised Meta funnels to drive qualified leads at volume.',
     channels: 'Meta',
     metrics: ['186 leads', '3.9x ROAS'],
     partner: 'Streetwise Consultancy',
