@@ -85,6 +85,14 @@ export const CardDescription = styled.p`
   margin: 0;
 `;
 
+export const CardChannels = styled.p`
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin: 0;
+`;
+
 export const MetricsList = styled.ul`
   list-style: none;
   padding: 0;

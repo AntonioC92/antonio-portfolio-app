@@ -11,6 +11,7 @@ import {
   CardBadge,
   CardTitle,
   CardDescription,
+  CardChannels,
   MetricsList,
   MetricItem,
   PartnerCaption,
@@ -47,6 +48,7 @@ export function WorkPage(): JSX.Element {
               <CardBadge>{cs.badge}</CardBadge>
               <CardTitle>{cs.title}</CardTitle>
               <CardDescription>{cs.description}</CardDescription>
+              {cs.channels && <CardChannels>Channels: {cs.channels}</CardChannels>}
               <MetricsList>
                 {cs.metrics.map((metric, i) => (
                   <MetricItem key={i}>{metric}</MetricItem>
@@ -55,6 +57,7 @@ export function WorkPage(): JSX.Element {
               {cs.partner && (
                 <PartnerCaption>Delivered with {cs.partner}</PartnerCaption>
               )}
+              {cs.note && <PartnerCaption>{cs.note}</PartnerCaption>}
               <CardCtaRow>
                 <CardCta href={`/case-studies/${cs.slug}`}>
                   View Case Study →
