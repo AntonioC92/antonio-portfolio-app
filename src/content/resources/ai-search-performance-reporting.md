@@ -5,7 +5,7 @@ description: "Leadership wants to know whether AI search is worth the money. Her
 metaTitle: "How to Report AI Search Performance | Caruso Martech"
 metaDescription: "A one-page structure for reporting AI search to leadership: which five numbers to combine, where each comes from, and how to tie visibility to pipeline."
 date: "2026-11-04"
-lastUpdated: "2026-11-04"
+lastUpdated: "2026-11-27"
 category: "AI Search & Experience"
 tags: "AI search reporting, AI visibility, AI Overviews, executive reporting, GEO"
 ---
@@ -82,3 +82,21 @@ Send the one-pager to the same people who sign off the marketing budget. A separ
 Use the quarterly review to retire numbers that stopped being useful. If citation share has been flat for six months while pipeline grows, leadership needs to see the pipeline line, and the citation chart can move to the appendix.
 
 If your AI search reporting is a collection of screenshots, I help teams build the one-page structure, connect GA4 and CRM data, and set the review cadence leadership will use. See my [services](/services) or [contact me](/contact) before your 2027 budget review.
+
+## FAQ
+
+### How should marketers report AI search performance to executives?
+
+On one page with five numbers: AI referral sessions, conversions from those sessions, pipeline or revenue, AI Overview impressions, and citation share against your main competitor. Outcomes go at the top because the budget decision rests on them, with visibility underneath as the explanation.
+
+### Where does the data for an AI search report come from?
+
+Referral sessions and conversions come from GA4, pipeline from the CRM, AI Overview impressions from Search Console, citations from Bing Webmaster Tools, and competitor citation share from a prompt-tracking tool. GA4 needs a custom channel group first, because AI referrals often land in Direct or Referral by default.
+
+### How often should AI search performance be reported?
+
+Monthly, on one page, with a quarterly strategy review. Monthly keeps leadership informed without reacting to noise, and the quarterly review is where budget or content effort shifts on three months of trend. Send it to the people who sign off the marketing budget.
+
+### Can you measure revenue from AI search?
+
+Partly. Separate AI referral traffic in GA4, tie each AI-referred conversion to a CRM record so pipeline can be summed, and track branded search alongside. Google's report shows impressions only, with no clicks or queries, so part of the influence stays approximate.

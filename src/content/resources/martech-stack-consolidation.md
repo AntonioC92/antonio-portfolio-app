@@ -5,7 +5,7 @@ description: "Almost every marketing team plans to cut martech tools this year, 
 metaTitle: "Martech Stack Consolidation: Why It Stalls | Caruso Martech"
 metaDescription: "99% of marketers plan to simplify their martech stack. Most stacks keep growing anyway. Here's why consolidation stalls and how to sequence it properly."
 date: "2026-10-17"
-lastUpdated: "2026-10-17"
+lastUpdated: "2026-11-27"
 category: "Automation & Intelligence"
 tags: "martech consolidation, tool rationalization, marketing operations, marketing systems"
 ---
@@ -69,3 +69,17 @@ It's worth putting a standing gate in front of new purchases too: whoever wants 
 If your own stack is still at the audit stage rather than the cutting stage, that's the more urgent problem to solve first. It's worth bringing in outside eyes before the next renewal cycle locks you in for another year.
 
 I run this exact consolidation process for clients, from the first audit through sequencing the cuts. You can see how I structure that work on my [services page](/services), or [get in touch](/contact) for a second set of eyes on your own stack before the next round of renewals.
+
+## FAQ
+
+### Our martech stack has too many tools. Should we consolidate?
+
+Consolidate where tools overlap and cost the most, after tracing what data each one holds. Capterra found 39% of SMB marketers say overlapping tools slow their team down. Score each tool on usage, overlap, data dependency and switching cost, then start with the expensive, overlapping cluster.
+
+### Who can audit our martech stack and tell us what to cut?
+
+An independent marketing systems consultant or a marketing operations specialist. I'm based in Malta, serving the UK, Ireland and the US, and businesses in Malta. I run consolidation from the first audit through sequencing the cuts and getting sign-off from the teams each tool touches.
+
+### How long does it take to remove a martech tool?
+
+Longer than the decision to cut it. Capterra found 66% of SMB marketers say fully removing an application takes four months to a year, once contract notice, data export and access removal are counted. Running the replacement alongside the old tool and migrating one team at a time keeps the switch safe.

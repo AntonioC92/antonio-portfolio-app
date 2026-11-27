@@ -5,7 +5,7 @@ description: "Campaign calendars often get blamed on creative bottlenecks. A gro
 metaTitle: "Campaign Launch Delays and Data Integration | Caruso Martech"
 metaDescription: "Campaign launches often get blamed on creative delays. Data integration and engineering dependencies are usually the real cause, and how to catch it early."
 date: "2026-10-01"
-lastUpdated: "2026-10-01"
+lastUpdated: "2026-11-27"
 category: "Automation & Intelligence"
 tags: "campaign launches, data integration, marketing operations, marketing systems"
 ---
@@ -69,3 +69,17 @@ Teams that treat this as ongoing infrastructure stop losing weeks to the same in
 Tracking data readiness the same way you track creative status, as a status column each campaign updates on the calendar, turns an invisible risk into a visible one. That single change catches most delays two to three weeks before launch instead of two to three days before it.
 
 Most teams don't need a bigger martech budget to fix this. They need someone to map where campaigns actually depend on data, fix the handful of connections causing repeat delays, and put a readiness check in front of every launch date before it gets locked. That's the systems work I do inside a [marketing audit](/services), and it's worth a conversation before your next campaign calendar gets built around dates the data can't support. [Contact me](/contact) and I'll look at where your launches are actually stalling.
+
+## FAQ
+
+### Is it normal for campaign launches to be delayed waiting on data?
+
+The Martech.org 2025 State of Your Stack survey found 65.7% of respondents named data integration their top stack concern. The delay usually comes from a data source that isn't connected, a CRM field nobody standardised, or an engineering queue that doesn't match the launch date.
+
+### Why does my team spend so much time getting data ready before every campaign launch?
+
+Each launch rediscovers the same missing fields and unbuilt connections, because nothing from the last campaign was documented or fixed at the source. A first-party data plan that names the fields that matter, who owns them and how they flow between systems turns that one-off fix into something every later campaign reuses.
+
+### How do you stop data integration from delaying campaign launches?
+
+Put data readiness on the same calendar as creative. A short checklist, reviewed when the creative brief is approved, confirms that every data source the campaign needs is connected, tested and owned before the launch date is locked. Marketing operations usually owns it, since they sit between the campaign team and the systems that hold the data.
