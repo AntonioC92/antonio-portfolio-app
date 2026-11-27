@@ -5,7 +5,7 @@ description: "Marketing mix modeling used to require a data science team and a s
 metaTitle: "Marketing Mix Modeling for Small Teams | Caruso Martech"
 metaDescription: "Marketing mix modeling used to be enterprise-only. Free tools and the collapse of cookie tracking make it worth a real look for small teams in 2026."
 date: "2026-09-09"
-lastUpdated: "2026-09-09"
+lastUpdated: "2026-11-27"
 category: "Acquisition Systems"
 tags: "marketing mix modeling, attribution, marketing measurement, privacy-first marketing"
 ---
@@ -32,7 +32,7 @@ Attribution and GA4 reporting stay useful for what they were built to track. MMM
 
 ## What changed the cost equation
 
-The old barrier to marketing mix modeling was cost. Vendor-run projects typically ran into six figures and needed a data science team to interpret the output, which kept the method out of reach for most small and mid-size marketing teams.
+The old barrier to marketing mix modeling was cost. Vendor-run projects were expensive and needed a data science team to interpret the output, which kept the method out of reach for most small and mid-size marketing teams.
 
 That changed when Google released Meridian and Meta released Robyn as free, open-source packages purpose-built for this kind of modeling. [Search Engine Land](https://searchengineland.com/exploring-meridian-googles-new-open-source-marketing-mix-model-438754) covered Meridian's public launch as a genuine shift in who gets access to this kind of analysis. Robyn runs in R, Meridian runs in Python on a Bayesian framework, and both are documented well enough that an analyst comfortable with either language can get a model running.
 

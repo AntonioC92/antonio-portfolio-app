@@ -5,7 +5,7 @@ description: "A practical breakdown of what a fractional marketing leader delive
 metaTitle: "Fractional Marketing Leader: Month One | Caruso Martech"
 metaDescription: "What a fractional marketing leader actually delivers in the first 30 days: the audit, the roadmap, and the first win that proves the engagement is working."
 date: "2026-08-24"
-lastUpdated: "2026-08-24"
+lastUpdated: "2026-11-27"
 category: "Acquisition Systems"
 tags: "fractional marketing leadership, marketing leadership, first 90 days, small business marketing, marketing strategy"
 ---
@@ -66,7 +66,7 @@ The strategy can be right and the engagement can still fail if the working relat
 
 Adoption of this model is accelerating well beyond isolated cases. [Distribute Digital](https://distributedigital.co.uk/the-rise-of-fractional-marketing/) reports that 68 percent of UK businesses have already considered or currently use fractional marketing, and 67 percent of UK SMEs are still operating without a formal marketing strategy at all, which is exactly the gap this model is built to close.
 
-Cost is part of why the model spreads. A full-time marketing manager in the UK carries a base salary of roughly £45,000 to £60,000 before National Insurance, pensions, and tooling, while a senior marketing director runs £125,000 or more. Fractional engagements in the US typically price between $4,000 and $20,000 a month, per [GoFractional](https://www.gofractional.com/blog/fractional-cmo-salary), which gives smaller businesses access to senior judgment without the full-time overhead.
+Cost is part of why the model spreads. A full-time hire carries salary, National Insurance, pensions and tooling, and a senior marketing director costs considerably more. A fractional engagement gives smaller businesses access to senior judgment without that full-time overhead.
 
 None of this replaces the [decision framework](/insights/marketing-manager-vs-fractional-cmo) for choosing between a marketing manager and outside leadership in the first place. It only matters once that choice is made and the clock on month one has already started.
 

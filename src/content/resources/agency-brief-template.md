@@ -5,7 +5,7 @@ description: "A vague brief gets an agency guessing, and guesses cost money. Her
 metaTitle: "How to Brief a Marketing Agency | Caruso Martech"
 metaDescription: "What to include in an agency brief, how to scope deliverables, and how to avoid the rebriefing cycle that wastes budget on both sides."
 date: "2026-08-28"
-lastUpdated: "2026-08-28"
+lastUpdated: "2026-11-27"
 category: "Automation & Intelligence"
 tags: "agency brief, agency management, marketing operations"
 ---
@@ -36,7 +36,7 @@ Business context comes first: what the company does, who the customer is, and wh
 
 Competitive context comes next, kept short: who else the customer actually considers, and the one or two things that genuinely set you apart from them. A full landscape analysis buries the point the agency needs most. Then the objective, stated as a number wherever one exists, plus the deliverables list with exact formats and any hard constraints like brand guidelines or legal review.
 
-Budget range and timeline belong in the brief itself. Agencies scope a project differently against £5,000 than £50,000, and holding that number back until the proposal stage forces an extra round of back-and-forth that both sides could have skipped. The same applies to any hard deadline: a launch date tied to a trade show or a board meeting changes how an agency sequences the work, so name it early.
+Budget range and timeline belong in the brief itself. Agencies scope a small budget very differently from a large one, and holding that number back until the proposal stage forces an extra round of back-and-forth that both sides could have skipped. The same applies to any hard deadline: a launch date tied to a trade show or a board meeting changes how an agency sequences the work, so name it early.
 
 ## Define scope and deliverables before work starts
 

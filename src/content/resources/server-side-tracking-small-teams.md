@@ -5,7 +5,7 @@ description: "Server-side tracking recovers real conversion data lost to ad bloc
 metaTitle: "Server-Side Tracking for Small Teams | Caruso Martech"
 metaDescription: "What server-side tracking actually requires for a small marketing team: setup steps, hosting cost, and when it is not worth building yet."
 date: "2026-08-29"
-lastUpdated: "2026-08-29"
+lastUpdated: "2026-11-27"
 category: "Acquisition Systems"
 tags: "server-side tracking, GTM, GA4, conversion tracking, first-party data"
 ---
@@ -19,7 +19,7 @@ Here is what the setup actually requires, what it costs, and when a small team s
 - A server container in GTM plus a hosted tagging server, such as Google Cloud Run or a managed host like Stape, separate from your existing web container.
 - A first-party subdomain, something like data.yourdomain.com, so requests come from your own domain instead of a third-party one.
 - A full rebuild of your existing tags inside the server container, since what runs client-side today has to be reconfigured for the new setup.
-- Ongoing hosting cost, typically $20 to $90 or more a month depending on traffic and provider, plus real setup time.
+- Ongoing hosting cost that scales with traffic and provider, plus real setup time.
 - Enough ad spend and conversion volume that the recovered data changes a decision, or the investment does not pay for itself.
 
 ## What server-side tracking actually changes
@@ -42,13 +42,13 @@ The gap shows up directly in ad platform reporting once it is fixed. A New Path 
 
 A working setup needs four pieces: a server container in GTM, a hosted tagging server, a client that translates incoming requests, and a first-party subdomain pointing at that server. Skip any one of them and the result is just a proxy sitting in front of the same client-side tracking.
 
-[AnalyticsMania's](https://www.analyticsmania.com/post/introduction-to-google-tag-manager-server-side-tagging/) setup guide lays out the same four components and puts hosting at roughly $90 a month on Google Cloud Run for a production setup, or from around $20 a month with a managed host that handles server maintenance for you.
+[AnalyticsMania's](https://www.analyticsmania.com/post/introduction-to-google-tag-manager-server-side-tagging/) setup guide lays out the same four components and compares hosting on Google Cloud Run for a production setup with a managed host that handles server maintenance for you and costs less to start.
 
 Every tag currently running client-side also needs rebuilding inside the server container. Google Ads, Meta, and any other pixel needs its own server-side tag, configured and tested against real traffic before the client-side version it replaces gets switched off.
 
 ## What it costs and when it is not worth it yet
 
-Budget hosting in the $20 to $90-plus a month range, plus setup time that runs a few days for someone who already knows GTM well and longer on a first attempt. Below a certain volume, that cost outweighs what gets recovered.
+Budget for monthly hosting, plus setup time that runs a few days for someone who already knows Google Tag Manager well and longer on a first attempt. Below a certain volume, that cost outweighs what gets recovered.
 
 If combined Google and Meta ad spend sits under roughly $3,000 to $5,000 a month, the recovered conversions rarely change a budget decision enough to justify the ongoing hosting and maintenance. A [martech stack audit](/insights/martech-stack-audit) is a reasonable prerequisite here: fix conversion tracking gaps and event naming first, because server-side tracking amplifies whatever data quality already exists rather than creating clean data on its own.
 

@@ -5,7 +5,7 @@ description: "A practical framework for tracking what a fractional marketing eng
 metaTitle: "Fractional Marketing ROI: How to Measure It | Caruso Martech"
 metaDescription: "How to calculate ROI on a fractional marketing engagement: the cost baseline, the formula, and the pipeline signals that show results before revenue does."
 date: "2026-08-25"
-lastUpdated: "2026-08-25"
+lastUpdated: "2026-11-27"
 category: "Acquisition Systems"
 tags: "fractional CMO, marketing ROI, pipeline attribution, marketing leadership, fractional marketing"
 ---
@@ -26,7 +26,7 @@ The fix is not complicated. It needs a real cost baseline, one formula applied c
 
 Any ROI number is only as good as the cost baseline underneath it. Compare the fractional retainer against the full first-year cost of a permanent hire, since recruitment fees, payroll taxes, benefits, and ramp time all belong in that number alongside the base salary itself.
 
-In the UK, a full-time marketing director typically costs £300,000 to £450,000 in year one once recruitment and benefits are folded into the true [cost of hiring](https://www.themarketingcentre.com/blog/calculate-cmo-cost), against a fractional retainer running roughly £60,000 to £120,000 annually for a few days a week. In the US, [MarkCMO](https://markcmo.com/fractional-cmo-roi) puts a fully loaded full-time CMO at $350,000 to $550,000 a year, compared with $96,000 to $240,000 for a fractional engagement at similar seniority.
+In both the UK and the US, the fully loaded first-year cost of a full-time marketing director is far higher than a fractional retainer at similar seniority, once recruitment and benefits are folded into the true [cost of hiring](https://www.themarketingcentre.com/blog/calculate-cmo-cost), according to The Marketing Centre and [MarkCMO](https://markcmo.com/fractional-cmo-roi).
 
 That gap becomes the denominator every ROI calculation depends on. Getting it wrong, by leaving out recruitment cost or ramp time, makes every later number look better than it really is.
 
@@ -36,7 +36,7 @@ The model is spreading fast enough that boards are getting more comfortable aski
 
 A fractional engagement needs one ROI formula applied the same way every quarter, so the number means the same thing each time someone asks for it. The clearest version, from [VCMO](https://www.vcmo.uk/resource/how-to-measure-the-roi-of-a-fractional-cmo), is net profit attributable to marketing minus the cost of the engagement, divided by the cost of the engagement, multiplied by 100. Swapping formulas quarter to quarter, or letting whoever is presenting pick whichever version flatters the result, defeats the purpose before the number reaches anyone's desk.
 
-A £60,000 engagement that generates £300,000 in attributable profit works out to a 400 percent return under that formula. [The Marketing Centre](https://www.themarketingcentre.com/blog/calculate-cmo-cost) uses the same structure for full-time hires, which makes the two numbers genuinely comparable rather than measuring different things.
+An engagement that generates five times its cost in attributable profit works out to a 400 percent return under that formula. [The Marketing Centre](https://www.themarketingcentre.com/blog/calculate-cmo-cost) uses the same structure for full-time hires, which makes the two numbers genuinely comparable rather than measuring different things.
 
 Agree the formula and the attribution method with the fractional leader before the engagement starts. Deciding it retroactively invites arguments about which wins actually belong to marketing.
 

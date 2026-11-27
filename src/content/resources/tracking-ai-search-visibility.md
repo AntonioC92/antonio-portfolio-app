@@ -5,7 +5,7 @@ description: "What marketing teams can and can't measure when tracking brand vis
 metaTitle: "How to Track AI Search Visibility | Caruso Martech"
 metaDescription: "What you can actually measure when tracking visibility in ChatGPT, Perplexity, and AI Overviews, and which tools are worth paying for in 2026."
 date: "2026-09-02"
-lastUpdated: "2026-09-02"
+lastUpdated: "2026-11-27"
 category: "AI Search & Experience"
 tags: "ai search visibility, ai overviews, share of voice, ai search tracking"
 ---
@@ -42,7 +42,7 @@ The framing layer matters just as much and gets tracked far less. The same Searc
 
 A real market has formed around this problem, and most small teams are choosing between a handful of purpose-built platforms rather than building tracking themselves. A recent [comparison](https://www.frase.io/blog/the-10-best-ai-visibility-tools-in-2026) of the category lists the main options and what each one leans on.
 
-Otterly.ai sits at the entry level, with credit-based pricing starting around $29 a month and coverage across six major engines. Frase folds AI visibility into its existing content research and optimization workflow, useful if your team already writes there. Semrush's AI toolkit plugs the same tracking into a suite most SEO teams already pay for, though it starts closer to $165 a month. SE Ranking adds AI Overview and chatbot tracking to its standard rank tracker, which keeps the buying decision simple if you're already a customer.
+Otterly.ai sits at the entry level, with credit-based pricing and coverage across six major engines. Frase folds AI visibility into its existing content research and optimization workflow, useful if your team already writes there. Semrush's AI toolkit plugs the same tracking into a suite most SEO teams already pay for, at a higher starting price. SE Ranking adds AI Overview and chatbot tracking to its standard rank tracker, which keeps the buying decision simple if you're already a customer.
 
 None of these hand you a finished strategy. Most surface a dashboard of mentions and citations and leave the interpretation, and the response, to you.
 
