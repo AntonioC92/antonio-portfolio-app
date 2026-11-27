@@ -12,6 +12,7 @@ type SeoProps = {
   twitterTitle?: string;
   twitterDescription?: string;
   twitterImage?: string;
+  robots?: string;
 };
 
 export function Seo({
@@ -26,6 +27,7 @@ export function Seo({
   twitterTitle,
   twitterDescription,
   twitterImage,
+  robots,
 }: SeoProps): JSX.Element {
   const image = ogImage ?? 'https://carusomartech.com/preview.png';
 
@@ -34,6 +36,7 @@ export function Seo({
       <title>{title}</title>
       <meta name="description" content={description} />
       <link rel="canonical" href={canonical} />
+      {robots ? <meta name="robots" content={robots} /> : null}
       <meta property="og:title" content={ogTitle ?? title} />
       <meta property="og:description" content={ogDescription ?? description} />
       <meta property="og:url" content={ogUrl ?? canonical} />

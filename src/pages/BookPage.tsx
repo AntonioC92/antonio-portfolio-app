@@ -64,6 +64,45 @@ const Intro = styled.p`
   }
 `;
 
+const Gate = styled.div`
+  max-width: 640px;
+  padding: 28px;
+  border-radius: 16px;
+  background: rgba(8, 16, 30, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+`;
+
+const ShowButton = styled.button`
+  display: inline-block;
+  background: ${colors.primaryButtonBg};
+  color: ${colors.light};
+  border: none;
+  border-radius: 100px;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s;
+
+  &:hover,
+  &:focus-visible {
+    background: ${colors.primaryButtonBgHover};
+  }
+`;
+
+const Notice = styled.p`
+  margin: 16px 0 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.7);
+
+  a {
+    color: ${colors.primary};
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+`;
+
 const EmbedCard = styled.div`
   background-color: ${colors.light};
   border-radius: 16px;
@@ -77,25 +116,12 @@ const EmbedCard = styled.div`
   }
 `;
 
-const Fallback = styled.p`
-  padding: 24px;
-  font-size: 16px;
-  color: ${colors.text};
-
-  a {
-    color: ${colors.primaryButtonBg};
-  }
-`;
-
 export function BookPage(): JSX.Element {
+  // Nothing from HubSpot loads until the visitor clicks "Show available times".
   const [embedSrc, setEmbedSrc] = useState<string | null>(null);
 
-  useEffect(() => {
-    setEmbedSrc(buildEmbedSrc(window.location.search));
-  }, []);
-
   // HubSpot's embed script scans the page for .meetings-iframe-container
-  // when it loads, so it is added after the container has rendered.
+  // when it loads, so it is added only after the container has rendered.
   useEffect(() => {
     if (!embedSrc) return undefined;
     const script = document.createElement('script');
@@ -116,6 +142,7 @@ export function BookPage(): JSX.Element {
         ogUrl={BOOK_CANONICAL}
         ogImage="https://carusomartech.com/preview.png"
         twitterImage="https://carusomartech.com/preview.png"
+        robots="noindex, follow"
       />
       <Section>
         <Header>Book a call</Header>
@@ -123,16 +150,24 @@ export function BookPage(): JSX.Element {
           Pick a time that suits you and I will take it from there. If you would
           rather write first, use the <a href="/contact/">contact page</a>.
         </Intro>
-        <EmbedCard>
-          {embedSrc ? (
+        {embedSrc ? (
+          <EmbedCard>
             <div className="meetings-iframe-container" data-src={embedSrc} />
-          ) : (
-            <Fallback>
-              Loading the calendar. If it does not appear,{' '}
-              <a href={MEETINGS_URL}>open the booking page</a>.
-            </Fallback>
-          )}
-        </EmbedCard>
+          </EmbedCard>
+        ) : (
+          <Gate>
+            <ShowButton
+              type="button"
+              onClick={() => setEmbedSrc(buildEmbedSrc(window.location.search))}
+            >
+              Show available times
+            </ShowButton>
+            <Notice>
+              The calendar is provided by HubSpot, which may set cookies once it
+              loads. More in the <a href="/privacy-policy/">privacy policy</a>.
+            </Notice>
+          </Gate>
+        )}
       </Section>
     </Layout>
   );
