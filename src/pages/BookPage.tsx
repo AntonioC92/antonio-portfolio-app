@@ -74,6 +74,7 @@ const Gate = styled.div`
 
 const ShowButton = styled.button`
   display: inline-block;
+  font-family: inherit;
   background: ${colors.primaryButtonBg};
   color: ${colors.light};
   border: none;
