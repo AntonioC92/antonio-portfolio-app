@@ -5,7 +5,7 @@ description: "Marketing mix modeling vendors quote budgets before they quote dat
 metaTitle: "MMM Data Needs and How Long Setup Takes | Caruso Martech"
 metaDescription: "How long marketing mix modeling takes to implement after you sign with a vendor, how much historical data it needs, and what slows the first model down."
 date: "2026-10-03"
-lastUpdated: "2026-11-22"
+lastUpdated: "2026-11-27"
 category: "Acquisition Systems"
 tags: "marketing mix modeling, attribution, marketing measurement, data strategy"
 ---
@@ -61,3 +61,21 @@ Before any model gets built, the useful question is simpler than the vendor pitc
 A no to either question points to real groundwork: cleaning the data and freeing up the analyst hours before a vendor gets involved. Cookie loss and the arrival of free, open-source tooling already made the case for small teams revisiting marketing mix modeling in the first place.
 
 Closing the data and time gap is what makes that case hold up once a vendor is actually in the room, and a sales demo leaves that gap for you to discover later, usually after the contract is signed. If you want a straight read on whether your current setup can support a model before you sign anything, [get in touch](/contact) or see how I approach it in [my services](/services).
+
+## FAQ
+
+### How much historical data do I need for a marketing mix model?
+
+Google's own [Meridian documentation](https://developers.google.com/meridian/docs/user-guide/collect-data) recommends a minimum of two years of weekly data for a geo-level model and three years for a national model. Recast builds on roughly 27 months of history. Self-service tools can run on about 26 weeks, a stability floor well below what reliable results need.
+
+### How long does it take to implement marketing mix modelling?
+
+Expect weeks before the first usable output. The work runs through scoping, data collection, cleaning, model build and calibration against known results. The longest stretch is usually internal: pulling two or more years of clean, channel-level spend from several ad accounts and a CRM into one file.
+
+### Should I build on Google Meridian or Meta Robyn?
+
+For a new model, weigh vendor investment as much as features. AdExchanger reports that Meta is winding down investment in Robyn while Google pushes Meridian, including into Google Analytics 360. An existing Robyn model is still useful today, and a new build has to stay supported for years after launch.
+
+### Is my business ready for marketing mix modelling?
+
+It is ready once two years of clean, channel-level spend and outcome data sit somewhere the team can pull it, and someone has analyst time to build the model and keep its inputs clean. If either is missing, the first job is cleaning and connecting that data, before any vendor gets involved.

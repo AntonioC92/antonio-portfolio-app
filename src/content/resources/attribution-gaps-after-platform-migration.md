@@ -5,7 +5,7 @@ description: "A GA4 update, ad platform change, or CRM migration can break attri
 metaTitle: "Attribution Gaps After a Platform Change | Caruso"
 metaDescription: "A platform or tracking change broke your attribution reporting. A practical checklist for finding the gap fast and fixing it before budget review."
 date: "2026-07-30"
-lastUpdated: "2026-07-30"
+lastUpdated: "2026-11-27"
 category: "Acquisition Systems"
 tags: "attribution, ga4, marketing analytics, data gaps, marketing operations"
 ---
@@ -69,3 +69,17 @@ The businesses that handle this well are not the ones with the most sophisticate
 If your reporting stopped making sense after a recent platform change and you cannot pin down why, that is exactly the kind of diagnostic work I do. [Reach out](/contact) and I will help you find the gap.
 
 Or look at my [services](/services) if you want that check built into how your marketing system runs going forward.
+
+## FAQ
+
+### What attribution reporting gaps show up during a search platform migration?
+
+The common ones are an attribution model that changed scope, conversion windows reset by a new ad account, and leads that no longer match a campaign source after a CRM migration. GA4's April 2026 restructure, for example, moved attribution from one property-level setting to a choice per conversion. The dashboard keeps loading while the number answers a different question.
+
+### How do you find the cause of a broken attribution report?
+
+Find the exact day the daily trend diverges, then compare the attribution model settings from before and after. Reconcile GA4, ad platform and CRM numbers for the same window and the same conversion definition. A test conversion traced through every system narrows the gap to one handoff.
+
+### Who should check attribution after a platform change?
+
+A named person, as a recurring task tied to the update schedule of the platforms the business depends on. Weekly suits most small teams, and more often in the first month after a known change. A scheduled export that flags when GA4 and ad platform conversion counts drift apart makes the check automatic.
