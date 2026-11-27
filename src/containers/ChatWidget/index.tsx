@@ -589,9 +589,7 @@ function CtaBlock({
         {ctaState === 'idle' && (
           <CtaButtons>
             <BookBtn
-              href="https://meetings.hubspot.com/antonio393?utm_source=website&utm_medium=chatbot&utm_campaign=organic"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/book/?from=chatbot&campaign=organic"
             >
               📅 Book a call
             </BookBtn>
@@ -632,9 +630,7 @@ function CtaBlock({
               {isSubmitting ? 'Sending...' : 'Send →'}
             </SubmitBtn>
             <AltBookLink
-              href="https://meetings.hubspot.com/antonio393?utm_source=website&utm_medium=chatbot&utm_campaign=organic"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/book/?from=chatbot&campaign=organic"
             >
               Or book a call instead
             </AltBookLink>
@@ -648,9 +644,7 @@ function CtaBlock({
             <br />
             <br />
             <BookBtn
-              href="https://meetings.hubspot.com/antonio393?utm_source=website&utm_medium=chatbot&utm_campaign=organic"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/book/?from=chatbot&campaign=organic"
             >
               📅 Book a call in the meantime
             </BookBtn>
@@ -813,9 +807,7 @@ export function ChatWidget(): JSX.Element {
                 {msg.hasCta && i !== lastCtaIdx && (
                   <CtaWrap>
                     <BookBtn
-                      href="https://meetings.hubspot.com/antonio393?utm_source=website&utm_medium=chatbot&utm_campaign=organic"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href="/book/?from=chatbot&campaign=organic"
                     >
                       📅 Book a call
                     </BookBtn>
