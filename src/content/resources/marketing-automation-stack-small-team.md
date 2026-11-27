@@ -5,7 +5,7 @@ description: "A practical build order for small marketing teams: which workflows
 metaTitle: "Marketing Automation for Small Teams | Caruso Martech"
 metaDescription: "The automation stack a 3-person marketing team should build first: which workflows to set up, which tools to buy, and what to skip."
 date: "2026-08-22"
-lastUpdated: "2026-08-22"
+lastUpdated: "2026-11-27"
 category: "Automation & Intelligence"
 tags: "marketing automation, small marketing team, martech stack, workflow automation"
 ---
@@ -52,7 +52,7 @@ Every additional tool is another login, another integration that can break, and 
 
 This matters more than it sounds. Mid-sized marketing teams manage 15 or more tools on average, and [HubSpot](https://blog.hubspot.com/marketing/marketing-tool-sprawl)'s research on tool sprawl found that consolidating down to a unified platform typically retains about 95% of functionality while cutting platform costs roughly in half. A three-person team carrying that same sprawl pays the cost with none of the headcount to manage it.
 
-Budget the tool cost against the hours it saves. A $150 monthly platform that eliminates five hours of manual work a week has paid for itself several times over: [Stealth Agents](https://stealthagents.com/research/small-business-automation-statistics-2026) puts the median time savings for owners at five hours weekly, with employees reclaiming closer to 11.5 hours once workflows are running.
+Budget the tool cost against the hours it saves. A platform that eliminates five hours of manual work a week usually pays for itself quickly: [Stealth Agents](https://stealthagents.com/research/small-business-automation-statistics-2026) puts the median time savings for owners at five hours weekly, with employees reclaiming closer to 11.5 hours once workflows are running.
 
 ## What to leave manual, deliberately
 

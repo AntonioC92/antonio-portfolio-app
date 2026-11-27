@@ -28,7 +28,7 @@ Teams rarely lack the will to consolidate. [Capterra](https://martech.org/51-of-
 
 What breaks down is everything after the audit. The same Capterra data found 66% of SMB marketers say fully removing an application takes four months to a year, even once everyone has agreed to retire it. That gap between agreement and removal is where consolidation plans go to die.
 
-Redundancy also costs more than most teams admit. SMBs spend roughly $43,500 a year on martech they rarely use, and 39% say tools with overlapping functions actively slow their team down rather than just sitting idle. The waste isn't hypothetical. It's a specific dollar figure sitting on a card statement next to tools nobody can confidently say they still need.
+Redundancy also costs more than most teams admit. SMBs keep paying every year for martech they rarely use, and 39% say tools with overlapping functions actively slow their team down. That waste sits on a card statement next to tools nobody can confidently say they still need.
 
 ## Why an audit alone doesn't fix this
 

@@ -22,7 +22,7 @@ I covered the case for small teams adopting [marketing mix modeling](/insights/m
 - Recast, a widely used managed platform, builds on roughly 27 months of history to account for carry-over effects and a proper burn-in period, according to [Recast](https://getrecast.com/optimize-your-marketing-mix-modeling-with-the-ideal-data-window).
 - Self-service tools can run on less: [Optimix](https://optimix51-optimix-blog.hf.space/?p=229) puts a practical floor around 26 weeks of weekly data for a stable model, a statistical-minimum threshold well short of what real accuracy needs.
 - Implementation runs through several distinct phases: scoping, data collection, cleaning, model build, then calibration against known results. Expect weeks before the first usable output lands.
-- Cost and data burden move together. Managed services run $50,000 to $200,000 or more per engagement; self-service platforms run $24,000 to $60,000 a year but need 15 to 20 analyst hours a week, per [Improvado](https://improvado.io/blog/marketing-mix-modeling-providers).
+- Cost and data burden move together. Managed services carry the largest fee per engagement; self-service platforms cost less to license and more in your own analyst time, per [Improvado](https://improvado.io/blog/marketing-mix-modeling-providers).
 
 ## The data window that actually matters
 
@@ -44,7 +44,7 @@ A model is also only as trustworthy as the first-party data feeding it. If your 
 
 Marketing mix modeling pricing splits into two real options, and the cheaper one still carries a real cost. It simply moves that cost from a vendor invoice onto your own team's calendar, so knowing which option fits starts with being honest about how much analyst time you actually have free each week.
 
-Managed services run $50,000 to $200,000 or more per engagement and include embedded expertise, data onboarding, and ongoing model operation. Self-service platforms run $24,000 to $60,000 a year but need a standing 15 to 20 hours of analyst time weekly, according to [Improvado's](https://improvado.io/blog/marketing-mix-modeling-providers) 2026 vendor review, which also scores buyer readiness: a low score points toward managed services, a high one toward self-service or open-source tools like Google Meridian or Meta Robyn.
+Managed services cost the most and include embedded expertise, data onboarding, and ongoing model operation. Self-service platforms cost less but need standing analyst time every week, according to [Improvado's](https://improvado.io/blog/marketing-mix-modeling-providers) 2026 vendor review, which also scores buyer readiness: a low score points toward managed services, a high one toward self-service or open-source tools like Google Meridian or Meta Robyn.
 
 A readiness check like the one I use for [automation rollouts](/insights/marketing-automation-readiness-checklist) applies just as well here. The real test is whether the system feeding the model stays clean enough to run without someone babysitting it every week. Most teams only discover the true maintenance cost once the first monthly reconciliation slips.
 
@@ -56,7 +56,7 @@ Robyn still has a large installed base and plenty of community documentation, wh
 
 ## A readiness check before you commit
 
-Before any model gets built, the useful question is simpler than the vendor pitch makes it sound: do you have two years of clean, channel-level spend and outcome data sitting somewhere your team can actually pull it, and can you spare 15 to 20 analyst hours a week for the months it takes to stand the model up.
+Before any model gets built, the useful question is simpler than the vendor pitch makes it sound: do you have two years of clean, channel-level spend and outcome data sitting somewhere your team can actually pull it, and can someone on your team give it regular analyst time for the months it takes to stand the model up.
 
 A no to either question points to real groundwork: cleaning the data and freeing up the analyst hours before a vendor gets involved. Cookie loss and the arrival of free, open-source tooling already made the case for small teams revisiting marketing mix modeling in the first place.
 
