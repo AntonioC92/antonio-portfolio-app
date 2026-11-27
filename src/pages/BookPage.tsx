@@ -164,8 +164,8 @@ export function BookPage(): JSX.Element {
               Show available times
             </ShowButton>
             <Notice>
-              The calendar is provided by HubSpot, which may set cookies once it
-              loads. More in the <a href="/privacy-policy/">privacy policy</a>.
+              The calendar is provided by HubSpot. Details in the{' '}
+              <a href="/privacy-policy/">privacy policy</a>.
             </Notice>
           </Gate>
         )}
