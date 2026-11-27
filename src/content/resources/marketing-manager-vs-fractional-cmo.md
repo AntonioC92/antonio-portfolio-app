@@ -20,9 +20,9 @@ Getting the order backwards, or picking the wrong one outright, costs real money
 
 - Hire a marketing manager when strategy already exists. Someone senior owns the plan, and the gap is hands to run campaigns, manage vendors, and keep projects moving.
 - Bring in fractional leadership when nobody owns the plan. If the founder is still deciding which channels matter and how spend maps to revenue, execution capacity will not fix that.
-- Cost is closer than it looks. A full-time marketing manager and a fractional engagement often land in a similar year-one range once benefits and overhead are counted.
+- Compare the full year-one cost. A full-time hire adds benefits, payroll tax and overhead to the salary, and a fractional retainer comes with no benefits burden.
 - The wrong first hire is costly to reverse. Replacing a hire this senior typically runs well beyond their salary in lost time and rework, per [SHRM](https://www.shrm.org/executive-network/insights/myth-replaceability-preparing-loss-key-employees).
-- The two roles work well in sequence, not as competitors. Many small businesses end up using both, in a specific order, once the business is big enough to need it.
+- The two roles work well in sequence. Many small businesses end up using both, in a specific order, once the business is big enough to need it.
 
 ## What each role is actually built to do
 
@@ -36,7 +36,7 @@ Confusing the two roles is where most first hires go wrong. Bringing in executio
 
 ## The real cost comparison
 
-The headline salaries make a marketing manager look like the cheaper option, but the full picture is closer than most founders expect.
+Setting a headline salary against a retainer understates what a full-time hire costs. The fair comparison is the full year-one cost of each option.
 
 A full-time marketing manager in the US carries a base salary plus benefits, payroll tax, and overhead. That loaded cost comes before tools, ads, or any specialist support they will eventually ask for.
 
