@@ -104,13 +104,16 @@ export function PrivacyPolicy() {
 
         <p style={{ marginBottom: "2rem" }}>
           Booking a call: the booking page at /book uses HubSpot Meetings, a
-          scheduling service provided by HubSpot, Inc. The calendar loads only
-          after you select &quot;Show available times&quot;. From that point
-          HubSpot loads its scheduling page and its own scripts in an embedded
-          frame, may set cookies and collect technical data such as IP address
-          and browser details, and receives the details you enter to book a call,
-          such as your name and email address. Booking details are used to
-          arrange and hold the call. HubSpot&apos;s own handling of data is
+          scheduling service provided by HubSpot, Inc. The calendar loads on that
+          page only after you allow analytics cookies in the cookie settings;
+          otherwise the page links to HubSpot&apos;s own booking page. Once the
+          calendar loads, HubSpot loads its scheduling page and its own scripts
+          in an embedded frame, sets short-lived security cookies on its own
+          domains (__cf_bm, about 30 minutes), stores a device identifier and
+          usage events in the browser&apos;s session storage, sends usage and
+          tracking requests to HubSpot, and receives the details you enter to
+          book a call, such as your name and email address. Booking details are
+          used to arrange and hold the call. HubSpot&apos;s own handling of data is
           described in its{" "}
           <a
             href="https://legal.hubspot.com/privacy-policy"

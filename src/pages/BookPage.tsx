@@ -17,14 +17,44 @@ const EMBED_SCRIPT_SRC =
 // reporting is unchanged.
 const SAFE_VALUE = /^[a-z0-9-]{1,60}$/;
 
-function buildEmbedSrc(search: string): string {
+// The embed loads once CookieYes consent for this category is given. HubSpot's
+// embed stores a device ID and usage events and sends tracking requests, which
+// matches "analytics"; the CookieYes banner on this site has no "functional"
+// toggle today.
+const CONSENT_CATEGORY = 'analytics';
+
+type CkyConsent = { categories?: Record<string, boolean> };
+
+declare global {
+  interface Window {
+    getCkyConsent?: () => CkyConsent;
+    revisitCkyConsent?: () => void;
+  }
+}
+
+// Fail closed: only a positive answer from CookieYes's own API counts. If
+// CookieYes is missing, blocked or throws, there is no consent and the embed
+// stays off.
+function hasConsent(): boolean {
+  try {
+    return window.getCkyConsent?.().categories?.[CONSENT_CATEGORY] === true;
+  } catch {
+    return false;
+  }
+}
+
+// CookieYes loads through Google Tag Manager, so it may arrive after this page.
+// Wait for its API for up to this long before showing the no-consent line.
+const CMP_WAIT_MS = 5000;
+
+function buildUtms(search: string): URLSearchParams {
   const params = new URLSearchParams(search);
   const from = params.get('from') ?? '';
   const campaign = params.get('campaign') ?? '';
-  const embed = new URLSearchParams({ embed: 'true', utm_source: 'website' });
-  embed.set('utm_medium', SAFE_VALUE.test(from) ? from : 'book-page');
-  embed.set('utm_campaign', SAFE_VALUE.test(campaign) ? campaign : 'organic');
-  return `${MEETINGS_URL}?${embed.toString()}`;
+  const utms = new URLSearchParams({ utm_source: 'website' });
+  utms.set('utm_medium', SAFE_VALUE.test(from) ? from : 'book-page');
+  utms.set('utm_campaign', SAFE_VALUE.test(campaign) ? campaign : 'organic');
+  return utms;
 }
 
 const Section = styled.section`
@@ -72,35 +102,22 @@ const Gate = styled.div`
   border: 1px solid rgba(255, 255, 255, 0.12);
 `;
 
-const ShowButton = styled.button`
-  display: inline-block;
-  font-family: inherit;
-  background: ${colors.primaryButtonBg};
-  color: ${colors.light};
-  border: none;
-  border-radius: 100px;
-  padding: 14px 32px;
-  font-size: 16px;
-  font-weight: 700;
-  cursor: pointer;
-  transition: background 0.2s;
-
-  &:hover,
-  &:focus-visible {
-    background: ${colors.primaryButtonBgHover};
-  }
-`;
-
 const Notice = styled.p`
-  margin: 16px 0 0;
+  margin: 0;
   font-size: 14px;
   line-height: 1.6;
   color: rgba(255, 255, 255, 0.7);
 
-  a {
+  a,
+  button {
     color: ${colors.primary};
     text-decoration: underline;
     text-underline-offset: 2px;
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
   }
 `;
 
@@ -118,8 +135,40 @@ const EmbedCard = styled.div`
 `;
 
 export function BookPage(): JSX.Element {
-  // Nothing from HubSpot loads until the visitor clicks "Show available times".
-  const [embedSrc, setEmbedSrc] = useState<string | null>(null);
+  // Nothing from HubSpot loads until CookieYes reports consent for
+  // CONSENT_CATEGORY. null means CookieYes has not answered yet.
+  const [consent, setConsent] = useState<boolean | null>(null);
+  const [utms, setUtms] = useState<string>(
+    'utm_source=website&utm_medium=book-page&utm_campaign=organic'
+  );
+
+  useEffect(() => {
+    setUtms(buildUtms(window.location.search).toString());
+    const check = () => {
+      if (typeof window.getCkyConsent === 'function') setConsent(hasConsent());
+    };
+    check();
+    const started = Date.now();
+    const timer = window.setInterval(() => {
+      if (typeof window.getCkyConsent === 'function') {
+        check();
+        window.clearInterval(timer);
+      } else if (Date.now() - started > CMP_WAIT_MS) {
+        setConsent(false);
+        window.clearInterval(timer);
+      }
+    }, 250);
+    const onUpdate = () => setConsent(hasConsent());
+    document.addEventListener('cookieyes_consent_update', onUpdate);
+    document.addEventListener('cookieyes_banner_load', onUpdate);
+    return () => {
+      window.clearInterval(timer);
+      document.removeEventListener('cookieyes_consent_update', onUpdate);
+      document.removeEventListener('cookieyes_banner_load', onUpdate);
+    };
+  }, []);
+
+  const embedSrc = consent ? `${MEETINGS_URL}?embed=true&${utms}` : null;
 
   // HubSpot's embed script scans the page for .meetings-iframe-container
   // when it loads, so it is added only after the container has rendered.
@@ -155,20 +204,26 @@ export function BookPage(): JSX.Element {
           <EmbedCard>
             <div className="meetings-iframe-container" data-src={embedSrc} />
           </EmbedCard>
-        ) : (
+        ) : consent === false ? (
           <Gate>
-            <ShowButton
-              type="button"
-              onClick={() => setEmbedSrc(buildEmbedSrc(window.location.search))}
-            >
-              Show available times
-            </ShowButton>
             <Notice>
-              The calendar is provided by HubSpot. Details in the{' '}
-              <a href="/privacy-policy/">privacy policy</a>.
+              The calendar is provided by HubSpot and shows here once you allow
+              analytics cookies in the{' '}
+              <button type="button" onClick={() => window.revisitCkyConsent?.()}>
+                cookie settings
+              </button>
+              . You can also{' '}
+              <a
+                href={`${MEETINGS_URL}?${utms}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                book on HubSpot&apos;s page
+              </a>
+              , which opens in a new tab.
             </Notice>
           </Gate>
-        )}
+        ) : null}
       </Section>
     </Layout>
   );
