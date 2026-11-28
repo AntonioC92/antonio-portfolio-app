@@ -65,7 +65,7 @@ export const caseStudies: CaseStudy[] = [
     description:
       'Rebuilt the lead engine for a UK B2B software company: CRM workflows fixed, Meta relaunched around booked demos, and one booking signal counted once on every ad platform.',
     channels: 'Meta',
-    metrics: ['27% of Meta leads reached a booked demo (from 16%)', '€161 per booked demo'],
+    metrics: ['25.4% of Meta leads reached a booked demo after launch (from 15.7%)', 'About €177 per booked demo, new campaigns'],
     note: 'Early result · client name withheld',
   },
 ];
