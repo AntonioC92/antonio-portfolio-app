@@ -13,6 +13,7 @@ import { WorkPage } from './pages/WorkPage';
 import { ServicesPage } from './pages/ServicesPage';
 import { AboutPage } from './pages/AboutPage';
 import { ContactPage } from './pages/ContactPage';
+import { BookPage } from './pages/BookPage';
 
 export function render(url: string): {
   html: string;
@@ -40,6 +41,7 @@ export function render(url: string): {
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/fractional-cmo" element={<Navigate to="/" replace />} />
               <Route path="/contact" element={<ContactPage />} />
+              <Route path="/book" element={<BookPage />} />
             </Routes>
           </StaticRouter>
         </HelmetProvider>

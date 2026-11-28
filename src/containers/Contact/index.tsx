@@ -248,9 +248,7 @@ export function Contact({ headingLevel = "h1" }: ContactProps): JSX.Element {
               Pick a time that suits you and I will take it from there.
             </p>
             <a
-              href="https://meetings.hubspot.com/antonio393?utm_source=website&utm_medium=contact-page&utm_campaign=organic"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/book/?from=contact-page&campaign=organic"
             >
               {/* Default outline variant's brand-orange text (#ff8164) is only
                   2.45:1 against this card's white background, under the WCAG

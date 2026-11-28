@@ -49,7 +49,7 @@ export function PrivacyPolicy() {
             fontSize: "1rem",
           }}
         >
-          Last updated: 21 November 2026
+          Last updated: 28 November 2026
         </p>
 
         <p style={{ marginBottom: "1.5rem" }}>
@@ -100,6 +100,30 @@ export function PrivacyPolicy() {
           measurement. These providers process personal data on behalf of Caruso Martech
           and are required to protect it in accordance with applicable data
           protection laws.
+        </p>
+
+        <p style={{ marginBottom: "2rem" }}>
+          Booking a call: the booking page at /book uses HubSpot Meetings, a
+          scheduling service provided by HubSpot, Inc. The calendar loads on that
+          page only after you allow analytics cookies in the cookie settings;
+          otherwise the page links to HubSpot&apos;s own booking page. Once the
+          calendar loads, HubSpot loads its scheduling page and its own scripts
+          in an embedded frame, sets short-lived security cookies on its own
+          domains (__cf_bm, about 30 minutes), stores a device identifier and
+          usage events in the browser&apos;s session storage, sends usage and
+          tracking requests to HubSpot, and receives the details you enter to
+          book a call, such as your name and email address. Booking details are
+          used to arrange and hold the call. HubSpot&apos;s own handling of data is
+          described in its{" "}
+          <a
+            href="https://legal.hubspot.com/privacy-policy"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "#ff7a59" }}
+          >
+            privacy policy
+          </a>
+          . To arrange a call without the calendar, email info@carusomartech.com.
         </p>
 
         <h2 style={{ marginTop: "3rem", color: "#ff7a59" }}>

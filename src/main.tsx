@@ -23,6 +23,7 @@ const InsightsPage   = lazy(() => import('./pages/InsightsPage').then(m => ({ de
 const ResourceDetailPage = lazy(() => import('./pages/ResourceDetailPage').then(m => ({ default: m.ResourceDetailPage })));
 const PrivacyPolicy  = lazy(() => import('./pages/PrivacyPolicy').then(m => ({ default: m.PrivacyPolicy })));
 const ContactPage    = lazy(() => import('./pages/ContactPage').then(m => ({ default: m.ContactPage })));
+const BookPage       = lazy(() => import('./pages/BookPage').then(m => ({ default: m.BookPage })));
 
 const App = (
   <React.StrictMode>
@@ -50,6 +51,7 @@ const App = (
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/fractional-cmo" element={<Navigate to="/" replace />} />
               <Route path="/contact" element={<ContactPage />} />
+              <Route path="/book" element={<BookPage />} />
             </Routes>
           </Suspense>
         </BrowserRouter>
